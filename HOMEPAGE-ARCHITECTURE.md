@@ -4,7 +4,7 @@
 
 ## Trvalé pravidlo projektu
 
-Homepage smí používat pouze šest kategorií uvedených níže. Do navigace, hero komunikace, patičky ani budoucích homepage modulů se nesmí přidávat další servisní větev.
+Homepage používá šest hlavních vstupů uvedených níže. Pět z nich vede do produktového katalogu; `Custom` je samostatná informační a cenová stránka bez produktového feedu.
 
 ## Redukovaný strom navigace
 
@@ -49,14 +49,20 @@ Primární navigace má přesně šest vstupů a maximálně tři úrovně.
     - Otvíráky
     - Samolepky
     - Knihy a fanziny
-- **Nášivky**
-  - Klasické
-  - Nažehlovací
-  - Zádové
-- **Placky & piny**
-  - Placky
-  - Piny
-  - Špendlíky
+  - **Nášivky**
+    - Klasické
+    - Nažehlovací
+    - Zádové
+  - **Placky & piny**
+    - Placky
+    - Piny
+    - Špendlíky
+- **Merche**
+  - Kapely
+  - Trička
+  - Mikiny
+  - Tašky
+  - Samolepky
 - **Hudba**
   - CD
   - Žánr jako filtr: Punk, Hardcore, Oi!, Ska
@@ -66,6 +72,19 @@ Primární navigace má přesně šest vstupů a maximálně tři úrovně.
   - Nášivky
   - Placky a piny
   - Hudba
+- **Custom** *(informační stránka, ne produktová kategorie)*
+  - Ceník potisku
+  - Jak objednat
+  - Příprava dat
+  - Termíny
+  - Kontakt
+
+## Datový model a routing
+
+- `catalog-data.js` je jediný zdroj pravdy pro navigaci, karty a typ cílové stránky.
+- `kind: "catalog"` používá trasu `#/category/{slug}` a vykreslí rozcestník produktového feedu.
+- `kind: "information"` používá trasu `#/info/custom-print` a vykreslí informační stránku s orientačním ceníkem bez feedu.
+- Barevné téma zůstává v URL query parametru: `?theme=gray` a `?theme=red`; hash route a theme parametr lze kombinovat.
 
 ### Fasety místo dalších větví
 
@@ -89,7 +108,7 @@ Rozložení zachovává logiku IQIT Demo 15, ale obsah je zredukovaný na naviga
 - Hero: fiktivní černobílý punkový dav, tvrdý blesk, silné zrno, xerox a halftone textura. Každé jasně viditelné oči zakrývá neprůhledný černý pruh. Radiální CSS maska organicky rozpouští všechny okraje fotografie do canvasu.
 - Hero zůstává bez klišé ilustrací a izolovaných produktových fotografií.
 - Pozadí mezer: šest samostatných ilustrací kombinuje čtyři unikátní skull varianty a dvě unikátní havraní siluety. Mají různé velikosti, rotace a horizontální posuny, jsou ukotvené v dokumentu a scrollují spolu se stránkou při opacity 5,2 %.
-- Kategorie: šest vlastních masivních SVG ikon s deformací `feTurbulence`. Oblečení používá čisté anarchistické A bez spodní linky. Doplňky používají bílou masivní siluetu mírně prohnutého punkového stahováku se čtyřmi výraznými červenými ostny. Placky & piny používají bílý kruh s primitivní černou punkovou lebkou, jasnými očnicemi, nosem a zuby. Hudba zachovává původní kresbu vinylu, pouze je opticky zmenšena interním transformem na 82 %. Výprodej používá široký ticket se znakem procenta.
+- Kategorie: šest samostatných jednoobjektových SVG symbolů s deformací `feTurbulence`. Oblečení, Hudba a Výprodej zachovávají beze změny původní geometrii trička, vinylu a cenovky; Doplňky, Merche a Custom používají novou geometrii pásku, lebky s čírem a spreje. Všechny objekty jsou rovně a opticky centrované. Barvy používají pouze `--svg-base`, `--svg-accent` a `--svg-ink`, napojené na aktivní theme tokeny.
 - Sekce Kategorie obsahuje pouze hlavní nadpis a šest karet; nemá eyebrow ani vysvětlující podnadpis.
 - USP: tři čistě bílé linocut ikony pro dopravu, rychlé odeslání a vrácení zboží, bez barevných či černých detailů.
 - Boxy: `#101113`, zvýšená plocha `#17181B`, canvas `#070809`, akcent `#D3212C`.
