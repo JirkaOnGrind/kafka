@@ -20,38 +20,40 @@
     `).join('');
   }
 
-  function renderItem(item, className) {
-    return `<a class="${className}" href="${escapeHtml(item.url)}">${escapeHtml(item.label)} <span aria-hidden="true">→</span></a>`;
+  function renderItem(item, className, showArrow = true) {
+    const arrow = showArrow ? ' <span aria-hidden="true">→</span>' : '';
+    return `<a class="${className}" href="${escapeHtml(item.url)}">${escapeHtml(item.label)}${arrow}</a>`;
   }
 
   function renderCategoryCard(category) {
-    const icon = `<div class="icon-frame grid aspect-[16/9] place-items-center border-b border-line transition"><svg class="category-icon punk-icon h-36 w-56 transition duration-300" viewBox="0 0 240 150" aria-hidden="true"><use href="#${category.icon}"/></svg></div>`;
-    const title = `<h3 class="display text-2xl font-semibold uppercase">${escapeHtml(category.name)}</h3>`;
-
-    if (category.items.length <= 1) {
-      return `
-        <article class="category-card overflow-hidden border border-line bg-raised" data-category-kind="${category.kind}" data-category-density="sparse">
-          <a href="${escapeHtml(category.archiveUrl)}" class="focus-ring flex h-full flex-col" aria-label="${escapeHtml(category.name)} — otevřít kategorii">
-            ${icon}
-            <div class="category-card-body p-6">
-              ${title}
-              <span class="category-sparse-cta" aria-hidden="true">Vstoupit ➔</span>
-            </div>
-          </a>
-        </article>`;
-    }
-
     const listId = `category-items-${category.id}`;
-    const teaserItems = category.items.map((item, index) => `<li${index >= 3 ? ' data-category-extra hidden' : ''}>${renderItem(item, 'focus-ring flex justify-between py-2.5 hover:text-rebel')}</li>`).join('');
-    const teaserList = `<ul id="${listId}" class="category-teaser-list mt-4 flex flex-1 flex-col divide-y divide-line text-sm text-muted">${teaserItems}<li class="category-accordion-tail"><button type="button" class="category-accordion-toggle focus-ring" data-category-toggle aria-expanded="false" aria-controls="${listId}" aria-label="Zobrazit všechny podkategorie ${escapeHtml(category.name)}"><span aria-hidden="true">▼</span></button></li></ul>`;
+    const subcategoryCount = category.items.length;
+    const hasSubcategories = subcategoryCount > 0;
+    const hasOverflow = subcategoryCount > 3;
+    const icon = `<div class="icon-frame grid aspect-[16/9] place-items-center border-b border-line"><svg class="category-icon punk-icon h-36 w-56" viewBox="0 0 240 150" aria-hidden="true"><use href="#${category.icon}"/></svg></div>`;
+    const teaserItems = category.items.map((item, index) => `<li${index >= 3 ? ' data-category-extra' : ''}>${renderItem(item, 'focus-ring flex justify-between py-2.5', hasOverflow)}</li>`).join('');
+    const teaserList = hasSubcategories
+      ? `<ul id="${listId}" class="category-teaser-list flex flex-col divide-y divide-line text-sm text-muted">${teaserItems}</ul>`
+      : '';
+    const entry = subcategoryCount <= 3
+      ? `<a class="category-entry focus-ring" href="${escapeHtml(category.route)}">Vstoupit</a>`
+      : '';
+    const toggle = hasSubcategories
+      ? `<button type="button" class="category-accordion-toggle focus-ring" data-category-toggle aria-expanded="false" aria-controls="${listId}" aria-label="Zobrazit podkategorie ${escapeHtml(category.name)}"><span aria-hidden="true">▼</span></button>`
+      : '';
 
     return `
-      <article class="category-card overflow-hidden border border-line bg-raised" data-category-kind="${category.kind}" data-category-density="dense">
-        ${icon}
-        <div class="category-card-body p-6">
-          ${title}
+      <article class="category-card overflow-hidden border border-line bg-raised" data-category-id="${category.id}" data-category-kind="${category.kind}" data-subcategory-count="${subcategoryCount}" data-subcategory-overflow="${hasOverflow}" style="--mobile-order:${category.mobileOrder}">
+        <a href="${escapeHtml(category.route)}" class="category-primary focus-ring" aria-label="${escapeHtml(category.name)} — otevřít kategorii">
+          ${icon}
+          <div class="category-heading">
+            <h3 class="display text-2xl font-semibold uppercase">${escapeHtml(category.name)}</h3>
+          </div>
+        </a>
+        <div class="category-disclosure">
           ${teaserList}
         </div>
+        <div class="category-trigger-slot">${entry}${toggle}</div>
       </article>`;
   }
 
@@ -63,12 +65,58 @@
     const expanded = button.getAttribute('aria-expanded') === 'true';
     const nextExpanded = !expanded;
     const card = button.closest('.category-card');
-
-    card.querySelectorAll('[data-category-extra]').forEach(item => {
-      item.hidden = !nextExpanded;
-    });
+    card.classList.toggle('is-expanded', nextExpanded);
     button.setAttribute('aria-expanded', String(nextExpanded));
-    button.setAttribute('aria-label', `${nextExpanded ? 'Skrýt rozšířené' : 'Zobrazit všechny'} podkategorie ${card.querySelector('h3').textContent}`);
+    button.setAttribute('aria-label', `${nextExpanded ? 'Skrýt' : 'Zobrazit'} podkategorie ${card.querySelector('h3').textContent}`);
+  }
+
+  function renderProductCard(product) {
+    const saleFlag = product.discount
+      ? `<strong class="product-sale-flag">Výprodej ${escapeHtml(product.discount)}</strong>`
+      : '';
+    const originalPrice = product.originalPrice
+      ? `<del>${escapeHtml(product.originalPrice)}</del>`
+      : '';
+
+    return `
+      <article class="product-card">
+        <a class="product-card-link focus-ring" href="${escapeHtml(product.href)}">
+          <div class="product-media">
+            ${saleFlag}
+            <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.alt)}">
+          </div>
+          <div class="product-copy">
+            <p>${escapeHtml(product.type)}</p>
+            <h2 class="display">${escapeHtml(product.name)}</h2>
+            <div class="product-price">${originalPrice}<strong>${escapeHtml(product.price)}</strong></div>
+            <span class="product-action">Detail produktu</span>
+          </div>
+        </a>
+      </article>`;
+  }
+
+  function renderHub(category) {
+    return `
+      <a class="route-back focus-ring" href="#kategorie">← Zpět na kategorie</a>
+      <header class="route-header">
+        <h1 class="display">${escapeHtml(category.name)}</h1>
+      </header>
+      <ol class="subcategory-list">${category.items.map((item, index) => `
+        <li>
+          <a class="subcategory-link focus-ring" href="${escapeHtml(item.url)}">
+            <span class="subcategory-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>
+            <strong class="display">${escapeHtml(item.label)}</strong>
+          </a>
+        </li>`).join('')}</ol>`;
+  }
+
+  function renderProductList(category) {
+    return `
+      <a class="route-back focus-ring" href="#kategorie">← Zpět na kategorie</a>
+      <header class="route-header">
+        <h1 class="display">${escapeHtml(category.name)}</h1>
+      </header>
+      <div class="product-grid">${category.products.map(renderProductCard).join('')}</div>`;
   }
 
   function getRoute() {
@@ -114,14 +162,12 @@
             <div class="route-price bg-raised p-5"><strong>30+ kusů</strong><span class="float-right text-rebel">na kalkulaci</span><p class="mt-2 text-xs text-muted">Více barev a dodání textilu naceníme zvlášť.</p></div>
           </div>
         </div>`;
+    } else if (category.hasSubcategories) {
+      routeView.innerHTML = renderHub(category);
     } else {
-      routeView.innerHTML = `
-        <a class="focus-ring text-xs font-bold uppercase tracking-wider text-rebel" href="#kategorie">← Zpět na kategorie</a>
-        <h1 class="display mt-8 text-5xl font-bold uppercase sm:text-6xl">${escapeHtml(category.name)}</h1>
-        <p class="mt-4 max-w-2xl text-muted">Produktová kategorie. Vyber podkategorii a pokračuj do výpisu produktů.</p>
-        <div class="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">${category.items.map(item => renderItem(item, 'focus-ring border border-line bg-raised p-5 font-semibold hover:border-rebel hover:text-rebel')).join('')}</div>`;
+      routeView.innerHTML = renderProductList(category);
     }
-    routeView.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    routeView.scrollIntoView({ behavior: 'auto' });
   }
 
   renderNavigation();

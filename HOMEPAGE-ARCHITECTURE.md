@@ -82,9 +82,24 @@ Primární navigace má přesně šest vstupů a maximálně tři úrovně.
 ## Datový model a routing
 
 - `catalog-data.js` je jediný zdroj pravdy pro navigaci, karty a typ cílové stránky.
-- `kind: "catalog"` používá trasu `#/category/{slug}` a vykreslí rozcestník produktového feedu.
+- `hasSubcategories: true` používá trasu `#/category/{slug}` a vykreslí rozcestník podkategorií (Hub).
+- `hasSubcategories: false` používá stejný tvar trasy, ale vykreslí přímo produktový výpis (PLP); rozhodnutí se nikdy neodvozuje z počtu položek.
+- Prezentační trigger karty se odvozuje přímo z `items.length`; datový model neobsahuje samostatný řádkový ani desktopový příznak.
+- `mobileOrder` určuje pouze mobilní vizuální pořadí. Desktop dál používá pořadí datového pole a DOM se při změně breakpointu nepřepisuje.
 - `kind: "information"` používá trasu `#/info/custom-print` a vykreslí informační stránku s orientačním ceníkem bez feedu.
 - Barevné téma zůstává v URL query parametru: `?theme=gray` a `?theme=red`; hash route a theme parametr lze kombinovat.
+
+## DOM a interakční kontrakt karty
+
+Každá karta je jeden sloupcový `article`. Primární odkaz obsahuje grafiku a název a vede na route kategorie. Za volitelným seznamem podkategorií následuje samostatný trigger slot ukotvený na spodní hranu karty. Slot obsahuje navigační `VSTOUPIT` nebo legacy disclosure `button` s `aria-expanded` a `aria-controls`; trigger nikdy není součástí title řádku.
+
+Na desktopu `items.length <= 3` vykreslí ve spodním slotu čistě typografické `VSTOUPIT`; `items.length > 3` vykreslí legacy disclosure šipku. Na mobilu se `VSTOUPIT` vždy skryje. Karta s alespoň jednou podkategorií zobrazí ve spodním slotu disclosure šipku a seznam je ve výchozím stavu skrytý; karta bez podkategorií nemá žádný trigger a její primární plocha vede přímo na PLP.
+
+Mřížka zarovnává karty k začátku své gridové oblasti a karta nepřebírá výšku řádku. Rozbalení jedné karty proto změní pouze její vlastní výšku; sourozenci zůstávají na své přirozené výšce.
+
+## Header
+
+Horní řádek používá tři samostatné oblasti: značku vlevo, textový wordmark uprostřed a utility ovládání vpravo. Levá a pravá oblast mají shodnou prostorovou váhu, takže střed wordmarku zůstává totožný se středem kontejneru bez ohledu na rozdílnou šířku obsahu. Wordmark používá stencilový webfont a zachovává existující barevné rozdělení názvu.
 
 ### Fasety místo dalších větví
 
@@ -117,7 +132,7 @@ Rozložení zachovává logiku IQIT Demo 15, ale obsah je zredukovaný na naviga
 
 ## Responzivní chování
 
-- Desktop: kategorie 3 × 2, hero 16:7, horizontální navigace.
+- Desktop: kategorie 3 × 2 v pořadí `Oblečení / Hudba / Výprodej`, `Doplňky / Merche / Vlastní potisk`; hero 16:7, horizontální navigace.
 - Tablet: kategorie 2 × 3, navigace se sbalí pod hamburger.
 - Mobil: kategorie 1 × 6, hero 4:5, dav se ořízne doprava a text zůstane v tmavší levé ploše.
 - Jednotlivé background ilustrace se na mobilu zmenší, přesunou do rozdílných míst dokumentu a zeslabí z 5,2 % na 4 %.
