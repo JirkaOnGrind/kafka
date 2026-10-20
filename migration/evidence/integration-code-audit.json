@@ -1,0 +1,181 @@
+{
+  "observed_at_utc": "2026-10-08T23:38:20.767680+00:00",
+  "scope": "Selected stable module code; not runtime or FTP completeness",
+  "files": [
+    {
+      "path": "modules/bankwire/bankwire.php",
+      "stable_available": true,
+      "bytes": 8875,
+      "sha256": "96c8db6565386aaced7d9b4cf929195f1989f652874542b02196935a26e828cd"
+    },
+    {
+      "path": "modules/bankwire/controllers/front/validation.php",
+      "stable_available": true,
+      "bytes": 2638,
+      "sha256": "3eb4d9a55fd85f2f0030ccfd1ec358c2998457e0502489071455b6e48160dab5"
+    },
+    {
+      "path": "modules/shaim_dpdparcelshop/shaim_dpdparcelshop.php",
+      "stable_available": true,
+      "bytes": 112994,
+      "sha256": "1628f9f32740d38b4f8a2ed4aaafce036e9ef08e7cf87b5b5c779dde19140574"
+    },
+    {
+      "path": "modules/shaim_dpdparcelshop/shaim_cron.php",
+      "stable_available": true,
+      "bytes": 1027,
+      "sha256": "d41da3e69dc383394f0df5068492ab1d7ea2f6fb5567a891abb8b816280b01be"
+    },
+    {
+      "path": "modules/shaim_dpdparcelshop/shaim_hledat_dpdparcelshop_ajax.php",
+      "stable_available": true,
+      "bytes": 10975,
+      "sha256": "44bd3ccb108e4547b96f32ed04d52fab10da0e27fd28871208e7966f69766447"
+    },
+    {
+      "path": "modules/shaim_recaptcha_v3/shaim_recaptcha_v3.php",
+      "stable_available": true,
+      "bytes": 48195,
+      "sha256": "d6f8f40cf6b5511f36498f1439fa9c2352ed617c13248cc2f7606674ff105505"
+    },
+    {
+      "path": "modules/shaim_recaptcha_v3/recaptchalib.php",
+      "stable_available": true,
+      "bytes": 8146,
+      "sha256": "474a6cd089649b387eb6c7a70410dd38754be7e2bd9c4f6f2e15c5255d956976"
+    },
+    {
+      "path": "modules/shaim_recaptcha_v3/override/controllers/front/AuthController.php",
+      "stable_available": true,
+      "bytes": 1127,
+      "sha256": "e9b8acfd6f4be9244b6cd6de92350d263a1acd4eb301f159cfd435e721ff90af"
+    },
+    {
+      "path": "modules/shaim_recaptcha_v3/override/controllers/front/ContactController.php",
+      "stable_available": true,
+      "bytes": 700,
+      "sha256": "34502a74ad1db23a106be206ab6949d13cfabf42aa5f7202660d280ce6105ddf"
+    },
+    {
+      "path": "modules/shaim_cookies_eu/shaim_cookies_eu.php",
+      "stable_available": true,
+      "bytes": 72829,
+      "sha256": "06bafb260150ce99ad7982ba5a6b11d877e2690d8b582f4edcbbf053b7dbc653"
+    },
+    {
+      "path": "modules/shaim_cookies_eu/shaim_cookies_eu_ajax.php",
+      "stable_available": true,
+      "bytes": 1849,
+      "sha256": "61c66949b4277d56013688be4882543e109ebadf3e1786f3fc32fc5c1d089d4e"
+    },
+    {
+      "path": "modules/shaim_cookies_eu/override/classes/Hook.php",
+      "stable_available": true,
+      "bytes": 2239,
+      "sha256": "8a952e6306c3ec0c81496641807e9a086d71e62d7ca2dea4fc90c0eaee5c6430"
+    },
+    {
+      "path": "modules/usercentrics/usercentrics.php",
+      "stable_available": true,
+      "bytes": 60709,
+      "sha256": "f0dfdcc08db46cc044358b2b882f32de53517f9c5d8e9ac1f791f21063125e11"
+    },
+    {
+      "path": "modules/packetery/packetery.php",
+      "stable_available": true,
+      "bytes": 42222,
+      "sha256": "84aca79155c92e8417e714c0bd8e9766fca31310d121dd42bd0732aa946b8063"
+    },
+    {
+      "path": "modules/packetery/AdminOrderPacketery.php",
+      "stable_available": true,
+      "bytes": 11103,
+      "sha256": "c9def1730ba9683815a412aadba966f4a6c024a13f6ea0355a8d8e0d28d6e9a9"
+    },
+    {
+      "path": "modules/packetery/export.php",
+      "stable_available": true,
+      "bytes": 694,
+      "sha256": "287ba17a5ef2ae0968c38593866a3f578dfef5c2e2f20e1b6c493337a2569730"
+    },
+    {
+      "path": "modules/packetery/sql-install.php",
+      "stable_available": true,
+      "bytes": 1745,
+      "sha256": "6501700d17f5ba75e5712a40f965994337f2650232d4ff396c0dc35c81d76971"
+    },
+    {
+      "path": "modules/mergado/mergado.php",
+      "stable_available": true,
+      "bytes": 38605,
+      "sha256": "7a53dad380354a7c94f929d773c43bbdd4c6b8f82419d723c5ff66c4bb2502a3"
+    },
+    {
+      "path": "modules/mergado/cron.php",
+      "stable_available": true,
+      "bytes": 1619,
+      "sha256": "bfed062dfe7438fd6e5c49e7bcda7bf100dc0ead0c06a57a1d4def89d2bfe723"
+    },
+    {
+      "path": "modules/mergado/importPrices.php",
+      "stable_available": true,
+      "bytes": 1569,
+      "sha256": "a64c1958faa8cc9aa96103ead66722a05b0d757bc0619a1f6cf749fba2eebd29"
+    },
+    {
+      "path": "modules/mergado/src/Manager/FeedGeneratorManager.php",
+      "stable_available": true,
+      "bytes": 1934,
+      "sha256": "8cc591f05594a32d5cd3569c449b26206cbff6a8c130ec00732658bb3b21e382"
+    },
+    {
+      "path": "modules/mergado/src/Service/ProductPriceImportService.php",
+      "stable_available": true,
+      "bytes": 12835,
+      "sha256": "087071d0e7ae194d132fab691016a1a1e512fc29b62bb93d06f0f60ee9524cc9"
+    },
+    {
+      "path": "modules/mergado/override/classes/Product.php",
+      "stable_available": true,
+      "bytes": 1242,
+      "sha256": "9df8e593ce160da7d2ab7162ceeed78133af47cfb034716648e265e8b49e7a8f"
+    },
+    {
+      "path": "modules/mergado/override/controllers/front/OrderController.php",
+      "stable_available": true,
+      "bytes": 2688,
+      "sha256": "a1da7d88eabd024396095f7c60ab5e9f09d0f1b97ef83c593648ae561fc673c4"
+    },
+    {
+      "path": "modules/mergado/override/controllers/front/OrderOpcController.php",
+      "stable_available": true,
+      "bytes": 2872,
+      "sha256": "ffcd1a4f47a506a710374ea392688a24f5c911f74fda55835606986b0d9122cd"
+    }
+  ],
+  "packetery_schema_column_identifiers": [
+    "carrier_pickup_point",
+    "currency_branch",
+    "exported",
+    "id_branch",
+    "id_carrier",
+    "id_cart",
+    "id_order",
+    "is_carrier",
+    "is_cod",
+    "is_pickup_point",
+    "module_name",
+    "name_branch",
+    "weight"
+  ],
+  "mergado_price_import_tls_disabled_lines": [
+    136,
+    137
+  ],
+  "reference_product_pack_stock_type_default": 3,
+  "limitations": [
+    "Packeta exportCsv observed; no source execution or shipment creation performed.",
+    "Root override attribution and comparison are separately recorded in override-origins.json.",
+    "Cron registration and actual enabled marketing/price-import settings require separate verification."
+  ]
+}

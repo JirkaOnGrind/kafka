@@ -1,0 +1,417 @@
+[
+  {
+    "key": "clothing",
+    "name": "Oblečení",
+    "icon": "icon-clothing",
+    "mobileOrder": 1,
+    "kind": "catalog",
+    "aliases": [
+      "Oblečení"
+    ],
+    "items": [
+      {
+        "name": "Pánské",
+        "aliases": [
+          "Pánské"
+        ],
+        "items": []
+      },
+      {
+        "name": "Dámské",
+        "aliases": [
+          "Dámské"
+        ],
+        "items": []
+      },
+      {
+        "name": "Dětské",
+        "aliases": [
+          "Dětské"
+        ],
+        "items": []
+      },
+      {
+        "name": "Čepice",
+        "aliases": [
+          "Čepice"
+        ],
+        "items": []
+      },
+      {
+        "name": "Šátky",
+        "aliases": [
+          "Šátky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Kravaty",
+        "aliases": [
+          "Kravaty"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "fashion",
+    "name": "Módní doplňky",
+    "icon": "icon-accessories",
+    "mobileOrder": 2,
+    "kind": "catalog",
+    "aliases": [
+      "Módní doplňky"
+    ],
+    "items": [
+      {
+        "name": "Prsteny",
+        "aliases": [
+          "Prsteny"
+        ],
+        "items": []
+      },
+      {
+        "name": "Náušnice",
+        "aliases": [
+          "Náušnice"
+        ],
+        "items": []
+      },
+      {
+        "name": "Náhrdelníky",
+        "aliases": [
+          "Náhrdelníky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hroty",
+        "aliases": [
+          "Hroty"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pyramidy",
+        "aliases": [
+          "Pyramidy"
+        ],
+        "items": []
+      },
+      {
+        "name": "Cvoky",
+        "aliases": [
+          "Cvoky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Řetěz na kalhoty",
+        "aliases": [
+          "Řetěz na kalhoty"
+        ],
+        "items": []
+      },
+      {
+        "name": "Placky",
+        "aliases": [
+          "Placky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Špendlíky",
+        "aliases": [
+          "Špendlíky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Piny",
+        "aliases": [
+          "Piny"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "style",
+    "name": "Stylové doplňky",
+    "icon": "icon-custom",
+    "mobileOrder": 3,
+    "kind": "catalog",
+    "aliases": [
+      "Stylové doplňky"
+    ],
+    "items": [
+      {
+        "name": "Sluneční brýle",
+        "aliases": [
+          "Sluneční brýle"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pásky",
+        "aliases": [
+          "Pásky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Obojky",
+        "aliases": [
+          "Obojky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Náramky",
+        "aliases": [
+          "Náramky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hrnky",
+        "aliases": [
+          "Hrnky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Vlajky",
+        "aliases": [
+          "Vlajky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Knihy",
+        "aliases": [
+          "Knihy"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fanziny",
+        "aliases": [
+          "Fanziny"
+        ],
+        "items": []
+      },
+      {
+        "name": "Otvíráky",
+        "aliases": [
+          "Otvíráky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Samolepky",
+        "aliases": [
+          "Samolepky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Nášivky",
+        "aliases": [
+          "Nášivky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tašky",
+        "aliases": [
+          "Tašky"
+        ],
+        "items": []
+      },
+      {
+        "name": "Peněženky",
+        "aliases": [
+          "Peněženky"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "merch",
+    "name": "Merch",
+    "icon": "icon-merch",
+    "mobileOrder": 4,
+    "kind": "catalog",
+    "aliases": [
+      "MERCH",
+      "Merche"
+    ],
+    "items": [
+      {
+        "name": "Kapely",
+        "aliases": [
+          "Kapely"
+        ],
+        "items": [
+          {
+            "name": "Plesnivý fazole",
+            "aliases": [
+              "Plesnivý fazole"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neparkovat vjezd",
+            "aliases": [
+              "Neparkovat vjezd"
+            ],
+            "items": []
+          },
+          {
+            "name": "Stamp out system",
+            "aliases": [
+              "Stamp out system"
+            ],
+            "items": []
+          },
+          {
+            "name": "Průser",
+            "aliases": [
+              "Průser"
+            ],
+            "items": []
+          },
+          {
+            "name": "ADHD Helmut",
+            "aliases": [
+              "ADHD Helmut"
+            ],
+            "items": []
+          },
+          {
+            "name": "The Punkavec",
+            "aliases": [
+              "The Punkavec"
+            ],
+            "items": []
+          },
+          {
+            "name": "Indiánská rezervace",
+            "aliases": [
+              "Indiánská rezervace"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Vlastní potisk",
+        "aliases": [
+          "VLASTNÍ POTISK-CENÍK",
+          "Vlastní potisk"
+        ],
+        "items": [
+          {
+            "name": "Trička",
+            "aliases": [
+              "Potisk triček-vlastní motiv"
+            ],
+            "items": []
+          },
+          {
+            "name": "Placky",
+            "aliases": [
+              "Výroba placek-vlastní motiv"
+            ],
+            "items": []
+          },
+          {
+            "name": "Mikiny",
+            "aliases": [
+              "Potisk mikin-vlastní motiv"
+            ],
+            "items": []
+          },
+          {
+            "name": "Čepice",
+            "aliases": [
+              "Potisk čepic-vlastní motiv"
+            ],
+            "items": []
+          },
+          {
+            "name": "Nášivky",
+            "aliases": [
+              "Potisk nášivek"
+            ],
+            "items": []
+          },
+          {
+            "name": "Náramky",
+            "aliases": [
+              "Výroba náramků s vlastním motivem"
+            ],
+            "items": []
+          },
+          {
+            "name": "Náhrdelníky",
+            "aliases": [
+              "Výroba náhrdelníků s vlastním motivem"
+            ],
+            "items": []
+          },
+          {
+            "name": "Hrnky",
+            "aliases": [
+              "Potisk Hrnků - Vlastní motiv"
+            ],
+            "items": []
+          },
+          {
+            "name": "Samolepky",
+            "aliases": [],
+            "items": []
+          },
+          {
+            "name": "Zakázky",
+            "aliases": [],
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "music",
+    "name": "Hudba",
+    "icon": "icon-music",
+    "mobileOrder": 5,
+    "kind": "catalog",
+    "aliases": [
+      "Hudba"
+    ],
+    "items": [
+      {
+        "name": "CD",
+        "aliases": [
+          "CD"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "sale",
+    "name": "Výprodej",
+    "icon": "icon-sale-cluster",
+    "mobileOrder": 6,
+    "kind": "catalog",
+    "aliases": [
+      "% VÝPRODEJ %",
+      "Výprodej"
+    ],
+    "items": []
+  }
+]

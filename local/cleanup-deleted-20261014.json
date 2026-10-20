@@ -1,0 +1,74 @@
+[
+  {
+    "Path": "local/backups/cloud-ready-20261014-142327/kafka-backup.kafkagcm",
+    "Bytes": 1888553006
+  },
+  {
+    "Path": "local/backups/cloud-ready-20261014-142327/kafka-backup.json",
+    "Bytes": 484
+  },
+  {
+    "Path": "local/backups/cloud-ready-20261014-final.rar",
+    "Bytes": 1770653695
+  },
+  {
+    "Path": "local/backups/implementation-20261014-142208/project.tar.gz",
+    "Bytes": 118044450
+  },
+  {
+    "Path": "local/backups/implementation-20261014-142208/checksums.csv",
+    "Bytes": 183
+  },
+  {
+    "Path": "local/backups/project-before-migration-20261014-135149/project.tar.gz",
+    "Bytes": 117923614
+  },
+  {
+    "Path": "local/backups/project-before-migration-20261014-135149/checksums.csv",
+    "Bytes": 76
+  },
+  {
+    "Path": "local/backups/20261012-120210/shopfiles.tar.gz",
+    "Bytes": 123435715
+  },
+  {
+    "Path": "local/backups/20261012-120210/database.sql",
+    "Bytes": 999499
+  },
+  {
+    "Path": "local/backups/20261012-120210/checksums.csv",
+    "Bytes": 615
+  },
+  {
+    "Path": "local/backups/20261012-120329/shopfiles.tar.gz",
+    "Bytes": 123435715
+  },
+  {
+    "Path": "local/backups/20261012-120329/database.sql",
+    "Bytes": 999499
+  },
+  {
+    "Path": "local/backups/20261012-120329/checksums.csv",
+    "Bytes": 618
+  },
+  {
+    "Path": "migration\\__pycache__\\audit_dump.cpython-312.pyc",
+    "Bytes": 37226
+  },
+  {
+    "Path": "migration\\__pycache__\\audit_dump.cpython-314.pyc",
+    "Bytes": 40759
+  },
+  {
+    "Path": "migration\\__pycache__\\audit_ftp.cpython-312.pyc",
+    "Bytes": 28425
+  },
+  {
+    "Path": "migration\\__pycache__\\audit_payment_rules.cpython-312.pyc",
+    "Bytes": 3581
+  },
+  {
+    "Path": "migration\\__pycache__\\read_php_safely.cpython-312.pyc",
+    "Bytes": 7184
+  }
+]

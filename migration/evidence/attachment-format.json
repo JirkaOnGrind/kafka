@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-10-08T22:18:07.619900+00:00",
+  "scope": "download filenames consisting of 40 hexadecimal characters only; no content or filenames exported",
+  "files": 9,
+  "formats": {
+    "PDF": 8,
+    "raster_image": 1
+  },
+  "readable_formats": 9,
+  "unknown_formats": 0,
+  "unstable_or_empty": 0,
+  "validation_failures": 0,
+  "download_completion_confirmed": false
+}

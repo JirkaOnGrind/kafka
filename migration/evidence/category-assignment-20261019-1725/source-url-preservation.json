@@ -1,0 +1,18 @@
+{
+  "compared": {
+    "product": 9888,
+    "category": 231
+  },
+  "changed_paths": [],
+  "changed_metadata": [],
+  "protected_tables": {
+    "product": true,
+    "product_shop": true,
+    "product_lang": true,
+    "category": true,
+    "category_lang": true,
+    "category_shop": true,
+    "category_group": true
+  },
+  "original_links_preserved": true
+}

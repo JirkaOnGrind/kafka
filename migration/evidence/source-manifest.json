@@ -1,0 +1,60 @@
+{
+  "analysis_date": "2026-10-05",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Utrh\\Downloads\\d278806_rvujjz.sql",
+      "bytes": 211325190,
+      "sha256": "4023a689ca3984148a45e8a60d2a3bc39c0d8bd13b9f6bd0d2a2ddbca3777d12"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Downloads\\information_schema.sql",
+      "bytes": 1438967,
+      "sha256": "2152326e73a760c1bba64909927aa89c6553745b622c98d0415a23361fcfc3c7"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\index.html",
+      "bytes": 29253,
+      "sha256": "0f23a553f4456caf0ecda2b1778407d4179c43dc89e902372318a7b2882954ec"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\app.js",
+      "bytes": 12743,
+      "sha256": "c8abc47adf885234d9945b4606cdff5dc5179a1b3be76bb79be968516b15824c"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\product.html",
+      "bytes": 9275,
+      "sha256": "dd00e2e2865d5cc98a3879e76a63bfc37fe7767449b6516b85d0bd50ec7a10b7"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\product.js",
+      "bytes": 7027,
+      "sha256": "554e310117c8b235c8a121dc23bcc3d23d44ab6fe21d453cd94c61f3ca999794"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\product.css",
+      "bytes": 12882,
+      "sha256": "e6b5feeb2e507b6f5eba1f49d31f9e566740b35332108fe394aab60fb53abcb4"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\theme-system.js",
+      "bytes": 4961,
+      "sha256": "1883c10b3dea5aceb0d7d9dfb6554a99eceabf096fff69a155f087afa66b7c2c"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\catalog-data.js",
+      "bytes": 4170,
+      "sha256": "a2e3c4d60d8da6dd03a5ef223526578dac77f2ee856f94c2bf8b0c8f332bbdce"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\catalog-live.generated.js",
+      "bytes": 10586,
+      "sha256": "08ac127ad8273421322808e8f04fa8a6f27b6119af430a6d4177c8d733a8171c"
+    },
+    {
+      "path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\HOMEPAGE-ARCHITECTURE.md",
+      "bytes": 8464,
+      "sha256": "5e742c6aad4715b6df2fd135dc5e7c140cf92da4812e258abd5eb92b9e078002"
+    }
+  ]
+}

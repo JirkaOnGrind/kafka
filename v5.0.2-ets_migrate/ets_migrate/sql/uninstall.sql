@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `PREFIX_ets_em_shop_mapping`;

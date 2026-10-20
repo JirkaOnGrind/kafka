@@ -1,0 +1,51 @@
+﻿{
+    "passed":  true,
+    "mocked_boundaries":  true,
+    "shop_requests":  0,
+    "tests":  [
+                  {
+                      "failure_expected":  false,
+                      "name":  "successful authorized adapter always followed by SEO/audit",
+                      "steps":  "backup,adapter,seo-and-fresh-audit",
+                      "passed":  true
+                  },
+                  {
+                      "failure_expected":  true,
+                      "name":  "SEO failure rejects acceptance",
+                      "steps":  "backup,adapter,seo-and-fresh-audit",
+                      "passed":  true
+                  },
+                  {
+                      "failure_expected":  true,
+                      "name":  "failed adapter is not accepted",
+                      "steps":  "backup,adapter",
+                      "passed":  true
+                  },
+                  {
+                      "failure_expected":  true,
+                      "name":  "failed backup prevents import",
+                      "steps":  "backup",
+                      "passed":  true
+                  },
+                  {
+                      "failure_expected":  true,
+                      "name":  "external target network prevents import",
+                      "steps":  "",
+                      "passed":  true
+                  },
+                  {
+                      "failure_expected":  false,
+                      "name":  "existing native batch completion automatically invokes SEO/audit",
+                      "steps":  "native-batch,seo-and-fresh-audit",
+                      "passed":  true
+                  },
+                  {
+                      "failure_expected":  true,
+                      "name":  "disk reserve prevents native migration",
+                      "steps":  "",
+                      "passed":  true
+                  }
+              ],
+    "sql_imports":  0,
+    "fixture":  "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\private\\seo-workflow-test-20261019-120702-647"
+}

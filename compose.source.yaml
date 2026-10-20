@@ -1,0 +1,51 @@
+# Fresh kafka-source-* projects only. Never connect these services to an external network.
+services:
+  db:
+    image: mysql:8.0
+    command: [--default-authentication-plugin=mysql_native_password, --sql-mode=NO_ENGINE_SUBSTITUTION]
+    environment:
+      MYSQL_DATABASE: kafka_source
+      MYSQL_USER: kafka_source
+      MYSQL_PASSWORD: ${SOURCE_DB_PASSWORD:?Missing source credentials}
+      MYSQL_ROOT_PASSWORD: ${SOURCE_DB_ROOT_PASSWORD:?Missing source credentials}
+    volumes:
+      - database:/var/lib/mysql
+      - ${KAFKA_SOURCE_PATH:?Missing source path}:/source:ro
+      - ${KAFKA_SOURCE_PATH}/logs:/private
+      - ./scripts/import-source.sh:/isolation/import-source.sh:ro
+    healthcheck:
+      test: [CMD-SHELL, 'mysqladmin ping -h localhost -u root -p"$$MYSQL_ROOT_PASSWORD" --silent']
+      interval: 3s
+      timeout: 5s
+      retries: 60
+  shop:
+    build: ./local/source-runtime
+    image: kafka-source-php71:local
+    entrypoint: [apache2-foreground]
+    environment:
+      SOURCE_ADMIN_PASSWORD: ${SOURCE_ADMIN_PASSWORD:?Missing private clone admin password}
+    volumes:
+      - type: volume
+        source: restoredfiles
+        target: /var/www/html
+        volume:
+          nocopy: true
+      - ${KAFKA_SOURCE_PATH}:/source:ro
+      - ${KAFKA_SOURCE_BACKUP:?Missing original archive}:/original:ro
+      - ./scripts/configure-source.php:/isolation/configure.php:ro
+      - ./scripts/configure-source.sh:/isolation/configure-source.sh:ro
+      - ./scripts/copy-source.sh:/isolation/copy-source.sh:ro
+  preview:
+    image: nginx:alpine
+    ports:
+      - '127.0.0.1:8082:80'
+    volumes:
+      - ./local/source-preview.conf:/etc/nginx/conf.d/default.conf:ro
+    networks: [default, preview]
+volumes:
+  database:
+  restoredfiles:
+networks:
+  default:
+    internal: true
+  preview:

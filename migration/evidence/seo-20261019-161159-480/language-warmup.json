@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://localhost:8083/cs/",
+    "status": 200
+  },
+  {
+    "url": "http://localhost:8083/sk/",
+    "status": 200
+  },
+  {
+    "url": "http://localhost:8083/de/",
+    "status": 200
+  }
+]

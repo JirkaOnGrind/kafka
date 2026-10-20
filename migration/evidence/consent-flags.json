@@ -1,0 +1,42 @@
+{
+  "observed_at_utc": "2026-10-08T23:30:47.180361+00:00",
+  "source": "supplied SQL dump; not runtime",
+  "flags": {
+    "shaim_cookies_eu_ostry_rezim": 1,
+    "shaim_recaptcha_v3_contact_form": 1,
+    "shaim_recaptcha_v3_register": 1,
+    "shaim_recaptcha_v3_newsletter": 0
+  },
+  "module_lists": {
+    "shaim_cookies_eu_analyticke_moduly": {
+      "known_module_identifiers": [],
+      "serialized_empty_array": false,
+      "empty_or_null": false,
+      "hex_encoded": false,
+      "serialized_false": true,
+      "serialized_null": false,
+      "value_type": "str",
+      "value_length": 4,
+      "storage_format": "php_serialized_false",
+      "interpretation": "No selected modules in this stored list"
+    },
+    "shaim_cookies_eu_reklamni_moduly": {
+      "known_module_identifiers": [],
+      "serialized_empty_array": false,
+      "empty_or_null": false,
+      "hex_encoded": false,
+      "serialized_false": true,
+      "serialized_null": false,
+      "value_type": "str",
+      "value_length": 4,
+      "storage_format": "php_serialized_false",
+      "interpretation": "No selected modules in this stored list"
+    }
+  },
+  "usercentrics_setting_id_configuration_found": false,
+  "flags_not_found": [
+    "USERCENTRICS_ENABLE_SDP",
+    "shaim_recaptcha_v3_bo_login",
+    "shaim_recaptcha_v3_login"
+  ]
+}

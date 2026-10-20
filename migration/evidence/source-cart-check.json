@@ -1,0 +1,31 @@
+{
+  "emptyCart": true,
+  "addProduct": true,
+  "cartContainsProduct": true,
+  "checkoutDenied": [
+    {
+      "path": "/index.php?controller=order&step=1",
+      "status": 403
+    },
+    {
+      "path": "/index.php?controller=order&step=3",
+      "status": 403
+    },
+    {
+      "path": "/index.php?controller=orderopc",
+      "status": 403
+    },
+    {
+      "path": "/index.php?fc=module&module=bankwire&controller=payment",
+      "status": 403
+    },
+    {
+      "path": "/modules/blockbanner/blockbanner.php",
+      "status": 403
+    }
+  ],
+  "postCheckoutDenied": true,
+  "pageErrors": [
+    "Cannot read properties of undefined (reading 'price_with_reduction_without_tax')"
+  ]
+}

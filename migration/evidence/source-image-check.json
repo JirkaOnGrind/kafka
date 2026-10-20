@@ -1,0 +1,16 @@
+{
+  "images": 39,
+  "loaded": 39,
+  "broken": [],
+  "phpGuards": [
+    {
+      "path": "/modules/blockbanner/blockbanner.php",
+      "status": 403
+    },
+    {
+      "path": "/config/settings.inc.php",
+      "status": 403
+    }
+  ],
+  "pageErrors": []
+}

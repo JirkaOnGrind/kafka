@@ -1,0 +1,5228 @@
+[
+  {
+    "name": "catalog_metadata_preserved",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "name": "managed_settings",
+    "passed": true,
+    "detail": {
+      "PS_REWRITING_SETTINGS": "1",
+      "PS_LANG_DEFAULT": "1",
+      "PS_DEFAULT_LANGUAGE_URL_PREFIX": "1",
+      "PS_CANONICAL_REDIRECT": "2",
+      "PS_SHOP_NAME": "Kafka Monster",
+      "PS_ROUTE_product_rule": "{category:/}{id}-{rewrite}{-:ean13}.html",
+      "PS_ROUTE_category_rule": false,
+      "PS_ROUTE_cms_rule": false,
+      "PS_ROUTE_cms_category_rule": false,
+      "PS_ROUTE_supplier_rule": "{id}__{rewrite}",
+      "PS_ROUTE_manufacturer_rule": "{id}_{rewrite}"
+    }
+  },
+  {
+    "name": "czech_default_language",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "sitemap_index_available",
+    "passed": true,
+    "detail": [
+      "http://localhost:8083/1_cs_0_sitemap.xml",
+      "http://localhost:8083/1_cs_1_sitemap.xml",
+      "http://localhost:8083/1_sk_0_sitemap.xml",
+      "http://localhost:8083/1_sk_1_sitemap.xml",
+      "http://localhost:8083/1_de_0_sitemap.xml",
+      "http://localhost:8083/1_de_1_sitemap.xml"
+    ]
+  },
+  {
+    "name": "sitemap_alias",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "sitemap_http",
+    "passed": true,
+    "detail": "http://localhost:8083/1_cs_0_sitemap.xml"
+  },
+  {
+    "name": "sitemap_http",
+    "passed": true,
+    "detail": "http://localhost:8083/1_cs_1_sitemap.xml"
+  },
+  {
+    "name": "sitemap_http",
+    "passed": true,
+    "detail": "http://localhost:8083/1_sk_0_sitemap.xml"
+  },
+  {
+    "name": "sitemap_http",
+    "passed": true,
+    "detail": "http://localhost:8083/1_sk_1_sitemap.xml"
+  },
+  {
+    "name": "sitemap_http",
+    "passed": true,
+    "detail": "http://localhost:8083/1_de_0_sitemap.xml"
+  },
+  {
+    "name": "sitemap_http",
+    "passed": true,
+    "detail": "http://localhost:8083/1_de_1_sitemap.xml"
+  },
+  {
+    "name": "sitemap_exact_eligible_content",
+    "passed": true,
+    "detail": {
+      "urls": 9792,
+      "eligible": 9792,
+      "missing": [],
+      "unexpected": []
+    }
+  },
+  {
+    "name": "sitemap_active_language_coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/-vyprodej-/1870-lebky.html",
+      "expected": "http://localhost:8083/cs/-vyprodej-/1870-lebky.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/10-cenik-vlastni-potisk",
+      "expected": "http://localhost:8083/cs/10-vlastni-potisk-cenik",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/10-vlastni-potisk-cenik",
+      "expected": "http://localhost:8083/cs/10-vlastni-potisk-cenik",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/100-nausnice",
+      "expected": "http://localhost:8083/cs/100-nausnice",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/101-nahrdelniky",
+      "expected": "http://localhost:8083/cs/101-nahrdelniky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/102-hrotypyramidycvoky",
+      "expected": "http://localhost:8083/cs/102-hrotypyramidycvoky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/103-otviraky",
+      "expected": "http://localhost:8083/cs/103-otviraky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/104-samolepky",
+      "expected": "http://localhost:8083/cs/104-samolepky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/105-damske",
+      "expected": "http://localhost:8083/cs/105-damske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/106-damska-tilka",
+      "expected": "http://localhost:8083/cs/106-damska-tilka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/107-panske",
+      "expected": "http://localhost:8083/cs/107-panske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/108-panska-tilka",
+      "expected": "http://localhost:8083/cs/108-panska-tilka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/109-damska-tricka",
+      "expected": "http://localhost:8083/cs/109-damska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/11-cenik-potisku-tricek",
+      "expected": "http://localhost:8083/cs/11-potisk-tricek-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/11-potisk-tricek-vlastni-motiv",
+      "expected": "http://localhost:8083/cs/11-potisk-tricek-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/110-panska-tricka",
+      "expected": "http://localhost:8083/cs/110-panska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/111-merch",
+      "expected": "http://localhost:8083/cs/111-merch",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/112-plesnivy-fazole",
+      "expected": "http://localhost:8083/cs/112-plesnivy-fazole",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/113-neparkovat-vjezd",
+      "expected": "http://localhost:8083/cs/113-neparkovat-vjezd",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/114-stamp-out-system",
+      "expected": "http://localhost:8083/cs/114-stamp-out-system",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/115-adhd-helmut",
+      "expected": "http://localhost:8083/cs/115-adhd-helmut",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/116-pruser",
+      "expected": "http://localhost:8083/cs/116-pruser",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/117-damske-mikiny",
+      "expected": "http://localhost:8083/cs/117-damske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/118-mikiny-na-zip-damske",
+      "expected": "http://localhost:8083/cs/118-mikiny-na-zip-damske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/119-panske-mikiny",
+      "expected": "http://localhost:8083/cs/119-panske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/12-cenik-vyroby-placek",
+      "expected": "http://localhost:8083/cs/12-vyroba-placek-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/12-vyroba-placek-vlastni-motiv",
+      "expected": "http://localhost:8083/cs/12-vyroba-placek-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/120-mikiny-na-zip-panske",
+      "expected": "http://localhost:8083/cs/120-mikiny-na-zip-panske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/121-sukne",
+      "expected": "http://localhost:8083/cs/121-sukne",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/122-retez-na-kalhoty",
+      "expected": "http://localhost:8083/cs/122-retez-na-kalhoty",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/123-the-punkavec",
+      "expected": "http://localhost:8083/cs/123-the-punkavec",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/124-piny",
+      "expected": "http://localhost:8083/cs/124-piny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/125-indianska-rezervace",
+      "expected": "http://localhost:8083/cs/125-indianska-rezervace",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/126-satky",
+      "expected": "http://localhost:8083/cs/126-satky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/16-cenik-potisku-mikin",
+      "expected": "http://localhost:8083/cs/16-potisk-mikin-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/16-potisk-mikin-vlastni-motiv",
+      "expected": "http://localhost:8083/cs/16-potisk-mikin-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/18-cenik-potisku-cepic",
+      "expected": "http://localhost:8083/cs/18-potisk-cepic-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/18-potisk-cepic-vlastni-motiv",
+      "expected": "http://localhost:8083/cs/18-potisk-cepic-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/19-nasivky",
+      "expected": "http://localhost:8083/cs/19-nasivky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/25-zakazky",
+      "expected": "http://localhost:8083/cs/25-zakazky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/3-plackyspendliky",
+      "expected": "http://localhost:8083/cs/3-plackyspendlikypiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/3-plackyspendlikypiny",
+      "expected": "http://localhost:8083/cs/3-plackyspendlikypiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/32-cepice",
+      "expected": "http://localhost:8083/cs/32-cepice-satky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/32-cepice-satky",
+      "expected": "http://localhost:8083/cs/32-cepice-satky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/33-zimni",
+      "expected": "http://localhost:8083/cs/33-zimni",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/34-ksiltovky",
+      "expected": "http://localhost:8083/cs/34-ksiltovky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/39-klasicke",
+      "expected": "http://localhost:8083/cs/39-klasicke",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/4-placky",
+      "expected": "http://localhost:8083/cs/4-placky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/40-nazehlovaci-vysivka",
+      "expected": "http://localhost:8083/cs/40-nazehlovaci-vysivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/41-potisk-nasivek",
+      "expected": "http://localhost:8083/cs/41-potisk-nasivek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/44-samolepky",
+      "expected": "http://localhost:8083/cs/44-samolepky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/49-cd",
+      "expected": "http://localhost:8083/cs/49-cd",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/57-zadova-nasivka",
+      "expected": "http://localhost:8083/cs/57-zadova-nasivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/58-taskypenezenky",
+      "expected": "http://localhost:8083/cs/58-taskypenezenky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/59-platene-tasky",
+      "expected": "http://localhost:8083/cs/59-platene-tasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/60-vakybatohy",
+      "expected": "http://localhost:8083/cs/60-vakybatohytasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/60-vakybatohytasky",
+      "expected": "http://localhost:8083/cs/60-vakybatohytasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/61-jine",
+      "expected": "http://localhost:8083/cs/61-kapsy-na-pasek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/61-kapsy-na-pasek",
+      "expected": "http://localhost:8083/cs/61-kapsy-na-pasek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/62-penezenky",
+      "expected": "http://localhost:8083/cs/62-penezenky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/63-cenik-vyroby-naramku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/cs/63-vyroba-naramku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/63-vyroba-naramku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/cs/63-vyroba-naramku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/64-cenik-nahrdelniku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/cs/64-vyroba-nahrdelniku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/64-vyroba-nahrdelniku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/cs/64-vyroba-nahrdelniku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/74-nazehlovaci-vysivka-detska",
+      "expected": "http://localhost:8083/cs/74-nazehlovaci-vysivka-detska",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/75-spendliky",
+      "expected": "http://localhost:8083/cs/75-spendliky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/79-potisk-hrnku-vlastni-motiv",
+      "expected": "http://localhost:8083/cs/79-potisk-hrnku-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/81--vyprodej-",
+      "expected": "http://localhost:8083/cs/81--vyprodej-",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/82-detske",
+      "expected": "http://localhost:8083/cs/82-detske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/83-detske-body",
+      "expected": "http://localhost:8083/cs/83-detske-body",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/84-detska-tricka",
+      "expected": "http://localhost:8083/cs/84-detska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/85-detske-mikiny",
+      "expected": "http://localhost:8083/cs/85-detske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/86-detske-mikiny-se-zipem",
+      "expected": "http://localhost:8083/cs/86-detske-mikiny-se-zipem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/87-detske-nazehlovaci-vysivky",
+      "expected": "http://localhost:8083/cs/87-detske-nazehlovaci-vysivky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/88-modni-doplnky",
+      "expected": "http://localhost:8083/cs/88-modni-doplnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/90-stylove-doplnky",
+      "expected": "http://localhost:8083/cs/90-stylove-doplnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/91-slunecni-bryle",
+      "expected": "http://localhost:8083/cs/91-slunecni-bryle",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/92-pasky",
+      "expected": "http://localhost:8083/cs/92-pasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/93-obojky-kravaty",
+      "expected": "http://localhost:8083/cs/93-obojky-kravaty",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/94-hrnky",
+      "expected": "http://localhost:8083/cs/94-hrnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/95-naramky",
+      "expected": "http://localhost:8083/cs/95-naramky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/96-vlajky",
+      "expected": "http://localhost:8083/cs/96-vlajky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/98-knihyfanziny",
+      "expected": "http://localhost:8083/cs/98-knihyfanziny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/99-prsteny",
+      "expected": "http://localhost:8083/cs/99-prsteny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/black-friday/1002-kocky.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka-detska/1002-kocky.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/black-friday/171-smajl-kurak.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/171-smajl-kurak.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/black-friday/1817-smajl-kurak.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1817-smajl-kurak.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/black-friday/1846-ryba.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1846-ryba.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/black-friday/1851-toxic.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1851-toxic.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/black-friday/202-oi-its-streetpunk.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/202-oi-its-streetpunk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/1086-cd-the-business-death-ii-dance.html",
+      "expected": "http://localhost:8083/cs/cd/1086-cd-the-business-death-ii-dance.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/1188-cd-nezfales-dve-desitky-let.html",
+      "expected": "http://localhost:8083/cs/cd/1188-cd-nezfales-dve-desitky-let.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/1282-cd-rv-4-svou-cestou.html",
+      "expected": "http://localhost:8083/cs/cd/1282-cd-rv-4-svou-cestou.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/1988-cd-nirvana-mtv-unplugged-in-new-york.html",
+      "expected": "http://localhost:8083/cs/cd/1988-cd-nirvana-mtv-unplugged-in-new-york.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/2433-2cd-ee-unplugged.html",
+      "expected": "http://localhost:8083/cs/cd/2433-2cd-ee-unplugged.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/2685-cd-my-chemical-romance-three-cheers-for-sweet-revenge.html",
+      "expected": "http://localhost:8083/cs/cd/2685-cd-my-chemical-romance-three-cheers-for-sweet-revenge.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cd/3095-cd-pva-pet-vohranejch-akordu.html",
+      "expected": "http://localhost:8083/cs/cd/3095-cd-pva-pet-vohranejch-akordu.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-nahrdelniku-s-vlastnim-motivem/1645-nahrdelnik-na-kozene-snurce.html",
+      "expected": "http://localhost:8083/cs/vyroba-nahrdelniku-s-vlastnim-motivem/1645-nahrdelnik-na-kozene-snurce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-nahrdelniku-s-vlastnim-motivem/1646-nahrdelnik-kovovy-retizek.html",
+      "expected": "http://localhost:8083/cs/vyroba-nahrdelniku-s-vlastnim-motivem/1646-nahrdelnik-kovovy-retizek.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-potisku-cepic/179-ksiltovky.html",
+      "expected": "http://localhost:8083/cs/potisk-cepic-vlastni-motiv/179-ksiltovky.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-potisku-cepic/180-zimni-cepice.html",
+      "expected": "http://localhost:8083/cs/potisk-cepic-vlastni-motiv/180-zimni-cepice.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-potisku-mikin/178-potisk-mikiny.html",
+      "expected": "http://localhost:8083/cs/potisk-mikin-vlastni-motiv/178-potisk-mikiny.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-potisku-tricek/24-tricko-motiv-do-a4.html",
+      "expected": "http://localhost:8083/cs/potisk-tricek-vlastni-motiv/24-tricko-motiv-do-a4.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vlastni-potisk/734-placka-58-mm-se-spendlikem.html",
+      "expected": "http://localhost:8083/cs/vlastni-potisk-cenik/734-placka-58-mm-se-spendlikem.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vlastni-potisk/735-placka-58-mm-s-magnetem.html",
+      "expected": "http://localhost:8083/cs/vlastni-potisk-cenik/735-placka-58-mm-s-magnetem.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vlastni-potisk/736-placka-58-mm-zrcatko.html",
+      "expected": "http://localhost:8083/cs/vlastni-potisk-cenik/736-placka-58-mm-zrcatko.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vlastni-potisk/737-otvirak-58-mm-s-magnetem.html",
+      "expected": "http://localhost:8083/cs/vlastni-potisk-cenik/737-otvirak-58-mm-s-magnetem.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-naramku-s-vlastnim-motivem/1640-naramek-kovovy.html",
+      "expected": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1640-naramek-kovovy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-naramku-s-vlastnim-motivem/1641-naramek-provaz.html",
+      "expected": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1641-naramek-provaz.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-naramku-s-vlastnim-motivem/1642-koralkovy-naramek-20-mm.html",
+      "expected": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1642-koralkovy-naramek-20-mm.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-naramku-s-vlastnim-motivem/1643-koralkovy-naramek-18-mm.html",
+      "expected": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1643-koralkovy-naramek-18-mm.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-naramku-s-vlastnim-motivem/1644-nahradni-buton.html",
+      "expected": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1644-nahradni-buton.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-placek/14-placka-25.html",
+      "expected": "http://localhost:8083/cs/vyroba-placek-vlastni-motiv/14-placka-25.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/cenik-vyroby-placek/15-placka-37-mm.html",
+      "expected": "http://localhost:8083/cs/vyroba-placek-vlastni-motiv/15-placka-37-mm.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/1-dodani",
+      "expected": "http://localhost:8083/cs/content/1-dodani",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/10-jak-objednat-potisk",
+      "expected": "http://localhost:8083/cs/content/10-jak-objednat-potisk",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/11-prohlaseni-o-pouziti-cookies",
+      "expected": "http://localhost:8083/cs/content/11-prohlaseni-o-pouziti-cookies",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/12-bez-potisku-jak-objednat",
+      "expected": "http://localhost:8083/cs/content/12-bez-potisku-jak-objednat",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/13-formular-vraceni-zbozi",
+      "expected": "http://localhost:8083/cs/content/13-formular-vraceni-zbozi",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/2-podminky",
+      "expected": "http://localhost:8083/cs/content/2-podminky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/3-ochrana",
+      "expected": "http://localhost:8083/cs/content/3-ochrana",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/4-onas",
+      "expected": "http://localhost:8083/cs/content/4-onas",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/6-jak-prat-textil-s-potiskem",
+      "expected": "http://localhost:8083/cs/content/6-jak-prat-textil-s-potiskem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/7-tabulka-velikosti-tricek",
+      "expected": "http://localhost:8083/cs/content/7-tabulka-velikosti-tricek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/8-reklamacni-rad",
+      "expected": "http://localhost:8083/cs/content/8-reklamacni-rad",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/content/9-platba",
+      "expected": "http://localhost:8083/cs/content/9-platba",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/1354-punkrock-all-star.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/1354-punkrock-all-star.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/1955-tilko-metal-head.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/1955-tilko-metal-head.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/2054-tilko-punkrock.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/2054-tilko-punkrock.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/2349-tilko-grind-core.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/2349-tilko-grind-core.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/2366-tilko-revolution-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/2366-tilko-revolution-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/2454-tilko-punks-not-dead-6-rock-shop.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/2454-tilko-punks-not-dead-6-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/3019-tilko-pnd-7-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/3019-tilko-pnd-7-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tilka/3402-tilko-indianska-rezervace.html",
+      "expected": "http://localhost:8083/cs/damska-tilka/3402-tilko-indianska-rezervace.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1717-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1717-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1720-i-love-beer.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1720-i-love-beer.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1737-punk-forever-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1737-punk-forever-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1804-sex-drugs-rock-n-roll.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1804-sex-drugs-rock-n-roll.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1837-pruser.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1837-pruser.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1851-toxic.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1851-toxic.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1859-svatba-game-over.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1859-svatba-game-over.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/1937-evoluce-lyzar.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/1937-evoluce-lyzar.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/2993-tricko-punkavec.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/2993-tricko-punkavec.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/3479-tricko-stop-the-violence.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/3479-tricko-stop-the-violence.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/65-punkova-matka.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/65-punkova-matka.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damske-mikiny/1751-acab-2.html",
+      "expected": "http://localhost:8083/cs/damske-mikiny/1751-acab-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damske-mikiny/1889-punk-rock-2.html",
+      "expected": "http://localhost:8083/cs/damske-mikiny/1889-punk-rock-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damske-mikiny/2189-mikina-punk-77.html",
+      "expected": "http://localhost:8083/cs/damske-mikiny/2189-mikina-punk-77.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detska-tricka/1202-black-metal.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/1202-black-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detska-tricka/1306-i-love-reggae.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/1306-i-love-reggae.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detska-tricka/2027-tricko-oi-kids.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/2027-tricko-oi-kids.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detska-tricka/3057-tricko-punk-rat.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/3057-tricko-punk-rat.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detska-tricka/3102-tricko-oi-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/3102-tricko-oi-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detska-tricka/3235-tricko-anarchy-4.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/3235-tricko-anarchy-4.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detske-body/2881-detske-body-plesnivy-fazole.html",
+      "expected": "http://localhost:8083/cs/detske-body/2881-detske-body-plesnivy-fazole.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detske-body/2883-detske-body-i-love-mliko.html",
+      "expected": "http://localhost:8083/cs/detske-body/2883-detske-body-i-love-mliko.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detske-mikiny-se-zipem/1798-chaos-2.html",
+      "expected": "http://localhost:8083/cs/detske-mikiny-se-zipem/1798-chaos-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detske-mikiny-se-zipem/3069-mikina-zip-punkavec.html",
+      "expected": "http://localhost:8083/cs/detske-mikiny-se-zipem/3069-mikina-zip-punkavec.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detske-mikiny/1200-black-metal.html",
+      "expected": "http://localhost:8083/cs/detske-mikiny/1200-black-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/detske-mikiny/2184-mikina-anti-nazi.html",
+      "expected": "http://localhost:8083/cs/detske-mikiny/2184-mikina-anti-nazi.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/fanziny/2645-the-punkavec-set-cisla-1234.html",
+      "expected": "http://localhost:8083/cs/knihyfanziny/2645-the-punkavec-set-cisla-1234.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/hrotypyramidycvoky/2496-hroty-7x10-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/hrotypyramidycvoky/2496-hroty-7x10-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/hrotypyramidycvoky/2497-hroty-7x14-mm-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/hrotypyramidycvoky/2497-hroty-7x14-mm-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/hrotypyramidycvoky/2498-hroty-7x20-mm-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/hrotypyramidycvoky/2498-hroty-7x20-mm-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/hrotypyramidycvoky/2580-pyramida.html",
+      "expected": "http://localhost:8083/cs/hrotypyramidycvoky/2580-pyramida.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/klasicke/1099-pnd-4.html",
+      "expected": "http://localhost:8083/cs/klasicke/1099-pnd-4.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/klasicke/1197-black-metal.html",
+      "expected": "http://localhost:8083/cs/klasicke/1197-black-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/klasicke/1358-hvezda-pulena.html",
+      "expected": "http://localhost:8083/cs/klasicke/1358-hvezda-pulena.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/klasicke/2051-nasivka-punkrock.html",
+      "expected": "http://localhost:8083/cs/klasicke/2051-nasivka-punkrock.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/klasicke/3472-nasivka-stop-the-violence.html",
+      "expected": "http://localhost:8083/cs/klasicke/3472-nasivka-stop-the-violence.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/knihyfanziny/1429-metallica-kompletni-pribeh.html",
+      "expected": "http://localhost:8083/cs/knihyfanziny/1429-metallica-kompletni-pribeh.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/knihyfanziny/1432-visaci-zamek.html",
+      "expected": "http://localhost:8083/cs/knihyfanziny/1432-visaci-zamek.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/knihyfanziny/2462-the-punkavec-2-cislo.html",
+      "expected": "http://localhost:8083/cs/knihyfanziny/2462-the-punkavec-2-cislo.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/ksiltovky/3097-ksiltovka-oi.html",
+      "expected": "http://localhost:8083/cs/ksiltovky/3097-ksiltovka-oi.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/ksiltovky/405-fanynka.html",
+      "expected": "http://localhost:8083/cs/ksiltovky/405-fanynka.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/ksiltovky/414-plesnivy-fazole.html",
+      "expected": "http://localhost:8083/cs/ksiltovky/414-plesnivy-fazole.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/mikiny-na-zip-damske/1689-acab-cats.html",
+      "expected": "http://localhost:8083/cs/mikiny-na-zip-damske/1689-acab-cats.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/mikiny-na-zip-damske/3068-mikina-zip-punkavec.html",
+      "expected": "http://localhost:8083/cs/mikiny-na-zip-damske/3068-mikina-zip-punkavec.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/mikiny-na-zip-panske/1783-i-love-ska.html",
+      "expected": "http://localhost:8083/cs/mikiny-na-zip-panske/1783-i-love-ska.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/mikiny-na-zip-panske/1960-mikina-zip-metal-head.html",
+      "expected": "http://localhost:8083/cs/mikiny-na-zip-panske/1960-mikina-zip-metal-head.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3494-nahrdelnik-kozel.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3494-nahrdelnik-kozel.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3495-nahrdelnik-boxer-2.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3495-nahrdelnik-boxer-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3496-nahrdelnik-hvezda.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3496-nahrdelnik-hvezda.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3497-nahrdelnik-3-hvezdy.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3497-nahrdelnik-3-hvezdy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3498-nahrdelnik-slunce.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3498-nahrdelnik-slunce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3499-nahrdelnik-2-hvezdy.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3499-nahrdelnik-2-hvezdy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3500-nahrdelnik-spirala.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3500-nahrdelnik-spirala.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nahrdelniky/3501-nahrdelnik-srdce.html",
+      "expected": "http://localhost:8083/cs/nahrdelniky/3501-nahrdelnik-srdce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/naramky/352-lebka.html",
+      "expected": "http://localhost:8083/cs/naramky/352-lebka.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nasivky/231-kocka.html",
+      "expected": "http://localhost:8083/cs/nasivky/231-kocka.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nasivky/261-war-is-money.html",
+      "expected": "http://localhost:8083/cs/nasivky/261-war-is-money.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nausnice/1574-kocka.html",
+      "expected": "http://localhost:8083/cs/nausnice/1574-kocka.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nausnice/1868-cerne-srdce.html",
+      "expected": "http://localhost:8083/cs/nausnice/1868-cerne-srdce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka-detska/2012-p.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka-detska/2012-p.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/1008-megadeath.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/1008-megadeath.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/1308-pavouk.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/1308-pavouk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/1315-warning-2.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/1315-warning-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/1455-evanescence.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/1455-evanescence.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/1673-bad-girl.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/1673-bad-girl.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/1674-spinal-tap.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/1674-spinal-tap.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/2305-nasivka-vysivana-nazehlovaci-trivium.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/2305-nasivka-vysivana-nazehlovaci-trivium.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/2388-nasivka-vysivana-nazehlovaci-aerosmith-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/2388-nasivka-vysivana-nazehlovaci-aerosmith-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/2625-nasivka-vysivana-nazehlovaci-canabis-2.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/2625-nasivka-vysivana-nazehlovaci-canabis-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/2709-nasivka-vysivana-nazehlovaci-thrasher.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/2709-nasivka-vysivana-nazehlovaci-thrasher.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/2755-nazehlovaci-vysivka-moetley-cruee.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/2755-nazehlovaci-vysivka-moetley-cruee.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/481-marilyn-manson.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/481-marilyn-manson.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/907-demon.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/907-demon.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/953-tokio-hotel.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/953-tokio-hotel.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/nazehlovaci-vysivka/981-slipknot-4.html",
+      "expected": "http://localhost:8083/cs/nazehlovaci-vysivka/981-slipknot-4.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/obojky-kravaty/2712-kravata-rolling-stones.html",
+      "expected": "http://localhost:8083/cs/obojky-kravaty/2712-kravata-rolling-stones.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/obojky-kravaty/870-obojek-kocka.html",
+      "expected": "http://localhost:8083/cs/obojky-kravaty/870-obojek-kocka.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/otviraky/644-canabis.html",
+      "expected": "http://localhost:8083/cs/otviraky/644-canabis.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/otviraky/695-skinhead.html",
+      "expected": "http://localhost:8083/cs/otviraky/695-skinhead.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tilka/1276-ryba.html",
+      "expected": "http://localhost:8083/cs/panska-tilka/1276-ryba.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/1179-i-love-metal.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/1179-i-love-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/1208-eat-sleep-punk.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/1208-eat-sleep-punk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/1496-do-not-panic.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/1496-do-not-panic.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/196-pavouk.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/196-pavouk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/2446-tricko-punks-not-dead-6-rock-shop.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/2446-tricko-punks-not-dead-6-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/2737-tricko-rock-bitch-punk-shop.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/2737-tricko-rock-bitch-punk-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/3293-tricko-ska-kostra.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/3293-tricko-ska-kostra.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panska-tricka/578-ska-3.html",
+      "expected": "http://localhost:8083/cs/panska-tricka/578-ska-3.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/1206-eat-sleep-punk.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/1206-eat-sleep-punk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/1355-punkrock-all-star.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/1355-punkrock-all-star.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/1911-fck-rcsm.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/1911-fck-rcsm.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/2107-mikina-peace.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/2107-mikina-peace.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/3003-mikina-pentagram-2.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/3003-mikina-pentagram-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/592-old-punks-never-die.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/592-old-punks-never-die.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/759-hvezda.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/759-hvezda.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/panske-mikiny/838-i-love-69.html",
+      "expected": "http://localhost:8083/cs/panske-mikiny/838-i-love-69.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/pasky/1216-pyramida-2-rady.html",
+      "expected": "http://localhost:8083/cs/pasky/1216-pyramida-2-rady.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/pasky/2386-pasek-cvoky-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/pasky/2386-pasek-cvoky-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/penezenky/2520-penezenka-fs.html",
+      "expected": "http://localhost:8083/cs/penezenky/2520-penezenka-fs.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/piny/3193-pin-fuck-off.html",
+      "expected": "http://localhost:8083/cs/piny/3193-pin-fuck-off.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/piny/3365-pin-black-sabbath.html",
+      "expected": "http://localhost:8083/cs/piny/3365-pin-black-sabbath.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/piny/3493-pin-rolling-stones.html",
+      "expected": "http://localhost:8083/cs/piny/3493-pin-rolling-stones.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/1092-punk-2.html",
+      "expected": "http://localhost:8083/cs/placky/1092-punk-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/1204-eat-sleep-metal.html",
+      "expected": "http://localhost:8083/cs/placky/1204-eat-sleep-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/1286-stamp-out-system.html",
+      "expected": "http://localhost:8083/cs/placky/1286-stamp-out-system.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/1299-i-love-reggae.html",
+      "expected": "http://localhost:8083/cs/placky/1299-i-love-reggae.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/1779-no-war.html",
+      "expected": "http://localhost:8083/cs/placky/1779-no-war.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/3374-placka-stop-animal-testing.html",
+      "expected": "http://localhost:8083/cs/placky/3374-placka-stop-animal-testing.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/580-hardcore.html",
+      "expected": "http://localhost:8083/cs/placky/580-hardcore.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/594-i-love-ska.html",
+      "expected": "http://localhost:8083/cs/placky/594-i-love-ska.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/603-skinhead.html",
+      "expected": "http://localhost:8083/cs/placky/603-skinhead.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/749-rebel-cat.html",
+      "expected": "http://localhost:8083/cs/placky/749-rebel-cat.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/781-toxic.html",
+      "expected": "http://localhost:8083/cs/placky/781-toxic.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/placky/834-i-love-69.html",
+      "expected": "http://localhost:8083/cs/placky/834-i-love-69.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/platene-tasky/2841-platena-taska-old-punks-never-die-2.html",
+      "expected": "http://localhost:8083/cs/platene-tasky/2841-platena-taska-old-punks-never-die-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/samolepky/1242-ramones.html",
+      "expected": "http://localhost:8083/cs/samolepky/1242-ramones.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/samolepky/807-all-cats-are-beautiful.html",
+      "expected": "http://localhost:8083/cs/samolepky/807-all-cats-are-beautiful.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/samolepky/816-keep-your-country.html",
+      "expected": "http://localhost:8083/cs/samolepky/816-keep-your-country.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/samolepky/820-plesnivy-fazole.html",
+      "expected": "http://localhost:8083/cs/samolepky/820-plesnivy-fazole.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/samolepky/853-punk-forever.html",
+      "expected": "http://localhost:8083/cs/samolepky/853-punk-forever.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/spendliky/2093-spendlik-neparkovat-vjezd.html",
+      "expected": "http://localhost:8083/cs/spendliky/2093-spendlik-neparkovat-vjezd.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/spendliky/2096-spendlik-punks-not-dead.html",
+      "expected": "http://localhost:8083/cs/spendliky/2096-spendlik-punks-not-dead.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/spendliky/2613-spendlik-fts.html",
+      "expected": "http://localhost:8083/cs/spendliky/2613-spendlik-fts.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/stylove-doplnky/1871-ska.html",
+      "expected": "http://localhost:8083/cs/stylove-doplnky/1871-ska.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/taskypenezenky/1509-beerman.html",
+      "expected": "http://localhost:8083/cs/taskypenezenky/1509-beerman.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vakybatohytasky/2320-vak-oi.html",
+      "expected": "http://localhost:8083/cs/vakybatohytasky/2320-vak-oi.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vakybatohytasky/2329-vak-skinhead.html",
+      "expected": "http://localhost:8083/cs/vakybatohytasky/2329-vak-skinhead.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vakybatohytasky/2778-vak-death-metal.html",
+      "expected": "http://localhost:8083/cs/vakybatohytasky/2778-vak-death-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vakybatohytasky/3251-vak-pentagram-666.html",
+      "expected": "http://localhost:8083/cs/vakybatohytasky/3251-vak-pentagram-666.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vlajky/2713-vlajka-rancid.html",
+      "expected": "http://localhost:8083/cs/vlajky/2713-vlajka-rancid.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vlajky/991-vlajka-antifascist-action.html",
+      "expected": "http://localhost:8083/cs/vlajky/991-vlajka-antifascist-action.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1644-nahradni-buton.html",
+      "expected": "http://localhost:8083/cs/vyroba-naramku-s-vlastnim-motivem/1644-nahradni-buton.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zadova-nasivka/2586-zadova-nasivka-moped.html",
+      "expected": "http://localhost:8083/cs/zadova-nasivka/2586-zadova-nasivka-moped.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zadova-nasivka/2593-zadova-nasivka-ride.html",
+      "expected": "http://localhost:8083/cs/zadova-nasivka/2593-zadova-nasivka-ride.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zadova-nasivka/2786-zadova-nasivka-death-metal.html",
+      "expected": "http://localhost:8083/cs/zadova-nasivka/2786-zadova-nasivka-death-metal.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zadova-nasivka/3159-zadova-nasivka-old-school-hardcore.html",
+      "expected": "http://localhost:8083/cs/zadova-nasivka/3159-zadova-nasivka-old-school-hardcore.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zadova-nasivka/3429-zadova-nasivka-gegen-nazis-punk-rock-shop.html",
+      "expected": "http://localhost:8083/cs/zadova-nasivka/3429-zadova-nasivka-gegen-nazis-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zimni/373-acab-cats.html",
+      "expected": "http://localhost:8083/cs/zimni/373-acab-cats.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zimni/388-no-future.html",
+      "expected": "http://localhost:8083/cs/zimni/388-no-future.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/zimni/436-judas-priest.html",
+      "expected": "http://localhost:8083/cs/zimni/436-judas-priest.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/10-vlastni-potisk-cenik",
+      "expected": "http://localhost:8083/de/10-vlastni-potisk-cenik",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/100-nausnice",
+      "expected": "http://localhost:8083/de/100-nausnice",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/101-nahrdelniky",
+      "expected": "http://localhost:8083/de/101-nahrdelniky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/102-hrotypyramidy",
+      "expected": "http://localhost:8083/de/102-hrotypyramidy",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/103-otviraky",
+      "expected": "http://localhost:8083/de/103-otviraky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/104-samolepky",
+      "expected": "http://localhost:8083/de/104-samolepky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/105-damske",
+      "expected": "http://localhost:8083/de/105-damske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/106-damska-tilka",
+      "expected": "http://localhost:8083/de/106-damska-tilka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/107-panske",
+      "expected": "http://localhost:8083/de/107-panske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/108-panska-tilka",
+      "expected": "http://localhost:8083/de/108-panska-tilka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/109-damska-tricka",
+      "expected": "http://localhost:8083/de/109-damska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/11-potisk-tricek-vlastni-motiv",
+      "expected": "http://localhost:8083/de/11-potisk-tricek-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/110-panska-tricka",
+      "expected": "http://localhost:8083/de/110-panska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/111-merch-kapel",
+      "expected": "http://localhost:8083/de/111-merch-kapel",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/112-plesnivy-fazole",
+      "expected": "http://localhost:8083/de/112-plesnivy-fazole",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/113-neparkovat-vjezd",
+      "expected": "http://localhost:8083/de/113-neparkovat-vjezd",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/114-stamp-out-system",
+      "expected": "http://localhost:8083/de/114-stamp-out-system",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/115-adhd-helmut",
+      "expected": "http://localhost:8083/de/115-adhd-helmut",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/116-pruser",
+      "expected": "http://localhost:8083/de/116-pruser",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/117-damske-mikiny",
+      "expected": "http://localhost:8083/de/117-damske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/118-mikiny-na-zip-damske",
+      "expected": "http://localhost:8083/de/118-mikiny-na-zip-damske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/119-panske-mikiny",
+      "expected": "http://localhost:8083/de/119-panske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/12-vyroba-placek-vlastni-motiv",
+      "expected": "http://localhost:8083/de/12-vyroba-placek-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/120-kikiny-na-zip-panske",
+      "expected": "http://localhost:8083/de/120-kikiny-na-zip-panske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/121-sukne",
+      "expected": "http://localhost:8083/de/121-sukne",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/122-retez-na-kalhoty",
+      "expected": "http://localhost:8083/de/122-retez-na-kalhoty",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/123-the-punkavec",
+      "expected": "http://localhost:8083/de/123-the-punkavec",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/124-piny",
+      "expected": "http://localhost:8083/de/124-piny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/125-indianska-rezervace",
+      "expected": "http://localhost:8083/de/125-indianska-rezervace",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/126-satky",
+      "expected": "http://localhost:8083/de/126-satky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/16-potisk-mikin-vlastni-motiv",
+      "expected": "http://localhost:8083/de/16-potisk-mikin-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/18-potisk-cepic-vlastni-motiv",
+      "expected": "http://localhost:8083/de/18-potisk-cepic-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/19-nasivky",
+      "expected": "http://localhost:8083/de/19-nasivky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/25-zakazky",
+      "expected": "http://localhost:8083/de/25-zakazky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/3-plackyspendliky",
+      "expected": "http://localhost:8083/de/3-plackyspendliky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/32-cepice",
+      "expected": "http://localhost:8083/de/32-cepice",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/33-zimni",
+      "expected": "http://localhost:8083/de/33-zimni",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/34-ksiltovky",
+      "expected": "http://localhost:8083/de/34-ksiltovky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/39-klasicke",
+      "expected": "http://localhost:8083/de/39-klasicke",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/4-placky",
+      "expected": "http://localhost:8083/de/4-placky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/40-nazehlovaci-vysivka",
+      "expected": "http://localhost:8083/de/40-nazehlovaci-vysivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/41-potisk-nasivek",
+      "expected": "http://localhost:8083/de/41-potisk-nasivek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/44-samolepky",
+      "expected": "http://localhost:8083/de/44-samolepky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/49-cd",
+      "expected": "http://localhost:8083/de/49-cd",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/57-zadova-nasivka",
+      "expected": "http://localhost:8083/de/57-zadova-nasivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/58-taskypenezenky",
+      "expected": "http://localhost:8083/de/58-taskypenezenky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/59-platene-tasky",
+      "expected": "http://localhost:8083/de/59-platene-tasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/60-vakybatohytasky",
+      "expected": "http://localhost:8083/de/60-vakybatohytasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/61-kapsy-na-pasek",
+      "expected": "http://localhost:8083/de/61-kapsy-na-pasek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/62-penezenky",
+      "expected": "http://localhost:8083/de/62-penezenky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/63-vyroba-naramku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/de/63-vyroba-naramku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/64-vyroba-nahrdelniku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/de/64-vyroba-nahrdelniku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/74-nazehlovaci-vysivka-detska",
+      "expected": "http://localhost:8083/de/74-nazehlovaci-vysivka-detska",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/75-spendliky",
+      "expected": "http://localhost:8083/de/75-spendliky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/79-potisk-hrnku-vlastni-motiv",
+      "expected": "http://localhost:8083/de/79-potisk-hrnku-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/81-vyprodej",
+      "expected": "http://localhost:8083/de/81-vyprodej",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/82-detske",
+      "expected": "http://localhost:8083/de/82-detske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/83-detske-body",
+      "expected": "http://localhost:8083/de/83-detske-body",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/84-detska-tricka",
+      "expected": "http://localhost:8083/de/84-detska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/85-detske-mikiny",
+      "expected": "http://localhost:8083/de/85-detske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/86-detske-mikiny-se-zipem",
+      "expected": "http://localhost:8083/de/86-detske-mikiny-se-zipem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/87-detske-nazehlovaci-vysivky",
+      "expected": "http://localhost:8083/de/87-detske-nazehlovaci-vysivky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/88-modni-doplnky",
+      "expected": "http://localhost:8083/de/88-modni-doplnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/90-stylove-doplnky",
+      "expected": "http://localhost:8083/de/90-stylove-doplnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/91-slunecni-bryle",
+      "expected": "http://localhost:8083/de/91-slunecni-bryle",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/92-pasky",
+      "expected": "http://localhost:8083/de/92-pasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/93-obojky-kravaty",
+      "expected": "http://localhost:8083/de/93-obojky-kravaty",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/94-hrnky",
+      "expected": "http://localhost:8083/de/94-hrnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/95-naramky",
+      "expected": "http://localhost:8083/de/95-naramky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/96-vlajky",
+      "expected": "http://localhost:8083/de/96-vlajky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/98-knihyfanziny",
+      "expected": "http://localhost:8083/de/98-knihyfanziny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/99-prsteny",
+      "expected": "http://localhost:8083/de/99-prsteny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/cd/2942-cd-social-distortion-white-light-white-heat-white-trash.html",
+      "expected": "http://localhost:8083/de/cd/2942-cd-social-distortion-white-light-white-heat-white-trash.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/1-dodani",
+      "expected": "http://localhost:8083/de/content/1-dodani",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/10-jak-objednat-potisk",
+      "expected": "http://localhost:8083/de/content/10-jak-objednat-potisk",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/11-prohlaseni-o-pouziti-cookies",
+      "expected": "http://localhost:8083/de/content/11-prohlaseni-o-pouziti-cookies",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/12-bez-potisku-jak-objednat",
+      "expected": "http://localhost:8083/de/content/12-bez-potisku-jak-objednat",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/13-formular-vraceni-zbozi",
+      "expected": "http://localhost:8083/de/content/13-formular-vraceni-zbozi",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/2-podminky",
+      "expected": "http://localhost:8083/de/content/2-podminky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/3-ochrana",
+      "expected": "http://localhost:8083/de/content/3-ochrana",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/4-onas",
+      "expected": "http://localhost:8083/de/content/4-onas",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/6-jak-prat-textil-s-potiskem",
+      "expected": "http://localhost:8083/de/content/6-jak-prat-textil-s-potiskem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/7-tabulka-velikosti-tricek",
+      "expected": "http://localhost:8083/de/content/7-tabulka-velikosti-tricek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/8-reklamacni-rad",
+      "expected": "http://localhost:8083/de/content/8-reklamacni-rad",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/content/9-platba",
+      "expected": "http://localhost:8083/de/content/9-platba",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/damska-tilka/1269-straight-edge.html",
+      "expected": "http://localhost:8083/de/damska-tilka/1269-straight-edge.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/damska-tilka/2358-tilko-metal-kytar-punk-rock-shop.html",
+      "expected": "http://localhost:8083/de/damska-tilka/2358-tilko-metal-kytar-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/damska-tricka/1902-oi-punk-rock-shop.html",
+      "expected": "http://localhost:8083/de/damska-tricka/1902-oi-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/damska-tricka/1914-i-love-69-punk-rock-shop.html",
+      "expected": "http://localhost:8083/de/damska-tricka/1914-i-love-69-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/damske-mikiny/2871-mikina-adhd-helmut.html",
+      "expected": "http://localhost:8083/de/damske-mikiny/2871-mikina-adhd-helmut.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/detske-body/2883-detske-body-i-love-mliko.html",
+      "expected": "http://localhost:8083/de/detske-body/2883-detske-body-i-love-mliko.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/hrotypyramidy/2496-hroty-7x10-punk-rock-shop.html",
+      "expected": "http://localhost:8083/de/hrotypyramidy/2496-hroty-7x10-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/hrotypyramidy/2497-hroty-7x14-mm-punk-rock-shop.html",
+      "expected": "http://localhost:8083/de/hrotypyramidy/2497-hroty-7x14-mm-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/hrotypyramidy/2498-hroty-7x20-mm-punk-rock-shop.html",
+      "expected": "http://localhost:8083/de/hrotypyramidy/2498-hroty-7x20-mm-punk-rock-shop.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/hrotypyramidy/2580-pyramida.html",
+      "expected": "http://localhost:8083/de/hrotypyramidy/2580-pyramida.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/ksiltovky/408-i-love-punk.html",
+      "expected": "http://localhost:8083/de/ksiltovky/408-i-love-punk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3494-nahrdelnik-kozel.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3494-nahrdelnik-kozel.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3495-nahrdelnik-boxer-2.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3495-nahrdelnik-boxer-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3496-nahrdelnik-hvezda.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3496-nahrdelnik-hvezda.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3497-nahrdelnik-3-hvezdy.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3497-nahrdelnik-3-hvezdy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3498-nahrdelnik-slunce.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3498-nahrdelnik-slunce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3499-nahrdelnik-2-hvezdy.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3499-nahrdelnik-2-hvezdy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3500-nahrdelnik-spirala.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3500-nahrdelnik-spirala.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nahrdelniky/3501-nahrdelnik-srdce.html",
+      "expected": "http://localhost:8083/de/nahrdelniky/3501-nahrdelnik-srdce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nasivky/230-i-love-punk.html",
+      "expected": "http://localhost:8083/de/nasivky/230-i-love-punk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nazehlovaci-vysivka/1049-nirvana.html",
+      "expected": "http://localhost:8083/de/nazehlovaci-vysivka/1049-nirvana.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nazehlovaci-vysivka/1061-raven.html",
+      "expected": "http://localhost:8083/de/nazehlovaci-vysivka/1061-raven.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/nazehlovaci-vysivka/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+      "expected": "http://localhost:8083/de/nazehlovaci-vysivka/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/panska-tilka/2984-tilko-neparkovat-vjezd.html",
+      "expected": "http://localhost:8083/de/panska-tilka/2984-tilko-neparkovat-vjezd.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/panska-tricka/3394-tricko-indianska-rezervace.html",
+      "expected": "http://localhost:8083/de/panska-tricka/3394-tricko-indianska-rezervace.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/panska-tricka/91-evoluce-tenis.html",
+      "expected": "http://localhost:8083/de/panska-tricka/91-evoluce-tenis.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/piny/3493-pin-rolling-stones.html",
+      "expected": "http://localhost:8083/de/piny/3493-pin-rolling-stones.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/157-pnd.html",
+      "expected": "http://localhost:8083/de/placky/157-pnd.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/1613-no-future-for-me.html",
+      "expected": "http://localhost:8083/de/placky/1613-no-future-for-me.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/2070-placka-love-music-hate-racism.html",
+      "expected": "http://localhost:8083/de/placky/2070-placka-love-music-hate-racism.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/217-no-future.html",
+      "expected": "http://localhost:8083/de/placky/217-no-future.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/2247-placka-animal-liberation.html",
+      "expected": "http://localhost:8083/de/placky/2247-placka-animal-liberation.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/3132-placka-sometimes.html",
+      "expected": "http://localhost:8083/de/placky/3132-placka-sometimes.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/3156-placka-old-school-hardcore.html",
+      "expected": "http://localhost:8083/de/placky/3156-placka-old-school-hardcore.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/324-bad-boy.html",
+      "expected": "http://localhost:8083/de/placky/324-bad-boy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/placky/3374-placka-stop-animal-testing.html",
+      "expected": "http://localhost:8083/de/placky/3374-placka-stop-animal-testing.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/plackyspendliky/267-stop-religion.html",
+      "expected": "http://localhost:8083/de/plackyspendliky/267-stop-religion.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/plackyspendliky/274-stop-comunism.html",
+      "expected": "http://localhost:8083/de/plackyspendliky/274-stop-comunism.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/samolepky/849-ska.html",
+      "expected": "http://localhost:8083/de/samolepky/849-ska.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/zadova-nasivka/1551-anti-war.html",
+      "expected": "http://localhost:8083/de/zadova-nasivka/1551-anti-war.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/zimni/374-acab.html",
+      "expected": "http://localhost:8083/de/zimni/374-acab.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/10-vlastni-potisk",
+      "expected": "http://localhost:8083/sk/10-vlastni-potisk",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/100-nausnice",
+      "expected": "http://localhost:8083/sk/100-nausnice",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/101-nahrdelniky",
+      "expected": "http://localhost:8083/sk/101-nahrdelniky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/102-hrotypyramidy",
+      "expected": "http://localhost:8083/sk/102-hrotypyramidy",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/103-otviraky",
+      "expected": "http://localhost:8083/sk/103-otviraky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/104-samolepky",
+      "expected": "http://localhost:8083/sk/104-samolepky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/105-damske",
+      "expected": "http://localhost:8083/sk/105-damske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/106-damska-tilka",
+      "expected": "http://localhost:8083/sk/106-damska-tilka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/107-panske",
+      "expected": "http://localhost:8083/sk/107-panske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/108-panska-tilka",
+      "expected": "http://localhost:8083/sk/108-panska-tilka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/109-damska-tricka",
+      "expected": "http://localhost:8083/sk/109-damska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/11-cenik-potisku-tricek",
+      "expected": "http://localhost:8083/sk/11-cenik-potisku-tricek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/110-panska-tricka",
+      "expected": "http://localhost:8083/sk/110-panska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/111-merch-kapel",
+      "expected": "http://localhost:8083/sk/111-merch-kapel",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/112-plesnivy-fazole",
+      "expected": "http://localhost:8083/sk/112-plesnivy-fazole",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/113-neparkovat-vjezd",
+      "expected": "http://localhost:8083/sk/113-neparkovat-vjezd",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/114-stamp-out-system",
+      "expected": "http://localhost:8083/sk/114-stamp-out-system",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/115-adhd-helmut",
+      "expected": "http://localhost:8083/sk/115-adhd-helmut",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/116-pruser",
+      "expected": "http://localhost:8083/sk/116-pruser",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/117-damske-mikiny",
+      "expected": "http://localhost:8083/sk/117-damske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/118-mikiny-na-zip-damske",
+      "expected": "http://localhost:8083/sk/118-mikiny-na-zip-damske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/119-panske-mikiny",
+      "expected": "http://localhost:8083/sk/119-panske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/12-cenik-vyroby-placek",
+      "expected": "http://localhost:8083/sk/12-cenik-vyroby-placek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/120-kikiny-na-zip-panske",
+      "expected": "http://localhost:8083/sk/120-kikiny-na-zip-panske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/121-sukne",
+      "expected": "http://localhost:8083/sk/121-sukne",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/122-retez-na-kalhoty",
+      "expected": "http://localhost:8083/sk/122-retez-na-kalhoty",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/123-the-punkavec",
+      "expected": "http://localhost:8083/sk/123-the-punkavec",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/124-piny",
+      "expected": "http://localhost:8083/sk/124-piny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/125-indianska-rezervace",
+      "expected": "http://localhost:8083/sk/125-indianska-rezervace",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/126-satky",
+      "expected": "http://localhost:8083/sk/126-satky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/16-cenik-potisku-mikin",
+      "expected": "http://localhost:8083/sk/16-cenik-potisku-mikin",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/18-cenik-potisku-cepic",
+      "expected": "http://localhost:8083/sk/18-cenik-potisku-cepic",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/19-nasivky",
+      "expected": "http://localhost:8083/sk/19-nasivky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/25-zakazky",
+      "expected": "http://localhost:8083/sk/25-zakazky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/3-placky",
+      "expected": "http://localhost:8083/sk/3-placky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/32-cepice",
+      "expected": "http://localhost:8083/sk/32-cepice",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/33-zimni",
+      "expected": "http://localhost:8083/sk/33-zimni",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/34-ksiltovky",
+      "expected": "http://localhost:8083/sk/34-ksiltovky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/39-klasicke",
+      "expected": "http://localhost:8083/sk/39-klasicke",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/4-placky-punkove",
+      "expected": "http://localhost:8083/sk/4-placky-punkove",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/40-nazehlovaci-vysivka",
+      "expected": "http://localhost:8083/sk/40-nazehlovaci-vysivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/41-potisk-nasivek",
+      "expected": "http://localhost:8083/sk/41-potisk-nasivek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/44-samolepky",
+      "expected": "http://localhost:8083/sk/44-samolepky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/49-cd",
+      "expected": "http://localhost:8083/sk/49-cd",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/57-zadova-nasivka",
+      "expected": "http://localhost:8083/sk/57-zadova-nasivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/58-tasky",
+      "expected": "http://localhost:8083/sk/58-tasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/59-platene-tasky",
+      "expected": "http://localhost:8083/sk/59-platene-tasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/60-vaky",
+      "expected": "http://localhost:8083/sk/60-vaky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/61-jine",
+      "expected": "http://localhost:8083/sk/61-jine",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/62-penezenky",
+      "expected": "http://localhost:8083/sk/62-penezenky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/63-cenik-vyroby-naramku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/sk/63-cenik-vyroby-naramku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/64-cenik-nahrdelniku-s-vlastnim-motivem",
+      "expected": "http://localhost:8083/sk/64-cenik-nahrdelniku-s-vlastnim-motivem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/74-nazehlovaci-vysivka-detska",
+      "expected": "http://localhost:8083/sk/74-nazehlovaci-vysivka-detska",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/75-spendliky",
+      "expected": "http://localhost:8083/sk/75-spendliky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/79-potisk-hrnku-vlastni-motiv",
+      "expected": "http://localhost:8083/sk/79-potisk-hrnku-vlastni-motiv",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/81-vyprodej",
+      "expected": "http://localhost:8083/sk/81-vyprodej",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/82-detske",
+      "expected": "http://localhost:8083/sk/82-detske",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/83-detske-body",
+      "expected": "http://localhost:8083/sk/83-detske-body",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/84-detska-tricka",
+      "expected": "http://localhost:8083/sk/84-detska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/85-detske-mikiny",
+      "expected": "http://localhost:8083/sk/85-detske-mikiny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/86-detske-mikiny-se-zipem",
+      "expected": "http://localhost:8083/sk/86-detske-mikiny-se-zipem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/87-detske-nazehlovaci-vysivky",
+      "expected": "http://localhost:8083/sk/87-detske-nazehlovaci-vysivky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/88-modni-doplnky",
+      "expected": "http://localhost:8083/sk/88-modni-doplnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/90-stylove-doplnky",
+      "expected": "http://localhost:8083/sk/90-stylove-doplnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/91-slunecni-bryle",
+      "expected": "http://localhost:8083/sk/91-slunecni-bryle",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/92-pasky",
+      "expected": "http://localhost:8083/sk/92-pasky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/93-obojky-kravaty",
+      "expected": "http://localhost:8083/sk/93-obojky-kravaty",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/94-hrnky",
+      "expected": "http://localhost:8083/sk/94-hrnky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/95-naramky",
+      "expected": "http://localhost:8083/sk/95-naramky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/96-vlajky",
+      "expected": "http://localhost:8083/sk/96-vlajky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/98-knihyfanziny",
+      "expected": "http://localhost:8083/sk/98-knihyfanziny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/99-prsteny",
+      "expected": "http://localhost:8083/sk/99-prsteny",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/cd/1184-cd-vision-days-dont-worry-be-punk.html",
+      "expected": "http://localhost:8083/sk/cd/1184-cd-vision-days-dont-worry-be-punk.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/cd/2677-cd-nirvana-incesticide.html",
+      "expected": "http://localhost:8083/sk/cd/2677-cd-nirvana-incesticide.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/cenik-vyroby-placek/22-placka-50-mm-zrcatko.html",
+      "expected": "http://localhost:8083/sk/cenik-vyroby-placek/22-placka-50-mm-zrcatko.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/1-dodani",
+      "expected": "http://localhost:8083/sk/content/1-dodani",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/10-jak-objednat-potisk",
+      "expected": "http://localhost:8083/sk/content/10-jak-objednat-potisk",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/11-prehlasenie-o-pouziti-cookies",
+      "expected": "http://localhost:8083/sk/content/11-prehlasenie-o-pouziti-cookies",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/12-bez-potisku-jak-objednat",
+      "expected": "http://localhost:8083/sk/content/12-bez-potisku-jak-objednat",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/13-formular-vraceni-zbozi",
+      "expected": "http://localhost:8083/sk/content/13-formular-vraceni-zbozi",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/2-podminky",
+      "expected": "http://localhost:8083/sk/content/2-podminky",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/3-ochrana",
+      "expected": "http://localhost:8083/sk/content/3-ochrana",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/4-onas",
+      "expected": "http://localhost:8083/sk/content/4-onas",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/6-jak-prat-textil-s-potiskem",
+      "expected": "http://localhost:8083/sk/content/6-jak-prat-textil-s-potiskem",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/7-tabulka-velikosti-tricek",
+      "expected": "http://localhost:8083/sk/content/7-tabulka-velikosti-tricek",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/8-reklamacni-rad",
+      "expected": "http://localhost:8083/sk/content/8-reklamacni-rad",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/content/9-platba",
+      "expected": "http://localhost:8083/sk/content/9-platba",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/damska-tricka/1895-1969.html",
+      "expected": "http://localhost:8083/sk/damska-tricka/1895-1969.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/damska-tricka/1907-fck-cps.html",
+      "expected": "http://localhost:8083/sk/damska-tricka/1907-fck-cps.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/damska-tricka/1981-pivo.html",
+      "expected": "http://localhost:8083/sk/damska-tricka/1981-pivo.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/hrotypyramidy/2496-hroty-7x10.html",
+      "expected": "http://localhost:8083/sk/hrotypyramidy/2496-hroty-7x10.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/hrotypyramidy/2497-hroty-7x14-mm.html",
+      "expected": "http://localhost:8083/sk/hrotypyramidy/2497-hroty-7x14-mm.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/hrotypyramidy/2498-hroty-7x20-mm.html",
+      "expected": "http://localhost:8083/sk/hrotypyramidy/2498-hroty-7x20-mm.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/hrotypyramidy/2580-pyramida.html",
+      "expected": "http://localhost:8083/sk/hrotypyramidy/2580-pyramida.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/hrotypyramidy/3348-cvoky-stribrne.html",
+      "expected": "http://localhost:8083/sk/hrotypyramidy/3348-cvoky-stribrne.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/ksiltovky/1285-stamp-out-system.html",
+      "expected": "http://localhost:8083/sk/ksiltovky/1285-stamp-out-system.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/mikiny-na-zip-damske/1690-face.html",
+      "expected": "http://localhost:8083/sk/mikiny-na-zip-damske/1690-face.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3494-nahrdelnik-kozel.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3494-nahrdelnik-kozel.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3495-nahrdelnik-boxer-2.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3495-nahrdelnik-boxer-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3496-nahrdelnik-hvezda.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3496-nahrdelnik-hvezda.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3497-nahrdelnik-3-hvezdy.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3497-nahrdelnik-3-hvezdy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3498-nahrdelnik-slunce.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3498-nahrdelnik-slunce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3499-nahrdelnik-2-hvezdy.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3499-nahrdelnik-2-hvezdy.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3500-nahrdelnik-spirala.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3500-nahrdelnik-spirala.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nahrdelniky/3501-nahrdelnik-srdce.html",
+      "expected": "http://localhost:8083/sk/nahrdelniky/3501-nahrdelnik-srdce.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/nazehlovaci-vysivka/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+      "expected": "http://localhost:8083/sk/nazehlovaci-vysivka/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/obojky-kravaty/424-jednoduchy-prouzek.html",
+      "expected": "http://localhost:8083/sk/obojky-kravaty/424-jednoduchy-prouzek.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/otviraky/665-keep-your-country.html",
+      "expected": "http://localhost:8083/sk/otviraky/665-keep-your-country.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/panska-tricka/2566-tricko-rock-against-fascism.html",
+      "expected": "http://localhost:8083/sk/panska-tricka/2566-tricko-rock-against-fascism.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/panske-mikiny/2151-mikina-punks-not-dead-5.html",
+      "expected": "http://localhost:8083/sk/panske-mikiny/2151-mikina-punks-not-dead-5.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/penezenky/2344-penezenka-grind-core.html",
+      "expected": "http://localhost:8083/sk/penezenky/2344-penezenka-grind-core.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/piny/3493-pin-rolling-stones.html",
+      "expected": "http://localhost:8083/sk/piny/3493-pin-rolling-stones.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/1299-i-love-reggae.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/1299-i-love-reggae.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/1386-fuck-politics.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/1386-fuck-politics.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/1552-anti-war.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/1552-anti-war.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/2066-placka-blitz.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/2066-placka-blitz.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/2069-placka-dead-kennedys-2.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/2069-placka-dead-kennedys-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/217-no-future.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/217-no-future.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/2720-placka-plouzak.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/2720-placka-plouzak.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/3278-placka-ska-kostra.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/3278-placka-ska-kostra.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky-punkove/858-top-loser.html",
+      "expected": "http://localhost:8083/sk/placky-punkove/858-top-loser.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky/1777-stop-religion.html",
+      "expected": "http://localhost:8083/sk/placky/1777-stop-religion.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/placky/264-anarchy-2.html",
+      "expected": "http://localhost:8083/sk/placky/264-anarchy-2.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/zadova-nasivka/1921-zadova-nasivka-old-punks-never-die.html",
+      "expected": "http://localhost:8083/sk/zadova-nasivka/1921-zadova-nasivka-old-punks-never-die.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/zimni/1161-trash-zone.html",
+      "expected": "http://localhost:8083/sk/zimni/1161-trash-zone.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/zimni/738-pica.html",
+      "expected": "http://localhost:8083/sk/zimni/738-pica.html",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/40-nazehlovaci-vysivka?p=2",
+      "expected": "http://localhost:8083/cs/40-nazehlovaci-vysivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/40-nazehlovaci-vysivka?p=2",
+      "expected": "http://localhost:8083/sk/40-nazehlovaci-vysivka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/109-damska-tricka?p=2",
+      "expected": "http://localhost:8083/cs/109-damska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/109-damska-tricka?p=2",
+      "expected": "http://localhost:8083/sk/109-damska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/110-panska-tricka?p=2",
+      "expected": "http://localhost:8083/cs/110-panska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "legacy_live_existing_content",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/110-panska-tricka?p=2",
+      "expected": "http://localhost:8083/sk/110-panska-tricka",
+      "status": 200
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/cs/damska-tricka/3-wrong-slug.html",
+      "expected": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/cs/damska-tricka/3-wrong-slug.html",
+          "status": 301,
+          "location": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html"
+        },
+        {
+          "url": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/index.php?controller=product&id_product=3&id_lang=1",
+      "expected": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/index.php?controller=product&id_product=3&id_lang=1",
+          "status": 301,
+          "location": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html"
+        },
+        {
+          "url": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/sk/damska-tricka/3-wrong-slug.html",
+      "expected": "http://localhost:8083/sk/damska-tricka/3-jing-jang.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/sk/damska-tricka/3-wrong-slug.html",
+          "status": 301,
+          "location": "http://localhost:8083/sk/damska-tricka/3-jing-jang.html"
+        },
+        {
+          "url": "http://localhost:8083/sk/damska-tricka/3-jing-jang.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": false,
+    "detail": {
+      "url": "http://localhost:8083/index.php?controller=product&id_product=3&id_lang=3",
+      "expected": "http://localhost:8083/sk/damska-tricka/3-jing-jang.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/index.php?controller=product&id_product=3&id_lang=3",
+          "status": 301,
+          "location": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html"
+        },
+        {
+          "url": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/de/damska-tricka/3-wrong-slug.html",
+      "expected": "http://localhost:8083/de/damska-tricka/3-jing-jang-punk-rock-shop.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/de/damska-tricka/3-wrong-slug.html",
+          "status": 301,
+          "location": "http://localhost:8083/de/damska-tricka/3-jing-jang-punk-rock-shop.html"
+        },
+        {
+          "url": "http://localhost:8083/de/damska-tricka/3-jing-jang-punk-rock-shop.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": false,
+    "detail": {
+      "url": "http://localhost:8083/index.php?controller=product&id_product=3&id_lang=4",
+      "expected": "http://localhost:8083/de/damska-tricka/3-jing-jang-punk-rock-shop.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/index.php?controller=product&id_product=3&id_lang=4",
+          "status": 301,
+          "location": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html"
+        },
+        {
+          "url": "http://localhost:8083/cs/damska-tricka/3-jing-jang-punk-rock-shop.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "single_permanent_normalization",
+    "passed": true,
+    "detail": {
+      "url": "http://localhost:8083/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html",
+      "expected": "http://localhost:8083/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html",
+      "chain": [
+        {
+          "url": "http://localhost:8083/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html",
+          "status": 301,
+          "location": "http://localhost:8083/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html"
+        },
+        {
+          "url": "http://localhost:8083/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html",
+          "status": 200,
+          "location": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "legacy_pagination",
+    "passed": true,
+    "detail": {
+      "legacy_url": "http://localhost:8083/cs/40-nazehlovaci-vysivka?p=2",
+      "chain": [
+        {
+          "url": "http://localhost:8083/cs/40-nazehlovaci-vysivka?p=2",
+          "status": 301,
+          "location": "http://localhost:8083/cs/40-nazehlovaci-vysivka?page=2"
+        },
+        {
+          "url": "http://localhost:8083/cs/40-nazehlovaci-vysivka?page=2",
+          "status": 200,
+          "location": ""
+        }
+      ],
+      "canonical": [
+        "http://localhost:8083/cs/40-nazehlovaci-vysivka?page=2"
+      ]
+    }
+  },
+  {
+    "name": "pagination_preserves_other_parameters",
+    "passed": true,
+    "detail": "http://localhost:8083/cs/40-nazehlovaci-vysivka?p=2&order=product.name.asc"
+  },
+  {
+    "name": "legacy_pagination",
+    "passed": true,
+    "detail": {
+      "legacy_url": "http://localhost:8083/sk/40-nazehlovaci-vysivka?p=2",
+      "chain": [
+        {
+          "url": "http://localhost:8083/sk/40-nazehlovaci-vysivka?p=2",
+          "status": 301,
+          "location": "http://localhost:8083/sk/40-nazehlovaci-vysivka?page=2"
+        },
+        {
+          "url": "http://localhost:8083/sk/40-nazehlovaci-vysivka?page=2",
+          "status": 200,
+          "location": ""
+        }
+      ],
+      "canonical": [
+        "http://localhost:8083/sk/40-nazehlovaci-vysivka?page=2"
+      ]
+    }
+  },
+  {
+    "name": "pagination_preserves_other_parameters",
+    "passed": true,
+    "detail": "http://localhost:8083/sk/40-nazehlovaci-vysivka?p=2&order=product.name.asc"
+  },
+  {
+    "name": "legacy_pagination",
+    "passed": true,
+    "detail": {
+      "legacy_url": "http://localhost:8083/cs/109-damska-tricka?p=2",
+      "chain": [
+        {
+          "url": "http://localhost:8083/cs/109-damska-tricka?p=2",
+          "status": 301,
+          "location": "http://localhost:8083/cs/109-damska-tricka?page=2"
+        },
+        {
+          "url": "http://localhost:8083/cs/109-damska-tricka?page=2",
+          "status": 200,
+          "location": ""
+        }
+      ],
+      "canonical": [
+        "http://localhost:8083/cs/109-damska-tricka?page=2"
+      ]
+    }
+  },
+  {
+    "name": "pagination_preserves_other_parameters",
+    "passed": true,
+    "detail": "http://localhost:8083/cs/109-damska-tricka?p=2&order=product.name.asc"
+  },
+  {
+    "name": "legacy_pagination",
+    "passed": true,
+    "detail": {
+      "legacy_url": "http://localhost:8083/sk/109-damska-tricka?p=2",
+      "chain": [
+        {
+          "url": "http://localhost:8083/sk/109-damska-tricka?p=2",
+          "status": 301,
+          "location": "http://localhost:8083/sk/109-damska-tricka?page=2"
+        },
+        {
+          "url": "http://localhost:8083/sk/109-damska-tricka?page=2",
+          "status": 200,
+          "location": ""
+        }
+      ],
+      "canonical": [
+        "http://localhost:8083/sk/109-damska-tricka?page=2"
+      ]
+    }
+  },
+  {
+    "name": "pagination_preserves_other_parameters",
+    "passed": true,
+    "detail": "http://localhost:8083/sk/109-damska-tricka?p=2&order=product.name.asc"
+  },
+  {
+    "name": "legacy_pagination",
+    "passed": true,
+    "detail": {
+      "legacy_url": "http://localhost:8083/cs/110-panska-tricka?p=2",
+      "chain": [
+        {
+          "url": "http://localhost:8083/cs/110-panska-tricka?p=2",
+          "status": 301,
+          "location": "http://localhost:8083/cs/110-panska-tricka?page=2"
+        },
+        {
+          "url": "http://localhost:8083/cs/110-panska-tricka?page=2",
+          "status": 200,
+          "location": ""
+        }
+      ],
+      "canonical": [
+        "http://localhost:8083/cs/110-panska-tricka?page=2"
+      ]
+    }
+  },
+  {
+    "name": "pagination_preserves_other_parameters",
+    "passed": true,
+    "detail": "http://localhost:8083/cs/110-panska-tricka?p=2&order=product.name.asc"
+  },
+  {
+    "name": "legacy_pagination",
+    "passed": true,
+    "detail": {
+      "legacy_url": "http://localhost:8083/sk/110-panska-tricka?p=2",
+      "chain": [
+        {
+          "url": "http://localhost:8083/sk/110-panska-tricka?p=2",
+          "status": 301,
+          "location": "http://localhost:8083/sk/110-panska-tricka?page=2"
+        },
+        {
+          "url": "http://localhost:8083/sk/110-panska-tricka?page=2",
+          "status": 200,
+          "location": ""
+        }
+      ],
+      "canonical": [
+        "http://localhost:8083/sk/110-panska-tricka?page=2"
+      ]
+    }
+  },
+  {
+    "name": "pagination_preserves_other_parameters",
+    "passed": true,
+    "detail": "http://localhost:8083/sk/110-panska-tricka?p=2&order=product.name.asc"
+  },
+  {
+    "name": "czech_system_title_cart",
+    "passed": true,
+    "detail": "Košík - Kafka Monster"
+  },
+  {
+    "name": "czech_system_title_authentication",
+    "passed": true,
+    "detail": "Přihlášení - Kafka Monster"
+  },
+  {
+    "name": "root_language_selection_stays_temporary",
+    "passed": true,
+    "detail": [
+      {
+        "url": "http://localhost:8083/",
+        "status": 302,
+        "location": "http://localhost:8083/cs/"
+      },
+      {
+        "url": "http://localhost:8083/cs/",
+        "status": 200,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "name": "unknown_page_404",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "preserved_catalog_path_structure",
+    "passed": false,
+    "detail": {
+      "changed": 3387
+    }
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "width": 390,
+    "status": 200,
+    "noindex": "noindex, nofollow, noarchive",
+    "url": "http://localhost:8083/cs/#kategorie",
+    "title": "Kafka Monster",
+    "trust": "grid",
+    "hero": {
+      "x": 12,
+      "y": 379.734375,
+      "width": 366,
+      "height": 430
+    },
+    "cta": {
+      "x": 34,
+      "y": 718.734375,
+      "width": 280.671875,
+      "height": 61
+    },
+    "heroBackground": "url(\"http://localhost:8083/themes/kafka/assets/img/hero-punk-crowd.png\")",
+    "overflow": false,
+    "jump": {
+      "hash": "#kategorie",
+      "top": 253.734375
+    },
+    "errors": []
+  },
+  {
+    "width": 320,
+    "status": 200,
+    "noindex": "noindex, nofollow, noarchive",
+    "url": "http://localhost:8083/cs/#kategorie",
+    "title": "Kafka Monster",
+    "trust": "grid",
+    "hero": {
+      "x": 12,
+      "y": 372.4375,
+      "width": 296,
+      "height": 430
+    },
+    "cta": {
+      "x": 34,
+      "y": 700.4375,
+      "width": 252,
+      "height": 72
+    },
+    "heroBackground": "url(\"http://localhost:8083/themes/kafka/assets/img/hero-punk-crowd.png\")",
+    "overflow": false,
+    "jump": {
+      "hash": "#kategorie",
+      "top": 246.4375
+    },
+    "errors": []
+  },
+  {
+    "width": 767,
+    "status": 200,
+    "noindex": "noindex, nofollow, noarchive",
+    "url": "http://localhost:8083/cs/#kategorie",
+    "title": "Kafka Monster",
+    "trust": "grid",
+    "hero": {
+      "x": 12,
+      "y": 398.1875,
+      "width": 743,
+      "height": 430
+    },
+    "cta": {
+      "x": 34,
+      "y": 737.1875,
+      "width": 280.671875,
+      "height": 61
+    },
+    "heroBackground": "url(\"http://localhost:8083/themes/kafka/assets/img/hero-punk-crowd.png\")",
+    "overflow": false,
+    "jump": {
+      "hash": "#kategorie",
+      "top": 272.1875
+    },
+    "errors": []
+  },
+  {
+    "width": 768,
+    "status": 200,
+    "noindex": "noindex, nofollow, noarchive",
+    "url": "http://localhost:8083/cs/#kategorie",
+    "title": "Kafka Monster",
+    "trust": "grid",
+    "hero": {
+      "x": 12,
+      "y": 306,
+      "width": 744,
+      "height": 512
+    },
+    "cta": {
+      "x": 76,
+      "y": 628.78125,
+      "width": 280.671875,
+      "height": 61
+    },
+    "heroBackground": "url(\"http://localhost:8083/themes/kafka/assets/img/hero-punk-crowd.png\")",
+    "overflow": false,
+    "jump": {
+      "hash": "#kategorie",
+      "top": 112
+    },
+    "errors": []
+  },
+  {
+    "width": 1536,
+    "status": 200,
+    "noindex": "noindex, nofollow, noarchive",
+    "url": "http://localhost:8083/cs/#kategorie",
+    "title": "Kafka Monster",
+    "trust": "grid",
+    "hero": {
+      "x": 148,
+      "y": 363.59375,
+      "width": 1240,
+      "height": 512
+    },
+    "cta": {
+      "x": 212,
+      "y": 707.578125,
+      "width": 280.671875,
+      "height": 61
+    },
+    "heroBackground": "url(\"http://localhost:8083/themes/kafka/assets/img/hero-punk-crowd.png\")",
+    "overflow": false,
+    "jump": {
+      "hash": "#kategorie",
+      "top": 169.59375
+    },
+    "errors": []
+  }
+]

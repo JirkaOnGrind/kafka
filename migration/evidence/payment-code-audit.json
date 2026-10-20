@@ -1,0 +1,46 @@
+{
+  "scope": "static read-only analysis; no gateway requests or source execution",
+  "source_version": "1.6.1.13",
+  "module_vendor": "David Mrózek / prestashop.valasinec.cz",
+  "source_files": [
+    {
+      "path": "modules/dm_comgate/dm_comgate.php",
+      "bytes": 95995,
+      "sha256": "fc764e7102b4fd12865e0f47e4c9ba32625b2ff93e3771bada107d3b9a9c8a4e"
+    },
+    {
+      "path": "modules/dm_comgate/classes/DmComgateApi.php",
+      "bytes": 26668,
+      "sha256": "3dc795a4be0e1b8b51eb4dc3569a006597cff0a8aef60f992f566311fa085bf5"
+    },
+    {
+      "path": "modules/dm_comgate/dm_comgate_notify.php",
+      "bytes": 2207,
+      "sha256": "7a8b5ce1191b951a00f2072e55f2e1bf1e558d4ed742b353cdbc3aca9a38d5e4"
+    },
+    {
+      "path": "modules/dm_comgate/controllers/front/cgpayment.php",
+      "bytes": 14177,
+      "sha256": "4611674898f274cfa4c954eda785d65a025a511c2f8388bd9f40262a8d784a98"
+    },
+    {
+      "path": "modules/dm_cashondelivery/dm_cashondelivery.php",
+      "bytes": 104889,
+      "sha256": "e55469eeeab54bfa62057ed63c559adc5afe0b2d921234b62de96f50c3a55ba8"
+    },
+    {
+      "path": "modules/dm_cashondelivery/override/classes/order/Order.php",
+      "bytes": 4050,
+      "sha256": "e0fd0c59bb1fecf8ced1cd49bde7938e3ef3f3b7e8812e61c0aa0682719b58f2"
+    }
+  ],
+  "findings": {
+    "tls_peer_and_host_verification_disabled_in_source": true,
+    "payment_callback_queries_gateway_status": true,
+    "paid_callback_checks_amount": true,
+    "duplicate_orderpayment_check_present": true,
+    "paid_branch_does_not_guard_fulfilled_order_states": true,
+    "module_cod_order_override_is_candidate_for_root_override": true,
+    "root_override_not_available_at_review": true
+  }
+}

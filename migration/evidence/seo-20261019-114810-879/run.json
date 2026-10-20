@@ -1,0 +1,39 @@
+﻿{
+    "run":  "seo-20261019-114810-879",
+    "started":  "2026-10-19T11:48:44.6157749+02:00",
+    "target":  "http://localhost:8083/",
+    "import_identity":  "existing-local-data-no-import",
+    "private_backup":  "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\private\\migration-lab-20261018\\seo-runs\\seo-20261019-114810-879",
+    "baseline":  "migration/evidence/seo-20261019",
+    "status":  "auditing",
+    "helpers":  [
+                    {
+                        "sha256":  "0C9201710D3BF7B35D4BC0EE96891AE41E2462C4574116BC0F6C2722D0657BBF",
+                        "path":  "scripts/export-seo-catalog.php"
+                    },
+                    {
+                        "sha256":  "57090E461275F5C4CE6550F716D81FFB25B40FF1A25BE355AA4ECE3A42352A21",
+                        "path":  "scripts/apply-migration-seo.php"
+                    },
+                    {
+                        "sha256":  "B71EE1667DBA155D013F70088FE87758C7974021FC3BC846E6166D88BD80F171",
+                        "path":  "scripts/migration-seo-policy.json"
+                    },
+                    {
+                        "sha256":  "9FBA5FCFC9877821A31C6EDC3B505D1A25E8554E96F07AB580472227A850C463",
+                        "path":  "scripts/localize-page-titles.php"
+                    },
+                    {
+                        "sha256":  "3D5BB0E31318BCF1DDD8C30C1A267AD3EB6DE859678D1D3C887E303D2D5FEEA0",
+                        "path":  "scripts/generate-local-sitemaps.php"
+                    },
+                    {
+                        "sha256":  "EA6A7FAB7DE9EA9BCCE65EF8F1E7A8FBCAF84D8CB05F4A982F2869F3F63E0C53",
+                        "path":  "scripts/backup-seo-files.sh"
+                    },
+                    {
+                        "sha256":  "09DCA3551239DE08B98306EDBCAC51C89AB866E5C9EC3E847C42C2228DAECB2D",
+                        "path":  "scripts/clear-local-seo-cache.php"
+                    }
+                ]
+}

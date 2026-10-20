@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap><loc>http://localhost:8083/1_cs_0_sitemap.xml</loc></sitemap>
+<sitemap><loc>http://localhost:8083/1_cs_1_sitemap.xml</loc></sitemap>
+<sitemap><loc>http://localhost:8083/1_sk_0_sitemap.xml</loc></sitemap>
+<sitemap><loc>http://localhost:8083/1_sk_1_sitemap.xml</loc></sitemap>
+<sitemap><loc>http://localhost:8083/1_de_0_sitemap.xml</loc></sitemap>
+<sitemap><loc>http://localhost:8083/1_de_1_sitemap.xml</loc></sitemap>
+</sitemapindex>

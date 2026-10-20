@@ -1,0 +1,38 @@
+{
+    "read_only": true,
+    "sample_ean_was_not_saved": true,
+    "languages": {
+        "cs": {
+            "native_language_prefix": true,
+            "no_empty_query_marker": true,
+            "optional_ean_generated_in_memory": true,
+            "optional_ean_matches_native_route": true,
+            "variant_query_retained": true,
+            "base_url": "http:\/\/localhost:8083\/cs\/damska-tricka\/3-jing-jang-punk-rock-shop.html",
+            "variant_url": "http:\/\/localhost:8083\/cs\/damska-tricka\/3-jing-jang-punk-rock-shop.html?id_product_attribute=22153#\/velikost-xs\/barva-cerna\/druh-damske"
+        },
+        "sk": {
+            "native_language_prefix": true,
+            "no_empty_query_marker": true,
+            "optional_ean_generated_in_memory": true,
+            "optional_ean_matches_native_route": true,
+            "variant_query_retained": true,
+            "base_url": "http:\/\/localhost:8083\/sk\/damska-tricka\/3-jing-jang.html",
+            "variant_url": "http:\/\/localhost:8083\/sk\/damska-tricka\/3-jing-jang.html?id_product_attribute=22153#\/velikost-xs\/barva-cerna\/druh-damske"
+        },
+        "de": {
+            "native_language_prefix": true,
+            "no_empty_query_marker": true,
+            "optional_ean_generated_in_memory": true,
+            "optional_ean_matches_native_route": true,
+            "variant_query_retained": true,
+            "base_url": "http:\/\/localhost:8083\/de\/damska-tricka\/3-jing-jang-punk-rock-shop.html",
+            "variant_url": "http:\/\/localhost:8083\/de\/damska-tricka\/3-jing-jang-punk-rock-shop.html?id_product_attribute=22153#\/velikost-xs\/barva-cerna\/druh-damske"
+        }
+    },
+    "module_sha256": "59c4a251393878d742a57f270caffbd2497dfe2fef88dafee228f5f6fac719fe",
+    "link_override_sha256": "ddb17779faca69acfc3b0b2a0c98420baaf897ad295ceae000970936fa684001",
+    "confirmation_registration_block_removed": true,
+    "confirmation_template_sha256": "8b711b590dd27fb69d7396cde2b0514558a0aed2a56a7202e49e2cd8124e8ba4",
+    "passed": true
+}

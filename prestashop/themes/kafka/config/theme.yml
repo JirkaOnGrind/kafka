@@ -1,0 +1,8 @@
+parent: hummingbird
+name: kafka
+display_name: Kafka Monster
+version: 0.2.0
+author:
+  name: Kafka Monster
+assets:
+  use_parent_assets: true

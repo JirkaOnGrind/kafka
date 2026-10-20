@@ -1,0 +1,8 @@
+{
+  "no_server_or_transport_errors": true,
+  "no_redirect_loops_or_extra_chains": true,
+  "catalog_metadata_unchanged": true,
+  "all_automated_checks_passed": true,
+  "browser_passed": true,
+  "all_baseline_files_byte_identical_in_git": true
+}

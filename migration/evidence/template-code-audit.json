@@ -1,0 +1,2027 @@
+{
+  "observed_at_utc": "2026-10-08T23:29:10.673133+00:00",
+  "scope": "Selected template/theme code; no customer uploads, logs or images",
+  "groups": {
+    "pdf/": {
+      "identical": 38,
+      "newline_only": 0,
+      "different": [],
+      "pending": [],
+      "unstable": [],
+      "additional": []
+    },
+    "themes/default-bootstrap/": {
+      "identical": 543,
+      "newline_only": 0,
+      "different": [],
+      "pending": [],
+      "unstable": [],
+      "additional": [
+        {
+          "path": "themes/default-bootstrap/lang/cs.php",
+          "stable_available": true,
+          "sha256": "a8a47814cb332842419364181938096482342c2c040e576292bf4de431449315"
+        },
+        {
+          "path": "themes/default-bootstrap/lang/de.php",
+          "stable_available": true,
+          "sha256": "b199a7d03d9ac55e2a4adfd956d20c3a34056912896bc9aa5c4dbe5835217f0e"
+        },
+        {
+          "path": "themes/default-bootstrap/lang/sk.php",
+          "stable_available": true,
+          "sha256": "6b155528319a31bf1f59b12cfe0d64c5ad33c70f7a8222d12131494da8637426"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/account.html",
+          "stable_available": true,
+          "sha256": "4da974b45f2624be917da44e9d89183fc0fd420660f0852534368514859edb67"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/account.txt",
+          "stable_available": true,
+          "sha256": "8b5e88618ba44755e99d437e24bf6d0757f2274aef4f5e646073051f4ba27049"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/backoffice_order.html",
+          "stable_available": true,
+          "sha256": "d4277567b340d55f33ec90701da2afac640fd4b1b169e000ed67cd34f2657907"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/backoffice_order.txt",
+          "stable_available": true,
+          "sha256": "3ddfc5a782aaf14ad1e7fde84561b8f965213bbbc1f6780ac83083c02b307c34"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/bankwire.html",
+          "stable_available": true,
+          "sha256": "28532d97c2338c4e04e2f2cb6770c1fb2322cc6891b859478bc51648b8db9a75"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/bankwire.txt",
+          "stable_available": true,
+          "sha256": "701012e42d8d6192ea3bb0d07d6288caa4558b1e2f5e104558e19656d6f77dcf"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/cheque.html",
+          "stable_available": true,
+          "sha256": "dbeac6edaa81549b947c0cf611fc9416bb7f1ed3b869cb91eccb374bd1d464d0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/cheque.txt",
+          "stable_available": true,
+          "sha256": "8de564bc8c8524663938b4bd8a430d29e69df01135e540ae4c5f39a23fd8229c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/contact.html",
+          "stable_available": true,
+          "sha256": "e56ee549e33408ef4818180b4b85d864880ac4e1b6ed4a493d8a77f9f737f93b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/contact.txt",
+          "stable_available": true,
+          "sha256": "7536c78258a8bd084813e2444d3d8de9bf8d8a29c3d0ca05366ca5a4414ce614"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/contact_form.html",
+          "stable_available": true,
+          "sha256": "b62cdb7505889022b4d10aabb3e298e532abe71735fa615407aafc9106b8926a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/contact_form.txt",
+          "stable_available": true,
+          "sha256": "6be653bf91c7ad7d98e4ced879370cbf7eab903d3512dda2ab5320a76618107f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/credit_slip.html",
+          "stable_available": true,
+          "sha256": "4448b978ffea9a7bc7d3892a6b07d25e06b97c1b560ad3b8b0fd0fe3b6a69b80"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/credit_slip.txt",
+          "stable_available": true,
+          "sha256": "e154255f55b7ae28d45f871a2a184ac83cf98bdd15cc0621946d0f301c82aab2"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/download-product.tpl",
+          "stable_available": true,
+          "sha256": "df5628f494475ba9372e74e6c7eaf73ffec3f6ad255098888302dea5a2ebbbc7"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/download_product.html",
+          "stable_available": true,
+          "sha256": "86953a6b9728f9d29235e5028f48ed0ccf16486c35c485f07c53906dc96cb3a3"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/download_product.txt",
+          "stable_available": true,
+          "sha256": "d66a4813aab2fc83b3ffe7a2ccc3646f1fd000708e86b75971c37fb232c4d0d5"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/employee_password.html",
+          "stable_available": true,
+          "sha256": "6360f86d8dc2c491033833a2e888f497e6f9207d26c23776949cecaf55eddc6b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/employee_password.txt",
+          "stable_available": true,
+          "sha256": "df2612da7cec5e8e92df403e4f95546fb1621fa22621ef5fe20ad40faa1c04b6"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/footer.html",
+          "stable_available": true,
+          "sha256": "b3e4659367dff35b808aa576787b7fcd16b5da9ec48a389d9f500c9b0817d348"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/footer.txt",
+          "stable_available": true,
+          "sha256": "18d4b592d20911fadcf27c671a0bd9e9d6460e7bad85ea68eebff3c08702c1af"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/forward_msg.html",
+          "stable_available": true,
+          "sha256": "4ee43bb10e03a53ea0564ae68e3ff244017ec393578c06dd2d1bbb9b1ea6538f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/forward_msg.txt",
+          "stable_available": true,
+          "sha256": "02535dced953a848616c74d3ad471169b6661facf4b5dd281a5bb509afb9d587"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/guest_to_customer.html",
+          "stable_available": true,
+          "sha256": "10f46716b83646aecc0bbd0809de56623cc046a6bce8e5f8b68a60b0f1960b08"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/guest_to_customer.txt",
+          "stable_available": true,
+          "sha256": "748c329076b13ec4562f9c42cad99d7244790e0c4f099adbb2845b7ec4d83468"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/header.html",
+          "stable_available": true,
+          "sha256": "abe6b3af51c942581dc41d7c448ac8db1b71a7c990039872148eda11d7d9664b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/header.txt",
+          "stable_available": true,
+          "sha256": "a7c7c32aedd33fc590083076993a41dd9e60dae9ae549e368f8bdf7bf71c082b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/header_order_conf.html",
+          "stable_available": true,
+          "sha256": "5e8520b55ddf4157c92db55b24d47ecb3959f48b4706a41c46264c74f7089df2"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/header_order_conf.txt",
+          "stable_available": true,
+          "sha256": "a7c7c32aedd33fc590083076993a41dd9e60dae9ae549e368f8bdf7bf71c082b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/in_transit.html",
+          "stable_available": true,
+          "sha256": "5392d7e91efbc6222c1d4cc7340fe5395868fdf9294833bb7954e665c89aa527"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/in_transit.txt",
+          "stable_available": true,
+          "sha256": "e98d0833e2e8193c03113e04c77da4ea44c458af43a6de45c9b6015a48430710"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/lang.php",
+          "stable_available": true,
+          "sha256": "6a048e1c6e71bdc59c64cb4a10f33ae0ac287784410ac04f584f19704e21f503"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/log_alert.html",
+          "stable_available": true,
+          "sha256": "05857159ea849fd87c5aeb8a809051dbdf834d04c62aa93d2b85755fff9cf4ea"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/log_alert.txt",
+          "stable_available": true,
+          "sha256": "fa2e5a263e0979bd7c226ed9eebcaae75ec55d9daa012db36cda7f31faac05d4"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/newsletter.html",
+          "stable_available": true,
+          "sha256": "6aeab15848f0429b66ba66e61d2fd2a72b6a29518553e1a59aa0efdd5a0f8819"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/newsletter.txt",
+          "stable_available": true,
+          "sha256": "db0a5c9f20c9ed1df7a3a2d934612209e14e31b7cc1a79b9da885dc245f81786"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_canceled.html",
+          "stable_available": true,
+          "sha256": "bdae3079471e55bf48513b1fec503f6d9e23b700915b77811584438047b44755"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_canceled.txt",
+          "stable_available": true,
+          "sha256": "8cd52fccd29057f829586dd70b96a87dccc9ae6a650f7959eceab9e9a486b439"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_changed.html",
+          "stable_available": true,
+          "sha256": "017d0e0b3b15d9da62d699a66cfe0bf211d05fde72acd035c83c51c2799387e8"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_changed.txt",
+          "stable_available": true,
+          "sha256": "57ab49dd4de1fffb1161a529bcc808d1f8a7807746c5db1503beada2cc8addcf"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_conf.html",
+          "stable_available": true,
+          "sha256": "ed67714d7d9a875c830008dd59cd4c8d70fc90a5e7cb5657c04ebb0a1621c5f0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_conf.txt",
+          "stable_available": true,
+          "sha256": "3998de1634b7f414bfe32cac2b2bf0d83f423528274919d09650ce4dc14844fe"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_conf_cart_rules.tpl",
+          "stable_available": true,
+          "sha256": "1de0beb7a04d9d425e4d882db2d4873c54a698080f15495aca9c1b3ce22a6713"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_conf_cart_rules.txt",
+          "stable_available": true,
+          "sha256": "3460dbe5f21f80bfa99b9776d11d5d8168cb34b3baf03d364cea4f63cd007d19"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_conf_product_list.tpl",
+          "stable_available": true,
+          "sha256": "cb8977a9f7fbd5c1488cecee4fbb4fdd5eb8f7299d816f193e6779f94e4e9bc1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_conf_product_list.txt",
+          "stable_available": true,
+          "sha256": "6e8137a53defdf99074f98cb8226e2cdbd0b9774e256aa80cfc8c3da05ab603f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_customer_comment.html",
+          "stable_available": true,
+          "sha256": "9f41d63d886118b87fac9ef2a08a84c2a569e09ffbe654897524da0ba44771f6"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_customer_comment.txt",
+          "stable_available": true,
+          "sha256": "f8c6570a8df53ecb8d153121f53dd2133f670616b3176b312dd6585ef50f0d32"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_merchant_comment.html",
+          "stable_available": true,
+          "sha256": "eb0959e8236bf72325c24951cd16f0caa0326684e217ec7f52dc63389e6dd8f9"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_merchant_comment.txt",
+          "stable_available": true,
+          "sha256": "1b13c0bd7bdbfc73b7381f36dbb5f160e0f3308cd1b47fd2be6cd556d800fb94"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_return_state.html",
+          "stable_available": true,
+          "sha256": "c59194c3fd83d862023301d1b9e891e63d7370a871599dbece55782c95e9986d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/order_return_state.txt",
+          "stable_available": true,
+          "sha256": "4a8b4f0a3287cc3d39b6701f1c6c037ee3532c5d2df5ab02d96c871b29d2a910"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/outofstock.html",
+          "stable_available": true,
+          "sha256": "df7303373615213c3e4e0d6ea5c08e701cb18ac6ea406ab445ac1ce52a61708b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/outofstock.txt",
+          "stable_available": true,
+          "sha256": "7afe27851be8181ad32f199246e2c38a52b38d234c7441986576282386f5f770"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/password.html",
+          "stable_available": true,
+          "sha256": "8a7996bf392c8a537c4aa2a888fb5f6b5e5fe6d6ecc190ee07a0c2b0ed3bd6b9"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/password.txt",
+          "stable_available": true,
+          "sha256": "ca39025603c58db3c8ece28952838d92ca37052dc12f6ecfdfedebe3cd73e28f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/password_query.html",
+          "stable_available": true,
+          "sha256": "6c366c6c4c9972e27e30ad7f4e228950d4733ee1d47d1cf9b137da9cd1b5d6f1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/password_query.txt",
+          "stable_available": true,
+          "sha256": "6ec68e2d65d96f401bad6a98d9c0a6b03e9d5d3971ce9ebf6cad89acc2718b42"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/payment.html",
+          "stable_available": true,
+          "sha256": "1193e99de89a5187b947f09cf919e0260718429d5b4a6a037d7161183a28738d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/payment.txt",
+          "stable_available": true,
+          "sha256": "42935ceeb545d13d2e758bf0806794bc5f632dbbb9129710fbacb36def188e2e"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/payment_error.html",
+          "stable_available": true,
+          "sha256": "e348149da7f3d07232155f2128042a97014ab276f4a5ab71a9b11d25976c117c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/payment_error.txt",
+          "stable_available": true,
+          "sha256": "e7e1f842bf61981373de72732bd9d4412d746baa33b57b84a1c76a2eba81c613"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/preparation.html",
+          "stable_available": true,
+          "sha256": "6bfb22023e5db40d1e98426ca9dfda2f9d853fee9d6cdc6ed2c45debef218243"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/preparation.txt",
+          "stable_available": true,
+          "sha256": "695f233b7e892d11f66a00c03cd107f53b92651e7d1ab96b5b79004b84e2ac09"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/refund.html",
+          "stable_available": true,
+          "sha256": "9342177e6423d2150734d7afb91707fcd5ec70a631145e1e74de243fe0e0aab8"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/refund.txt",
+          "stable_available": true,
+          "sha256": "5659913c5279d0619075c9fe6d1cdbc1fb2e37a8909524d46a39a0c235895c2d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/reply_msg.html",
+          "stable_available": true,
+          "sha256": "54a88ac05d170778b0db6bd1152036bd30fabcf6523bca7f8ea8d326846965f6"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/reply_msg.txt",
+          "stable_available": true,
+          "sha256": "a5abd9db5e85dbfe706585dcc1adc2314afae1fc13dcab8fcd378c4b31d87a3d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/shipped.html",
+          "stable_available": true,
+          "sha256": "b6dfd5967b9aad6026f0f77b6dfc489e4e4b8c66a8d5519317c1d01cbcca03cb"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/shipped.txt",
+          "stable_available": true,
+          "sha256": "896b0bd1cce6c694c946318ecf1e06cd2bfb502b5ea0e0951b459534fdd11d6c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/test.html",
+          "stable_available": true,
+          "sha256": "5ba62ba735a0887ba32d902a4d9b452c895aefefac228c5edaed44b4014ab282"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/test.txt",
+          "stable_available": true,
+          "sha256": "ce997a62ecce64c814710a0a780b8fda74189d5391dd2263d1b35627c7f7417c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/voucher.html",
+          "stable_available": true,
+          "sha256": "b0b82e7bc8af801c5efc2f7189b504ad3c15c38585629a74d44ddfdc2c82ebb9"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/voucher.txt",
+          "stable_available": true,
+          "sha256": "9f33e54f95b7897a420116107f5c50d1a11636c99818b5f717235c9b25cb8faf"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/voucher_new.html",
+          "stable_available": true,
+          "sha256": "f361cc86fce436986eccc7db7aa439f55c8e9b0233d12c8774058e530aa4513b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/cs/voucher_new.txt",
+          "stable_available": true,
+          "sha256": "feb10a98ccfb61cba3e2a405e2702afc016c8e8782a0cfd778945270b3a9644c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/account.html",
+          "stable_available": true,
+          "sha256": "c3fe84977c7b34ee68fe4dacc7aac70d465adde3fe5aff34c9a36fe2581730ab"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/account.txt",
+          "stable_available": true,
+          "sha256": "b6e20c217a24e1965b80e17df1883eb0f47af5343836b377cd5e843ac1a0f775"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/backoffice_order.html",
+          "stable_available": true,
+          "sha256": "a65e13f7316d8eddcf132c9c0c9a35b54d38c14bf97ba18ab4feded55c48fbae"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/backoffice_order.txt",
+          "stable_available": true,
+          "sha256": "99f770ad8286c4d00d00c3311eff32b8c88a1d892fe1d35f01d6cc66ab5280f1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/bankwire.html",
+          "stable_available": true,
+          "sha256": "5299329ba146a2511f2e76294288ad1a705809a97ed2c1806e81a94133bf6e53"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/bankwire.txt",
+          "stable_available": true,
+          "sha256": "b2749b3b558343f39cacb85410f01d1f2e3d408683ae6c8a5b9740668f4c5b78"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/cheque.html",
+          "stable_available": true,
+          "sha256": "05d00709b3b0fb5ff1fcd2212864563422215e782191e64f7da3a05adf9c9a4e"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/cheque.txt",
+          "stable_available": true,
+          "sha256": "8091f1a52db36829e22b50c2db730a32a840a6e7271b08868e6c25df87519322"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/contact.html",
+          "stable_available": true,
+          "sha256": "da123778455bed8c6bb6cf9873023b1c353b18f5bb0873e3741c49ffbf328894"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/contact.txt",
+          "stable_available": true,
+          "sha256": "f2d5863db10b8d916ae68ff9162fb8c45045b079c291e80b268bdc1418b66cc5"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/contact_form.html",
+          "stable_available": true,
+          "sha256": "ad53db576247d43f6fa6306716d2b74b2da274d3482af4a264a699f4d980ff6a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/contact_form.txt",
+          "stable_available": true,
+          "sha256": "0299444a6520609736ee84285ffcb65f08e7d4a00b0453ec1c325ffcb2aa7751"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/credit_slip.html",
+          "stable_available": true,
+          "sha256": "e659fc84c1040f08c3f72bb88038d4ddcb3e3d78d05f90336e65e5b4877e636c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/credit_slip.txt",
+          "stable_available": true,
+          "sha256": "06bea5a0e021f8591625ab0c2c679daef3b0775ac06c25dd61f340add99cf238"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/download_product.html",
+          "stable_available": true,
+          "sha256": "f476675b61a183e3373f314700fde4426d3a5de2edefd35ee661ca000bb9df76"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/download_product.txt",
+          "stable_available": true,
+          "sha256": "079796257712813bbb85146ac530839391f5f3f7be80c3180aef09d0c7cdf820"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/employee_password.html",
+          "stable_available": true,
+          "sha256": "75a483c63a486ea3aea17eaacf806eeed78eba44dbf0b4442beae03e3b528782"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/employee_password.txt",
+          "stable_available": true,
+          "sha256": "fe2274d1e06ffcbb38c9da41c36ee38a8644e2963eee9326c4cfc9876f5fb003"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/footer.html",
+          "stable_available": true,
+          "sha256": "1b5b373d7e0004035382acc010a0fd2cd18e17ec737989915b43945b09eef3a2"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/footer.txt",
+          "stable_available": true,
+          "sha256": "4b8e616342781631c5fed22728e52480a888f084942b31046d777ecc4617cd48"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/forward_msg.html",
+          "stable_available": true,
+          "sha256": "4c2bc64e9eb631dbcf6b71a4e8b1080b85cd2649a32b09445130fd3ca6f034e1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/forward_msg.txt",
+          "stable_available": true,
+          "sha256": "cfbb4b1a734b741acf47727396c1f24cd60b7a4da0922b2e1d4861911de01af2"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/guest_to_customer.html",
+          "stable_available": true,
+          "sha256": "d6f7c7527a893001465d9989a65cf11727401142d0ad1c3c94ea66664e30b7ce"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/guest_to_customer.txt",
+          "stable_available": true,
+          "sha256": "69cb5a259792bc181313529e9b46d761920b12b6175c4d25039b399ea89ad06c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/header.html",
+          "stable_available": true,
+          "sha256": "0682a19f392160e5864779528851835513f9fe12746e4086b6c61dfb6239b7e5"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/header.txt",
+          "stable_available": true,
+          "sha256": "23b8a5feee97f226a551e0735a6c78071b248ea99b543f3bf03ee16a223af0e0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/header_order_conf.html",
+          "stable_available": true,
+          "sha256": "d29b740b1941008c5f636446fdaa2c6f92e30053a4623540ee06cb8917eff39a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/header_order_conf.txt",
+          "stable_available": true,
+          "sha256": "23b8a5feee97f226a551e0735a6c78071b248ea99b543f3bf03ee16a223af0e0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/in_transit.html",
+          "stable_available": true,
+          "sha256": "ab0eb67ba56db6350e241bb32122a081d750373fbe00455dbfa45f93756abcc2"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/in_transit.txt",
+          "stable_available": true,
+          "sha256": "c3d5c7f5211cd18f2719f9f23f28fba3d2ba9a408ac6da4f27e7c15d4572b516"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/lang.php",
+          "stable_available": true,
+          "sha256": "3ffa93ac57051acf5075f7470113518d0f359f5a34861a1c4c74d0fb5d6a5622"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/log_alert.html",
+          "stable_available": true,
+          "sha256": "bf2aef11e16004f633e5a977aad14ead6b7f236ea8e3e25cd463589227754ef7"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/log_alert.txt",
+          "stable_available": true,
+          "sha256": "787e0ca75fed627a746ebd30439153c8fb77672ad1408e6414797b737863b2e0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/newsletter.html",
+          "stable_available": true,
+          "sha256": "b50f15685757070b841e14ea16ff761184337de5122dfb10a259f5ba6255e6a1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/newsletter.txt",
+          "stable_available": true,
+          "sha256": "5fe588188955f95ed07cf541f5858e3bb75dfa3fb1c95b6b9362d5d3e59d3f42"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_canceled.html",
+          "stable_available": true,
+          "sha256": "e0d6f89c86cd1ae464201a58361bc0f8b82ec77fbec10a8109f1990dd0951f2f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_canceled.txt",
+          "stable_available": true,
+          "sha256": "449b8afb4f55ba4a6e9f02bcf44b2891812e2c5cd962d76c037d5e1595fe5db0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_changed.html",
+          "stable_available": true,
+          "sha256": "93ae3215c73c46d615f78576447895a3f77a255185e721beaebea38865c304a5"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_changed.txt",
+          "stable_available": true,
+          "sha256": "9ac0b7a361678049a3d90e3ebae1978e8c4596be0088270204d4378480d4cca4"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_conf.html",
+          "stable_available": true,
+          "sha256": "0b52f8a9df844a0b27fd3e27e58f4454b509c1df42cd984d6d267cd25bd1d79e"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_conf.txt",
+          "stable_available": true,
+          "sha256": "2b0049f826ad8df5862ee11f495be05c830323be7bfcd8db75cd30071f1b5d92"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_conf_cart_rules.txt",
+          "stable_available": true,
+          "sha256": "7979d7f43e944c589b1c31a48405cc745c0c118bccd5b3b83bc3e588aa5cbd47"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_conf_product_list.txt",
+          "stable_available": true,
+          "sha256": "26f0fd9609e222b58679d947a3f63ccc075c06948b06a4915518e71c91ef217a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_customer_comment.html",
+          "stable_available": true,
+          "sha256": "f0d0afdce7497833f4c5fd157c078451fa7ec47b154536a109877922c7dd7f06"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_customer_comment.txt",
+          "stable_available": true,
+          "sha256": "0c5c5b1e771d52e8a9bc3c1f1dad67b9b1468c0e16767c84ee944ad0c5ac2535"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_merchant_comment.html",
+          "stable_available": true,
+          "sha256": "d7281a18be033ec11a37fc100f74a589397ece1ce2b75a821aa9cdfe9a0eff95"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_merchant_comment.txt",
+          "stable_available": true,
+          "sha256": "c7d44ea89b32816ffc889124ede0ce6430c69ad03dfbbc523a707496b0ab7d65"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_return_state.html",
+          "stable_available": true,
+          "sha256": "3e6d573d71e9f9ae1e0187b05363c1b972a416aa781511aa3b9eb97fdf983528"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/order_return_state.txt",
+          "stable_available": true,
+          "sha256": "3f55d9f3466df1bf05830f779bc2a4fd2f69b40af635f560ea370696cb09fcdc"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/outofstock.html",
+          "stable_available": true,
+          "sha256": "43b8bd096cd343abea4f8005a418781e396eb86d0e3df43222dd2c1d860f5156"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/outofstock.txt",
+          "stable_available": true,
+          "sha256": "2cf404efd101dbdc6b9652eb116728d52c427dee4d633e816710e5263de8c2ef"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/password.html",
+          "stable_available": true,
+          "sha256": "96dcd5de2aae451a9d70a81e13bd7bbc793412b672ce76dc956dee7e2b8d716f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/password.txt",
+          "stable_available": true,
+          "sha256": "773411038db25b659ba24aa19b683428b11811f89cde2751542337fc700d494f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/password_query.html",
+          "stable_available": true,
+          "sha256": "20e65a8ad39503a8f3707c35afa9727aa2a10cb8b06407d1b02d5956fcd85fb3"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/password_query.txt",
+          "stable_available": true,
+          "sha256": "c39db6a043693af6423d77433b69e996487096ac52e808c25fbd388fa4b30096"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/payment.html",
+          "stable_available": true,
+          "sha256": "b3430f47e420e300c198d77b6a5c325424b98e5d98c7d454f7d083ec531ebac3"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/payment.txt",
+          "stable_available": true,
+          "sha256": "4705bc921d7ce9d1b0e37cb9f11f510c1f50204a3a7936703228c0b760d3bbf9"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/payment_error.html",
+          "stable_available": true,
+          "sha256": "17834b7fd44e7e30218bde30db5503d302086f55dbc59dd1466a5f85b472a739"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/payment_error.txt",
+          "stable_available": true,
+          "sha256": "05041e31869f03fa69587d9782435ba7b4c1b1e83cbd80c494d1db9ae080d335"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/preparation.html",
+          "stable_available": true,
+          "sha256": "71eddbeb3691c9d5de98c82621899f0ed5527e37d3e4242b0189e3480b387f95"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/preparation.txt",
+          "stable_available": true,
+          "sha256": "2629166b2b22b29f68a649cfed68eb6fbe2d70d88447ac380c983b3476e76a01"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/refund.html",
+          "stable_available": true,
+          "sha256": "f68b9e57061a9cb580b92528939060ad1d24e655d6150df4adfcd87e046caaf0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/refund.txt",
+          "stable_available": true,
+          "sha256": "3528af62e8f89fdac1b552ddb72fd1e98105e0767929f15216b549ae31b77bd4"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/reply_msg.html",
+          "stable_available": true,
+          "sha256": "e6d3e910fdb6d359ea9b71fbd69513d06e84e0680bf652b055ba8dac971808f4"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/reply_msg.txt",
+          "stable_available": true,
+          "sha256": "b7083a82bc54cf5a069d94833aedee1ebbaafd56ac27d6d278738daf674647a8"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/shipped.html",
+          "stable_available": true,
+          "sha256": "aa15ba0094029a674d00d6a70f712a05e3f31f4fd18bb1626a6aaaf0e207673d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/shipped.txt",
+          "stable_available": true,
+          "sha256": "5b49a11f13407a755f77ff69239beb81aff96b923fdb3299a31982632cbf32fb"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/test.html",
+          "stable_available": true,
+          "sha256": "0265cd7d753cfb50576ee6744a1181783d5b7919f8a02ea5f62d1bb33fb1afec"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/test.txt",
+          "stable_available": true,
+          "sha256": "e67c30d3983c79ccb63096adb38f89108082d8593bffa34dec9b7d79e217f55c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/voucher.html",
+          "stable_available": true,
+          "sha256": "660c8712c4cb4e416506bc971304ae6815d03ae98229bd24d1bd6843f16c3a32"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/voucher.txt",
+          "stable_available": true,
+          "sha256": "172c67431187ca35937623b2efe78121e59a3998c9f051633088f07d8efe89f3"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/voucher_new.html",
+          "stable_available": true,
+          "sha256": "d636d9a91dc6a7499dd2b7466657e285fb4a4baa0cbdf35e7a492903424c39ec"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/en/voucher_new.txt",
+          "stable_available": true,
+          "sha256": "4be8cd37299e50bed37c1bd8297b47c57e957de6e7d3abcc624a85f6653feaa3"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/account.html",
+          "stable_available": true,
+          "sha256": "dcc1d45998caacfda473067525e4fba8b34e9fd6d7653d94d0b1f8d9bc59295b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/account.txt",
+          "stable_available": true,
+          "sha256": "759b3d87a0a80b0ee3a57ed795464d4bd56fb20cf112b447f362a9811187d935"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/backoffice_order.html",
+          "stable_available": true,
+          "sha256": "6b827bc1bd211c8b28819876f48def0433b3e6a967371dc940e419e6c3d8b410"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/backoffice_order.txt",
+          "stable_available": true,
+          "sha256": "5058e63750586db60671df45bf93775177310c6be502bb163feb7ce7f00b6a5c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/bankwire.html",
+          "stable_available": true,
+          "sha256": "229a02df53acf46e6e1c8080402ea9b751d4e8b83fe39caf472dc92d4cfd9054"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/bankwire.txt",
+          "stable_available": true,
+          "sha256": "a69dad3e674dfab1db0b02146c981c1a65c76b5834464a27c001d006f5190fed"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/cheque.html",
+          "stable_available": true,
+          "sha256": "a07eff362e9a2c3a337c5e5f77db05038320dff759948fa58308ebe15d3b74f7"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/cheque.txt",
+          "stable_available": true,
+          "sha256": "dafa8fe77e6302e29a28202847feaa246133b3bacc237581a31c90a48d115b53"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/contact.html",
+          "stable_available": true,
+          "sha256": "5e4edd38c12e0545a9987f5ebd4b2cf47b6ed7df2ea82de9eb0cb753e9b89dd6"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/contact.txt",
+          "stable_available": true,
+          "sha256": "43cd6a438d36691cad8a8918e19f3a75b47a0f5d96b449d703d0ea3deb825739"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/contact_form.html",
+          "stable_available": true,
+          "sha256": "1d10f0fc2765534b6526fc2bb6cf6db127c4ef9e984c3b353a74f9759fee3de0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/contact_form.txt",
+          "stable_available": true,
+          "sha256": "d9183de443d75b4a4dc00b3b433d505dc3e1f2a02b4ebae0012051e0564f19db"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/credit_slip.html",
+          "stable_available": true,
+          "sha256": "a965b3f135d578beed25a25bcbc846b44a0e6894cd9bb3346f1a2f37020643df"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/credit_slip.txt",
+          "stable_available": true,
+          "sha256": "958c6ccbf72c4f756f898d3eb69dfe04b027934f6c1b4db1d580728770e23978"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/download-product.tpl",
+          "stable_available": true,
+          "sha256": "df5628f494475ba9372e74e6c7eaf73ffec3f6ad255098888302dea5a2ebbbc7"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/download_product.html",
+          "stable_available": true,
+          "sha256": "89b009e2c9d7dc4a384327bf73997ed9b9385b8a8d99311e7b44230a8f124b4a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/download_product.txt",
+          "stable_available": true,
+          "sha256": "28f0b909c7e7a267781191c1654e25ee54c03ba7c132550709d8c77c5b219eb7"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/employee_password.html",
+          "stable_available": true,
+          "sha256": "b1815bdf4b6698c5100a03cfae436fb56568e57110c8719d2a335daf1d360fc5"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/employee_password.txt",
+          "stable_available": true,
+          "sha256": "d768e6a4d5ea03a494ebfb8b60dbbe5b6739c6355f641f5571efa45ffdaec63b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/footer.html",
+          "stable_available": true,
+          "sha256": "1b5b373d7e0004035382acc010a0fd2cd18e17ec737989915b43945b09eef3a2"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/footer.txt",
+          "stable_available": true,
+          "sha256": "c9c8557131ec265e852152581db8a0d2847298a8c7208b52f83eb925e7f96d24"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/forward_msg.html",
+          "stable_available": true,
+          "sha256": "8e841fd410949409b5815c2323d5bfa314166e0a601c2964110fced26f05a78a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/forward_msg.txt",
+          "stable_available": true,
+          "sha256": "394b296f488fd3e3ef4c06c63bef9af934f9a1f9393435ea7ddfa452df2c5166"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/guest_to_customer.html",
+          "stable_available": true,
+          "sha256": "1fe9e68d1a44e63091e5340f17f80892d95c3c8e2e3a68cdff09b00c2304c139"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/guest_to_customer.txt",
+          "stable_available": true,
+          "sha256": "f4893571a7ce49cb1c058a8a6ed39d543c40c397ee8ca1d0d83a865e31f881bd"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/header.html",
+          "stable_available": true,
+          "sha256": "8d85a770f2e1898620eef3e3def337b06403e08d11f47d27d7031e69b69def75"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/header.txt",
+          "stable_available": true,
+          "sha256": "a7c7c32aedd33fc590083076993a41dd9e60dae9ae549e368f8bdf7bf71c082b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/header_order_conf.html",
+          "stable_available": true,
+          "sha256": "f862130acffc6dfb1dd11f9f92e3840495369473e4f894669bd0a63342b79ad1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/header_order_conf.txt",
+          "stable_available": true,
+          "sha256": "a7c7c32aedd33fc590083076993a41dd9e60dae9ae549e368f8bdf7bf71c082b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/in_transit.html",
+          "stable_available": true,
+          "sha256": "ed5f2ab3de99f384da3a42a397699d14678036567f348b8b74f8cd9fb9d1812d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/in_transit.txt",
+          "stable_available": true,
+          "sha256": "06e948928acfd249d7162d28c55bb6c4a0619eede7cfd26fe28357e923ea4d26"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/lang.php",
+          "stable_available": true,
+          "sha256": "894c3b076b3441e026807488c515548e49526eabdab98b102483ecd710620eba"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/log_alert.html",
+          "stable_available": true,
+          "sha256": "5cd4728f4ba6b350a6f46b0187d8500b0c275217be4baba4daef4336b0e8f3b6"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/log_alert.txt",
+          "stable_available": true,
+          "sha256": "237c08f854cfb7c67c66a14a8cb53bab4e9543153b6b32b4b20fac5d768bb458"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/newsletter.html",
+          "stable_available": true,
+          "sha256": "dcf3c2e65c6a98866540dbd2917b379ffc8c81bcdfc84c73a9dd7829d1b0abd3"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/newsletter.txt",
+          "stable_available": true,
+          "sha256": "bbc8318d915eaff15e946189657bbef98464c54a7bedfb493dc90852fdf53608"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_canceled.html",
+          "stable_available": true,
+          "sha256": "5aaa8457a439aec8193ab6880ec11fecd4a6e0348f623c458cc8b4673dd9d8ec"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_canceled.txt",
+          "stable_available": true,
+          "sha256": "c5e6d663bea2847d421d54e1fcfa49bf984dccd168ecbaff29e13331cf054a24"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_changed.html",
+          "stable_available": true,
+          "sha256": "e033e9e965219293f973fefe28527f7ec2e665b28a2758882dd9257b6313e422"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_changed.txt",
+          "stable_available": true,
+          "sha256": "d31d6604da9afc84d294d533f8dc19ffb9305b7802623ea54cc838e6345c9113"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_conf.html",
+          "stable_available": true,
+          "sha256": "f2430cf2eb039ffd69ea5e908f545ebcba0a1da90102f797118537a08192796f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_conf.txt",
+          "stable_available": true,
+          "sha256": "462c4ba84c4e6a84114ad2b2e0bf42f20b4a5eeede1ed4f9702bd6b419a55519"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_conf_cart_rules.tpl",
+          "stable_available": true,
+          "sha256": "1de0beb7a04d9d425e4d882db2d4873c54a698080f15495aca9c1b3ce22a6713"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_conf_cart_rules.txt",
+          "stable_available": true,
+          "sha256": "3460dbe5f21f80bfa99b9776d11d5d8168cb34b3baf03d364cea4f63cd007d19"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_conf_product_list.tpl",
+          "stable_available": true,
+          "sha256": "cb8977a9f7fbd5c1488cecee4fbb4fdd5eb8f7299d816f193e6779f94e4e9bc1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_conf_product_list.txt",
+          "stable_available": true,
+          "sha256": "6e8137a53defdf99074f98cb8226e2cdbd0b9774e256aa80cfc8c3da05ab603f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_customer_comment.html",
+          "stable_available": true,
+          "sha256": "ca57824d66a4a0ca02d2fb6a32ebd0155fcf7770e46f9cf9749409f48d6fc50b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_customer_comment.txt",
+          "stable_available": true,
+          "sha256": "091ca7edf1f1b5b5209031e42b47a226e574d4a6a45407b937e58208be002312"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_merchant_comment.html",
+          "stable_available": true,
+          "sha256": "f1aa55a9ea02e13c0807f529fec6e396faba6dc7ae383b08ec8524b8a75859e8"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_merchant_comment.txt",
+          "stable_available": true,
+          "sha256": "92e948a9525119a2eee85b7d1f837b596a4b0c65f0e78c01caa343d46ee0e20d"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_return_state.html",
+          "stable_available": true,
+          "sha256": "89b3ce41ba7c0c14a3ce2002ee66755621bc105002b81003751127ba8363a950"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/order_return_state.txt",
+          "stable_available": true,
+          "sha256": "6565d623b14b574292afb5e202b51cbf81521f86a5a194206a3bdfd29aa2d6ab"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/outofstock.html",
+          "stable_available": true,
+          "sha256": "27931d679d60672ea55fb985b3abd36be413b4d122d30011811d9441b8898de0"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/outofstock.txt",
+          "stable_available": true,
+          "sha256": "e2377a398c53772505d39c983e163700bcb8c623e7509fe8b029e73ef042cddd"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/password.html",
+          "stable_available": true,
+          "sha256": "61047bec04eeb980cb2adaee9a150edf48dc3b1bc8275dcc21da13c9fdfd8b76"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/password.txt",
+          "stable_available": true,
+          "sha256": "01814f15df1575f8b3e5acdd1bf8173728f914b189a94a03eacac8b2a800c62c"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/password_query.html",
+          "stable_available": true,
+          "sha256": "a520becf0ea9a916ab8c8fe8c6dc0eafc7353e0e124e674072b871944e485e58"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/password_query.txt",
+          "stable_available": true,
+          "sha256": "39f5e99ce4496231479251840242744a5e787f39223e1cbfe9f809d29f8b0ac5"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/payment.html",
+          "stable_available": true,
+          "sha256": "2b7e8613c166317e929784e869a62265f03d828d9a87ebb342ddd5ca8b9fbfbd"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/payment.txt",
+          "stable_available": true,
+          "sha256": "20d06090257740f030908dd753a983bfec56b26a3a4c672cec4dfe8291c25fee"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/payment_error.html",
+          "stable_available": true,
+          "sha256": "b50606930799b331e268998a556808a58ef2962c61504bdb4e499dc854681aec"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/payment_error.txt",
+          "stable_available": true,
+          "sha256": "4c3108723fc837eba4b5f5aefe8f3225c0839a44d6bb2db51ced0b7507a3ca84"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/preparation.html",
+          "stable_available": true,
+          "sha256": "6426b1baa141f101bfd62b72d2cb745829a4dd7335c3288a999f897cd703fe5f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/preparation.txt",
+          "stable_available": true,
+          "sha256": "85a50a344d52f140cb8f3b5a90803e04bea7b842a66de51d7329b5995ef140a1"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/refund.html",
+          "stable_available": true,
+          "sha256": "3162c0b34498ca59ae0ac40725e0f50c44f9dcd0168ef30d85a6d5b9661a731a"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/refund.txt",
+          "stable_available": true,
+          "sha256": "2d098efc738b510e872bc091a52a74433dc1625b406edffd2e537fbe3094d1a6"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/reply_msg.html",
+          "stable_available": true,
+          "sha256": "873245e5773cade36aed896098b2de333aba49425cacf2eb5be18ca2a4bdfb69"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/reply_msg.txt",
+          "stable_available": true,
+          "sha256": "b9e92e16d576364f3e6c8c8d3b703389cf4389210e47aa59afe523282d32e0ba"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/shipped.html",
+          "stable_available": true,
+          "sha256": "5fb130b361f16700418e0078cbca11c718b3c3a5e46a5e724c405b81a121ce63"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/shipped.txt",
+          "stable_available": true,
+          "sha256": "96aa960e2e6df93d6f4881df08407a91b544b78db68cbc87822c67fa3c6c3d48"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/test.html",
+          "stable_available": true,
+          "sha256": "d8403b62a3204775d3f259f92cec339c65958555d67ebe8fa629136a9e1c91ea"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/test.txt",
+          "stable_available": true,
+          "sha256": "6efe4b54cba313206eb6b2f815cd94b3f92ede71ac7689160a05b8e886ee2a42"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/voucher.html",
+          "stable_available": true,
+          "sha256": "cfabf15248c6c0c4659a876d9b981a7e1b7d49c1c70d676946ea5602428b366b"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/voucher.txt",
+          "stable_available": true,
+          "sha256": "9039cfaa4fe25334af7283ffaff09623dcfaa672f13e7aae8ba3a6d5aaf9be1f"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/voucher_new.html",
+          "stable_available": true,
+          "sha256": "1c645c643473ef0670f33815b1a793e9d9c38429ca2021b3a1771e901e4a2717"
+        },
+        {
+          "path": "themes/default-bootstrap/mails/sk/voucher_new.txt",
+          "stable_available": true,
+          "sha256": "95b3a1bd86934c4a5119c2ed8ae552b7528cc318b92b264f9d5e61a1e09dc9ed"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/bankwire/translations/cs.php",
+          "stable_available": true,
+          "sha256": "67538bbdd05adc696d535f6b8ba53ce1cc5e0641f5587f008d94af01f53ba29a"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockbanner/translations/cs.php",
+          "stable_available": true,
+          "sha256": "3b330ad7f8d06fce746b864331902ade8e5522eb5335dd33fce836dea3f0db10"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockbestsellers/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e56591f621f90920fca81010908f67125cc3a30a525c38ed185fda2182f27a96"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcart/translations/cs.php",
+          "stable_available": true,
+          "sha256": "1e879ddf79240d0c40daa398cfe729604082662156c3eb6e6eb90f939c068a65"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcategories/translations/cs.php",
+          "stable_available": true,
+          "sha256": "a87a396c31b7e78b8cce8eb32ae38e641203c9cae860a0b11004fc9daf8ca345"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcms/translations/cs.php",
+          "stable_available": true,
+          "sha256": "cdd16aebf9c43d1052babda111d8841bda6bc9965eb1bec63631344a7531c487"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcmsinfo/translations/cs.php",
+          "stable_available": true,
+          "sha256": "937e9021b809a182a35412a45626a9f5b6ab7dd17d16cea151cf48b4f980b529"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcontact/translations/cs.php",
+          "stable_available": true,
+          "sha256": "8cc4068518113b514a1d76bd85659b7cfaf4d426a178cde2bcbd1bb1355baa22"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcontactinfos/translations/cs.php",
+          "stable_available": true,
+          "sha256": "1dee804d4c9dc31937f9d9722853a10f3bf72fbb4bd359a40c04e152adbdef4b"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcurrencies/translations/cs.php",
+          "stable_available": true,
+          "sha256": "f0550d4fb68af85a7361692088521ed823d2201332080f64b43471c403f34b41"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockcustomerprivacy/translations/cs.php",
+          "stable_available": true,
+          "sha256": "0ef864106f59f36f5d26232b8c279c6df1778b60480092f65cbd0597377ef62c"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockfacebook/translations/cs.php",
+          "stable_available": true,
+          "sha256": "2473e5a943d77687e3372451ed454a461947eb50c5482a0d3480d751216180ed"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocklanguages/translations/cs.php",
+          "stable_available": true,
+          "sha256": "f6df673a4f4ffc9397470a67f4cc8a7dbc09c4a05b8947d94d42964d1024fdec"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocklayered/translations/cs.php",
+          "stable_available": true,
+          "sha256": "94b01c9e280302b8b97f88a9d02052c2340d752f35a755f11108a7f16f689596"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockmanufacturer/translations/cs.php",
+          "stable_available": true,
+          "sha256": "b6f5a1928eef577596710ca4e5835123ed08cd73c2929e61f2860dccd16b409c"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockmyaccount/translations/cs.php",
+          "stable_available": true,
+          "sha256": "8f8d9310667145c1c1f0738a6dbfc30a4f32f896a8fa82cf9e43f225a4556e6a"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockmyaccountfooter/translations/cs.php",
+          "stable_available": true,
+          "sha256": "595027fc3b0cb5c3cc7e8a1d9f0e1bc664e681bcf81840e5771a1dd6adc9b3fe"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewproducts/translations/cs.php",
+          "stable_available": true,
+          "sha256": "0edd3143b064c43c969ab031adaafdf40d94911c2d05163f9e15abad5c5dfeb8"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/translations/cs.php",
+          "stable_available": true,
+          "sha256": "51f99194ad2b348cd1bcc265482b454dc867a27e372d0dd4ef61258aff9fd7ff"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/cs/newsletter_conf.html",
+          "stable_available": true,
+          "sha256": "45f5acf1f322c28cda092d8c451dfe51cddb6ba9dce0342d2f5564c4cb02f7c0"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/cs/newsletter_conf.txt",
+          "stable_available": true,
+          "sha256": "00f292f81d03074bd853c97bbf9c4267bbd648d8147cf1e4383a4ba93ffa12db"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/cs/newsletter_verif.html",
+          "stable_available": true,
+          "sha256": "0fcf8ce15d650e3e02388a15c0c051a8d8841c35aa0778327a1a628bc20e947e"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/cs/newsletter_verif.txt",
+          "stable_available": true,
+          "sha256": "4a4df542d5b1b94db02f916ee7076ba1115ee558ba08c610323a4b3bc1eac71c"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/cs/newsletter_voucher.html",
+          "stable_available": true,
+          "sha256": "f52a1690543403105436e80305eb7e3131c40183d34be04dc71dece927550026"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/cs/newsletter_voucher.txt",
+          "stable_available": true,
+          "sha256": "5f8615926560a6f1371a65a85940fac06209f765e6520d5471cb0edd09cf67c1"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/sk/newsletter_conf.html",
+          "stable_available": true,
+          "sha256": "8dcfde90b045773eadf10c745a64ad2b67ddb1a2f8c455a02fd3bee790b64cf6"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/sk/newsletter_conf.txt",
+          "stable_available": true,
+          "sha256": "7f6590bc2e69acd57b4b261c38077f90ec0ba703a60ccbb8369fe1c0e519b063"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/sk/newsletter_verif.html",
+          "stable_available": true,
+          "sha256": "8dd74382534c8b16cba38b145a5f7cb78c13bb6bb2909212d76bf42e0ae15a30"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/sk/newsletter_verif.txt",
+          "stable_available": true,
+          "sha256": "3a81caeef8f6cc753dd42f3a85dd3ac312f281f8e5d42450f91f7c44c6e8fced"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/sk/newsletter_voucher.html",
+          "stable_available": true,
+          "sha256": "77ef892149ed8a67a516244d48faf5cad9dd48590017628a2681468248af4798"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocknewsletter/mails/sk/newsletter_voucher.txt",
+          "stable_available": true,
+          "sha256": "2a0ea729e3a400e5f98bf054f46b5435f6f620d3acd6aefe984f0d7bfbfdec35"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockpaymentlogo/translations/cs.php",
+          "stable_available": true,
+          "sha256": "d15d64b44329e420c59bf4f93e0c7cf450075c5003db2d2c1be9f60b12b4eb6f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocksearch/translations/cs.php",
+          "stable_available": true,
+          "sha256": "b04ea242525ed8de77f62cfd7e7c00500b34ff4b491545054210d5199dda762b"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocksocial/translations/cs.php",
+          "stable_available": true,
+          "sha256": "40c77a798570b5ffb25478e49cd7461eb28294946a448346e3149506464e9c6a"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockspecials/translations/cs.php",
+          "stable_available": true,
+          "sha256": "2f92d7bb2f7998992257d57a6e5d3e72469de4ca5cd9eaee1b064f4c887de5e5"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockstore/translations/cs.php",
+          "stable_available": true,
+          "sha256": "de34f578efa718af2532bc1f67f84cc6efb9b81a8800e474a800a4a25ec4fc57"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocksupplier/translations/cs.php",
+          "stable_available": true,
+          "sha256": "eee663e9a19a147e4f1fafac1f83e16da923ba906128a566f031246b034c0fa2"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocktags/translations/cs.php",
+          "stable_available": true,
+          "sha256": "a3342f0f4c2c8aa07fc5224105db8f352da0875e665bec0d78dbb81ca8fc31f0"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blocktopmenu/translations/cs.php",
+          "stable_available": true,
+          "sha256": "74fe2d870909a59225942be4685a4c8634d82948336ac0525aacd4ecf95ef8d1"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockuserinfo/translations/cs.php",
+          "stable_available": true,
+          "sha256": "d19c0ce7b44bf2cdcfcb7b393dc95635607054f9d14dc32cb2942728e38c09b1"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockviewed/translations/cs.php",
+          "stable_available": true,
+          "sha256": "d23659a2ea802a5186868df022152e05e6bd9c1588ddd00584753b35840ed490"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/cs/wishlink.html",
+          "stable_available": true,
+          "sha256": "07f183602320703cfc8d906fa6637b6fee542c5a15b733a8c430f5a8d972826d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/cs/wishlink.txt",
+          "stable_available": true,
+          "sha256": "fa9bcd367c6db9e4337d43e7f9219c3f778dcad7a2aee22fe061fa50835a8775"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/cs/wishlist.html",
+          "stable_available": true,
+          "sha256": "dbe07889e93d869c43653bcd7940f6566173cce1bbb1d642669b0cfc7be61189"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/cs/wishlist.txt",
+          "stable_available": true,
+          "sha256": "3dddd3067b4ed1169d47bca83601a8f724485cb89f54febeefe459977a35f341"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/sk/wishlink.html",
+          "stable_available": true,
+          "sha256": "5ec8009184b3d74e4fb3e3561cd6777883e576942cb5d2417f155e96f38b1235"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/sk/wishlink.txt",
+          "stable_available": true,
+          "sha256": "711f7a2cdbf92a279f9e6ffefdb327db5896b10cc2cae9f7916b61d4372c794d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/sk/wishlist.html",
+          "stable_available": true,
+          "sha256": "36d9d87483d4bef2cf5d704bc615c42eac39fa99a24413217bb130b0cc0fc2eb"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/blockwishlist/mails/sk/wishlist.txt",
+          "stable_available": true,
+          "sha256": "a2b9f0b970322c08bcf25c7c7ff63309463c432ad642210ecca61a0a37dae2dd"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/cashondelivery/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e98e0042aca3aec6239da5ee44cd276377c708f7e6f077fffd77713d6fa78326"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dashactivity/translations/cs.php",
+          "stable_available": true,
+          "sha256": "d79df691fedcb58080d2d1dbbc6a244796bab2e6e480def2e7e5a44d2d7d715c"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dashgoals/translations/cs.php",
+          "stable_available": true,
+          "sha256": "ebfcd67b9d83f8386002581868f223785e2446bd43e8956cbcd1b937fc1a7461"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dashproducts/translations/cs.php",
+          "stable_available": true,
+          "sha256": "2d4096b65fa49e0a4f5bd9fda0a4df98a82493e56873637968331a08a4b86c24"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dashtrends/translations/cs.php",
+          "stable_available": true,
+          "sha256": "3fcfe4db675cf4d4a10c3bec45d69195a72c9d418e130676229f4f096e035ccc"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dateofdelivery/translations/cs.php",
+          "stable_available": true,
+          "sha256": "b387f10c8d2a09cfb385fa8c0bd6693c24a8f482db93d6d8967a3d23dfb165aa"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/cs/dm_comgate_mail_customer.html",
+          "stable_available": true,
+          "sha256": "82894e12737777e903e357f14ca034462cf05929e3c26164b0bea64fc5edb4f7"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/cs/dm_comgate_mail_customer.txt",
+          "stable_available": true,
+          "sha256": "32877e9253398b632d5ab8b31e6ee04267aa8c825feba56c487af265b0bc9359"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/cs/dm_comgate_mail_employees.html",
+          "stable_available": true,
+          "sha256": "049fb41822a010086f71c90cf48326e58ecb61c2f7851601bb3ad3f71f267fc6"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/cs/dm_comgate_mail_employees.txt",
+          "stable_available": true,
+          "sha256": "d56bb19b2fbd2f35073b9d31bd8a6ddeaac92e3f85336397d020f91c70b65df0"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/sk/dm_comgate_mail_customer.html",
+          "stable_available": true,
+          "sha256": "ca3c15c279f65fe824a3f792906220f193d79f4d3a20f900940bcb25d8f8ab4f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/sk/dm_comgate_mail_customer.txt",
+          "stable_available": true,
+          "sha256": "c0b28526725c11fa26e5bd2dad2b9ecc61df0a520f44f5c6b663a02e76f3dea9"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/sk/dm_comgate_mail_employees.html",
+          "stable_available": true,
+          "sha256": "7704c2233cd033ed5e3f19c167c2c9019eb09bd1fb5f86fda0de799888fe7d6f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/dm_comgate/mails/sk/dm_comgate_mail_employees.txt",
+          "stable_available": true,
+          "sha256": "83525e1e71a84b141864afd8aef8e7ca485a8b80b7bfa1eeb49ad7a0a5cefcc0"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_1.html",
+          "stable_available": true,
+          "sha256": "94970a163c53d612de526b61e330f837df264141120d8d37be912a672f717380"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_1.txt",
+          "stable_available": true,
+          "sha256": "328f48ecb8dfed2f623e8b2af82a46d500abde4e41dde33ad4e6ffcf103a31bd"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_2.html",
+          "stable_available": true,
+          "sha256": "1260b080eba3501d9424a67ecfeefb9649674a7e01c31b4eabe0d20a8a7ce79d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_2.txt",
+          "stable_available": true,
+          "sha256": "5532351cb272fb783a2e0a62c0af4bb023c7ecc36f8c0268ede719722f1d6c67"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_3.html",
+          "stable_available": true,
+          "sha256": "24366bad7c95faf0354ce3c7d5ad5ee2efcd42867ad9a230a437aa8e8f0b38ef"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_3.txt",
+          "stable_available": true,
+          "sha256": "28c8fca339a5915492e98a3014bf0302ed3835710ec163db8f78e7eccc6ef0bd"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_4.html",
+          "stable_available": true,
+          "sha256": "79173fe6a2588f3992f3163871f88fddfd7d5022d9fad72394c06e9ae4b2f3c4"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/cs/followup_4.txt",
+          "stable_available": true,
+          "sha256": "31281259ea4e4e2db8e98c23d3b968f60407b19c575e2d0a585c954131d74cf6"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_1.html",
+          "stable_available": true,
+          "sha256": "a34911b624b8eaddfd9b11cc3c3a2781dee450edc12e7e37ef95901f5a840588"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_1.txt",
+          "stable_available": true,
+          "sha256": "155df8b708f72607bb214b55b77c7eb8f721bb9e47d5be0223896ff22fc5e5ae"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_2.html",
+          "stable_available": true,
+          "sha256": "4e5e129122a6da3d1ff3b50b0a64219f68fed9090725871afe754fd18ba1b7bb"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_2.txt",
+          "stable_available": true,
+          "sha256": "e250ee4de13ff366e8e32fd29f4421a783808457867f0796a8e8491dfce83b0b"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_3.html",
+          "stable_available": true,
+          "sha256": "184ccca6fcfbf7216f5d5a4c0839443997d28913fd76968ca946dbfcd18af3f3"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_3.txt",
+          "stable_available": true,
+          "sha256": "1d18f751da1d7d2b2da52ae0b0be541de14b2fa44d7ab5939301a06d315545bf"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_4.html",
+          "stable_available": true,
+          "sha256": "8c1d0314eecffd2a16149f78d9bb4b0996c9cd2e491afb4cc503e42e6c372dc4"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/followup/mails/sk/followup_4.txt",
+          "stable_available": true,
+          "sha256": "a4926f5f0282223a7c11f0ed51c743fda1d43d14796763a9bfd1934935d219fb"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/gamification/translations/cs.php",
+          "stable_available": true,
+          "sha256": "977c7ad1d6f0ccd6618557ac48770c5b3356e50266ea0b403883c70077ff14cc"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/graphnvd3/translations/cs.php",
+          "stable_available": true,
+          "sha256": "a4c02c039accdef82425073a055086fc6b300926e7310b7a62767e02de411424"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/gridhtml/translations/cs.php",
+          "stable_available": true,
+          "sha256": "cdc224ae75a53878991ac92d80b1248a5d3d1f83549aa8217015df651b3f5669"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/homefeatured/translations/cs.php",
+          "stable_available": true,
+          "sha256": "46dc9bed4f5d44d4d50beea06866df53941cf496d276a92ae519c6c7a2e0eaf5"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/homeslider/translations/cs.php",
+          "stable_available": true,
+          "sha256": "b5ec5890fa566b99c23e987e8d233d5cd0a48b8b244de49db6a91f3a6546b795"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/translations/cs.php",
+          "stable_available": true,
+          "sha256": "2d786e154f976932c83d0b2e32da19054142f1b2cbfc8af8f3dea204c03ba783"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/customer_qty.html",
+          "stable_available": true,
+          "sha256": "8c698aa8c6d4e2dd3db0b802ca91c461d3942c564721c5f4eb560d5f7c68e501"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/customer_qty.txt",
+          "stable_available": true,
+          "sha256": "fcf8ed82d262891c19ddc709ac11aaf3039d83913a8b46e73ec4501f7e1cfc8d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/new_order.html",
+          "stable_available": true,
+          "sha256": "755e03125d5bb23082d4f61c9da9ef50965edc3ac1677353003be485a46ab87e"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/new_order.txt",
+          "stable_available": true,
+          "sha256": "8fb30b2c08017d7a525e92d992299868f4d228ca17c495e3901e548d602dff8b"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/order_changed.html",
+          "stable_available": true,
+          "sha256": "17b88240c46a10dad7e3cce42f2dccda46c48fe3ad2e44155f507b47b7490dd3"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/order_changed.txt",
+          "stable_available": true,
+          "sha256": "e4e3074f31de36a8eafe931203b61458d29f9a4e54cee6af41e2344986177974"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/productcoverage.html",
+          "stable_available": true,
+          "sha256": "da2a6f6a018e1105ad87b4e981e44df7db44418294824139a1cc1843164bf8f4"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/productcoverage.txt",
+          "stable_available": true,
+          "sha256": "6ecf5ba8f812c8deb224c3bf54e38e8ebf4c029b06a125bab20d34db1879df3a"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/productoutofstock.html",
+          "stable_available": true,
+          "sha256": "6d387e3993a55313ef08e78b435bfc22f5ac4fe31d851ec9dfae4c4457d2e63c"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/productoutofstock.txt",
+          "stable_available": true,
+          "sha256": "d32dd0b22356af364b3f16ba3dcb8a7a85da53244bd77c03359ed2804bdd25dd"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/return_slip.html",
+          "stable_available": true,
+          "sha256": "c9669ad3dbeb8b5ce4be6122f8815e9ebd21d465c4f267d4e986760c556506c2"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/cs/return_slip.txt",
+          "stable_available": true,
+          "sha256": "059ca73ce1c2c286899bea8a1356c403e2eaf3f5beeff3cc02917c5b3b5e7471"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/customer_qty.html",
+          "stable_available": true,
+          "sha256": "70e9208a44f6c666df6269b244467c8fb4577cf97d9c00d54e1eb39b2670c158"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/customer_qty.txt",
+          "stable_available": true,
+          "sha256": "209f13d9204031bcfaeccbe84fce11b5b4386e01ed00ec41f8f67cc13f4e5d55"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/new_order.html",
+          "stable_available": true,
+          "sha256": "28fab9d110341ca73b99780473d1bc8a14ed48d7c3365786efa25901f1057696"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/new_order.txt",
+          "stable_available": true,
+          "sha256": "845b1cbab4cd126fe91dfc2e43c35415d28eb677a809ad742b0afe2dc47b8b81"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/order_changed.html",
+          "stable_available": true,
+          "sha256": "08a7691acd7bd6bd79471e4a303cc3573ef8b7f153b74ed83cfe82a56d2c2a17"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/order_changed.txt",
+          "stable_available": true,
+          "sha256": "2ce6cdef91c8856f44d71b07746dd9c3231d183bd47b135f37edebc4e94f31ce"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/productcoverage.html",
+          "stable_available": true,
+          "sha256": "97d9cca1302ab5e06e0331ad8e15d3f0aed613b33dcf7fb5b6ea12e4732ac740"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/productcoverage.txt",
+          "stable_available": true,
+          "sha256": "d1a09cca321460ec817cc49438f8ee96a2507d1e01593700c64700de685f85ad"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/productoutofstock.html",
+          "stable_available": true,
+          "sha256": "4a173f004163e6871ae3d505562f0ba3edd3efc6ada35373df356b8fead79b37"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/productoutofstock.txt",
+          "stable_available": true,
+          "sha256": "ef9c9551efc018ab7685e29ffb22f088c1a24ed9b799cb6c7ddd7149aaff5b14"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/return_slip.html",
+          "stable_available": true,
+          "sha256": "ea2e6e79d558e9f2d4adf767316ce4d58fb15eface63e47b0af5c9b883e4f5d6"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/mailalerts/mails/sk/return_slip.txt",
+          "stable_available": true,
+          "sha256": "7297aa7ba3b90902d1f124ad2d1537b27bb69c16da4b07724bda6f469546d4ef"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/packetery/translations/cs.php",
+          "stable_available": true,
+          "sha256": "046b2ce5191a60387d56cefe55fbd42282cd5be5d9242646f21b6b93fabcc898"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/pagesnotfound/translations/cs.php",
+          "stable_available": true,
+          "sha256": "0dbf0927213cef3c08011dbdc7f82f064125172b49166d94e6c23a82795061d4"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/paypal/mails/sk/error_reporting.html",
+          "stable_available": true,
+          "sha256": "49d60d9425617aa0e083829cc6e10a66224a538beb1c2e31e89ebb2c79e2c941"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/paypal/mails/sk/error_reporting.txt",
+          "stable_available": true,
+          "sha256": "b435db9f1c678f734eca32b64dad7eb6f3b4dbbfd1cdbf173b82c7d15ea7bb8e"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/productpaymentlogos/translations/cs.php",
+          "stable_available": true,
+          "sha256": "ee6ec5d9437ce4df83714270200c3cd8e49171eee4bc42ee37dde418350be3e2"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/psaddonsconnect/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/ps_checkout/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/ps_metrics/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/cs/referralprogram-congratulations.html",
+          "stable_available": true,
+          "sha256": "2981f6320dc510d084befc0506fedbcac3794de6936f2d62f8577d56bcf42cab"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/cs/referralprogram-congratulations.txt",
+          "stable_available": true,
+          "sha256": "1a3cde9e51fa2ccc937a5b14d28402831073203f1ffea53558936bb3b4865a55"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/cs/referralprogram-invitation.html",
+          "stable_available": true,
+          "sha256": "1cf64336b8a5ae8aa3abdf855f76a7273be3fbcd4b138bb5d59c81deb3b3d85e"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/cs/referralprogram-invitation.txt",
+          "stable_available": true,
+          "sha256": "0b9645de92396deb7e085dc75ebb9508b8dc69018206b020358f9e7dda53f012"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/cs/referralprogram-voucher.html",
+          "stable_available": true,
+          "sha256": "4914f062812106912e3ef97f65a1eabb62c7df23aa55a401b6c29820d1c89df8"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/cs/referralprogram-voucher.txt",
+          "stable_available": true,
+          "sha256": "6d525a2c8a25c5a78f05b1707e0d11cd7b367f61c546a76f8edd4dc0aaf59780"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/sk/referralprogram-congratulations.html",
+          "stable_available": true,
+          "sha256": "c583cc6f76b7ae9fb09ef349bf57e2bcb2e9ef025577d6a048cf729c40e03405"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/sk/referralprogram-congratulations.txt",
+          "stable_available": true,
+          "sha256": "bec151957a6a0d3297dc67a5bea223c6653d097b90d376b2306a8d30ded0c7fd"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/sk/referralprogram-invitation.html",
+          "stable_available": true,
+          "sha256": "977b533e0009509e3f9dce93667686d61dccf711fe3d3a1525266b346805b17a"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/sk/referralprogram-invitation.txt",
+          "stable_available": true,
+          "sha256": "2b61f3c491e81a0b075b608c21e5c06e246cc0fb64ac2a91ac080d543ea6249d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/sk/referralprogram-voucher.html",
+          "stable_available": true,
+          "sha256": "f7e1c7b51b4fcafd295c19b3a29617a69d39fa0e883fafe103f1c81b6044bc6f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/referralprogram/mails/sk/referralprogram-voucher.txt",
+          "stable_available": true,
+          "sha256": "84697e558169b4bf168df4105a4e5b364538ae6c7e3c80619f29c90d354176e9"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/sekeywords/translations/cs.php",
+          "stable_available": true,
+          "sha256": "7eb4a1bfb8881399ace3c9e12a0a26ff60236cc1a232bdcb8d59cd602dce4041"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/sendtoafriend/translations/cs.php",
+          "stable_available": true,
+          "sha256": "0a7b52f60825f34235453c138c86fb0c8050bc8ecb072f7c26d95e3e64d20cf1"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/sendtoafriend/mails/cs/send_to_a_friend.html",
+          "stable_available": true,
+          "sha256": "9443534956741eab38d1551ad02cfd13d489556b8d531b68c4f7ca75673bb93e"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/sendtoafriend/mails/cs/send_to_a_friend.txt",
+          "stable_available": true,
+          "sha256": "c6c9c05e3fa0d297a441139a2ef5a8c15439e53a71a5ca5fe00910badfe07cf0"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/sendtoafriend/mails/sk/send_to_a_friend.html",
+          "stable_available": true,
+          "sha256": "142398885381ec94cece845753e5ff281915ab48adedf8cf715c3c5689e4a046"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/sendtoafriend/mails/sk/send_to_a_friend.txt",
+          "stable_available": true,
+          "sha256": "1dd9d89152dc4254463279140b5447e8359b2cd48fe949787cfb8b9ce27de86f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/socialsharing/translations/cs.php",
+          "stable_available": true,
+          "sha256": "9685715cf3c37f538ddbfdfc0cf461c467994f9703e14edc7f65e5694e546366"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/springxbs/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsbestcategories/translations/cs.php",
+          "stable_available": true,
+          "sha256": "2ce74169f0017923f4a65242db917082931d964a8f1b5667df5c0cb8196685fa"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsbestcustomers/translations/cs.php",
+          "stable_available": true,
+          "sha256": "20375d5642705a02939c1aa610f02188f286b2813e001f26494d83077bf277a1"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsbestproducts/translations/cs.php",
+          "stable_available": true,
+          "sha256": "a1a2b71671ef63edcbc369fb5321c732650843a3386f6ffb25cff12641a9d0de"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsbestsuppliers/translations/cs.php",
+          "stable_available": true,
+          "sha256": "9586825a1fa213e8dd101598866ef41ace2f2ca76ad9debe16f149116a5f4e3d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsbestvouchers/translations/cs.php",
+          "stable_available": true,
+          "sha256": "df9bc6311cc240ad74858604fd1b2e1b02639d5cdc1fc92f699d35b87792171c"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statscarrier/translations/cs.php",
+          "stable_available": true,
+          "sha256": "c8aad8796f84230bd6b94ac2a06f64c6b5296c0e253c44c93dc30c752db6f39e"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statscatalog/translations/cs.php",
+          "stable_available": true,
+          "sha256": "d05cb3fb352fac85fce0c280a89b9532b715a6a35c6ba12ba27c9434f3786125"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statscheckup/translations/cs.php",
+          "stable_available": true,
+          "sha256": "4f67f95e2745e0abaf837141877a52546a78f39449ef68f0626a56f4f5fc8a2f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsdata/translations/cs.php",
+          "stable_available": true,
+          "sha256": "a5f3a16965d90da1819ba87dccd0ede888dd32a79fc22c509379f4797f6376ce"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsequipment/translations/cs.php",
+          "stable_available": true,
+          "sha256": "ba4e2c7a933ca828e91057c047d0b8feafe2ddd3b008768892d6b2bfb1971922"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsforecast/translations/cs.php",
+          "stable_available": true,
+          "sha256": "131f3a0e807ab1481867a97ae085242bfd016766e4174e2f714b57b66c5204f1"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statslive/translations/cs.php",
+          "stable_available": true,
+          "sha256": "03e6c63933c762ff3c7b041b58eb4ca542d525f5695100c860202a538ddef0ea"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsnewsletter/translations/cs.php",
+          "stable_available": true,
+          "sha256": "0d8905c7dc69291e1df740ec9fd2e90d13958a2dfdea6ebf130208ee6be6253a"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsorigin/translations/cs.php",
+          "stable_available": true,
+          "sha256": "db4727ba1e0ab7827e57acbdb622b4c95ab51ff6e1196b34b8759229eb7294b7"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statspersonalinfos/translations/cs.php",
+          "stable_available": true,
+          "sha256": "4b10cabe0fcde7591f3e27e9fe443416bd0c446e16ec6c7b0d4ed98b2df892ce"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsproduct/translations/cs.php",
+          "stable_available": true,
+          "sha256": "c95d9b97773d4100b57b33f8bed36920d02a84c6f3409131b8016c38ddf7003f"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsregistrations/translations/cs.php",
+          "stable_available": true,
+          "sha256": "a3f259dc15638646488fb958a5cb46bde3c7b6f8baac7278bad4f12898866fa4"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statssales/translations/cs.php",
+          "stable_available": true,
+          "sha256": "b0fa9b7d32ea586e909e2f4b06239e7298762a57b60aab5fa44093ae897a5d61"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statssearch/translations/cs.php",
+          "stable_available": true,
+          "sha256": "24186ac344ced13918f30cddc5e643e7c08075b624037994a7e102bd8ae7402d"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsstock/translations/cs.php",
+          "stable_available": true,
+          "sha256": "efcfcc4093107951d254e913d506e47eae344babaf1ad7566dec699e53800448"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/statsvisits/translations/cs.php",
+          "stable_available": true,
+          "sha256": "4b70d00602ebeec9acedd0e738ddf16e3a8aa6c1e5b227a60a15cef842b7cfd3"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/themeconfigurator/translations/cs.php",
+          "stable_available": true,
+          "sha256": "d28f25f280a37e629b073bdefa9fff3af6a79039c0814d0ef561108be2811489"
+        },
+        {
+          "path": "themes/default-bootstrap/modules/usercentrics/translations/cs.php",
+          "stable_available": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "additional_top_groups": {
+        "lang": 3,
+        "mails": 225,
+        "modules": 160
+      }
+    }
+  },
+  "theme_mails_vs_root": {
+    "cs": {
+      "stable_pairs": 75,
+      "identical": 75,
+      "different_names": [],
+      "pending_pairs": 0
+    },
+    "en": {
+      "stable_pairs": 72,
+      "identical": 34,
+      "different_names": [
+        "account.txt",
+        "backoffice_order.txt",
+        "bankwire.txt",
+        "cheque.html",
+        "cheque.txt",
+        "contact.txt",
+        "contact_form.txt",
+        "credit_slip.txt",
+        "download_product.txt",
+        "employee_password.txt",
+        "footer.txt",
+        "forward_msg.txt",
+        "guest_to_customer.txt",
+        "header.txt",
+        "header_order_conf.txt",
+        "in_transit.txt",
+        "log_alert.txt",
+        "newsletter.txt",
+        "order_canceled.txt",
+        "order_changed.txt",
+        "order_conf.txt",
+        "order_conf_cart_rules.txt",
+        "order_conf_product_list.txt",
+        "order_customer_comment.txt",
+        "order_merchant_comment.txt",
+        "order_return_state.txt",
+        "outofstock.txt",
+        "password.txt",
+        "password_query.txt",
+        "payment.txt",
+        "payment_error.txt",
+        "preparation.txt",
+        "refund.txt",
+        "reply_msg.txt",
+        "shipped.txt",
+        "test.txt",
+        "voucher.txt",
+        "voucher_new.txt"
+      ],
+      "pending_pairs": 0
+    },
+    "sk": {
+      "stable_pairs": 75,
+      "identical": 75,
+      "different_names": [],
+      "pending_pairs": 0
+    }
+  }
+}

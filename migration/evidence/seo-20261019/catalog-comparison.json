@@ -1,0 +1,214 @@
+{
+  "counts": {
+    "product": 13184,
+    "category": 308,
+    "cms": 48,
+    "cms_category": 4,
+    "supplier": 4,
+    "system": 108
+  },
+  "total": 13656,
+  "missing": 0,
+  "equal_paths": 261,
+  "changed_paths": 13395,
+  "metadata_differences": 0,
+  "active_languages": [
+    "cs",
+    "de",
+    "sk"
+  ],
+  "by_entity_language": [
+    {
+      "entity": "product",
+      "language": "en",
+      "total": 3296,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "product",
+      "language": "cs",
+      "total": 3296,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "product",
+      "language": "sk",
+      "total": 3296,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "product",
+      "language": "de",
+      "total": 3296,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "category",
+      "language": "en",
+      "total": 77,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "category",
+      "language": "cs",
+      "total": 77,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "category",
+      "language": "sk",
+      "total": 77,
+      "path_equal": 77,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "category",
+      "language": "de",
+      "total": 77,
+      "path_equal": 77,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms",
+      "language": "en",
+      "total": 12,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms",
+      "language": "cs",
+      "total": 12,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms",
+      "language": "sk",
+      "total": 12,
+      "path_equal": 12,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms",
+      "language": "de",
+      "total": 12,
+      "path_equal": 12,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms_category",
+      "language": "en",
+      "total": 1,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms_category",
+      "language": "cs",
+      "total": 1,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms_category",
+      "language": "sk",
+      "total": 1,
+      "path_equal": 1,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "cms_category",
+      "language": "de",
+      "total": 1,
+      "path_equal": 1,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "supplier",
+      "language": "en",
+      "total": 1,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "supplier",
+      "language": "cs",
+      "total": 1,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "supplier",
+      "language": "sk",
+      "total": 1,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "supplier",
+      "language": "de",
+      "total": 1,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "system",
+      "language": "en",
+      "total": 27,
+      "path_equal": 27,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "system",
+      "language": "cs",
+      "total": 27,
+      "path_equal": 0,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "system",
+      "language": "sk",
+      "total": 27,
+      "path_equal": 27,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    },
+    {
+      "entity": "system",
+      "language": "de",
+      "total": 27,
+      "path_equal": 27,
+      "missing": 0,
+      "metadata_changed_rows": 0
+    }
+  ]
+}

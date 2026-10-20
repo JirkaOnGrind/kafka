@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-10-19T09:28:24.193161+00:00",
+  "source_snapshot_sha256": "fcbaff6ff9b5ac98ccaecb57e78bcfe15efa2aad67f5d5c1380f80db4b43619f",
+  "catalog_rows": 13656,
+  "catalog_missing": 0,
+  "catalog_metadata_changed_rows": 0,
+  "active_catalog_rows": 9846,
+  "active_catalog_changed_paths": 9672,
+  "sitemap_urls": 4642,
+  "sitemap_exact_snapshot_paths": 2503,
+  "sitemap_entities_matched": 4354,
+  "sitemap_same_target_paths": 50,
+  "http_source_count": 888,
+  "http_target_count": 1257,
+  "http_source_statuses": {
+    "200": 584,
+    "404": 304
+  },
+  "http_target_statuses": {
+    "200": 629,
+    "404": 628
+  },
+  "http_pair_classification": {
+    "OK_200": 176,
+    "redirect_302": 100,
+    "MIGRATION_REGRESSION_404": 308,
+    "ALREADY_404_ON_SOURCE": 304
+  },
+  "regression_causes": {
+    "existing_entity_legacy_route_broken": 264,
+    "live_entity_not_in_snapshot": 44
+  },
+  "live_entities_missing_from_snapshot": {
+    "category": 1,
+    "product": 17
+  },
+  "target_successes": 629,
+  "target_canonical_missing_or_duplicate": [],
+  "target_canonical_wrong_host": [],
+  "target_hreflang_present": 629,
+  "target_jsonld_present": 629,
+  "target_noindex_header": 1257,
+  "source_canonical_present": 0,
+  "source_hreflang_present": 0,
+  "source_jsonld_present": 0,
+  "source_sitemap_index_lastmod": [
+    "2025-04-11T08:03:10+00:00"
+  ],
+  "rendered_native_pairs": 539,
+  "rendered_title_differences": 533,
+  "rendered_description_differences_normalized": 3,
+  "unresolved_sitemap_source_statuses": {
+    "404": 288
+  },
+  "target_configuration": {
+    "PS_REWRITING_SETTINGS": "1",
+    "PS_LANG_DEFAULT": "1",
+    "PS_DEFAULT_LANGUAGE_URL_PREFIX": "0",
+    "PS_CANONICAL_REDIRECT": "1",
+    "PS_SHOP_NAME": "Kafka Monster — lokální vývoj",
+    "PS_ROUTE_product_rule": false,
+    "PS_ROUTE_category_rule": false,
+    "PS_ROUTE_cms_rule": false,
+    "PS_ROUTE_cms_category_rule": false,
+    "PS_ROUTE_supplier_rule": false,
+    "PS_ROUTE_manufacturer_rule": false
+  },
+  "complete_http_pairs": 888,
+  "planned_http_pairs": 888
+}

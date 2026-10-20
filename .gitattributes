@@ -1,0 +1,4 @@
+# Linux helpers must remain executable by sh after a Windows checkout.
+scripts/*.sh text eol=lf
+# Audit evidence is an immutable byte record, including its recorded SHA-256 values.
+/migration/evidence/** -text -diff

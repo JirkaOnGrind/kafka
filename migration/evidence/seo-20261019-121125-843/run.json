@@ -1,0 +1,81 @@
+﻿{
+    "run":  "seo-20261019-121125-843",
+    "started":  "2026-10-19T12:12:13.3591683+02:00",
+    "target":  "http://localhost:8083/",
+    "import_identity":  "existing-local-data-no-import",
+    "private_backup":  "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\private\\migration-lab-20261018\\seo-runs\\seo-20261019-121125-843",
+    "baseline":  "migration/evidence/seo-20261019",
+    "status":  "failed-see-report",
+    "helpers":  [
+                    {
+                        "sha256":  "0C9201710D3BF7B35D4BC0EE96891AE41E2462C4574116BC0F6C2722D0657BBF",
+                        "path":  "scripts/export-seo-catalog.php"
+                    },
+                    {
+                        "sha256":  "1320530D00A60186526A0FC443F62A81E51A78605AB47C3EAA05FD2DA22257C3",
+                        "path":  "scripts/apply-migration-seo.php"
+                    },
+                    {
+                        "sha256":  "B71EE1667DBA155D013F70088FE87758C7974021FC3BC846E6166D88BD80F171",
+                        "path":  "scripts/migration-seo-policy.json"
+                    },
+                    {
+                        "sha256":  "9FBA5FCFC9877821A31C6EDC3B505D1A25E8554E96F07AB580472227A850C463",
+                        "path":  "scripts/localize-page-titles.php"
+                    },
+                    {
+                        "sha256":  "3D5BB0E31318BCF1DDD8C30C1A267AD3EB6DE859678D1D3C887E303D2D5FEEA0",
+                        "path":  "scripts/generate-local-sitemaps.php"
+                    },
+                    {
+                        "sha256":  "6770C89B020D85BDDA527A8108E545E5A2F312128FDC23546CBBDCFCEC6726A0",
+                        "path":  "scripts/backup-seo-files.sh"
+                    },
+                    {
+                        "sha256":  "09DCA3551239DE08B98306EDBCAC51C89AB866E5C9EC3E847C42C2228DAECB2D",
+                        "path":  "scripts/clear-local-seo-cache.php"
+                    },
+                    {
+                        "sha256":  "9328BB2495FEFFB46B54F9D5297277A178DF6F277679B83DECBEDBB2302EDDFF",
+                        "path":  "scripts/check-local-seo-runtime.php"
+                    },
+                    {
+                        "sha256":  "815A2167383D3A8B6763195B5E49E2F9EFD33134CDC861411E380CBDB512E652",
+                        "path":  "scripts/complete-isolated-import.ps1"
+                    },
+                    {
+                        "sha256":  "CAAFB569A3150C7B19B1421477909471D01AE24B5A0D63992BC2314509B1A892",
+                        "path":  "scripts/audit-local-seo.py"
+                    },
+                    {
+                        "sha256":  "345DBA8ED93DA4B8B9DFC46FC184A245F23C5ABD7F2F752B0BDD0C37E2BE9650",
+                        "path":  "scripts/audit-seo-migration.py"
+                    },
+                    {
+                        "sha256":  "59C4A251393878D742A57F270CAFFBD2497DFE2FEF88DAFEE228F5F6FAC719FE",
+                        "path":  "prestashop/modules/kafkaseo/kafkaseo.php"
+                    },
+                    {
+                        "sha256":  "74FC04CC26D749DFCE63BFAD89123D56CEC20ADD2F27D72905B549E0B6CEA267",
+                        "path":  "prestashop/modules/kafkaseo/override/classes/Link.php"
+                    }
+                ],
+    "baseline_sha256":  [
+                            {
+                                "sha256":  "2B825CDE35C02FBF5E1833F71354076B6F523C46CA8BEEBF7428740822EF7497",
+                                "path":  "migration/evidence/seo-20261019/source-public-catalog.json"
+                            },
+                            {
+                                "sha256":  "8A83BDEC7F0E596078A3FF03BFF0C6CD57FEA57EEB43A19DEF558CEF58CB5266",
+                                "path":  "migration/evidence/seo-20261019/source-http.jsonl"
+                            },
+                            {
+                                "sha256":  "23E02F3E9C1F3CA867C947345635F9CA9830F8123954869D5B5013ED45D6D92E",
+                                "path":  "migration/evidence/seo-20261019/crawl-plan.json"
+                            },
+                            {
+                                "sha256":  "DEB338C17506CA179F354A1F60AB95C90F4082375C071034B2034900784AFC63",
+                                "path":  "migration/evidence/seo-20261019/pagination-checks.json"
+                            }
+                        ]
+}

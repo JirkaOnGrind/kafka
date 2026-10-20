@@ -1,0 +1,225 @@
+[
+  {
+    "url": "http://localhost:8083/",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "ImageObject",
+      "Organization",
+      "SearchAction",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3501-nahrdelnik-srdce.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3500-nahrdelnik-spirala.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3499-nahrdelnik-2-hvezdy.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3498-nahrdelnik-slunce.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3497-nahrdelnik-3-hvezdy.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3496-nahrdelnik-hvezda.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3495-nahrdelnik-boxer-2.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3494-nahrdelnik-kozel.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3493-pin-rolling-stones.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/3492-nasivka-vysivana-nazehlovaci-melvins.html",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/126-satky",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/125-indianska-rezervace",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/124-piny",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/content/13-formular-vraceni-zbozi",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  },
+  {
+    "url": "http://localhost:8083/content/12-bez-potisku-jak-objednat",
+    "status": 200,
+    "blocks": 3,
+    "types": [
+      "BreadcrumbList",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "WebPage",
+      "WebSite"
+    ],
+    "json_errors": []
+  }
+]

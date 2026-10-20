@@ -1,0 +1,97 @@
+{
+  "observed_at_utc": "2026-10-08T23:23:03.883480+00:00",
+  "scope": "Seven cached root overrides versus corresponding packaged candidates",
+  "pairs": [
+    {
+      "root_path": "override/classes/Hook.php",
+      "candidate_path": "modules/shaim_cookies_eu/override/classes/Hook.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "0bb3d8667579e3ee3f007ad7aadaf44f67682f1c35c47eb1cda4ada1b480e62d",
+      "root_methods": [
+        "getHookModuleExecList"
+      ],
+      "candidate_sha256": "8a952e6306c3ec0c81496641807e9a086d71e62d7ca2dea4fc90c0eaee5c6430",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": false
+    },
+    {
+      "root_path": "override/classes/Product.php",
+      "candidate_path": "modules/mergado/override/classes/Product.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "288ae33b0153a48d8917fed7ade00bffb6b028fa9bfd57dad18c5413a4a767ca",
+      "root_methods": [],
+      "candidate_sha256": "9df8e593ce160da7d2ab7162ceeed78133af47cfb034716648e265e8b49e7a8f",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": true
+    },
+    {
+      "root_path": "override/classes/order/Order.php",
+      "candidate_path": "modules/dm_cashondelivery/override/classes/order/Order.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "4db2236a350073c5892182ca615a517072af013345e160c7de34850372677fac",
+      "root_methods": [
+        "refreshShippingCost"
+      ],
+      "candidate_sha256": "e0fd0c59bb1fecf8ced1cd49bde7938e3ef3f3b7e8812e61c0aa0682719b58f2",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": true
+    },
+    {
+      "root_path": "override/controllers/front/AuthController.php",
+      "candidate_path": "modules/shaim_recaptcha_v3/override/controllers/front/AuthController.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "9d33acd142268b3ae7bd36bd9a134413b410c0f9b8d29b916639b000d0b33a5e",
+      "root_methods": [
+        "processSubmitAccount"
+      ],
+      "candidate_sha256": "e9b8acfd6f4be9244b6cd6de92350d263a1acd4eb301f159cfd435e721ff90af",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": true
+    },
+    {
+      "root_path": "override/controllers/front/ContactController.php",
+      "candidate_path": "modules/shaim_recaptcha_v3/override/controllers/front/ContactController.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "af681487bd3103cb43be2b4afb3b2d9389261aef8cc62eeab4e888b34888a9c4",
+      "root_methods": [
+        "postProcess"
+      ],
+      "candidate_sha256": "34502a74ad1db23a106be206ab6949d13cfabf42aa5f7202660d280ce6105ddf",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": true
+    },
+    {
+      "root_path": "override/controllers/front/OrderController.php",
+      "candidate_path": "modules/mergado/override/controllers/front/OrderController.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "ef52dafd3af4a83a089d8edffb6e6ec75e1570378071f4e9faebc9a0691c5e24",
+      "root_methods": [
+        "init",
+        "setConsentCookie"
+      ],
+      "candidate_sha256": "a1da7d88eabd024396095f7c60ab5e9f09d0f1b97ef83c593648ae561fc673c4",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": true
+    },
+    {
+      "root_path": "override/controllers/front/OrderOpcController.php",
+      "candidate_path": "modules/mergado/override/controllers/front/OrderOpcController.php",
+      "root_stable_available": true,
+      "candidate_stable_available": true,
+      "root_sha256": "3125a994ace872f38906cfb5e502762c34eac10dd56cda60ceb24de82d70851e",
+      "root_methods": [
+        "init",
+        "setConsentCookie"
+      ],
+      "candidate_sha256": "ffcd1a4f47a506a710374ea392688a24f5c911f74fda55835606986b0d9122cd",
+      "byte_identical": false,
+      "same_after_comments_whitespace_removed": true
+    }
+  ]
+}

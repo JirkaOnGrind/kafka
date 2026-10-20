@@ -1,0 +1,21 @@
+{
+  "finished_at": "2026-10-19T15:34:10.696502+00:00",
+  "passed": true,
+  "products": 3296,
+  "public_catalog_products": 3194,
+  "initially_unreachable": 409,
+  "unreachable_after": 0,
+  "original_links": 4331,
+  "final_links": 4944,
+  "added_links": 613,
+  "compared_source_rows": {
+    "product": 9888,
+    "category": 231
+  },
+  "source_path_changes": 0,
+  "source_metadata_changes": 0,
+  "fresh_http": 496,
+  "verified_category_listings": 58,
+  "verified_affected_products": 438,
+  "failures": []
+}

@@ -1,0 +1,9 @@
+{
+  "running_module_matches_workspace": true,
+  "confirmation_matches_workspace": true,
+  "registration_block_still_empty": true,
+  "git_preserves_baseline_source-public-catalog.json": true,
+  "git_preserves_baseline_source-http.jsonl": true,
+  "git_preserves_baseline_crawl-plan.json": true,
+  "git_preserves_baseline_pagination-checks.json": true
+}

@@ -1,0 +1,263 @@
+"""Render current sanitized FTP audit; preserve analyst notes in a separate file."""
+import json
+from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+HERE = Path(__file__).resolve().parent
+def cell(value):
+    return str(value).replace('|', '\\|').replace('\n', ' ')
+def table(headings, rows):
+    return '\n'.join(['| ' + ' | '.join(headings) + ' |', '| ' + ' | '.join(['---'] * len(headings)) + ' |'] +
+                     ['| ' + ' | '.join(cell(v) for v in row) + ' |' for row in rows])
+def main():
+    d = json.loads((HERE / 'evidence/ftp-audit.json').read_text(encoding='utf-8'))
+    # Use Prague explicitly; this computer's runtime timezone need not match the user.
+    stamp = datetime.fromisoformat(d['observed_at_utc']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y %H:%M')
+    inv, core, cfg = d['inventory'], d['core'], d['configuration']
+    media = d.get('media')
+    integrity_path = HERE / 'evidence/media-integrity.json'
+    integrity = json.loads(integrity_path.read_text(encoding='utf-8')) if integrity_path.exists() else None
+    attachment_path = HERE / 'evidence/attachment-format.json'
+    attachment_check = json.loads(attachment_path.read_text(encoding='utf-8')) if attachment_path.exists() else None
+    present = ', '.join(k for k, v in d['expected_directories'].items() if v) or 'zatím žádné'
+    pending = ', '.join(k for k, v in d['expected_directories'].items() if not v) or 'žádné z hlavních adresářů'
+    db_modules = d['module_counts']
+    override_paths = d['class_index_override_paths']
+    lines = [
+        '# Kafka Monster: souborová analýza FTP a doporučení pro PrestaShop 9', '',
+        f'Poslední inventura: **{stamp}, Europe/Prague**. Zdroj: `{d["root"]}`.', '',
+        '**Stav úplnosti stažení není potvrzený.** Chybějící položky v kopii neznamenají, že chybí na živém webu. '
+        'FTP kopie je pouze čtena. Nebyl spuštěn její PHP kód, změněna databáze ani živý web.', '',
+        '## Závěr pro rozhodnutí', '',
+        '**Doporučuji migraci do čistého PrestaShopu 9.2.0, nikoli přepsání staré instalace novými soubory.** '
+        'Katalog a historie jsou podle předchozího SQL auditu rozumně přenositelné. Největší nejistota je v integracích '
+        'nových platebních/dopravních sestav, nikoli v počtu produktů. Účel všech sedmi starých overrides už vysvětluje samostatný ruční report. Schválený vlastní frontend převést do nativní šablony na základě Hummingbird 2.1.x. '
+        'Warehouse pro tento rozsah nekupovat bez konkrétního důvodu, který by prokazatelně šetřil vývoj.', '',
+        'Migrační modul je nástroj na data, nikoli převodník zdrojového kódu modulů a checkoutu. '
+        'PrestaHero MigrationPro Ultimate zůstává doporučeným kandidátem, s nákupem až po potvrzení přesné 9.2.0, '
+        'zdrojového PHP a licence pro staging → produkci. Pilot je nutný před závazným termínem přepnutí.', '',
+        '[Stabilní PS 9.2.0](https://github.com/PrestaShop/PrestaShop/releases/tag/9.2.0), '
+        '[Hummingbird a kompatibilita](https://github.com/PrestaShop/hummingbird/releases), '
+        '[aktuální migrátor](https://prestahero.com/149-prestashop-better-upgrade-and-migrate-tool.html).', '',
+        '## 1. Rozsah dostupné kopie', '',
+        f'- Dostupné soubory: **{inv["files"]:,}**, celkem **{inv["bytes"] / 1024**2:.2f} MiB** (jen shop, nikoli celé FTP).',
+        f'- Přítomné hlavní složky: {present}.',
+        f'- Dosud nedostupné hlavní složky: {pending}.',
+        '- Kořen aplikace je `www/domains/kafka.monster`; nejde o samotný vrchní adresář `www`.', '',
+        table(['Složka', 'Soubory', 'MiB', 'Nulová velikost'],
+              [(k, v['files'], f'{v["bytes"]/1024**2:.2f}', v['zero_bytes']) for k, v in sorted(inv['groups'].items())]), '',
+        'Údaje jsou momentka živě se měnící lokální kopie, nikoli přesná velikost serveru. '
+        'Při stahování vznikají krátkodobě prázdné či rozepsané soubory. Audit před a po čtení kontroluje velikost a timestamp '
+        'a takto zachycené změny souboru vynechává. Potvrzení dokončené fronty a nulových nevyřešených přenosů '
+        've FTP klientovi je stále potřeba; samotná stabilita počtu souborů není důkaz úplnosti.', '',
+        '## 2. Konfigurace a verze', '',
+        table(['Kontrola', 'Výsledek'], [
+            ('config/settings.inc.php', 'dostupný' if cfg['settings_present'] else 'zatím nedostupný'),
+            ('Verze aplikace _PS_VERSION_', cfg.get('_PS_VERSION_', 'čeká na soubory')),
+            ('Prefix databáze', cfg.get('_DB_PREFIX_', 'čeká na soubory; SQL má ejf6_')),
+            ('SQL verze databáze', '1.6.1.13'),
+            ('Výchozí deklarace _PS_MODE_DEV_', cfg.get('_PS_MODE_DEV_', 'neověřeno')),
+            ('Skutečné PHP webu', 'z FTP nelze spolehlivě potvrdit; ověřit ve správě WEDOS'),
+        ]), '',
+        'Flags jsou statické deklarace, nikoli ověření běžícího prostředí. V referenční konfiguraci se SQL debug přepíná '
+        'podle _PS_MODE_DEV_; výchozí false odpovídá vypnutému debug režimu, pokud konstantu předem nezmění jiný kód. '
+        'Hesla DB, cookie klíče a šifrovací klíče nejsou přenášeny do výstupů. Archiv se starou konfigurací uchovat neveřejně. '
+        'Přihlášení starým zákaznickým heslem ověřit pomocí podporovaného mechanismu migrátoru a testovacího účtu; '
+        'nepřepisovat naslepo klíče nové aplikace.', '',
+        '## 3. Porovnání s oficiálním core 1.6.1.13', '',
+        'Pro porovnání je uložen pouze čtený archiv oficiálního tagu GitHub. SHA-256: '
+        f'`{core.get("reference_sha256", "archiv zatím nedostupný")}`. '
+        '[Zdroj oficiálního tagu](https://github.com/PrestaShop/PrestaShop/tree/1.6.1.13).', '',
+        table(['Metrika', 'Počet'], [
+            ('Referenční PHP soubory v classes/controllers/config/Core/Adapter + vybrané root soubory', core.get('reference_php_files', 0)),
+            ('Přesná shoda', core['identical']), ('Shoda kromě konců řádků', core['newline_only']),
+            ('Obsahové rozdíly ve stažené části', len(core['different'])),
+            ('Referenční soubory zatím nenalezené v lokální kopii', len(core['missing'])),
+            ('Dodatečné PHP soubory ve sledovaných core adresářích', len(core['additional'])),
+        ]), '',
+        ('**Celý sledovaný rozsah jádra se shoduje s referencí.** ' if core['identical'] + core['newline_only'] == core.get('reference_php_files', 0) and not core['different'] and not core['missing'] and not core['additional'] else '**Porovnání sledovaného rozsahu jádra není uzavřené.** ') +
+        'Nejde o porovnání všech souborů instalace; moduly, overrides, šablony, maily a PDF se posuzují samostatně. '
+        'Při odlišné skutečné verzi aplikace musí být baseline změněna. '
+        'Každý obsahový rozdíl vyžaduje posouzení funkce a způsobu náhrady v nové verzi.', '',
+    ]
+    if core['different']:
+        lines += [table(['Soubor', 'Lokální B', 'Referenční B'], [(r['path'], r['local_bytes'], r['reference_bytes']) for r in core['different']]), '']
+    if core['additional']:
+        lines += ['Dodatečné core soubory: ' + ', '.join('`' + p + '`' for p in core['additional']) + '.', '']
+    lines += [
+        '## 4. Overrides — kritická část upgrade', '',
+        f'Cache registr tříd odkazuje na **{len(override_paths)} override souborů**. '
+        'Je to důkaz o obsahu registru cache, nikoli jistota současné existence či aktivace každého souboru. '
+        'Registr může být zastaralý. Po stažení je potřeba zkontrolovat samotný kód, původ modulu a metody.', '',
+        table(['Soubor odkazovaný cache', 'Proč ho musíme posoudit'], [(p,
+            'Produkt: ceny, dostupnost a varianty' if 'Product.php' in p else
+            'Objednávky / checkout / platby' if 'Order' in p else
+            'Registrace, přihlášení nebo antispam' if 'AuthController' in p else
+            'Kontaktní formulář nebo antispam' if 'ContactController' in p else
+            'Vykonávání hooků a kompatibilita modulů') for p in override_paths]), '',
+        'Dosud načtené soubory overrides: **' + str(len(d['overrides'])) + '**. '
+        'Rozpis tříd a metod je v `evidence/ftp-overrides.csv`.', '',
+        '**Postup:** každému netriviálnímu override přiřadit majitele a obchodní funkci. '
+        'Pokud jej vytváří starý modul, nahrazovat novým modulem podporujícím 9.2. '
+        'Vlastní nezbytnou funkci implementovat v samostatném modulu přes podporované hooky. '
+        'Do nové instalace nepřenášet starou složku override a starý cache registr.', '',
+        '## 5. Moduly, platby a doprava', '',
+        f'SQL obsahuje {db_modules["db_modules"]} modulů, {db_modules["db_assigned"]} přiřazených shopu. '
+        f'V kopii je zatím {db_modules["local_directories"]} adresářů modulů; hlavní PHP soubor se zatím našel '
+        f'u {db_modules["db_assigned_entry_present"]} přiřazených modulů. '
+        'Zbytek se během přenosu neoznačuje jako ztracený.', '',
+    ]
+    important = {'dm_comgate', 'dm_cashondelivery', 'bankwire', 'packetery', 'shaim_dpdparcelshop', 'mergado',
+                 'shaim_recaptcha_v3', 'shaim_cookies_eu', 'usercentrics', 'ps_checkout', 'mailalerts', 'gsitemap'}
+    lines += [table(['Modul', 'SQL verze', 'Verze podle PHP', 'Hlavní soubor v kopii'],
+                    [(m['directory'], m.get('db_version') or '—', m.get('php_version') or m.get('version') or 'čeká',
+                      'ano' if m['entry_present'] else 'zatím ne') for m in d['modules'] if m['directory'] in important]), '',
+        'Úplná inventura: `evidence/ftp-modules.csv`. Strategie nových modulů a zdroje kompatibility: `module-matrix.csv`.', '',
+        'Nově dostupné dm platební moduly a kořenové maily mají samostatný statický rozbor v '
+        '[PLATBY-A-MAILY-FTP.md](PLATBY-A-MAILY-FTP.md). Ten dokumentuje autora, TLS, callbacky, skutečné '
+        'dobírkové sazby a Order override; jeho datovaná zjištění upřesňují předběžné body níže.', '',
+        'Nově dostupná Packeta a Mergado jsou ručně rozebrané v '
+        '[DOPRAVA-FEEDY-FTP.md](DOPRAVA-FEEDY-FTP.md): CSV expedice, vlastní historie poboček, '
+        'feed cron, zapisující cenový import, TLS a tři modulové kandidáty na overrides. '
+        'Datum ručního rozboru může být pozdější než tato souborová inventura.', '',
+        'Všech sedm kořenových overrides, DPD, reCAPTCHA a cookie filtr jsou vysvětlené v '
+        '[OVERRIDES-DPD-ANTISPAM.md](OVERRIDES-DPD-ANTISPAM.md). Závěrečné rozhodnutí a nejlehčí postup: '
+        '[ZAVER-A-POSTUP.md](ZAVER-A-POSTUP.md). Srovnání theme/PDF/tools a přednost mailových šablon doplňuje '
+        '[FTP-KOD-A-INTEGRACE.md](FTP-KOD-A-INTEGRACE.md).', '',
+        '- **Comgate a dobírka:** původní dm moduly dodal David Mrózek / Valašinec; vybrat podporovaný cílový modul, '
+        'ověřit příplatek, měny, callbacky a jejich opakování. Historické platební reference a otevřené platby zachovat; '
+        'nepočítat s tím, že nový modul automaticky přečte vlastní tabulky starého.',
+        '- **Packeta a DPD:** oddělit výběr pobočky od tvorby zásilek a štítků. Testovat skutečný checkout '
+        'a uložené ID místa v objednávce; zachovat informace rozpracovaných zásilek.',
+        '- **Mergado / marketing:** určit skutečně používané feedy, měření a cron. '
+        'Důležitá jsou stabilní ID produktů i kombinací a zachování měn; staging nesmí posílat živé feedy nebo konverze.',
+        '- **Antispam / cookies:** nahradit staré závislosti na Auth/Contact overrides, '
+        'vybrat jeden zamýšlený souhlasový mechanismus a zkontrolovat pořadí načtení měření.',
+        '- **ps_checkout:** přítomnost modulu není rozhodnutí jej používat. V dodaném SQL nemá historické objednávky; '
+        'nezavádět jej jako novou platební cestu bez požadavku klienta.', '',
+        '## 6. Obrázky, přílohy a další média', '',
+    ]
+    if media:
+        lines += [table(['Kontrola originálů vůči SQL exportu', 'Počet'], [
+            ('Očekávané originály produktových obrázků', media['expected_product_originals']),
+            ('Nenulové originály nalezené v kopii', media['present_product_originals']),
+            ('Zatím nedotažené nebo chybějící originály', media['pending_or_missing_product_originals']),
+            ('Z toho obrazové záznamy aktivních produktů', media['pending_or_missing_active_image_rows']),
+            ('Přílohy v SQL', len(media['attachment_records'])),
+            ('Nalezené nenulové přílohy', sum(r['present_nonempty'] for r in media['attachment_records'])),
+        ]), '']
+    else:
+        lines += ['Kontrola originálů vůči 4 962 obrazovým záznamům a devíti přílohám z SQL ještě nebyla spuštěna. '
+                  'Bez souborů img/download nelze rozhodnout o úplnosti mediální zálohy.', '']
+    lines += [
+        'Kontrola respektuje standardní adresáře obrázků podle číslic ID i starší formát '
+        '`img/p/PRODUCT-IMAGE.jpg`. Nenulová velikost je základní kontrola, nikoli dekódování kvality každého obrázku. '
+        'Po dokončení přenosu zopakovat kontrolu poškození originálů. Thumbnaily regenerovat pro nový theme; nepřebírat staré cache '
+        'a hromady odvozených velikostí jako důkaz originálů.', '',
+        'Předchozí SQL zjistil nulové vazby obrázek–kombinace. To je samostatný datový úkol: '
+        'změna fotografie podle barvy u všech variant se nevyřeší pouhým překopírováním img.', '',
+    ]
+    if integrity:
+        integrity_stamp = datetime.fromisoformat(integrity['observed_at_utc']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y %H:%M')
+        lines += [f'Kontrola dekódování z **{integrity_stamp}, Europe/Prague**: '
+                  f'**{integrity["decoded"]} / {integrity["candidates"]}** dostupných originálů s čistě číselným názvem JPG '
+                  f'prošlo ověřením struktury a načtením pixelů. Prázdné: **{integrity["empty"]}**, '
+                  f'nestabilní/nečitelné: **{integrity["unstable_or_unreadable"]}**, '
+                  f'chyby dekódování: **{len(integrity["decode_failures"])}**. '
+                  'Jde o samostatnou momentku dostupných img/p originálů, nikoli potvrzení shody s celým SQL katalogem. '
+                  'Během přenosu mohou být prázdné či nedotažené soubory; kontrolu zopakovat po dokončení. '
+                  'Starší formát PRODUCT-IMAGE.jpg tento dílčí dekódovací audit nezahrnuje. '
+                  'Podrobnosti: evidence/media-integrity.json.', '']
+        if integrity.get('nonproduct_media'):
+            lines += [table(['Další číselné originály JPG', 'Dostupná složka', 'Nalezené', 'Dekódované', 'Prázdné', 'Chyby dekódování'],
+                [(name, 'ano' if r['directory_present'] else 'zatím ne', r['candidates'], r['decoded'], r['empty'], len(r['decode_failures']))
+                 for name, r in integrity['nonproduct_media'].items()]), '',
+                'Počty dalších originálů nejsou kontrola úplnosti vůči databázi: obrázek kategorie či značky může být volitelný. '
+                'Odvozené velikosti a jiné formáty se tímto průchodem neověřují.', '']
+    if attachment_check:
+        attachment_stamp = datetime.fromisoformat(attachment_check['observed_at_utc']).astimezone(ZoneInfo('Europe/Prague')).strftime('%d. %m. %Y %H:%M')
+        lines += [f'Kontrola formátu příloh z **{attachment_stamp}, Europe/Prague**: '
+                  f'z {attachment_check["files"]} souborů s neprůhledným 40znakovým hexadecimálním názvem '
+                  f'prošlo základním strukturálním ověřením **{attachment_check["readable_formats"]}**; '
+                  f'PDF: {attachment_check["formats"].get("PDF", 0)}, rastrové obrázky: {attachment_check["formats"].get("raster_image", 0)}, '
+                  f'chyby ověření: {attachment_check["validation_failures"]}. '
+                  'PDF kontrola ověřuje načtení dokumentu a stránek, nikoli úplné vykreslení či význam obsahu. '
+                  'Obrázky prošly dekódováním. Nejde o potvrzení úplnosti FTP ani hashové shody se serverem. '
+                  'Názvy souborů ani obsah příloh nejsou exportovány. Podrobnosti: evidence/attachment-format.json.', '']
+    lines += [
+        '## 7. SEO, robots a sitemap', '',
+        table(['Soubor', 'URL / odkazů na sitemap', 'Obrazových URL', 'ID produktů', 'Nejnovější lastmod'],
+              [(s['file'], s.get('urls', 'neplatné / rozepsané XML'), s.get('image_urls', '—'), s.get('product_ids', '—'),
+                s.get('latest_lastmod') or '—') for s in d['sitemaps']]), '',
+        f'robots.txt dostupný: **{"ano" if d["robots"]["present"] else "zatím ne"}**. '
+        f'Blokace celého webu: **{"ano" if d["robots"]["blocks_entire_site"] else "nenalezena"}**. '
+        f'Direktiva Sitemap pro kafka.monster: **{"nalezena" if d["robots"]["sitemap_directives"] else "nenalezena"}**.', '',
+        'Stažené sitemap mají lastmod z dubna 2025 a index nyní odkazuje na CS a SK; '
+        'jejich katalog nepokrývá dnešní stav SQL automaticky. Datum lastmod není totéž co čas generování nebo skutečná '
+        'poslední změna. Po migraci sitemap znovu generovat pro všechny cílové aktivní jazyky včetně DE, '
+        'ověřit indexovatelnost CMS a odeslat správnou sitemap do Search Console. Nevycházet ze starého XML '
+        'jako z úplného seznamu současných produktů.', '',
+        'Nové routy mají zachovat ID a slugs, včetně výchozí kategorie produktu. '
+        'Případné nezbytné změny musí mít konkrétní 301 mapu. První verze šestice navigačních vstupů '
+        'může fungovat jako rozcestníky nad zachovaným katalogem. Samotné hash routy prototypu nejsou '
+        'produkční SEO adresy katalogu.', '',
+        '## 8. Hosting a staging u WEDOS', '',
+        'Z FTP nelze potvrdit aktuální PHP, memory_limit, tarif, CLI, výkon, cron ani DNS oprávnění. '
+        'Uživatel potvrdil přístup do WEDOS a pokračování u tohoto poskytovatele. '
+        'U běžného sdíleného hostingu platí PHP pro celý hosting; samotná subdoména nedokazuje izolaci. '
+        'Preferovat samostatnou hostingovou službu u WEDOS pro novou aplikaci, pokud tarif nemá potvrzenou jinou izolaci. '
+        '[Vyjádření podpory k PHP](https://help.wedos.cz/otazka/muze-byt-na-subdomene-provozovana-jina-verze-php/94969/answer/94971/), '
+        '[nastavení PHP](https://kb.vedos.cz/en/webhosting-php/).', '',
+        'Cílové PHP vybrat podle průniku podpory konkrétního PS 9.2, migrátoru, plateb, výdejních míst a šablony. '
+        'Dřívější návrh PHP 8.4 je pracovní kandidát, nikoli ověřené nastavení tohoto serveru. '
+        'Nové PHP nikdy nepřepínat na službě se starým obchodem během vývoje. '
+        '[Požadavky PS 9](https://devdocs.prestashop-project.org/9/basics/installation/system-requirements/), '
+        '[composer PS 9.2.0](https://github.com/PrestaShop/PrestaShop/blob/9.2.0/composer.json).', '',
+        '## 9. Moje hodnocení a pořadí dalších prací', '',
+        table(['Oblast', 'Hodnocení nyní', 'Podmínka pokračování'], [
+            ('Standardní data', 'Dobrá migrovatelnost; střední náročnost ověření', 'Pilot s ID, účetními součty, variantami a hesly'),
+            ('Přímý upgrade staré instalace', 'Nedoporučuji', 'Čistý cílový shop místo přepsání starého'),
+            ('Core a overrides', 'Sledovaný core shodný; sedm kořenových overrides vysvětleno', 'Nahradit staré zásahy aktuálními moduly a ověřit checkout'),
+            ('Platby a výdejní místa', 'Největší integrační riziko', 'Přesné moduly pro 9.2 + reálný test objednávky'),
+            ('Nový frontend', 'Proveditelný; potřebuje vývoj', 'Nativní theme, skutečné ceny/varianty/košík'),
+            ('Úplnost FTP', 'Nepotvrzená', 'Dokončená fronta + ověření souborů a médií'),
+            ('Termín / odstávka', 'Nelze závazně slíbit', 'Benchmark pilotu a delta synchronizace'),
+        ]), '',
+        '1. Dokončit a ověřit lokální zálohu. Získat screenshot tarifu a PHP z WEDOS; '
+        'nemusíme čekat na nalezení obrazovky Informace ve starém PrestaShop adminu.',
+        '2. Použít dokončenou mapu sedmi overrides a integrací v ručních reportech. Potvrdit s klientem '
+        'skutečné používané funkce, licence, expedici a obchodní pravidla.',
+        '3. Ověřit migrátor s dodavatelem a připravit chráněný staging bez skutečných e-mailů, '
+        'plateb a feedů. Koupit pouze licence potřebné pro zvolenou sestavu.',
+        '4. Pilotně přenést katalog, jazyky, měny, zákazníky, historii, ceny, slevy a média. '
+        'Nepřenášet starou návštěvnickou statistiku a cache; ověřit dvě osiřelé kombinace a odstraněné produkty '
+        'v historických objednávkách bez ztráty účetních údajů.',
+        '5. Napojit frontend na skutečné PrestaShop entity. Nativní košík a standardní checkout '
+        'použít jako výchozí funkční cestu; OPC až po ověření celé sestavy.',
+        '6. Potvrdit obchodní pravidla: doprava zdarma 1 500 / 1 699 / 3 000 Kč, dobírka, '
+        'termín odeslání, daně, zakázky a způsob skladové dostupnosti.',
+        '7. Nacvičit finální synchronizaci nových i změněných záznamů. Zvlášť sklad a stavy objednávek; '
+        'nepřepsat nově doplněná data nebo zakázky nevhodným režimem plného importu.',
+        '8. Po akceptaci připravit konkrétní přepnutí a rollback včetně nových objednávek a plateb '
+        'přijatých po spuštění. Starý obchod nechat jako neveřejný archiv.', '',
+        'Původní odhad 8–18 pracovních dnů je orientační odborný odhad, nikoli nabídka ani garance. '
+        'Může se změnit podle funkce overrides, integrací a kompletnosti zálohy. '
+        'Délku odstávky určí nácvik, nikoli celková velikost FTP cache.', '',
+        '## 10. Co automatická inventura nenahrazuje', '',
+        '- Neověřuje běh skutečného shopu, podporu PS 9.2 konkrétním zakoupeným modulem nebo úspěšné callbacky.',
+        '- Nezná stav FTP fronty ani seznam všech vzdálených souborů. Stabilní kopie může být i zastavený přenos.',
+        '- Neprovádí malware certifikaci ani obnovu zálohy. Nevykonává nedůvěryhodný PHP.',
+        '- Pro zásahy do živého webu, DNS nebo databází je potřeba samostatná fáze implementace; '
+        'současné oprávnění je analýza a příprava.', '',
+        'Technické důkazy: `evidence/ftp-audit.json`, `evidence/ftp-progress.jsonl`, '
+        '`evidence/ftp-modules.csv`, `evidence/ftp-overrides.csv` a případně `evidence/ftp-pending-images.csv`. '
+        'Samostatné lidské posouzení kódu průběžně doplňuje `FTP-KOD-A-INTEGRACE.md`.', '',
+        'Navazující dokumenty: `MIGRACNI-ANALYZA.md`, `STAV-A-NAKUPY.md`, `OTAZKY-NA-RANO.md` '
+        'a `SPUSTENI-A-KONTROLY.md`. Tento soubor se při další inventuře generuje znovu.', '',
+    ]
+    (HERE / 'FTP-ANALYZA.md').write_text('\n'.join(lines), encoding='utf-8')
+    print('Updated ' + str(HERE / 'FTP-ANALYZA.md'))
+
+if __name__ == '__main__':
+    main()

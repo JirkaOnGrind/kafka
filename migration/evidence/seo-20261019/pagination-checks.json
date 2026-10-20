@@ -1,0 +1,332 @@
+[
+  {
+    "source_url": "https://kafka.monster/cs/40-nazehlovaci-vysivka?p=2",
+    "legacy_target_url": "http://localhost:8083/cs/40-nazehlovaci-vysivka?p=2",
+    "native_target_url": "http://localhost:8083/40-nazehlovaci-vysivka?page=2",
+    "legacy_canonical": [
+      "http://localhost:8083/40-nazehlovaci-vysivka"
+    ],
+    "native_canonical": [
+      "http://localhost:8083/40-nazehlovaci-vysivka?page=2"
+    ],
+    "legacy_product_ids": [
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470
+    ],
+    "native_page2_product_ids": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "native_page1_product_ids": [
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470
+    ],
+    "legacy_equals_page1": true,
+    "native_page2_differs": true
+  },
+  {
+    "source_url": "https://kafka.monster/sk/40-nazehlovaci-vysivka?p=2",
+    "legacy_target_url": "http://localhost:8083/sk/40-nazehlovaci-vysivka?p=2",
+    "native_target_url": "http://localhost:8083/sk/40-nazehlovaci-vysivka?page=2",
+    "legacy_canonical": [
+      "http://localhost:8083/sk/40-nazehlovaci-vysivka"
+    ],
+    "native_canonical": [
+      "http://localhost:8083/sk/40-nazehlovaci-vysivka?page=2"
+    ],
+    "legacy_product_ids": [
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470
+    ],
+    "native_page2_product_ids": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "native_page1_product_ids": [
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470
+    ],
+    "legacy_equals_page1": true,
+    "native_page2_differs": true
+  },
+  {
+    "source_url": "https://kafka.monster/cs/109-damska-tricka?p=2",
+    "legacy_target_url": "http://localhost:8083/cs/109-damska-tricka?p=2",
+    "native_target_url": "http://localhost:8083/109-damska-tricka?page=2",
+    "legacy_canonical": [
+      "http://localhost:8083/109-damska-tricka"
+    ],
+    "native_canonical": [
+      "http://localhost:8083/109-damska-tricka?page=2"
+    ],
+    "legacy_product_ids": [
+      3,
+      9,
+      13,
+      28,
+      47,
+      65,
+      66,
+      75,
+      82,
+      1659,
+      1714,
+      1715
+    ],
+    "native_page2_product_ids": [
+      167,
+      1716,
+      1717,
+      1718,
+      1720,
+      1721,
+      1722,
+      1727,
+      1728,
+      1729,
+      1730,
+      1731
+    ],
+    "native_page1_product_ids": [
+      3,
+      9,
+      13,
+      28,
+      47,
+      65,
+      66,
+      75,
+      82,
+      1659,
+      1714,
+      1715
+    ],
+    "legacy_equals_page1": true,
+    "native_page2_differs": true
+  },
+  {
+    "source_url": "https://kafka.monster/sk/109-damska-tricka?p=2",
+    "legacy_target_url": "http://localhost:8083/sk/109-damska-tricka?p=2",
+    "native_target_url": "http://localhost:8083/sk/109-damska-tricka?page=2",
+    "legacy_canonical": [
+      "http://localhost:8083/sk/109-damska-tricka"
+    ],
+    "native_canonical": [
+      "http://localhost:8083/sk/109-damska-tricka?page=2"
+    ],
+    "legacy_product_ids": [
+      3,
+      9,
+      13,
+      28,
+      47,
+      65,
+      66,
+      75,
+      82,
+      1659,
+      1714,
+      1715
+    ],
+    "native_page2_product_ids": [
+      167,
+      1716,
+      1717,
+      1718,
+      1720,
+      1721,
+      1722,
+      1727,
+      1728,
+      1729,
+      1730,
+      1731
+    ],
+    "native_page1_product_ids": [
+      3,
+      9,
+      13,
+      28,
+      47,
+      65,
+      66,
+      75,
+      82,
+      1659,
+      1714,
+      1715
+    ],
+    "legacy_equals_page1": true,
+    "native_page2_differs": true
+  },
+  {
+    "source_url": "https://kafka.monster/cs/110-panska-tricka?p=2",
+    "legacy_target_url": "http://localhost:8083/cs/110-panska-tricka?p=2",
+    "native_target_url": "http://localhost:8083/110-panska-tricka?page=2",
+    "legacy_canonical": [
+      "http://localhost:8083/110-panska-tricka"
+    ],
+    "native_canonical": [
+      "http://localhost:8083/110-panska-tricka?page=2"
+    ],
+    "legacy_product_ids": [
+      219,
+      1658,
+      1660,
+      1661,
+      1662,
+      1664,
+      1665,
+      1666,
+      1667,
+      1669,
+      1670,
+      1713
+    ],
+    "native_page2_product_ids": [
+      26,
+      54,
+      55,
+      60,
+      74,
+      121,
+      123,
+      142,
+      152,
+      182,
+      321,
+      327
+    ],
+    "native_page1_product_ids": [
+      219,
+      1658,
+      1660,
+      1661,
+      1662,
+      1664,
+      1665,
+      1666,
+      1667,
+      1669,
+      1670,
+      1713
+    ],
+    "legacy_equals_page1": true,
+    "native_page2_differs": true
+  },
+  {
+    "source_url": "https://kafka.monster/sk/110-panska-tricka?p=2",
+    "legacy_target_url": "http://localhost:8083/sk/110-panska-tricka?p=2",
+    "native_target_url": "http://localhost:8083/sk/110-panska-tricka?page=2",
+    "legacy_canonical": [
+      "http://localhost:8083/sk/110-panska-tricka"
+    ],
+    "native_canonical": [
+      "http://localhost:8083/sk/110-panska-tricka?page=2"
+    ],
+    "legacy_product_ids": [
+      219,
+      1658,
+      1660,
+      1661,
+      1662,
+      1664,
+      1665,
+      1666,
+      1667,
+      1669,
+      1670,
+      1713
+    ],
+    "native_page2_product_ids": [
+      26,
+      54,
+      55,
+      60,
+      74,
+      121,
+      123,
+      142,
+      152,
+      182,
+      321,
+      327
+    ],
+    "native_page1_product_ids": [
+      219,
+      1658,
+      1660,
+      1661,
+      1662,
+      1664,
+      1665,
+      1666,
+      1667,
+      1669,
+      1670,
+      1713
+    ],
+    "legacy_equals_page1": true,
+    "native_page2_differs": true
+  }
+]

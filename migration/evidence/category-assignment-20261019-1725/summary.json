@@ -1,0 +1,71 @@
+{
+  "finished_at": "2026-10-19T15:27:15.279434+00:00",
+  "passed": false,
+  "products": 3296,
+  "public_catalog_products": 3194,
+  "initially_unreachable": 409,
+  "unreachable_after": 0,
+  "original_links": 4331,
+  "final_links": 4944,
+  "added_links": 613,
+  "compared_source_rows": {
+    "product": 9888,
+    "category": 231
+  },
+  "source_path_changes": 0,
+  "source_metadata_changes": 0,
+  "fresh_http": 496,
+  "verified_category_listings": 58,
+  "verified_affected_products": 438,
+  "failures": [
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/132-cvoky",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    },
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/11-potisk-tricek-vlastni-motiv",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    },
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/16-potisk-mikin-vlastni-motiv",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    },
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/41-potisk-nasivek",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    },
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/79-potisk-hrnku-vlastni-motiv",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    },
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/44-samolepky",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    },
+    {
+      "check": "fresh_http",
+      "url": "http://localhost:8083/cs/25-zakazky",
+      "detail": [
+        "Rendered native product count differs from catalog coverage"
+      ]
+    }
+  ]
+}

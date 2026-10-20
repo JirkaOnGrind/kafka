@@ -1,0 +1,46 @@
+{
+    "counts": {
+        "product": 3296,
+        "product_attribute": 11786,
+        "category": 77,
+        "customer": 582,
+        "address": 609,
+        "orders": 574,
+        "order_detail": 1873,
+        "order_invoice": 538,
+        "order_payment": 540,
+        "image": 4962,
+        "attachment": 9,
+        "stock_available": 15234
+    },
+    "fingerprints": {
+        "product": "6c2cbd484c5d1ee94ff00bd8447d72203ff83b9109f6931b5cacdc046c0ff194",
+        "product_attribute": "6d95b4d0e2c38c1e804faa5bce5e5a249dbd99fbc37ec0205343abc45de134db",
+        "category": "8e035126f29eab30a4f8e22df1a8c2dfc86259b743527eb591e209fbaea87433",
+        "customer": "de388458afed514b1479da0301692a9af99fa3bacefb865572159df98f9a3d35",
+        "address": "b066fc29f0e51061207dcc845367f8f1caf440279b83b6b2fd911273aaa5f5bb",
+        "orders": "e8f5121058b0702ae4e710ee1d444fb2a232d8869f4b518413ba446c0312d7b1",
+        "order_detail": "99ad4248f31c513fff371659cba830a04ea4d07f4257985b4b6fa7dfe3a90ec4",
+        "order_invoice": "751b2bb867d02413c02ecb96ba2a7e227639cddb366d32f9b952ba2a0f4feb45",
+        "order_payment": "b71cbbb9490643b0756776d08d9db71d56661cfba0cd74032a9a2f40084c6309",
+        "image": "84fb61ba04c1b924dd42a8e1f48eb6e745ea8f7e79825fffefb291a38c793f1b",
+        "attachment": "a1a44bf57b01e2973c80f3106df746abc8cc62e66d2bd4bde7e9a45352adb06d",
+        "stock_available": "c2b0e85fd7b9eb02be17044c3d6d58af14929cd34162bd70f73f50a6296e29da"
+    },
+    "active_products": 3194,
+    "orphan_combinations": 2,
+    "historical_lines_without_product": 25,
+    "order_totals_by_currency": [
+        {
+            "id_currency": "2",
+            "orders": "560",
+            "total_paid": "665664.30"
+        },
+        {
+            "id_currency": "4",
+            "orders": "14",
+            "total_paid": "559.00"
+        }
+    ],
+    "mail_disabled": true
+}

@@ -1,0 +1,12 @@
+.env
+local/backups/
+local/private/
+local/source/
+local/*-state.json
+local/*-verification.json
+local/*.log
+local/packages/
+.playwright-cli/
+migration/licensed-packages/
+prestashop/themes/*/assets/cache/
+__pycache__/

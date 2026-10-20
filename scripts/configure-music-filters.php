@@ -1,0 +1,77 @@
+<?php
+// Assign the existing native facet template to the live music category.
+if (PHP_SAPI !== 'cli') { exit(1); }
+require '/var/www/html/config/config.inc.php';
+if (Configuration::get('PS_SHOP_DOMAIN') !== 'localhost:8083' || _DB_SERVER_ !== 'target-db') {
+    throw new RuntimeException('Not isolated target.');
+}
+$db = Db::getInstance();
+$templates = $db->executeS('SELECT * FROM `' . _DB_PREFIX_ . 'layered_filter` ORDER BY date_add DESC');
+$categories = $db->executeS('SELECT c.id_category, c.id_parent, cl.name FROM `' . _DB_PREFIX_ . 'category` c JOIN `' . _DB_PREFIX_ . 'category_lang` cl ON cl.id_category=c.id_category JOIN `' . _DB_PREFIX_ . 'lang` l ON l.id_lang=cl.id_lang WHERE l.iso_code="cs" AND cl.id_shop=1');
+$root = (int) Configuration::get('PS_HOME_CATEGORY');
+$matches = array_values(array_filter($categories, fn ($c) => $c['name'] === 'Hudba' && (int) $c['id_parent'] === $root));
+if (count($matches) !== 1) { throw new RuntimeException('Music category is ambiguous or absent.'); }
+$id = (int) $matches[0]['id_category'];
+$music = [$id];
+do {
+    $before = count($music);
+    foreach ($categories as $category) {
+        if (in_array((int) $category['id_parent'], $music, true)) {
+            $music[] = (int) $category['id_category'];
+            $music = array_values(array_unique($music));
+        }
+    }
+} while (count($music) !== $before);
+$missing = $music;
+$selected = null;
+foreach ($templates as $row) {
+    $data = Tools::unSerialize($row['filters']);
+    if (!in_array('category', $data['controllers'], true) || !in_array(1, $data['shop_list'])) { continue; }
+    $missing = array_values(array_diff($missing, $data['categories']));
+    if ($selected === null && in_array($root, $data['categories'])) {
+        $selected = $row;
+        $selected['decoded'] = $data;
+    }
+}
+if (!$selected) { throw new RuntimeException('No existing home facet template.'); }
+if (!$missing) {
+    echo json_encode(['changed' => false, 'categories' => $music]), PHP_EOL;
+    exit;
+}
+$options = getopt('', ['apply', 'backup:']);
+if (isset($options['apply'])) {
+    $backup = $options['backup'] ?? '';
+    $directory = realpath(dirname($backup));
+    $webroot = realpath(_PS_ROOT_DIR_);
+    if (!$directory || $directory === $webroot || str_starts_with($directory . '/', $webroot . '/')) {
+        throw new RuntimeException('Backup must be outside web root.');
+    }
+    $snapshot = [];
+    foreach (['layered_filter', 'layered_filter_shop', 'layered_category'] as $table) {
+        $snapshot[$table] = $db->executeS('SELECT * FROM `' . _DB_PREFIX_ . $table . '`');
+        if ($snapshot[$table] === false) { throw new RuntimeException('Cannot read backup table.'); }
+    }
+    $json = json_encode($snapshot, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
+    $handle = fopen($backup, 'x');
+    if (!$handle) { throw new RuntimeException('Cannot create new private backup.'); }
+    $written = fwrite($handle, $json);
+    fclose($handle);
+    chmod($backup, 0600);
+    if ($written !== strlen($json)) { throw new RuntimeException('Incomplete backup.'); }
+    $data = $selected['decoded'];
+    $data['categories'] = array_values(array_unique(array_merge($data['categories'], $missing)));
+    if (!$db->update('layered_filter', ['filters' => pSQL(serialize($data)), 'n_categories' => count($data['categories'])],
+        'id_layered_filter=' . (int) $selected['id_layered_filter'])) {
+        throw new RuntimeException('Cannot update native facet template.');
+    }
+    $module = Module::getInstanceByName('ps_facetedsearch');
+    if (!$module || !$module->active) {
+        throw new RuntimeException('Cannot rebuild native facet assignments. Private backup preserved.');
+    }
+    $module->buildLayeredCategories();
+    if (!(int) $db->getValue('SELECT COUNT(*) FROM `' . _DB_PREFIX_ . 'layered_category` WHERE controller="category" AND id_shop=1 AND id_category=' . $id)) {
+        throw new RuntimeException('Native facets were not generated. Private backup preserved.');
+    }
+}
+echo json_encode(['applied' => isset($options['apply']), 'category' => $id, 'template' => (int) $selected['id_layered_filter']], JSON_THROW_ON_ERROR), PHP_EOL;
+

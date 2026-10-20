@@ -1,0 +1,5 @@
+﻿check,detail
+missing_content_must_stay_404,http://localhost:8083/sk/damska-tilka/3511-tilko-go-pogo-2.html
+private_cart_noindex,http://localhost:8083/cs/cart
+private_cart_noindex,http://localhost:8083/de/cart
+private_cart_noindex,http://localhost:8083/sk/cart

@@ -1,0 +1,48 @@
+{
+  "observed_at_utc": "2026-10-08T22:35:33.347913+00:00",
+  "scope": "img/p numeric original JPEG filenames only; no thumbnails or customer uploads",
+  "download_completion_confirmed": false,
+  "candidates": 4968,
+  "decoded": 4968,
+  "unstable_or_unreadable": 0,
+  "empty": 0,
+  "decode_failures": [],
+  "nonproduct_media": {
+    "categories": {
+      "directory_present": true,
+      "scope": "numeric original JPG filenames only; images may be optional, no database completeness claim",
+      "candidates": 42,
+      "decoded": 42,
+      "unstable_or_unreadable": 0,
+      "empty": 0,
+      "decode_failures": []
+    },
+    "manufacturers": {
+      "directory_present": true,
+      "scope": "numeric original JPG filenames only; images may be optional, no database completeness claim",
+      "candidates": 0,
+      "decoded": 0,
+      "unstable_or_unreadable": 0,
+      "empty": 0,
+      "decode_failures": []
+    },
+    "suppliers": {
+      "directory_present": true,
+      "scope": "numeric original JPG filenames only; images may be optional, no database completeness claim",
+      "candidates": 1,
+      "decoded": 1,
+      "unstable_or_unreadable": 0,
+      "empty": 0,
+      "decode_failures": []
+    },
+    "stores": {
+      "directory_present": true,
+      "scope": "numeric original JPG filenames only; images may be optional, no database completeness claim",
+      "candidates": 0,
+      "decoded": 0,
+      "unstable_or_unreadable": 0,
+      "empty": 0,
+      "decode_failures": []
+    }
+  }
+}

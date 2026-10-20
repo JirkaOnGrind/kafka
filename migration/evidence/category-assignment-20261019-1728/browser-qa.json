@@ -1,0 +1,365 @@
+{
+  "checks": [
+    {
+      "name": "desktop page http://localhost:8083/cs/",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop collar first page",
+      "passed": true
+    },
+    {
+      "name": "desktop collar native count",
+      "passed": true
+    },
+    {
+      "name": "desktop no empty catalog",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/133-obojky?page=2",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop all 14 collars across pagination",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/133-obojky",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop original collar URL path",
+      "passed": true
+    },
+    {
+      "name": "desktop collar canonical preserves old category",
+      "passed": true
+    },
+    {
+      "name": "desktop real collar product",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/128-cepice",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop real category count cepice",
+      "passed": true
+    },
+    {
+      "name": "desktop category has product cards cepice",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive cepice",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/136-tasky",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop real category count tasky",
+      "passed": true
+    },
+    {
+      "name": "desktop category has product cards tasky",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive tasky",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/134-knihy",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop real category count knihy",
+      "passed": true
+    },
+    {
+      "name": "desktop category has product cards knihy",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive knihy",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/135-fanziny",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop real category count fanziny",
+      "passed": true
+    },
+    {
+      "name": "desktop category has product cards fanziny",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive fanziny",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/129-kravaty",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop real category count kravaty",
+      "passed": true
+    },
+    {
+      "name": "desktop category has product cards kravaty",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive kravaty",
+      "passed": true
+    },
+    {
+      "name": "desktop page http://localhost:8083/cs/132-cvoky",
+      "passed": true
+    },
+    {
+      "name": "desktop noindex",
+      "passed": true
+    },
+    {
+      "name": "desktop real category count cvoky",
+      "passed": true
+    },
+    {
+      "name": "desktop category has product cards cvoky",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive cvoky",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile collar first page",
+      "passed": true
+    },
+    {
+      "name": "mobile collar native count",
+      "passed": true
+    },
+    {
+      "name": "mobile no empty catalog",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/133-obojky?page=2",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile all 14 collars across pagination",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/133-obojky",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile original collar URL path",
+      "passed": true
+    },
+    {
+      "name": "mobile collar canonical preserves old category",
+      "passed": true
+    },
+    {
+      "name": "mobile real collar product",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/128-cepice",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile real category count cepice",
+      "passed": true
+    },
+    {
+      "name": "mobile category has product cards cepice",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive cepice",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/136-tasky",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile real category count tasky",
+      "passed": true
+    },
+    {
+      "name": "mobile category has product cards tasky",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive tasky",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/134-knihy",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile real category count knihy",
+      "passed": true
+    },
+    {
+      "name": "mobile category has product cards knihy",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive knihy",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/135-fanziny",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile real category count fanziny",
+      "passed": true
+    },
+    {
+      "name": "mobile category has product cards fanziny",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive fanziny",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/129-kravaty",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile real category count kravaty",
+      "passed": true
+    },
+    {
+      "name": "mobile category has product cards kravaty",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive kravaty",
+      "passed": true
+    },
+    {
+      "name": "mobile page http://localhost:8083/cs/132-cvoky",
+      "passed": true
+    },
+    {
+      "name": "mobile noindex",
+      "passed": true
+    },
+    {
+      "name": "mobile real category count cvoky",
+      "passed": true
+    },
+    {
+      "name": "mobile category has product cards cvoky",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive cvoky",
+      "passed": true
+    },
+    {
+      "name": "console clean",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "responseErrors": [],
+  "fallback": "Browser plugin not available; bundled Playwright",
+  "viewports": [
+    {
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ]
+}

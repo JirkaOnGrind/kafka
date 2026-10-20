@@ -1,0 +1,78 @@
+﻿source_id,source_name,source_parent,active,product_links,active_product_links,source_url,new_navigation,action,note
+1,Root,0,1,0,0,https://kafka.monster/cs/1-root,Technická/archivní kategorie,"Technický root, nevystavovat jako novou hlavní kategorii.",
+2,Home,1,1,4,4,https://kafka.monster/cs/2-home,Technická/archivní kategorie,"Technický root, nevystavovat jako novou hlavní kategorii.",
+3,"PLACKY,ŠPENDLÍKY,PINY",2,1,120,118,https://kafka.monster/cs/3-plackyspendlikypiny,Doplňky / Placky a piny,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+4,Placky ,3,1,186,186,https://kafka.monster/cs/4-placky,Doplňky / Placky a piny / Placky ,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+10,VLASTNÍ POTISK-CENÍK,2,1,28,28,https://kafka.monster/cs/10-vlastni-potisk-cenik,Custom,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+11,Potisk triček-vlastní motiv,10,1,1,1,https://kafka.monster/cs/11-potisk-tricek-vlastni-motiv,Custom / Potisk triček-vlastní motiv,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+12,Výroba placek-vlastní motiv,10,1,16,16,https://kafka.monster/cs/12-vyroba-placek-vlastni-motiv,Custom / Výroba placek-vlastní motiv,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+16,Potisk mikin-vlastní motiv,10,1,1,1,https://kafka.monster/cs/16-potisk-mikin-vlastni-motiv,Custom / Potisk mikin-vlastní motiv,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+18,Potisk čepic-vlastní motiv,10,1,2,2,https://kafka.monster/cs/18-potisk-cepic-vlastni-motiv,Custom / Potisk čepic-vlastní motiv,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+19,NÁŠIVKY,2,1,264,264,https://kafka.monster/cs/19-nasivky,Doplňky / Nášivky,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+21,BEZ POTISKU MALFINY ON LINE KATALOG,2,0,0,0,https://kafka.monster/cs/21-bez-potisku-malfiny-on-line-katalog,Technická/archivní kategorie,"Ponechat neaktivní, rozhodnout SEO/archiv individuálně; nezapínat automaticky.",
+25,Zakázky,10,1,98,1,https://kafka.monster/cs/25-zakazky,Custom / Zakázky,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,"98 vazeb produktů, pouze 1 aktivní; nutné zachovat nákup klientovy konkrétní zakázky přes odkaz."
+32,"ČEPICE , ŠÁTKY",2,1,81,80,https://kafka.monster/cs/32-cepice-satky,Doplňky / Čepice a šátky,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+33,ZIMNÍ,32,1,93,91,https://kafka.monster/cs/33-zimni,Doplňky / Čepice a šátky / ZIMNÍ,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+34,KŠILTOVKY,32,1,96,96,https://kafka.monster/cs/34-ksiltovky,Doplňky / Čepice a šátky / KŠILTOVKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+39,Klasické,19,1,158,158,https://kafka.monster/cs/39-klasicke,Doplňky / Nášivky / Klasické,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+40,Nažehlovací výšivka,19,1,345,344,https://kafka.monster/cs/40-nazehlovaci-vysivka,Doplňky / Nášivky / Nažehlovací výšivka,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+41,Potisk nášivek,10,1,1,1,https://kafka.monster/cs/41-potisk-nasivek,Custom / Potisk nášivek,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+44,Samolepky,10,1,1,1,https://kafka.monster/cs/44-samolepky,Custom / Samolepky,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+49,CD,2,1,140,140,https://kafka.monster/cs/49-cd,Hudba,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+57,Zádová nášivka,19,1,79,79,https://kafka.monster/cs/57-zadova-nasivka,Doplňky / Nášivky / Zádová nášivka,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+58,"TAŠKY,PENĚŽENKY",2,1,85,85,https://kafka.monster/cs/58-taskypenezenky,Doplňky / Tašky a peněženky,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+59,PLÁTĚNÉ TAŠKY,58,1,75,75,https://kafka.monster/cs/59-platene-tasky,Doplňky / Tašky a peněženky / PLÁTĚNÉ TAŠKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+60,"VAKY,BATOHY,TAŠKY",58,1,55,55,https://kafka.monster/cs/60-vakybatohytasky,"Doplňky / Tašky a peněženky / VAKY,BATOHY,TAŠKY","Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+61,KAPSY NA PÁSEK,58,1,28,28,https://kafka.monster/cs/61-kapsy-na-pasek,Doplňky / Tašky a peněženky / KAPSY NA PÁSEK,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+62,PENĚŽENKY,58,1,21,21,https://kafka.monster/cs/62-penezenky,Doplňky / Tašky a peněženky / PENĚŽENKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+63,Výroba  náramků s vlastním motivem,10,1,5,5,https://kafka.monster/cs/63-vyroba-naramku-s-vlastnim-motivem,Custom / Výroba  náramků s vlastním motivem,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+64,Výroba náhrdelníků s vlastním motivem,10,1,2,2,https://kafka.monster/cs/64-vyroba-nahrdelniku-s-vlastnim-motivem,Custom / Výroba náhrdelníků s vlastním motivem,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+70,BLACK FRIDAY,2,0,46,46,https://kafka.monster/cs/70-black-friday,Technická/archivní kategorie,"Ponechat neaktivní, rozhodnout SEO/archiv individuálně; nezapínat automaticky.",
+74,Nažehlovací výšivka dětská,19,1,79,79,https://kafka.monster/cs/74-nazehlovaci-vysivka-detska,Doplňky / Nášivky / Nažehlovací výšivka dětská,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",Dětské nášivky sjednotit navigačně; zachovat staré odkazy.
+75,Špendlíky,3,1,29,29,https://kafka.monster/cs/75-spendliky,Doplňky / Placky a piny / Špendlíky,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+79,Potisk Hrnků - Vlastní motiv,10,1,1,1,https://kafka.monster/cs/79-potisk-hrnku-vlastni-motiv,Custom / Potisk Hrnků - Vlastní motiv,Custom CMS vstup; původní URL/katalog zachovat nebo individuálně přesměrovat po kontrole objednávek.,Zakázkové produkty jsou součást historie; Custom bez feedu neznamená odstranit produkty.
+81,% VÝPRODEJ %,2,1,56,56,https://kafka.monster/cs/81--vyprodej-,Výprodej,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",Výprodej má 56 vazeb; slevových záznamů je 1564. Nejsou to stejné množiny.
+82,DĚTSKÉ,2,1,23,23,https://kafka.monster/cs/82-detske,Oblečení / Dětské,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+83,Dětské Body,82,1,24,24,https://kafka.monster/cs/83-detske-body,Oblečení / Dětské / Dětské Body,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+84,Dětská trička,82,1,113,113,https://kafka.monster/cs/84-detska-tricka,Oblečení / Dětské / Dětská trička,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+85,Dětské mikiny,82,1,94,94,https://kafka.monster/cs/85-detske-mikiny,Oblečení / Dětské / Dětské mikiny,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+86,Dětské mikiny se zipem,82,1,31,31,https://kafka.monster/cs/86-detske-mikiny-se-zipem,Oblečení / Dětské / Dětské mikiny se zipem,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.","Menu může sloučit pod mikiny, typ zapínání jako filtr; URL při prvním spuštění zachovat."
+87,Dětské nažehlovací výšivky,82,1,71,71,https://kafka.monster/cs/87-detske-nazehlovaci-vysivky,Oblečení / Dětské / Dětské nažehlovací výšivky,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",Dětské nášivky sjednotit navigačně; zachovat staré odkazy.
+88,MÓDNÍ DOPLŇKY,2,1,9,9,https://kafka.monster/cs/88-modni-doplnky,Doplňky / Šperky a ostatní,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+90,STYLOVÉ DOPLŇKY,2,1,21,21,https://kafka.monster/cs/90-stylove-doplnky,Doplňky / Ostatní,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+91,SLUNEČNÍ BRÝLE,90,1,6,6,https://kafka.monster/cs/91-slunecni-bryle,Doplňky / Ostatní / SLUNEČNÍ BRÝLE,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+92,PÁSKY,90,1,17,17,https://kafka.monster/cs/92-pasky,Doplňky / Ostatní / PÁSKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+93,OBOJKY KRAVATY,90,1,22,22,https://kafka.monster/cs/93-obojky-kravaty,Doplňky / Ostatní / OBOJKY KRAVATY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+94,HRNKY,90,1,14,14,https://kafka.monster/cs/94-hrnky,Doplňky / Ostatní / HRNKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+95,NÁRAMKY,90,1,30,30,https://kafka.monster/cs/95-naramky,Doplňky / Ostatní / NÁRAMKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+96,VLAJKY,90,1,38,38,https://kafka.monster/cs/96-vlajky,Doplňky / Ostatní / VLAJKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+97,"TAŠKY,PENĚŽENKY",90,0,0,0,https://kafka.monster/cs/97-taskypenezenky,"Doplňky / Ostatní / TAŠKY,PENĚŽENKY","Ponechat neaktivní, rozhodnout SEO/archiv individuálně; nezapínat automaticky.",
+98,"KNIHY,FANZINY",90,1,36,36,https://kafka.monster/cs/98-knihyfanziny,"Doplňky / Ostatní / KNIHY,FANZINY","Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+99,PRSTENY,88,1,25,25,https://kafka.monster/cs/99-prsteny,Doplňky / Šperky a ostatní / PRSTENY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+100,NÁUŠNICE,88,1,36,36,https://kafka.monster/cs/100-nausnice,Doplňky / Šperky a ostatní / NÁUŠNICE,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+101,NÁHRDELNÍKY,88,1,18,18,https://kafka.monster/cs/101-nahrdelniky,Doplňky / Šperky a ostatní / NÁHRDELNÍKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+102,"HROTY,PYRAMIDY,CVOKY",88,1,8,8,https://kafka.monster/cs/102-hrotypyramidycvoky,"Doplňky / Šperky a ostatní / HROTY,PYRAMIDY,CVOKY","Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+103,OTVÍRÁKY,90,1,85,85,https://kafka.monster/cs/103-otviraky,Doplňky / Ostatní / OTVÍRÁKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+104,SAMOLEPKY,90,1,85,85,https://kafka.monster/cs/104-samolepky,Doplňky / Ostatní / SAMOLEPKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+105,DÁMSKÉ,2,1,23,23,https://kafka.monster/cs/105-damske,Oblečení / Dámské,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+106,DÁMSKÁ TÍLKA,105,1,108,108,https://kafka.monster/cs/106-damska-tilka,Oblečení / Dámské / DÁMSKÁ TÍLKA,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+107,PÁNSKÉ,2,1,39,39,https://kafka.monster/cs/107-panske,Oblečení / Pánské,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+108,PÁNSKÁ TÍLKA,107,1,105,105,https://kafka.monster/cs/108-panska-tilka,Oblečení / Pánské / PÁNSKÁ TÍLKA,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+109,DÁMSKÁ TRIČKA,105,1,243,243,https://kafka.monster/cs/109-damska-tricka,Oblečení / Dámské / DÁMSKÁ TRIČKA,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+110,PÁNSKÁ TRIČKA,107,1,240,240,https://kafka.monster/cs/110-panska-tricka,Oblečení / Pánské / PÁNSKÁ TRIČKA,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+111,MERCH ,2,1,30,30,https://kafka.monster/cs/111-merch,Merche,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+112,PLESNIVÝ FAZOLE,111,1,29,29,https://kafka.monster/cs/112-plesnivy-fazole,Merche / PLESNIVÝ FAZOLE,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+113,NEPARKOVAT VJEZD,111,1,26,26,https://kafka.monster/cs/113-neparkovat-vjezd,Merche / NEPARKOVAT VJEZD,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+114,STAMP OUT SYSTEM,111,1,21,21,https://kafka.monster/cs/114-stamp-out-system,Merche / STAMP OUT SYSTEM,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+115,ADHD HELMUT,111,1,16,16,https://kafka.monster/cs/115-adhd-helmut,Merche / ADHD HELMUT,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+116,PRŮSER,111,1,14,14,https://kafka.monster/cs/116-pruser,Merche / PRŮSER,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+117,DÁMSKÉ MIKINY,105,1,116,116,https://kafka.monster/cs/117-damske-mikiny,Oblečení / Dámské / DÁMSKÉ MIKINY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+118,MIKINY NA ZIP DÁMSKÉ,105,1,43,43,https://kafka.monster/cs/118-mikiny-na-zip-damske,Oblečení / Dámské / MIKINY NA ZIP DÁMSKÉ,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.","Menu může sloučit pod mikiny, typ zapínání jako filtr; URL při prvním spuštění zachovat."
+119,PÁNSKÉ MIKINY,107,1,150,150,https://kafka.monster/cs/119-panske-mikiny,Oblečení / Pánské / PÁNSKÉ MIKINY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+120,MIKINY NA ZIP PÁNSKÉ,107,1,43,43,https://kafka.monster/cs/120-mikiny-na-zip-panske,Oblečení / Pánské / MIKINY NA ZIP PÁNSKÉ,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.","Menu může sloučit pod mikiny, typ zapínání jako filtr; URL při prvním spuštění zachovat."
+121,SUKNĚ,105,1,1,1,https://kafka.monster/cs/121-sukne,Oblečení / Dámské / SUKNĚ,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+122,ŘETĚZ NA KALHOTY,88,1,6,6,https://kafka.monster/cs/122-retez-na-kalhoty,Doplňky / Šperky a ostatní / ŘETĚZ NA KALHOTY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+123,THE PUNKAVEC,111,1,12,12,https://kafka.monster/cs/123-the-punkavec,Merche / THE PUNKAVEC,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+124,Piny,3,1,36,36,https://kafka.monster/cs/124-piny,Doplňky / Placky a piny / Piny,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+125,INDIÁNSKÁ REZERVACE,111,1,25,25,https://kafka.monster/cs/125-indianska-rezervace,Merche / INDIÁNSKÁ REZERVACE,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",
+126,ŠÁTKY,32,1,3,3,https://kafka.monster/cs/126-satky,Doplňky / Čepice a šátky / ŠÁTKY,"Zachovat ID, slug a výchozí kategorii produktů; měnit jen navigaci.",

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "target": "localhost:8083",
+  "configuration": {
+    "PS_REWRITING_SETTINGS": "1",
+    "PS_DEFAULT_LANGUAGE_URL_PREFIX": "1",
+    "PS_CANONICAL_REDIRECT": "2",
+    "PS_ROUTE_product_rule": "{category:/}{id}-{rewrite}{-:ean13}.html",
+    "PS_ROUTE_supplier_rule": "{id}__{rewrite}",
+    "PS_ROUTE_manufacturer_rule": "{id}_{rewrite}",
+    "PS_SHOP_NAME": "Kafka Monster"
+  },
+  "default_language_iso": "cs",
+  "module": "kafkaseo",
+  "hooks": ["moduleRoutes", "actionFrontControllerInitBefore", "actionFrontControllerSetVariables"]
+}

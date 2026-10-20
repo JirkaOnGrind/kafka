@@ -1,0 +1,20 @@
+[
+  {
+    "name": "The Punkavec",
+    "url": "https://thepunkavec.cz/",
+    "logo": "the-punkavec.png",
+    "width": 200,
+    "height": 66,
+    "description": "Punkový fanzin",
+    "logoSource": "https://thepunkavec.cz/data/files/logo/thepunkavec_logo_zlutaclear_male.png"
+  },
+  {
+    "name": "Punkhudba",
+    "url": "https://punkhudba.wz.cz/",
+    "logo": "punkhudba.png",
+    "width": 312,
+    "height": 70,
+    "description": "Punk · Ska · Oi!",
+    "logoSource": "https://punkhudba.wz.cz/wp-content/uploads/2022/02/punkhudba_logo.png"
+  }
+]

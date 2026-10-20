@@ -1,0 +1,8 @@
+﻿path,bytes,nonempty_override,classes,methods
+override/classes/Hook.php,2299,True,"[[""Hook"", ""HookCore""]]",getHookModuleExecList
+override/classes/Product.php,1330,True,"[[""Product"", ""ProductCore""]]",
+override/classes/order/Order.php,3629,True,[],refreshShippingCost
+override/controllers/front/AuthController.php,896,True,"[[""AuthController"", ""AuthControllerCore""]]",processSubmitAccount
+override/controllers/front/ContactController.php,799,True,"[[""ContactController"", ""ContactControllerCore""]]",postProcess
+override/controllers/front/OrderController.php,2859,True,"[[""OrderController"", ""OrderControllerCore""]]","init, setConsentCookie"
+override/controllers/front/OrderOpcController.php,3042,True,"[[""OrderOpcController"", ""OrderOpcControllerCore""]]","init, setConsentCookie"

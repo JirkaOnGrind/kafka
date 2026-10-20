@@ -1,0 +1,2078 @@
+[
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\kafkahome.php",
+    "Hash": "87380AF1819184DAFCD8156023A67FF7FC8EAA39789AF30531B15C89522CD959"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\controllers\\front\\info.php",
+    "Hash": "5A161ECB61597C7F145D41DDFB912CD2ADA933D3C8E52E4A555BF5E5AAEB39FA"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\controllers\\front\\section.php",
+    "Hash": "F5E61CB18965B7E29D18DAAEA8DA1A3CDEB7116075AE425B9ADF00D259F7FD82"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\data\\sections.json",
+    "Hash": "2776D318D92467F2CAF90495A4A25CED8E99A4DC175760773979DBD916141157"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\front\\info.tpl",
+    "Hash": "01AD840772201743C07EB9D7B8A533AA16800290737751FDE808BB074381C7FC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\front\\section.tpl",
+    "Hash": "3DA8616DD683B92D42A474E981A67E774B58731E45FE08A628FBB03EC4A5D61B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\hook\\categories.tpl",
+    "Hash": "9706707E62EAA5BB20E6D007CABC52664AA437C357B57D989AFF6D13C68A882F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\hook\\footer.tpl",
+    "Hash": "F2F3C95AD075E3F1782063B17104AF4FFB322F4300AAF801866BF277E9D2623C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\hook\\icons.tpl",
+    "Hash": "7C807B8122FB6B5595065BF1EE8327C048D2F9280FF6003BA590FF06F013B3FC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\hook\\navigation.tpl",
+    "Hash": "67675E5991488B5BBD6D6FFD507A26ED03B013FE34509F4DF7626FD0F40C4A6C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\modules\\kafkahome\\views\\templates\\hook\\trust.tpl",
+    "Hash": "E03D9AC345DF2021CAA3B22E160CB9B2E90C3ABB5EFEB08748CCDBF2CF093462"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\composer.json",
+    "Hash": "61E64C4C50FB3DA3F302921C1BFE54E59CB100AC359ADCBE0713A6CAE5476EBC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\CONTRIBUTING.md",
+    "Hash": "F4928C9265BBF25FE1B9061A87BCDA61808A2571662C8A81B19AB3F6ACD041A7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\preview.png",
+    "Hash": "880CFD01CFDD488BC24E081168AB1BA72808A505F2E968E7DA29C513122D9462"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\README.md",
+    "Hash": "E102DE5D2EF68DEF44406BD0A11CF31E53A623DE973254EEB4B663B54AEB9A85"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\preload.html",
+    "Hash": "9278FE918E44B1DFAB2A2FDFFFF243BF8D37D3C02CE270AC557C61FDE71225C6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\cache\\bottom-4ef001.js",
+    "Hash": "37C98DE4174B40F87D8663FA3FD14B85FB266DCA4DC2E401151FBB3603AB9823"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\cache\\theme-986e33.css",
+    "Hash": "F31CAC031EBF2BCCFE9C03EE4D5CA763266D227977694777D5E347CBDC2972FD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\error_rtl.css",
+    "Hash": "49AC40482A356B725631D256443C5BF0423D4C800DF1D3A2201B3F58BB146B4D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\error_rtl.css.map",
+    "Hash": "6A5FB6913A0AB7F413E182FE71053FD6480C553BA235B5F274A87CF379A6A521"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\error.css",
+    "Hash": "49AC40482A356B725631D256443C5BF0423D4C800DF1D3A2201B3F58BB146B4D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\error.css.map",
+    "Hash": "261100F932C0B0BDCB08BBA6AAB52D4CD6F9362C97EF4458EB12A73D49CE1BE9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\rtl.css",
+    "Hash": "249318B29395E05576CB6C11616EAAEFB4853BEF56AC717334873B5234CBDCBC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\rtl.css.map",
+    "Hash": "09C83BF0AC503168DAB067112A82D61905AADF775DAE111DD0639137156C3AC8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\theme_rtl.css",
+    "Hash": "753215143A588B13875425CAB59D2D22031F079162C4A5DE13D6C19368775F6A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\theme_rtl.css.map",
+    "Hash": "97A087ACFD87873732F6443FC15BFFE6D626D4743A015F4C09CD4BCC1383EF38"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\theme.css",
+    "Hash": "61742AE3093EC32B27A5AB55914D8ACD3E999CACFFBB14A2A61769DBB22EFD4E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\css\\theme.css.map",
+    "Hash": "3C2DB80DF2C22D0797175D5C6DF130976F8F07C57380F9C49E01DC1D8ED3CACD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-100-normal-adad0bc79aadbc73d083.woff2",
+    "Hash": "79AF3825F0D9F5C61EA57D106DF54F502F5F1BBBBEF90DC4EACB8A5B6F52B998"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-100-normal-e8af64c84de481fb0bb5.woff",
+    "Hash": "7CB21C94AB53890C9C862E56695AECD5CFFA991F63EC32664437DC301043D7D8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-300-normal-9e0ae30c98c08621bd65.woff",
+    "Hash": "ED3C42F747DC9171FF17768ABD00CEC5819F54939DE501924A18893DDF8CAF36"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-300-normal-f9e5f604a45c00a532f2.woff2",
+    "Hash": "C7F471AEEFF90C29EE1044684CCD7E6C381E50ADAB28AB65D93B288BB5744FFF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-400-normal-062321ff8a8844520dc5.woff",
+    "Hash": "1A60C44254EDB3B1A93CDFEF5FEECAAA283921AAE120BFE72022FA496BEDAB96"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-400-normal-cb04b2ee2f7d192478b8.woff2",
+    "Hash": "636D13AAB05ED9FA49DF19C57FDDDBB6F3D084F463743EE5257549DBB7124005"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-600-normal-883b5e4d36b7b0812ed4.woff",
+    "Hash": "A8B3D31F34423AE048312E2278F05C95C03896F3BA9D594B8CB07577B51F5149"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-600-normal-ce60970447cde0dd1582.woff2",
+    "Hash": "1CB3363002EE1D0C9470C8D5BE981A219CDCEB959A90AD672E3DD007E085D452"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-700-normal-03cc5c4a68b77f60ea9b.woff",
+    "Hash": "E45E71F8159B80F06FAEE527CBEA174FA6DFC4078F1B6DA357E131243E44A06D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-700-normal-36e9cf9ecc07ac6bce28.woff2",
+    "Hash": "2F0D13ED846E9B6C47123B726959EEBD8AA1E8FE42E18A10B8DD572ED3A3AB9E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-100-normal-316d864e0e3f84eab173.woff2",
+    "Hash": "53B2B3A44262CF321707C29F19C452A05BCD60F7CA264F1AD5E21732B18D9FC3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-100-normal-7c4d8b099260c3993ec3.woff",
+    "Hash": "02C278E7F1731A5E2C1FFA90B0431A0EC2338E5BB4605442C4371ED131EB1F39"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-300-normal-04c5d2c480c226920a9b.woff2",
+    "Hash": "FBC608866C6DDBD214A4377D4A23479DB530BF971266C33BC136C7AF5F1E7E38"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-300-normal-e98ef8217eff70b1c6a0.woff",
+    "Hash": "F625A5FE91C5C18E29F2CFAF70929CF96ECCD237CCE82D57F391FCB9B6FC1422"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-400-normal-c676f175d430bd465724.woff",
+    "Hash": "44717686CC3DF581C54DEBCC1D0C3BCC6514697B4FB1EB675996CFD1C7D96980"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-400-normal-fd1478dcc74de00ee4c0.woff2",
+    "Hash": "EF323D84E475D3C42C1A13921FC21CE67C89FFEA3815E77F27C05D1FF25F2D42"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-600-normal-25b7c495f686777a1c08.woff2",
+    "Hash": "6D911A1FD360CFF5F756B9707BF43225A35C7A30C3C1DD939AFEC979E995127A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-600-normal-2c47e01b64f03ba9fb58.woff",
+    "Hash": "A76E99F9F13C9862AB3FBFB389FEBEFEBA6A500CAC520F3BB268EEBB5C6DAB97"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-700-normal-0ddea3beace60380deb1.woff",
+    "Hash": "6572C45FFD460DC58399D873ABD04E9EE7738DE8FE40164025E6C158A12C9B64"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-cyrillic-ext-700-normal-5631f054acb5a33a716a.woff2",
+    "Hash": "1590AF321A0DA8D020C4AB2E1894B824A5349C7B1AE3664FB4BC7C86E1B23A06"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-100-normal-8fc3bc6ccec7241b113e.woff2",
+    "Hash": "163D5EB4C0DF3073ACEB9FE7E275E14CF2096AA78F68138B5985D7B35FD64768"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-100-normal-f469e7eca916e5fe40f2.woff",
+    "Hash": "B37E8DECB5F6E4987E7374E55304593781C6EB41A5CB4BF44859904B2E0DE98E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-300-normal-3703eb6abf02d92c4c6d.woff2",
+    "Hash": "08B0C8F4E296FED13E7BEA17738F5909CDE9E0A39F804F6DAA79AE7967052B03"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-300-normal-af02be9dc0594b20f539.woff",
+    "Hash": "CE05C7882A63A5924B9C0BEE2BDF828312C79C20B62EBAF47F2B2C33B6D9C6FA"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-400-normal-9ec3b40ece10debf7a33.woff",
+    "Hash": "AAD8C19D9D1F6464CD2F752B8AA6153DFB8EFCFCA9F343CB78E57D5D88B5A77D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-400-normal-a8de720a6f13c66c8a4e.woff2",
+    "Hash": "150DC4391E5687826DF4CDFC90CFEC10C507191CA7AA90B682722054F3BBC0DE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-600-normal-5c46a357ea91911fc65d.woff2",
+    "Hash": "06309C7555E32CD346AE5E1D57321FA8A84459F073B5C35A6798E0544A9C773F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-600-normal-83c86cfda9c5fd96a471.woff",
+    "Hash": "47E97645AEED477940C059C0567CFB22FC9F1E596F5D06C45241018E85195C39"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-700-normal-04d33a0bd87050834f1a.woff",
+    "Hash": "57F8478ACF981052C388D94E41AE28117C46A7D07B2C3E7EB0B57E20831812FB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-700-normal-f5fbdfc39c2431160896.woff2",
+    "Hash": "15D8BEF8B39FF74B01A4C4294DED836212C8ACBE4AA801818D5C058B342283AB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-100-normal-2d5ea9305c50077c7ace.woff",
+    "Hash": "0E09CF8A7382650CF9ED971B6D394EFB13EC360512C0972F5BC4370DA2008026"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-100-normal-6e71e05632e11c47019e.woff2",
+    "Hash": "6FB5EBF3E9BABD47BF92F62165446CD3FEB4D3F56877C3B9A3C641F60E38440C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-300-normal-678a6de32725959471bf.woff",
+    "Hash": "A62F96900F6D6D53D461D4785912DEA2A8AB6743286428D99A8FEDEAD8D90C28"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-300-normal-c0dba9f477d8b8e0198f.woff2",
+    "Hash": "F7C9ABFFBF55F3021F7C6FF9DCC901EEA8A8D9A795A8A80681926CF52471FEB1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-400-normal-02f9e7ef5cf29425f684.woff",
+    "Hash": "4EA12C79BDB5F5799CFE5144C89F87B0A67FA415EFA08490E9383D1B72446C28"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-400-normal-f2fa0d9ef98f59d4a75b.woff2",
+    "Hash": "AB526CB34092970CF4290B6D3588BCBDA0971493EC5ABEA5F5B572E0866017EC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-600-normal-7bff749a95dc0612fa35.woff",
+    "Hash": "F28B1F0393425CAE53E6E61863E4BE073762AE42E297675FCAC1CAD066B2426D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-600-normal-c8a7cddec49294a9e8ba.woff2",
+    "Hash": "A008324EB9D38BF1BE39DDC32A25D9DB331755C2CA02547C89E2CDF5E4139C6B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-700-normal-4cdf2b4e817dade3d4aa.woff2",
+    "Hash": "E802F23686B6768B1E5FB442549661EFC7CDFCC8B3B446F3E97258CAF8CAFD49"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-greek-ext-700-normal-ca8751b8c028cb9ae710.woff",
+    "Hash": "A614A0F4898FC5DCF3A38F6EADCECF45A9D63AE97B26FC34A28568AEAFC13DAE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-100-normal-1902b077b119906b31af.woff2",
+    "Hash": "0204EE3B2C3F8F6BCC9DC49A6865D17DA88FDAEAAC5F6160D8C2DCCEE194D186"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-100-normal-6651ca189ca8f1d3553a.woff",
+    "Hash": "BCCC5030B761C92D0EC3BF6A31FF2E7B95E1AB901B479B163B8CEF1E137E0C3A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-300-normal-07e0e0017a987f6c727e.woff",
+    "Hash": "635CF706B3A3528C1617CE8EDAA4E767489C1C61320A97B4AA649495EE49AC2A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-300-normal-eb229bb9406cc043d5a4.woff2",
+    "Hash": "BE0276550393A72B94D673505567DCEBA801511D5E1CA5A87793190DC5D5A6CA"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-400-normal-2ea1079c0069eb040a52.woff",
+    "Hash": "E20FA0B4FD2DD26E4D14B3AC3CC922509C3A63FA5E910E90C614544AA042DD45"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-400-normal-eca1e21531598d5db58f.woff2",
+    "Hash": "8909904AB6C872EB994093482A88A28ECA2CD95912D7B6FECD72103B0DC07EDC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-600-normal-69a8d1d484967aba2389.woff2",
+    "Hash": "F9A06E79CD3A2A20951C0F0E28F66DD0E6D3FDA73911D640A2125C8FCB78F21A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-600-normal-f10265da6bd8d66999ac.woff",
+    "Hash": "6A9CB3A509B4EEAF12B7DDA6C4AACAC3E85D07F4201BF4DD716E332E692B87BD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-700-normal-02426d017cf367236f56.woff",
+    "Hash": "AE0E098F637BDCED521EC8528C5B4E54473092C0858BE2BAAD39E32314B0BDA3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-700-normal-084676038be5b1c38324.woff2",
+    "Hash": "0B56EC39D3FE914C6801BE863937045BAAF8E1C82DC21734184DC671471CBDB2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-100-normal-020b27b1afe74f47ef85.woff",
+    "Hash": "F6670196086992BDF36171FA2928AC665CEF44C60422074B78CE184CB7C45920"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-100-normal-46c72f6d72cd6cd219cc.woff2",
+    "Hash": "81FF97F63A7FE23550C1A94C4F53521BE55F1F325B5B8A15F84E6E8700A767F8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-300-normal-8eeafc82bf1e3850a262.woff",
+    "Hash": "0D9DB034891287B2BD0C896A8E3CBF3F4594B385D95388C9841382CB3EF03BD6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-300-normal-c339d02bc1066c5eb0eb.woff2",
+    "Hash": "B11DEF546AC052FAD7993E39C53801B55AF99B0FD51A9AC0E72884B5C3FCAA3F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-400-normal-210fb826cb25acbd4094.woff2",
+    "Hash": "6744A7F509EBC6AB220A6CD4EA77E898ADF014F03D88DCDA5D45D8A9FEEFB4E9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-400-normal-c616205185f0d3677df9.woff",
+    "Hash": "22AE8360FBAD24D2AF7C6C9898A346C881774DC87F7CF94BD262C48AD58D7116"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-600-normal-4d0d5017d71ea1750fc1.woff",
+    "Hash": "22FF20A6170674FB9637C2A072227BE86303BB6EC52B829B9D7077405F7196A6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-600-normal-8148c3ae14dfaefc62ca.woff2",
+    "Hash": "E4BDF67B0CD15CA9E184509275BE95DB942195D3CC2B17F6A0452F2ADF75D0BF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-700-normal-454735e8a8af2928485e.woff",
+    "Hash": "2F2A8A48F19325F2653C0396BE442D2EC6F635857D8BF4D8AF57E189A830ED05"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-latin-ext-700-normal-be70ab2888339fe67ac5.woff2",
+    "Hash": "0303177C47847C74CCE8B80B2F1BA4602FDF8D18CFC6663FEA378878C921683C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-100-normal-36c20080fc93b19481e5.woff",
+    "Hash": "220EC96F164F3F94126C822C72B0496108C4288A5F2F321901D272F23C3A433B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-100-normal-f01858816ebc9a981a3d.woff2",
+    "Hash": "233E22EB8E8197B332BFAB564D9F603ADCCC8815E12EE615AA0361DC3359BE76"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-300-normal-2a4055b17286ecdd503d.woff2",
+    "Hash": "1E3CDE652ACFBC67194E84D2068953D4799DF8B125089F11687142C39603CD7F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-300-normal-364184c9994e78d1ec87.woff",
+    "Hash": "6305C5E2D150A513007F66F24D4EA5EB49A840CF59E46B166718CF845183B274"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-400-normal-44c9df135eec470b0ab6.woff2",
+    "Hash": "547AD9FDAEB0AE43487F4B8A02E47C36553C0C0CB73C8AA98F93B7B615F6B55D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-400-normal-aaa15d735e3826061950.woff",
+    "Hash": "54AA42D325BCDFD623ECB9EAC4A5E3C6420C63D7B86E9D8545FB479F653BEB57"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-600-normal-04bb56ffa463ab55708d.woff",
+    "Hash": "24A01E7BD947AEEF91AE8F7B8EDEB23FADAF5CEDA34A610CE62D2BBDAEA57E83"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-600-normal-6984cf5e8583fac83be3.woff2",
+    "Hash": "1AEB94AE9DB052A4A2FE6F3046F928CFF1FDBD7ABDF870A9A01C13CAE6FAEBA5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-700-normal-5d9bfcacc44f345662ff.woff2",
+    "Hash": "0D785753058CDEB47391E9C5C6C3B62F7383010961A974FECF6D18B4F37376BC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\inter-vietnamese-700-normal-cceb6e3d4483c3136077.woff",
+    "Hash": "75129106F74CA6918E45B816789F823EABD092F83904AE36AE4F0B37A5A1A4BB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\MaterialIcons-Regular-08cefa1bc6566a650da7.woff",
+    "Hash": "11EC382A38DCCAB945E4D039C5844BD57DFCE602A7ADEBCD19879E40A1BE8126"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\MaterialIcons-Regular-2d8017489da689caedc1.woff2",
+    "Hash": "5743ED3D91616A10FCA2BC2BA0F6F0707300C05BDC65BC6D9D4FB2CD75253FFE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\Vazirmatn-Bold-0d6a47ce8c185a9436b2.woff2",
+    "Hash": "836FAE7D42D83FAA249BC00E0099592BE98A1FA260D22D82F269B6091E585627"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\fonts\\Vazirmatn-Regular-58c84f666915410c0ba8.woff2",
+    "Hash": "E382101336C6EB32CFB31381C027D02D2E0354BAD08F6A395D4088BEB3DB3D91"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\img-dist\\ebbe53f758171816c2d4.png",
+    "Hash": "ABE452DC18ADE3FA252B1374CC8E32388855CF4C02B930D43C264EA5F1A7AEE4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\img-dist\\f04f6b103c75e5e5920a.png",
+    "Hash": "0CF9BB7343E48C8428497E739EAECDF49ED2C23B5ECCB43EC35DE33DF1BA680F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\js\\theme.js",
+    "Hash": "6997202DC349F99AD7C0CA9FD54848836D51656555D79C2AC668D60064BBE344"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\assets\\js\\theme.js.map",
+    "Hash": "036371CD1D0ADB7F47722F2E92690F8FE935DC06C088A8E3B1A5892527A7B116"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\config\\.htaccess",
+    "Hash": "C140D609F049ADAC9940C72CC2EA9A8754B8D806E191EAE617B106F9E43D0975"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\config\\theme.yml",
+    "Hash": "460ADFB92644732ACC7384FC357FD2579C844A1F39F331940A528F878C7DAE51"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockreassurance\\views\\dist\\front.css",
+    "Hash": "04C61FEFBA3B0A46F6BF461056DD9D9F9FD6078E3FBB7EDA731541B78B48AD8D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockreassurance\\views\\templates\\hook\\displayBlock.tpl",
+    "Hash": "69B7FB1EE304FD734196C96BA1499B745C923A7888E56E40A1FC3567391A2FD4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockreassurance\\views\\templates\\hook\\displayBlockProduct.tpl",
+    "Hash": "7C8C4B832E03F8B66B11055831146EF75C55DB6DC81C8FC4139DA90CD9788ED7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockreassurance\\views\\templates\\hook\\displayBlockWhite.tpl",
+    "Hash": "606924D4668B131365BBC3E8A905D7F01A959D93C90384135D62682E6A6A142A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\index.php",
+    "Hash": "856BFE61A5E5B405136ED1EA790CE24EEEEBD2A3D33DFFF99623BEEFBE2C1997"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\index.php",
+    "Hash": "856BFE61A5E5B405136ED1EA790CE24EEEEBD2A3D33DFFF99623BEEFBE2C1997"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\index.php",
+    "Hash": "856BFE61A5E5B405136ED1EA790CE24EEEEBD2A3D33DFFF99623BEEFBE2C1997"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\components\\modals\\add-to-wishlist.tpl",
+    "Hash": "C419EA3C0BF3D7568861D5E766B8E8A6D0A2B3950F8A30EFC59AF753D4F0145D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\components\\modals\\create.tpl",
+    "Hash": "992386B1CEB80A775CC99A9E544F3FE2A7744B0A02B9DADD795AA4CA125ECC35"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\components\\modals\\delete.tpl",
+    "Hash": "69A41155919EC63F0A63F112358A7617FC895229D657A7FC496FFB253CD888F2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\components\\modals\\login.tpl",
+    "Hash": "1AFC274E8CAD1CB8710DEC6F37607AA89BD06EE800CEE5C622F93D6DE8ADBB28"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\components\\modals\\rename.tpl",
+    "Hash": "A992239226ED69132521BAF367788159DA51D8CE5BDA540CAAA42308DCCF0EB4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\components\\modals\\share.tpl",
+    "Hash": "E45B28576607AB6A413C6CF3F48B54019B8CCE291AB442EF7730CA1BD006DE51"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\hook\\displayCustomerAccount.tpl",
+    "Hash": "FC79D6675ABED13B66E5BD901350F441AE40757E2192A32D746337AAB731594E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\blockwishlist\\views\\templates\\hook\\index.php",
+    "Hash": "856BFE61A5E5B405136ED1EA790CE24EEEEBD2A3D33DFFF99623BEEFBE2C1997"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\contactform\\views\\templates\\widget\\contactform.tpl",
+    "Hash": "3973FF59AEF250AF9EFD80185E5167714B8CAB39443FD5CAD4B470D01F34DF45"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\css\\productcomments.css",
+    "Hash": "95B7850B5638521350BFA8C8468566A17718BE42A4F479F2B612F83EBB60E60C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\img\\small_stars.png",
+    "Hash": "0CF9BB7343E48C8428497E739EAECDF49ED2C23B5ECCB43EC35DE33DF1BA680F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\img\\stars.png",
+    "Hash": "ABE452DC18ADE3FA252B1374CC8E32388855CF4C02B930D43C264EA5F1A7AEE4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\js\\list-comments.js",
+    "Hash": "AA22FF62FA2CF9D0EEDEDCE73E5542AA2949237D8D15BF6827D03DFA620BC96B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\js\\post-comment.js",
+    "Hash": "AA22FF62FA2CF9D0EEDEDCE73E5542AA2949237D8D15BF6827D03DFA620BC96B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\js\\productListingComments.js",
+    "Hash": "435CDE78D173FE62EA5A8BB9801D94A20DF5E4B0AC5A0A39D12FC3FD3CA7A06C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\alert-modal.tpl",
+    "Hash": "6F493972CC3757EA9AEBF535300344D5794CF45BCB72279DF475CA875FEB5E1C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\average-grade-stars.tpl",
+    "Hash": "B500AC323A04677B84C5C4F384DB79A7C603E411A6DAFCA4779AC737D66293E9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\confirm-modal.tpl",
+    "Hash": "299DE0FFC894096463785FD3A4AA674D4535B30F915790D7233CC3B1CAC5A224"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\empty-product-comment.tpl",
+    "Hash": "5333086EAB7D42CF1A216BDA3CD5D96233AA96A0D4C4616728C2EFFEEBE605E0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\post-comment-modal.tpl",
+    "Hash": "47F09753699EB9459306DB4DC2E25DB5E25914381300B87D59A7A0F2C8340806"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\product-additional-info.tpl",
+    "Hash": "5372EFD081D1223604BCFB262CD84241C19C1F6454BB516159C3981A5BD4B243"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\product-comment-item-prototype.tpl",
+    "Hash": "E3CDBF4C680E3F3E6769E82B024F2A8231BAEB2252AC0BF19AFEFB9AAEBCE284"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\product-comments-list.tpl",
+    "Hash": "371E056CD03E0D643EFC308FF8DAF77FFC0999A758E124B01B88BDB88D4691BB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\productcomments\\views\\templates\\hook\\product-list-reviews.tpl",
+    "Hash": "C154C75D37BFBFEFDC27D9271595E2E0BDB915CD5F5195E1F16FAF23B51EA1E2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\psgdpr\\views\\templates\\front\\customerAccount.tpl",
+    "Hash": "5529D198D86E95B885957507C5CE289BF1B966B2F917747CD8F08D1498EB3E3D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\psgdpr\\views\\templates\\front\\customerPersonalData.tpl",
+    "Hash": "18E4645B1B4CBD0337339D4D8F167C1F4762E6FBD0242B266628AC6B95F81760"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\psgdpr\\views\\templates\\hook\\displayGDPRConsent.tpl",
+    "Hash": "5383515FCDA3F0F8032DF81E2430E81E54C74867EA488EE95F7BB1D5D9BC3126"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_advertising\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_advertising\\ps_advertising.tpl",
+    "Hash": "F7F9648BB9901503B0A567F03274D2528CB289F676F5BF857648AFC8B8E63F25"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_banner\\ps_banner.tpl",
+    "Hash": "DEB47BDCC6E93EBA586A1BEDC9EB0DD8BBF131952D14A3203DE44658053D16FE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_bestsellers\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_bestsellers\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_bestsellers\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_bestsellers\\views\\templates\\hook\\ps_bestsellers.tpl",
+    "Hash": "5BDB24910258F91BF14D7049044912A3C6B43ED9CD47489D07766AA025748DD8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\templates\\hook\\ps_brandlist.tpl",
+    "Hash": "0DF0DC48EB1730DC55ED54B3EBA67BBDE83D4AA13101DFEE2A370825D5EB04B5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\templates\\_partials\\brand_form.tpl",
+    "Hash": "0EFD52D9D4BE44D3F7514DF40F5B0092E8C861FE7093CA35F89F396EA674112D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\templates\\_partials\\brand_text.tpl",
+    "Hash": "F69B6ADA4B79C31C237FDCCC9606DDCF4940AE7D235D9D5207706E374F16A6AE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_brandlist\\views\\templates\\_partials\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_cashondelivery\\index.php",
+    "Hash": "4F8C997CA7E34C258219A679218C95BD7212E62D2913109DF0E8D2A738A31D19"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_cashondelivery\\views\\index.php",
+    "Hash": "4F8C997CA7E34C258219A679218C95BD7212E62D2913109DF0E8D2A738A31D19"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_cashondelivery\\views\\templates\\index.php",
+    "Hash": "4F8C997CA7E34C258219A679218C95BD7212E62D2913109DF0E8D2A738A31D19"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_cashondelivery\\views\\templates\\hook\\displayOrderConfirmation.tpl",
+    "Hash": "9F03827109EBDCAC92BDCF56A8B4E633FCF42D4F6CCDE1CF687EC3B0FD9CF336"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_cashondelivery\\views\\templates\\hook\\index.php",
+    "Hash": "4F8C997CA7E34C258219A679218C95BD7212E62D2913109DF0E8D2A738A31D19"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_cashondelivery\\views\\templates\\hook\\payment_return.tpl",
+    "Hash": "379CFCB4176679A3F0B464DF8EC5DA6E2895A80455719CFD60CEB919FF3E3ECE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_categoryproducts\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_categoryproducts\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_categoryproducts\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_categoryproducts\\views\\templates\\hook\\ps_categoryproducts.tpl",
+    "Hash": "7F5B51060665856D67CFFC39FA3F71E24D52B56474A1E67E58E09A256456A846"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_categorytree\\views\\templates\\hook\\ps_categorytree.tpl",
+    "Hash": "848F50F3DB2F26B7AE847D25221DBE41286F6E2056CF9EA7662EBE056AE6EFB7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_checkpayment\\index.php",
+    "Hash": "CAEBFBD610678A2855DEC0218008E1FC99E2AF67792D0C94D01C970B0BD63963"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_checkpayment\\views\\index.php",
+    "Hash": "CAEBFBD610678A2855DEC0218008E1FC99E2AF67792D0C94D01C970B0BD63963"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_checkpayment\\views\\templates\\index.php",
+    "Hash": "CAEBFBD610678A2855DEC0218008E1FC99E2AF67792D0C94D01C970B0BD63963"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_checkpayment\\views\\templates\\hook\\index.php",
+    "Hash": "CAEBFBD610678A2855DEC0218008E1FC99E2AF67792D0C94D01C970B0BD63963"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_checkpayment\\views\\templates\\hook\\payment_return.tpl",
+    "Hash": "8C948BDCAA6AD5F75B10E6A8E75A00B3A177D9377EC58F560EDFD1B6D9ADD1C3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_contactinfo\\nav.tpl",
+    "Hash": "C52C63AFE4DC743852FD3EE0866C540B0808EC47DB0E486003088CD23C44BADE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_contactinfo\\ps_contactinfo-rich.tpl",
+    "Hash": "5F1B35A4D1449EDC0899146526E2E7E07012B283F010D7CD6D192E0910BD6BA9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_contactinfo\\ps_contactinfo.tpl",
+    "Hash": "2CE075A2042EBDB482BBF3CC9395B21AC1A94D7DD5F496185C123D83879B8F2A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_crossselling\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_crossselling\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_crossselling\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_crossselling\\views\\templates\\hook\\ps_crossselling.tpl",
+    "Hash": "081AC0CBFEE33C7D457D51815AEA67A21D5CEEC81B6E8832E75C02250AB49BB2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_currencyselector\\ps_currencyselector.tpl",
+    "Hash": "4C2E5DA82814092D5FA054FA61994FD0AC64D7BC468647A3DDB1052582C9FA48"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_customeraccountlinks\\ps_customeraccountlinks.tpl",
+    "Hash": "D030461456DA53E644AEE9FD9EA0405DF02029A9AC846A703CA800E99BA20742"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_customersignin\\ps_customersignin.tpl",
+    "Hash": "2C37D0AF52E71E733BE42B037F496E5CD0068C40D34157E7DD96190ED0A995A4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_customtext\\index.php",
+    "Hash": "7C50E5444FB8A21A96BFFF24F50ECEE6B6C97F8F1BC56A9C0899053499F9E6D2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_customtext\\ps_customtext.tpl",
+    "Hash": "39F9603EC90F2B92BF2D997F1ABD2FAD484C681B77EAAC7A60EEF30D51737451"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\js\\mailalert.js",
+    "Hash": "CD6856EFE966EF201E923EC3FBA05A29C398BDC3C01AB909C9284A643C5455A2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\index.php",
+    "Hash": "720709CAABC349A2A3F1D0124E604B5DFEF08112B436CF6F2D08DDF4E74E95C8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\front\\mailalerts-account-line.tpl",
+    "Hash": "79AA9C92784FD1F05C588B4D84E2CBFB34CAD03D29D550488A03EA712927FD96"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\front\\mailalerts-account.tpl",
+    "Hash": "AB1FFF42E2A43E6E46C9066AB5D5BFF5640D23D7D227803827A5447F3F008541"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\hook\\index.php",
+    "Hash": "720709CAABC349A2A3F1D0124E604B5DFEF08112B436CF6F2D08DDF4E74E95C8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\hook\\my-account-footer.tpl",
+    "Hash": "5D7D45C83D0A335138E85BAC024471BA29CDC26541116C6121C587BC2B882510"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\hook\\my-account.tpl",
+    "Hash": "BF767E3EDDA37EE4F86346374E7BD6C5E47BB331A91F7B26BA5DAA3F1B406695"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailalerts\\views\\templates\\hook\\product.tpl",
+    "Hash": "5AF863CF59146A7392826BE7CFF1E8289694914E3E7AB072936D025A184AA62B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailsubscription\\views\\templates\\hook\\ps_emailsubscription-column.tpl",
+    "Hash": "A9ECDE29AEE7719718F33D98C40F1D8868542A90B882FD61B0BA89247C0F3543"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_emailsubscription\\views\\templates\\hook\\ps_emailsubscription.tpl",
+    "Hash": "9F7C447A6FB31E7F6DC7FD243E90030CE6856FA793AFF554A1C22CDD0FFB634D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_facetedsearch\\ps_facetedsearch.tpl",
+    "Hash": "EFF346DBACAD4770131D77FC66140AF9A07E83E7D288955A7E8FCF6810E7127B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_facetedsearch\\views\\dist\\front.js",
+    "Hash": "876D4AE10D19A648315458C47E59CCF83C92AD93991F556B210D08E85BF372CE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_facetedsearch\\views\\templates\\front\\catalog\\active-filters.tpl",
+    "Hash": "4ACC400D67C3BA6767EFB6078F937454F447A6B99109EB6887759B9CAFC92C5C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_facetedsearch\\views\\templates\\front\\catalog\\facets.tpl",
+    "Hash": "BEC0C159D665CAA81623CA5B64A4ECE675E584E41E497767B99BEB374B48DC9C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_featuredproducts\\views\\templates\\hook\\ps_featuredproducts.tpl",
+    "Hash": "0FD45471624297BEDE42E48EAD2E05854326B8CA9626BC788564DF99A6F72B19"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_imageslider\\js\\homeslider.js",
+    "Hash": "23F96812E2E3A464AB5B1EF0695D97F96F6E0CF686F698E55EB544DC70645CE5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_imageslider\\js\\responsiveslides.min.js",
+    "Hash": "F8026C198E7E365A46B6CAC7E4F24248372BB47CE196706106CDB3B02EE7A070"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_imageslider\\views\\templates\\hook\\slider.tpl",
+    "Hash": "EB823910A2F6160F41226B3D7D9D61304D8AABD7C13A464F7267C02239255110"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_languageselector\\ps_languageselector.tpl",
+    "Hash": "20C84A1292D4652F71886B52BEAECD398F7CC416CBA0014BEDEAE2DC9DC3A35B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_linklist\\views\\templates\\hook\\linkblock-column.tpl",
+    "Hash": "54A58A0D23C9A871538CC14F90DB2FD7E726865F132B43B2C732DE26CB6F04F1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_linklist\\views\\templates\\hook\\linkblock.tpl",
+    "Hash": "394A391CD21EA77F3AED5FDACDCE3AB16DB4FF03EF923EE9C5687A993936CC6B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_mainmenu\\ps_mainmenu.tpl",
+    "Hash": "AA77935AE0BE19D2D7F0254E61F4D2F7F814A0B3EFDF6424F51BB558A3299324"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_newproducts\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_newproducts\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_newproducts\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_newproducts\\views\\templates\\hook\\ps_newproducts.tpl",
+    "Hash": "969BF7BC8C1F4CA7259D17A535FA4474E2B53A5D8564D21C49BD3D809A2B7F4A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_productinfo\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_productinfo\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_productinfo\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_productinfo\\views\\templates\\hook\\ps_productinfo.tpl",
+    "Hash": "6C55B8F748E40739242A800778A8C111015724204D0F22FC6EA597B629517AFF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_rssfeed\\views\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_rssfeed\\views\\templates\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_rssfeed\\views\\templates\\hook\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_rssfeed\\views\\templates\\hook\\ps_rssfeed.tpl",
+    "Hash": "CDE07B5427A3F9EC995AD9F7A6DCDA7945E3C34C0B520A27FD96E2E5397FF2C1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_searchbar\\ps_searchbar.css",
+    "Hash": "F694662033E82D5C03FCA6E767190902A60A04CED5EB0EC72796BF710DCAFA00"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_searchbar\\ps_searchbar.js",
+    "Hash": "0AC9580C1D5587F0E26692B27A59F5A0D7DD42697609810F6FA90026B58C028A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_searchbar\\ps_searchbar.tpl",
+    "Hash": "CD651FE7E89357F86805FD30A4E4B7F3707C670133A60BD6B52DFE48F3AD31D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_sharebuttons\\views\\templates\\hook\\ps_sharebuttons.tpl",
+    "Hash": "B7E202329C62FEE72E94AC911B470186A0BBD1CBDF13D3D6890D5BA557F65F04"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_shoppingcart\\modal.tpl",
+    "Hash": "F9024B6F6FCB11817000784406BF6C8287CD67BC92EDBD9CF98B28C1AD962EF8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_shoppingcart\\ps_shoppingcart-product-line.tpl",
+    "Hash": "EB02CC0186F1E63F6D92F97D8E5D75B72310DF2508D0F608F01D2A153DAD4224"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_shoppingcart\\ps_shoppingcart.tpl",
+    "Hash": "98FEE144492091829768E38F55919C1E6598F57E2A212E9B9C08FFA118BA430A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_socialfollow\\ps_socialfollow.tpl",
+    "Hash": "836F72A98B8C5CBC6861A406C9BB8B907AF2CED55735E1587A3AAB434716A3DB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_specials\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_specials\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_specials\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_specials\\views\\templates\\hook\\ps_specials.tpl",
+    "Hash": "7CBFBF8BC22DB8F8B35B6ED73F161AFE8E72EE4911F8AB3186412F71DB7895B7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\templates\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\templates\\hook\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\templates\\hook\\ps_supplierlist.tpl",
+    "Hash": "3BA9AB82C54899A012DEB581752135FF910EF1CAA00B36901F2575F17158D45E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\templates\\_partials\\index.php",
+    "Hash": "516642A6C35447AB684142746C01DE549D1232C4EA313FFED21D7A00A8D3E4D5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\templates\\_partials\\supplier_form.tpl",
+    "Hash": "CF99A653AC5E453877906790E286FA45A62575F9D5ADAB6F8FD25929C9DDD2E6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_supplierlist\\views\\templates\\_partials\\supplier_text.tpl",
+    "Hash": "DB8B15E48EBDF713CC020B8484391A1505B4082328833D5476C90FDB8A2571BD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_viewedproduct\\views\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_viewedproduct\\views\\templates\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_viewedproduct\\views\\templates\\hook\\index.php",
+    "Hash": "C59857D80CECAEEC7DB885DCAE7B3CCCF2B2224D9CE7372048A26358A80D19A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_viewedproduct\\views\\templates\\hook\\ps_viewedproduct.tpl",
+    "Hash": "A1496BEA03529DCFF7F78285080193A6E0E03A50F7421DC5257A9DFF77BCCCB8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_wirepayment\\index.php",
+    "Hash": "856BFE61A5E5B405136ED1EA790CE24EEEEBD2A3D33DFFF99623BEEFBE2C1997"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_wirepayment\\views\\index.php",
+    "Hash": "F7D2782A931B7D62D7D2A6DD81B53275B3498C609A331289E06E7645ADC82BFF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_wirepayment\\views\\templates\\index.php",
+    "Hash": "62FF89461624FAE0436863EA4DA14077BE6F51D4EFBA1CEE1904953EEC8D59C2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_wirepayment\\views\\templates\\hook\\index.php",
+    "Hash": "E54640956AEB7D706B57FBA39EB512D1C8951789256823F8FDCA8D0B2FEE0103"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\modules\\ps_wirepayment\\views\\templates\\hook\\payment_return.tpl",
+    "Hash": "B02354381FC2502B4B0BBB262A665747B978DDFFAB3CB03019D1D32F9DE83337"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\contact.tpl",
+    "Hash": "3927019AFF7B9065AFFD9852BE5D16C2FB47AB64BE22523E4C88C5F3E6F20A90"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\index.tpl",
+    "Hash": "BD19151259F2B7008642D3FD3CA57C12A1A41D8F1A8CEB4736ED24E9B833EB68"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\page.tpl",
+    "Hash": "B479A46AD5C93D313A2170DAAC40A5BDAEF04FED7A01808E98FC810A138058EA"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\brands.tpl",
+    "Hash": "3E838D7438E5208BEFD1898771AB75D3E79568BDB9C3AFD5C0F2DA67C525B856"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\product.tpl",
+    "Hash": "B7583019169E86689369A2417DE7FAB4C5F0468C8C3CB48B5C73639EC5776861"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\suppliers.tpl",
+    "Hash": "E2EF46775A2079B3F89B3C2352BD10D144BB873FA7E200D35870ACE45A008E3A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\best-sales.tpl",
+    "Hash": "C23351BAECD87C320017022C053F0EA55AA77F4EC4824EE3EC533E4417A7165A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\category.tpl",
+    "Hash": "48DE5E6C55769F374ACD20E3A7D91584D96BDFCE690920D4D3CF8FDABB56987F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\manufacturer.tpl",
+    "Hash": "6427CB023AAE20B2FFC3AD792A27F26FBEEC916F9851A5D9BF5A5C55C8E153E5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\new-products.tpl",
+    "Hash": "2BCB16DC6ABD4D205754AD5703F26C9831F857F123C88D3083740E0C3EA4AD70"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\prices-drop.tpl",
+    "Hash": "5205967923749E6DA5D90199760B5F35DF95321A7656D9C2F800FF3E84F9F285"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\product-list.tpl",
+    "Hash": "FB6BA081B6185CC8C7B301EE543F4B76D2843911FA8DD09B1C76E6B15794A7BE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\search.tpl",
+    "Hash": "B0FAAD0F4B114356A889D915C2570D0F42DEEBFA6D2B72D8E3E5D82E8257351F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\listing\\supplier.tpl",
+    "Hash": "D5F97B7D18A2C7A4163E2417DE5B29B2C19A283E851560B16503A663027FD452"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\active_filters.tpl",
+    "Hash": "C71E09EE3221EAAF2DF12B003761C9D13C515FC432E01FCECB3B9F2493B4AD1C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\category-footer.tpl",
+    "Hash": "6EEA9831E6B1F30042BD505311868671BF94A546093877625B07FAF81219132E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\category-header.tpl",
+    "Hash": "66DF4870A1A8FE8B417F1D9D73D9B196C78E187E3D28ACAD104E2D597A46F01F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\customization-modal.tpl",
+    "Hash": "5CD9AF7DB3F195C78FCB7B4200C806A63678BBDF67564C2D0A3C72808D222767"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\facets.tpl",
+    "Hash": "E8165223FD6ED673E9054F3B2277DA0B26A1E117BCBFA7A833754E131A9E0CEF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-accessories.tpl",
+    "Hash": "10C2FB6FE24ACAA9B292084AEE6A78AE5DD9BE8C6D11712D05D31A119F410929"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-activation.tpl",
+    "Hash": "AC641C4D8F2123E36292F3925B56F8BF740133FF34B54893417D7068EBE7D804"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-add-to-cart.tpl",
+    "Hash": "5966CCDF9C79AAB48EF0F38AF2E0C9125290BDA7ED6E145918608320AE7AFFC8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-additional-info.tpl",
+    "Hash": "DFEE3C4C8E4C93FFA8013EAC140A9721BF67ECC232B50B24E370D507FD58AED1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-cover-thumbnails.tpl",
+    "Hash": "84C09ED5268EF13F4E08DE96F32A863AD5464461E3B36FDF1AF7DE741A3D7E50"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-customization-modal.tpl",
+    "Hash": "6674786C235B4A4F0D600007FF28C3900E78A68295CEECAB2B5E2BE58D52CF50"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-customization.tpl",
+    "Hash": "B84EF25B95CB31CBFFACA66B776DA4C8FEA89104F4FA5F1727DECE19D1CF0856"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-details.tpl",
+    "Hash": "69BCA6C4AB87216D1A6BA7D459979C3B31BC97F1A2EA62BCAF4B5904D147A553"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-discounts.tpl",
+    "Hash": "DCCB303E76152D7F1FCBBDC37AF5561C156141C8A18E3D77DA4AD9D4562EC063"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-flags.tpl",
+    "Hash": "2FBA34581C7B2E5F674AD824D2FE9D43CFD48C0DC7329A3A4874E01F6B2D0740"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-images-modal.tpl",
+    "Hash": "CCC75DE3C81412167B625227C8B0622EEB1C4DF9056345AB8AC04CC9FEDD099C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-pack.tpl",
+    "Hash": "1A38F11274456282097D94873D21D0447BC03905FE8A9D3668A0392B076E7EC8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-prices.tpl",
+    "Hash": "C3FB9E4674AE962B13FD313D237D4D37206E85F2F835F1E128E1CB9C162D1F87"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\product-variants.tpl",
+    "Hash": "D267C640482E2953C537FF6456ECC977699E50008D16D0B83EA6AACB44D2FC63"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\productlist.tpl",
+    "Hash": "83D190463D56526355724F4FB6A51733EB7812F9D776866E20A79D0033421352"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\products-bottom.tpl",
+    "Hash": "02C3996C0BDA165330F7ED936C3DB426C0F8B54CA3DB9631D6C7667FE2D07DEE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\products-top.tpl",
+    "Hash": "766FEEF38746D86605979567B8B82DB5EE06C4569310F83AC13C6433F442ECE0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\products.tpl",
+    "Hash": "5C362157DB1AE7812061714B323EC43E6AC249E8911B2F3834E9EF103CABB3DE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\quickview.tpl",
+    "Hash": "61E5B6A56A68E8E923AC618FE9565855EC3B9CFCDF390A761802366E61DCEF21"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\sort-orders.tpl",
+    "Hash": "C496DCD1007972AA4D481202656363EF8EA768A9834C0D0031E34D75AC81DD04"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\subcategories.tpl",
+    "Hash": "36341280B89D9CE78F92CAAC073D611C6267ABCCAEDD5BC866A0DEF46198AC93"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\variant-links.tpl",
+    "Hash": "D91C10E9BB9DFAB5F14B9607FA53646C931F22DD2792EE539469F053874BB4D0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\brand.tpl",
+    "Hash": "C9871BF7A4DF5049364DB8E7C9A72ECEB94DC6DECF92B93F39AC3FD16F7F8479"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\category.tpl",
+    "Hash": "CEB57437011D07C31971BB6DF86978128F96517964FA04B5631433F94C79FDF5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\product-image.tpl",
+    "Hash": "A56D6EBBD0EC85B9F66321FFAF31084DE926C8D4A89C52773281AB4598762073"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\product-pack.tpl",
+    "Hash": "BF31FF804D1F31C0F4BCA1001AC1758E69AFE84E3DFCF7AF01E5E545E85920C0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\product-quickview.tpl",
+    "Hash": "8F5E08D8223B1EA294515DBBF8F898B436C3EFC4610E9AF04EF72C9AA2466EFD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\product.tpl",
+    "Hash": "AB98C7936526C387E3824182030E8C9CCF46CFF6FE2734237FB5EF6A17FC511F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\catalog\\_partials\\miniatures\\supplier.tpl",
+    "Hash": "4285FAF72B1DD54E5A1953313EE7B79B1B0320B64AAEFB39D510E78347963251"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\cart-empty.tpl",
+    "Hash": "C9CE39EAA9F224B9BE54A6C531F8F0587FB5F8ECB86D826480EA5F7E07ED9D0A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\cart.tpl",
+    "Hash": "A3A789104D36A5669A3EEE48E5DA2D5D147D6752861B2A7F17610A4244928521"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\checkout-navigation.tpl",
+    "Hash": "4BA595AD90129F31A8562EDB47C1156B0E7338CE1CAA7324350DACF849C5C0BE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\checkout-process.tpl",
+    "Hash": "31ECC8B94C78EACB199D5E137F01FA670B6601D87F82FD25F1ECE0E9E75A06C5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\checkout.tpl",
+    "Hash": "8E990A6EF8CE92230F055AE60A7EF5783D5CA219B3FDFE51D89600840FD59F69"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\order-confirmation.tpl",
+    "Hash": "A5D22447536BD029C17DBB4876956B3E2F6C9E8F405CEEB521D7CA9BA51BA233"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\address-form.tpl",
+    "Hash": "DADEF46E673FC7AB2E9EAD25FE7C1730414D8257A2EA087608B05C0B75F7689C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\address-selector-block.tpl",
+    "Hash": "CAAA3A73CE93FB49D59FC0A73C0C1321FEE5E0C3B05B891826238E594670D27D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-detailed-actions.tpl",
+    "Hash": "8C230B185C4738F931C8C34C84640214981E8388806E6E279E10E73E9AD96F2E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-detailed-product-line.tpl",
+    "Hash": "4D8F5D2E0AAA178CDF19A6B32F06626FB76D36A65D55832E075CC7D73B1130EF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-detailed-totals.tpl",
+    "Hash": "B9ED882226CD787D28F19F489BE2838183C3A5373639B6BCE1B38544C83B6602"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-detailed.tpl",
+    "Hash": "2738A13610E1F3460C7F585D7FC6405AB2C5DC258F20504DD1598974E0F80F60"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-summary-product-line.tpl",
+    "Hash": "0850DC7BDC56811AC911131F1ADD9EF695EC831EE0CD3101E5B964F6E0B09F7C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-summary-products.tpl",
+    "Hash": "D9D3C32B91B10F5A6AB7E3C3656839FFAE6470FB57C998372BFBD1E9D12E53D3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-summary-subtotals.tpl",
+    "Hash": "58D6263D6B1DB342C53D814C4D2FFAC3C8D6E7BA67DA1E755C00C1728FDFED9A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-summary-top.tpl",
+    "Hash": "26E5B9908D7098169F7E34B828DB9DA732C571964C69D029C1C02B84F126A7C6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-summary-totals.tpl",
+    "Hash": "E6B4FBBFA225766F0059478C29AB72978D7EE0C7A57C705A8B387A73A10C20AA"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-summary.tpl",
+    "Hash": "EABAE307ACFFA03475DE71A59526577D94B12DE8881989EFB4668CD663586818"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\cart-voucher.tpl",
+    "Hash": "E13401356021CB07B4DC23C94E088914CD7446FE4DD45CB0F79298108EDEC449"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\customer-form.tpl",
+    "Hash": "07B830C8A6ABC70F2572FE42C069BEB7B0618CB8CE60CF810BD738E99E450934"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\checkout-navigation-step-mobile.tpl",
+    "Hash": "CAD87F70C2F6F54F3EE8CCD2C7365B42A32D3FC8BE8FB68BE8A167EAB2D4115A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\checkout-navigation-step.tpl",
+    "Hash": "EC0833B6FF74F379CEBD18F2BD3E961E24970366FA0182135F7A98FCB0C59EB7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\login-form.tpl",
+    "Hash": "E6637E365AF1777531EB5E4128E98991C0E6BCA50CCC0EC37BAD893625460972"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\modal-terms.tpl",
+    "Hash": "6DE950B7C093061B66D08B56D17174603B368AB94DF9A7FE3EF2311D7078E787"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\order-confirmation-table-multishipment.tpl",
+    "Hash": "A2F3E3ECF5417AEB9A5768895C60DF8F8D96A0C7EFD1CCB8CF10D931D09A337F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\order-confirmation-table.tpl",
+    "Hash": "BBA70FB5D3BA4F9EE3C6674CE2FF438A71AC6D929B92C835C20D948C53BA6553"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\order-final-summary-table-multishipment.tpl",
+    "Hash": "3CAB99ED570A11D74CF43B9E5FB8F248FEC6B78716ADF99B05A748C79037D520"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\order-final-summary-table.tpl",
+    "Hash": "BF2F311CA5C6D049E8C8A65E5317565040E95F09FBD890FA0DBE64CCC8C6EA59"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\order-final-summary.tpl",
+    "Hash": "E1117AD5CA438B70B84E192CE503C473AD1FAD27AF6DF20003664EF0DAD12B88"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\steps\\addresses.tpl",
+    "Hash": "1AFC550420F0467C4C6E1B9343E5041A4AF6FAD5C3D33FB0201634752A94DA17"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\steps\\checkout-step.tpl",
+    "Hash": "7085BD93CB6802737640D65B47DC03D1580C26486EB908EA363926BE7D880C34"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\steps\\payment.tpl",
+    "Hash": "2948B460314DF760A6AD44BA421914737F63054CFA1C309D8AECCF1734F366FB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\steps\\personal-information.tpl",
+    "Hash": "C0B00019034CFD28728BFAB931A6A2CE3678D45765946318C5ACA189045F6835"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\steps\\shipping.tpl",
+    "Hash": "F52CD30336AC575E22243FDC7604EE60617AB7305CA40D34471E9CA40916830A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\checkout\\_partials\\steps\\unreachable.tpl",
+    "Hash": "4E2708C81603ACA224C53B53A00AD76D8E7BFCFBF7F27A0C9877F234505AD76B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\cms\\category.tpl",
+    "Hash": "D15BC1A32E9A698B83F832ED24725FFEAB4C7394BD78EDF8B32394607ACE2029"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\cms\\page.tpl",
+    "Hash": "56C5153D04A246B58F78468ED8E8F6DDAD6D1CCD7F57336D4B515510411970DD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\cms\\sitemap.tpl",
+    "Hash": "0E119CCDB1FED228E66F9C35F663DDCE2ECC9E0ACBC1452F7819257DA257F1A2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\cms\\stores.tpl",
+    "Hash": "9562922C063707177A4B24AA9EC51AF5856329CE51256CA4992452DFA9EE9700"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\cms\\_partials\\sitemap-nested-list.tpl",
+    "Hash": "AD3AB6A548D2B30062EAEFC3BF7ECC738F6B968F637C70C6DA119C44B8301B89"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\account-menu.tpl",
+    "Hash": "5887D4618F4501F8BD70F31DEF7F4760A248551CFEFFC56638684E9D951A933F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\module-products.tpl",
+    "Hash": "A44E720147806D8EC26C5DB7C05D87A17D7E6C87EED465986486F36BC6FA916A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\page-loader.tpl",
+    "Hash": "054B8BD00E8405EE47EF219E3B85D78AA3E7BED8DBC829642FEEAA0FBE053119"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\page-title-section.tpl",
+    "Hash": "B1C7104FB6FBD75E83618CB57C5A26BED02329D0C083D3054AD01BAC89925603"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\password-policy-template.tpl",
+    "Hash": "68198E081697CB00D339C761C776929AE1E63C303B9421EEFA18C1318D1F7D3D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\progress-circle.tpl",
+    "Hash": "F9C135C35DCA1BF9FBECCA47D8BF2D348455B007A8B1B2E2EF2013CD69955635"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\qty-input.tpl",
+    "Hash": "A3ADBF5721BCBAB2A9D69C7DD5FB0117D7FEA4F9B967D9D35823AD9774CB7400"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\section-title.tpl",
+    "Hash": "DD0E2D0C11B53BAEF5DB5EF1CD9D8C1B39B7C424FF2F72A710E3979B47C3D558"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\toast-container.tpl",
+    "Hash": "0784C20590EE8AC8BB14F558D20C8015494A63443F20A574A42CA19D287CC6F3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\components\\toast.tpl",
+    "Hash": "8177F7EAC5C6FF96B1F332E62AC8B17E4BA3680B7022DFE57FCA1C99F6E3F48B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\address.tpl",
+    "Hash": "A8934D84F3906A051A25EA04B9CCD8E1BD392BC6C605B6153F0E60C6198275DF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\addresses.tpl",
+    "Hash": "485C11C9BE2C24F5570B2550898BB2074148CD844D0BD4F4F6A34D9B56AC9F5A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\authentication.tpl",
+    "Hash": "601F0CEF97D10D7499825C09B034D195B6C2CCA3D7C58A629219E92325C5A3A4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\discount.tpl",
+    "Hash": "1034122DB7873F665FB141DCB757FA7D2740AA6A5DB7A936FEDF96501F9E3CFB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\guest-login.tpl",
+    "Hash": "C6C4FA8EA18FDBB1EC7273657DB98DA63262000D3C54F2B79DF6007A4315F3F3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\guest-tracking.tpl",
+    "Hash": "FCB90774F57FB5A3CB83483A3C80EE0B2C91D64684A89A027E5CD2EDE6688B4E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\history.tpl",
+    "Hash": "B9A9ADA61034745BA2D32CB2A0501C7E33413A917A272BEFBEAE19CA6E55DCDC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\identity.tpl",
+    "Hash": "B9FB0B91F06F5D0CF67F66FEA98D22E6285B58185AACC365DD270824213F23F8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\my-account.tpl",
+    "Hash": "FC638DDC5A48D8FCAAD2A8346AC3AAC4C592449A6FB5769BA689F0818DE1FD39"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\order-detail.tpl",
+    "Hash": "72F22F72E9A57E779E07393AE6492167ACCB60545B8234B01B1629A593140913"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\order-follow.tpl",
+    "Hash": "17E535E219AA4FBE9DB67A06588C6A2B2880A740E0596F21587B2078E8D8A0C5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\order-return.tpl",
+    "Hash": "F58CAEB038ADE7A189E4EC685C2991B4B12244F70345C4E1D2EAF3DE7EB10732"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\order-slip.tpl",
+    "Hash": "18E0803B756CB8A52E46C82958E6FC188227124A4387F4B87D89E96670D9B6DB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\page.tpl",
+    "Hash": "49D73EE7022716E7229F1C5B9B0764C9F41DD57CB7DC98A1DF3CBDE3FE7A95D0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\password-email.tpl",
+    "Hash": "6C072CBCE091A8933A67EDFC693772E4A1A441BA791BE0706CC047453710AC58"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\password-infos.tpl",
+    "Hash": "831DD7ABC489B071CF9EAD5295E5523A294ABEEAF05AE1257461B1B828E7F9C0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\password-new.tpl",
+    "Hash": "10E0F7414E5837E2538CADB94ABBE2C4F00EA895E5A13AF8E9EEF4BE8D55299A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\registration.tpl",
+    "Hash": "08F5BC079419D11D592CD8C29E8D52DA674D3B4D5C7AE7AA8D8F86FC471001EC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\account-transformation-form.tpl",
+    "Hash": "9F9EDEAEAD5BF1ECECD428A2AADF756DA48E4205DB0402A6E8529F0BC6FE3887"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\address-form.tpl",
+    "Hash": "06DF2D46BF8ECC18013FA8799BF380037772D4CE942FAAB0855B48DEA11B8348"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\block-address.tpl",
+    "Hash": "2541BE4B26966876E093E0EAF8A58AAFBCA40883FDB5516CE19DA332E1E5A44A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\customer-form.tpl",
+    "Hash": "1FF3F8BE2CDA6970E14E0B485823480F14AA962F2DC4E76F65EE0BC3085FA200"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\login-form.tpl",
+    "Hash": "03525E4689AA091A715C7CD86D870040F19CA002A0B9FD7F90163984167C9713"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\my-account-links.tpl",
+    "Hash": "FAB730129CBDCB615174D47525C3CE3F6041E1BF0F35A5C5E05E6DACF8EC7C8A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-carrier.tpl",
+    "Hash": "B004BA35BA68EC6431B93628C0DB70ED8F3599FCF6E4F5BE17D484D9E0B54271"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-detail-no-return-multishipment.tpl",
+    "Hash": "13C7B6F61224925033C371C015E93127FB8150D467912D22959C8E61B6B9CAF2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-detail-no-return.tpl",
+    "Hash": "95094CFDBB13FA6B4D876149696146B9820504D2308E67F98940AF166EB02A46"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-detail-product-line-no-return.tpl",
+    "Hash": "9504236A8F441ED071EFD8C0D18328627B82388A425B1FC7F924DEAE1019155E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-detail-product-line-return.tpl",
+    "Hash": "5131F81C2851F41FDF80F020D417ADB4301013151E1755F5C7F8A9A9975F8BCE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-detail-return-multishipment.tpl",
+    "Hash": "A6308EDAC9B54A78F66AA5A74731FD8D6139F955601FB5BB4FD9B6D167C59F76"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-detail-return.tpl",
+    "Hash": "72AB2E72C77A979AA2D058217A7809D228AF19FE42909D32F5B1DE216E1CEDCC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-messages.tpl",
+    "Hash": "D7A29788FE69B2418999C75DE57D32E584B0E4C3BF38BACB7B9AC91FE7C22D90"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\customer\\_partials\\order-shipments.tpl",
+    "Hash": "D22FCB805CF02EC011AE523073534A3E6850F4DB5D46F814F634A2C4276E5059"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\404.tpl",
+    "Hash": "B3A418BDAB99870924A3EDE6C8D4665B0A94E2A7F90ACBE9C0BB19DC7103291D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\410.tpl",
+    "Hash": "AD84B16E45C1D1A65654907FD14937427E538834AA979CBA58046645F0373D78"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\forbidden.tpl",
+    "Hash": "22A081E422574A5A4CCC07CFCDDDF352D8B30998A722C737EE74FD81896B436E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\maintenance.tpl",
+    "Hash": "F021039ED7D5F0846C037C1E22ED3D91611BA0BC3E0607168A4B4379A030A56F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\not-found.tpl",
+    "Hash": "E882B22BECF39FBC0F06B313A12D8E56B00F4E512093B515E8ECEF4FD7BEDE52"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\restricted-country.tpl",
+    "Hash": "FD1773AE74DC4A7C0C5A206475024D5CC8C34F6E938F41DD5D8CF6423F6097D7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\static\\500.html",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\errors\\static\\503.html",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\layouts\\layout-both-columns.tpl",
+    "Hash": "66D987808339625430E35316D69968CF65E0C67AD2CB1930D88622E77045623A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\layouts\\layout-content-only.tpl",
+    "Hash": "4A9B1228DD895648DAF8E9BD0815730F6A073B1D03B48723BFA87CA10AA7E1F6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\layouts\\layout-error.tpl",
+    "Hash": "4FF37A1965462E0B6BEFD2BAF9A672677BDB7B357FFD3B6BBE63239140FE5170"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\layouts\\layout-full-width.tpl",
+    "Hash": "056B239AA4B7A6D4E4F2996F0642DC518888A60487D26AF2FD1BF621C92E8C53"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\layouts\\layout-left-column.tpl",
+    "Hash": "C6E8C43D3B349BBA42140D2021299D2D0E731F75F8F75420922E3891D367C885"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\layouts\\layout-right-column.tpl",
+    "Hash": "52A245F592E429E1118C4659D2F65CAE1A0496F9139B8E401CEC8847B4753596"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\breadcrumb.tpl",
+    "Hash": "2BF3681F1F08F17678A00EC284D442D99E714BB813F3FA84F6DB8EEB3C6132D9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\copyright.tpl",
+    "Hash": "37A0198FD1AA0B85D642A45C56625A49A73C2E54495DE17B0A8FBAE10854BC7E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\footer.tpl",
+    "Hash": "E59A5D94974110B5C43AF31C8F48DF430BBC4AB1773F9503DA0C52153A1803D4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\form-errors.tpl",
+    "Hash": "05E34624608B55216067EA7F901B065BF7FBD28FAB617857F28D5A3C431544E8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\form-fields.tpl",
+    "Hash": "EFB947D553C6EDB5FCC2795517A2467D670BE4C0762862B6DFE5869C69E62C36"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\head.tpl",
+    "Hash": "06CA368BF7F4C734BA789595D579F0B3E243EC1E1026B5A72AA1355AC17D47FC"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\header.tpl",
+    "Hash": "DE94315C77BC2A75CB763C912DB87EE1B1B7C409A4F7249FEA4B04DBECCEF205"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\helpers.tpl",
+    "Hash": "141FAB8A28ED58FA44EA4501866C3C45494455A6C549CBA35F608B2D3812301C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\javascript.tpl",
+    "Hash": "97D3372D92782631A4F206BA526C240339A5F6190846E8A2CA2642A9110143ED"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\notifications.tpl",
+    "Hash": "74F6278A525EBEF3C487FFE0B404016A312E8E71C333DF2B33CB720277CFA386"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\pagination-seo.tpl",
+    "Hash": "226C793D37F3520FF82762252599C3635196F534FDD6027F00F71F093EB8E94B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\pagination.tpl",
+    "Hash": "A0FAF093CEB385A894CAA95D6410CDBB5EE0FB2A403538CE80A2B899BFEF42E6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\preload.tpl",
+    "Hash": "94679A8F530B4ABDAB12D1EBC72B0E7230CD288E6E7CCFA2B971A3586A21BA6C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\stylesheets.tpl",
+    "Hash": "2D64D8DA46F490EC78491F0DF81362B29330A025AF4DF997A3326EF45A9C8152"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\microdata\\head-jsonld.tpl",
+    "Hash": "882F910DBBE3FE8EF73CA74B1579C753220A8ECCBCA303FB4235F377CEAFA48D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\microdata\\product-jsonld.tpl",
+    "Hash": "CB9CC2398C9B4DA49C9A170BD0BA12700E1A1811DB489D88679DAEB786D6DA24"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\hummingbird\\templates\\_partials\\microdata\\product-list-jsonld.tpl",
+    "Hash": "1EB2D5B99D526651397F8E155BF34ED1C62F441B4021DD5BF4591DADF37F622D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\preview.png",
+    "Hash": "880CFD01CFDD488BC24E081168AB1BA72808A505F2E968E7DA29C513122D9462"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\bottom-3e3a64.js",
+    "Hash": "B4C990D09D468C9435F6E099B97E464777535DA7741A4943CE71153E895E087E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\bottom-4ef001.js",
+    "Hash": "37C98DE4174B40F87D8663FA3FD14B85FB266DCA4DC2E401151FBB3603AB9823"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\bottom-d278e3.js",
+    "Hash": "54170C7C0803E0340145BB46DBEDD8E7EA73DB3BE2A065011A1546598AAFDCEF"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\bottom-e397fa.js",
+    "Hash": "DD31DDE18E20FC00B2FB192BA24E9B6BD194C8E05A34EF2A04B88C18A0793003"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\bottom-efd325.js",
+    "Hash": "23244DB35FC4EA59C7F1E128ECEB6E742AA15AB22ABE50913A9431DFE6471B2D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\theme-44da21.css",
+    "Hash": "334F9985D5A2A921051BA46BD9E8489683629731CEC8528D87E37FAB7C4AF38D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\theme-986e33.css",
+    "Hash": "334F9985D5A2A921051BA46BD9E8489683629731CEC8528D87E37FAB7C4AF38D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\cache\\theme-df8b48.css",
+    "Hash": "1FBCAB313F04C528A69F5AB44BB4521557A0182FF6CB34632C482AB4C3F6C7AE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\css\\kafka.css",
+    "Hash": "9EB460012E8DB5D69E477FA3CCAF75ED64BA39D8105264F0A36CAD6AA9A2E63F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\img\\hero-punk-crowd.png",
+    "Hash": "56BF41D10A4D0E004D07EC2D0A120A1B5BFD473C01E109D2B6A7016F343CC696"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\img\\kafka-monster-client-logo.svg",
+    "Hash": "2F407DBB70C505456DBCE748A17499764F77877F5C6AB83FB863685E6CB76E91"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\img\\kafka-monster-raven.png",
+    "Hash": "FD3AE74E932C7697BA196356038F7772BBFBE9B02A3668A2E9F18BE6807C968A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\img\\texture-anarchy.png",
+    "Hash": "839EA2A737434762609D2E33A613D34131DFCD4A1356B0F86E2D8DED185D6C82"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\img\\texture-skull.png",
+    "Hash": "7CC449FE5D5D2B9BB9A75D8BD0084CC9693948B7CEA9948EF6B1CD1E09F8A618"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\js\\black-theme.js",
+    "Hash": "B31EE144C50EDFEE2829362E5A076F9AB8ADED67BEDA9CAF15C013014FCF8D2D"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\assets\\js\\kafka-ui.js",
+    "Hash": "BDD74BAFC304869D44417214D365993E5A96C671EF2F40ADF7B21EF2532C5FA0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\config\\theme.yml",
+    "Hash": "E50BCAC2C24AF61AFFED5B77E87C683460209C79E95C727ECBE8B156B74166A9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\modules\\blockreassurance\\views\\templates\\hook\\displayBlock.tpl",
+    "Hash": "0A8031E9B9CA63E559D7B7381E2F24BADCAD7AE8DDC4E0A19C6576B11F612661"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\modules\\blockreassurance\\views\\templates\\hook\\displayBlockProduct.tpl",
+    "Hash": "243256E92C64DB0E8AF2C327CA0230F73C30FB58DB21AC6A4151D742D02FBFF1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\modules\\blockreassurance\\views\\templates\\hook\\displayBlockWhite.tpl",
+    "Hash": "38174E0973F21C45FB0C29AEEA145764EAC8647DE6415812D3D0614D8D5BE7D1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\modules\\ps_customersignin\\ps_customersignin.tpl",
+    "Hash": "2004AB98D706B90438DE65E9AD0E27E096C311FA3B0B9FF4D2F7E398D1E7C059"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\modules\\ps_searchbar\\ps_searchbar.tpl",
+    "Hash": "18105A2D7907325562D58B4F180486795B8E34729A6E49E8DDA6C86A1EBDF756"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\modules\\ps_shoppingcart\\ps_shoppingcart.tpl",
+    "Hash": "F548AC132C8F8A8769A403796631CEEF01C69C0DCFDEBA47D115EB29A6AE1A10"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\templates\\index.tpl",
+    "Hash": "E7F19F54A58F538C4A16A6E9FF8984A8F0A29FAAE5E846B300A63CDB5828D528"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\templates\\layouts\\layout-both-columns.tpl",
+    "Hash": "B413E26FA6D5512C1B31AE8263B41409BD1F9F36319F6DDB42D8E48A2C74D3B5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\templates\\_partials\\copyright.tpl",
+    "Hash": "4159E032D2BC7FD71ED5CAAF5991BD556502CCE975170191D7F3F2277BBC59B8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\templates\\_partials\\footer.tpl",
+    "Hash": "D3DDC1E14690D3C2B6432C103CAFD7E7F1F6984068A70EA6F647D37DC627E6C0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\templates\\_partials\\head.tpl",
+    "Hash": "1F220CB357352DCCDD9A73FD347CC68654069EAD43E93257C6437D6AD80B5430"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\prestashop\\themes\\kafka\\templates\\_partials\\header.tpl",
+    "Hash": "98C9A762EBF659C415E7641FF07D3E0F8EAEB5C6AFD6DBE1DE3E623D73320311"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\app.js",
+    "Hash": "E27DF10F6CE56A75FCF86EEAC77ED7CE539FC62276F6C0ABC3E3522B5B59E540"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\catalog-data.js",
+    "Hash": "C3E32AE36CD822785F2D7712242097833B3E6E1F3EAD88371A0618985A24FEF4"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\catalog-live.generated.js",
+    "Hash": "F264CC3FF131A3F796AC73EA323F1E0D475C58AFF6C9B49015641C2B3019E645"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\catalog-model.ts",
+    "Hash": "652F66BDBBD388A9679C288AB2C63F68B6BB0239F24F28B093DE71CD9BAF1028"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\HOMEPAGE-ARCHITECTURE.md",
+    "Hash": "09DA10ABD7A9989D83E47BBBB8E00500D45DB83743219CA0522C27571182B325"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\index.html",
+    "Hash": "A8958CF0E471598FDE46A9F6BA487A06C9FA8F50C8046B6E5ED185F7121ACB35"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\product.css",
+    "Hash": "1F591E91B745A7B49A68B8827561960622DC4F1807FD5F4A9B6DF83EE0401039"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\product.html",
+    "Hash": "AEC18B870A8CF2BBD42F67F2D95ADD2382DD9242DD87822D990FAE75A8CF3381"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\product.js",
+    "Hash": "D770E5D668B5CDC4C12D6F42BB680231565DDBE061BCAF4E37350E345BB067D2"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\README.md",
+    "Hash": "BD6A30360CF7510409F341283F93B7024D7D3E820FF93C0023213243091F9EDE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\theme-system.js",
+    "Hash": "B082760C69EDCD4553CB29F642E89172B84E0A55DFEB0DF5D46F96AF8ED9A644"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\scripts\\qa-product.cjs",
+    "Hash": "141FC688B6EE0BDE214C54F0143BCEDB766FB02F45271F28A10F7ECA03A04132"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\graficky_navrh\\scripts\\scrape-catalog.mjs",
+    "Hash": "A1E17C76949CE2FBB50AD8690AA3A590F6BE3B6A14B97BCE5E36626AAC494FD0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\hero-punk-crowd.png",
+    "Hash": "56BF41D10A4D0E004D07EC2D0A120A1B5BFD473C01E109D2B6A7016F343CC696"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\kafka-monster-client-logo.svg",
+    "Hash": "2F407DBB70C505456DBCE748A17499764F77877F5C6AB83FB863685E6CB76E91"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\kafka-monster-logo.svg",
+    "Hash": "B6916B669887984D21A866377C3D068CDAECE408504506DE36BB52B247A3E910"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\kafka-monster-raven.png",
+    "Hash": "FD3AE74E932C7697BA196356038F7772BBFBE9B02A3668A2E9F18BE6807C968A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\logo-mark.svg",
+    "Hash": "1630BF04B2DDE7956EF4C6B750622632C583D0F251988E57E27BBE5FA6811079"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\raven-variant-01.svg",
+    "Hash": "A0EB23AC06A6C2F8C7C6DEA2A5C4FD1B40536D2D88F06C94BFC64FDE412AFD8A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\raven-variant-02.svg",
+    "Hash": "9F5B1F36C54860E0AEB67DCD769ED6091080A6B68F2536369882B58B40B54D94"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\skull-variant-01.svg",
+    "Hash": "8F4A8AD7B68B57AAD685899595C620AF0ACEC86D36305A3BE38D613F1AABD642"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\skull-variant-02.svg",
+    "Hash": "224900DC5B24D260526929241A04E2A3D41E4E65DD97666949B9E42A5FF69BA6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\skull-variant-03.svg",
+    "Hash": "C04A37618DE9202B710713160D4715FB39536D47B502A9233EB8454CC671A651"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\skull-variant-04.svg",
+    "Hash": "CBC989B15A75C5F5B8FF587592AE5F141CBDEBB1C4A50E7F34AF057AE81ADB54"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\texture-anarchy.png",
+    "Hash": "839EA2A737434762609D2E33A613D34131DFCD4A1356B0F86E2D8DED185D6C82"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\texture-skull.png",
+    "Hash": "7CC449FE5D5D2B9BB9A75D8BD0084CC9693948B7CEA9948EF6B1CD1E09F8A618"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\products\\image_a62278.jpg",
+    "Hash": "1422D6609410496A37A259045E5A0DC1D2A42735114332302BE2EA971E8D42DB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\products\\punk-freedom-black.webp",
+    "Hash": "F579ECF7BA619D6DFC3E58A7076FAD04794E4315F0912826A8B6E2BE32848F8E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\products\\punk-freedom-red.webp",
+    "Hash": "5883DCCBAB69B123C65266D1DE1004ADD6703CD745FFDC4A477A1BB8FD25E193"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\products\\spuntqane-posledni-singly.webp",
+    "Hash": "57D3508715C5377BA58BFCF0E2EBA03E00423B1DF041C6B851DA6C79BBEA0DF3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\raw-products\\punk-freedom-black.png",
+    "Hash": "2F22C3871978B399D30B6B5F769D697213D0B024ABA8518BCDB2BD1DC8BFEE96"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\raw-products\\punk-freedom-red.png",
+    "Hash": "66ED7335E96A8FAAE05D5CBEE006463E22EAB8207BC6E08190AACEA793EE7E2C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\assets\\raw-products\\spuntqane-posledni-singly.jpg",
+    "Hash": "53875D542DCD43E598064F7805F39DE7611ABB0BC42D333D8AFD94DCB3ED368F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\cloud-backup.py",
+    "Hash": "41705E8739807140BB65F29EA302906C6A76849B30CAD2D8C02BE4FF7838AAD1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\configure-local.php",
+    "Hash": "CF0AA3DF1366486E9787D9B5A2C8878F2517E3E9DCA1AAE26611AF60C0C91C6F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\configure-restore.php",
+    "Hash": "8B705945C0535F9CB61ACE4EDAC600E5AD6281EC9E7FEF8740B8F858439E5E7A"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\configure-source.php",
+    "Hash": "CA6C835A774B2293C8126F5C9A05FB878300D7F6881398EE68B3E56099BB52E5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\configure-source.sh",
+    "Hash": "5F463D51192E61D77D89D36EF6EF730C3B1A0477A8211664FC73B2529C671A8B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\copy-source.sh",
+    "Hash": "DCB644854427A080E6F282163CDDBA1C09707A2DB866947109D6DC7F01F578B0"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\extract-cloud-backup.py",
+    "Hash": "AE3753DBA75D8554851FAC0CC642544726C02EF300A1890842716BCADAD101A3"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\check-isolation.php",
+    "Hash": "C996BD4A0F7C9BDA7A65E5E11ACDD7A8B8B1FF1FAC1421A0129AFD39191CD2C7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\check-product-images.py",
+    "Hash": "DD96E313F775760E5EA9771DFB8BAFD41DDE08E5F1343841C5CBE1CCA08A4825"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\import-restore.sh",
+    "Hash": "DC5DC08125C42492C8690C7D7C9521C2CE9BD24ED91C5EDA7DD34B3E95FFEDB8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\import-source.sh",
+    "Hash": "D95639813EF26B441E1C53CABE2F90C176FE33AFC512A46677AB93C773D15C8E"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\local.ps1",
+    "Hash": "A57D156649AE6337A51032CEAD31A101D059A4BBBA9CA95C7BD792D60DF1FBD7"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\migration-check.php",
+    "Hash": "4F8DC312A09D4B441CF754EDF552140B7C74353CCA4081C77760F29467447402"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\prepare-client-logo.py",
+    "Hash": "1BC6DE105820B419A19430EAF040753E275DD4CB0BFBFF7234AEA084F93E0A93"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\prepare-source.py",
+    "Hash": "9DB88455D9125E6AAB9C918F7DEBEA60716986F47B457E7FA44DE8CAEFA9C040"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\process-product-images.py",
+    "Hash": "1F7F6B1F5BD49857F2D7776992B1417C4A6D7122773A36173C699B43809EA7F6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\rehearsals.ps1",
+    "Hash": "14286E1F2064760CCC99DC7EBE099772ACBBC89204A9C9D51EF1A57DBF7A4D8C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\restore-rehearsal.ps1",
+    "Hash": "E63E2B5C9B776DE12C6EB29C5C7A35E9C2A5F0724968241346F89E70E26DBCB1"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\source-rehearsal.ps1",
+    "Hash": "2A6CFB587F2FD67B324B03B6E2F525F2DCC1FE160264624C2BEEED722EE99E40"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\verify-cloud-backup.ps1",
+    "Hash": "2A25A608856A6A62B38A95C6F5D1854EA7C22137F130B405B6C0028436C2CA47"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\scripts\\__pycache__\\cloud-backup.cpython-312.pyc",
+    "Hash": "49A78F8BB590A635C6BD396A538181A073BB057925057662ED871BBAE3808E4B"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\private\\cloud-recovery-20261014-142327.key",
+    "Hash": "F9AEE641BDB11223CC220587BFEFCD835F7669D77F26B7B9F83D892537A3C2FE"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\private\\cloud-recovery-20261014-final.key",
+    "Hash": "3EEF16FAE863DCD7F42253ECCD5F51766E73D8F68FAE2FD23254A513DC07D604"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\private\\restored-invoice-check.pdf",
+    "Hash": "C3B9B246A2DCA5C7FF45D48F8712FCD15366B12F2979E0F6B944931949599915"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-runtime\\apache-source.conf",
+    "Hash": "1CDE5F635B655BF4A83D8FC80334726D81BEA15C39DF60030E01F2415C17A332"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-runtime\\Dockerfile",
+    "Hash": "0453554B09E962D7C8DBFAB40D620EA102FCC03AEFA536C3C5E0B7FBA2ED4B64"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-runtime\\kafka-source-guard.php",
+    "Hash": "5C7D319BB21ADF8CDCD99278863FFDEC457409DBB8723D7C50B6B3F8C6A93EAB"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-runtime\\preview-guard.ini",
+    "Hash": "DAA338A3C5CA726F4F07EAA9C29D0AA92D00248582116FA4CFC82AF961518937"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\.env",
+    "Hash": "7F516FB796350333B523756BA4BA37B0DA67EF421A00E76A81F03D97DE900554"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\backup.bat",
+    "Hash": "38E8711A3CF9B9D7991150075ADA2240A35851B49359882DCD86B4A9C29D7786"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\compose.restore.yaml",
+    "Hash": "F096736229FAE01E69A999CAFBF92A9CB1C32343DAED11B260457E6B4ED2009C"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\compose.source.yaml",
+    "Hash": "F27513BFF4548C598AAD1906FD661167D4797DF3FFEE69177B19FD066604D8C6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\compose.yaml",
+    "Hash": "555152013E78EA69496E772A543081CA0E6BD398312AE63DD3DD5339D66157D6"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\logs.bat",
+    "Hash": "9668EC063536DAFDB7575F573AA7FF5AF98534504DC91CF99E20FBDA59ACC609"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\overit-cloud-zalohu.bat",
+    "Hash": "9AAB3AB87FCED56A6BC6B1E840FDBCBCE3DC0FA4356A46C979D706711225FEE5"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\start.bat",
+    "Hash": "E411EE797E9C10F94E31E51C47927EC6A9B91415A047CB26C675D68F6A859561"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\status.bat",
+    "Hash": "59006191AEB2A22C8C5C879413C1DC7EC4E515F7830723328EE64554CA5EAEA8"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\stop.bat",
+    "Hash": "EB32B43EB448645EE18C20917A97A7B3DA83E3C7C0AD6CD427B0BA891D50ABD9"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\zastavit-zkousky.bat",
+    "Hash": "6FB0C89DAACC7468E02E75C17DD6359947318051F4C19A5B3FF63E5FC190A198"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\zkontrolovat-zalohy.bat",
+    "Hash": "1274489D82492FB51C14200A7A18B94673BF872DDFCEDBFF0C333590EEB9260F"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\isolated-preview.conf",
+    "Hash": "8AAE3B64C6D2AE944059AA0F3E0484A10430506B448DD6D55CDCAD4CB0CF1D65"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\reference.conf",
+    "Hash": "FE86FE6250F6D26F14AF2B184A28388F4E458E4DFF2500D1A716E627097A3E18"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\restore-state.json",
+    "Hash": "647318092772E671EA4923A0B1495D9BD5DE2AB36FC8A47DD53BBA427C3A44AD"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\restore-verification.json",
+    "Hash": "94F4EF0DE21A078A6DEE1193399A92C7F0599BA5E4B275E78AC78BA630A38600"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-preview.conf",
+    "Hash": "D18BD24C6289D0D31A4D2D2E199ECB3197B9B6307962D1BAEF8BAFCB73A1C463"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-state.json",
+    "Hash": "B6DA8EFF0805329D0C1019FC504AE5543C01A83890BADBCDC57785D7E29C5067"
+  },
+  {
+    "Path": "C:\\Users\\Utrh\\Documents\\ChatGPT\\KAFKA\\local\\source-verification.json",
+    "Hash": "E3A34DABF84F1D479243D63CE333967681DB80A28246CD7E9B17BD4AA64BBCAB"
+  }
+]

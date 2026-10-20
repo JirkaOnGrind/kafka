@@ -1,0 +1,254 @@
+{
+  "started": "2026-10-19T12:35:18.165Z",
+  "target": "http://localhost:8083/",
+  "browser": "Chrome / Playwright",
+  "fallback": "Browser plugin not available; existing bundled Playwright used without installing dependencies",
+  "viewports": [
+    {
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    {
+      "name": "desktop page HTTP 200",
+      "passed": true,
+      "detail": "/cs/"
+    },
+    {
+      "name": "desktop homepage title",
+      "passed": true
+    },
+    {
+      "name": "desktop six category cards",
+      "passed": true
+    },
+    {
+      "name": "desktop theme picker absent",
+      "passed": true
+    },
+    {
+      "name": "desktop nonblank",
+      "passed": true
+    },
+    {
+      "name": "desktop page HTTP 200",
+      "passed": true,
+      "detail": "/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html"
+    },
+    {
+      "name": "desktop product identity",
+      "passed": true
+    },
+    {
+      "name": "desktop baseline price",
+      "passed": true
+    },
+    {
+      "name": "desktop product images load",
+      "passed": true
+    },
+    {
+      "name": "desktop native red price update",
+      "passed": true
+    },
+    {
+      "name": "desktop native size price update",
+      "passed": true
+    },
+    {
+      "name": "desktop variant URL retains original product path",
+      "passed": true,
+      "detail": "http://localhost:8083/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html?id_product_attribute=27580#/16-barva-cervena/159-druh-detske/174-velikost_detskych_tricek-164_13_let"
+    },
+    {
+      "name": "desktop selected variant survives reload",
+      "passed": true
+    },
+    {
+      "name": "desktop page HTTP 200",
+      "passed": true,
+      "detail": "/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html"
+    },
+    {
+      "name": "desktop old flat variant path preserves selection",
+      "passed": true
+    },
+    {
+      "name": "desktop canonical excludes variant query",
+      "passed": true
+    },
+    {
+      "name": "desktop responsive width",
+      "passed": true
+    },
+    {
+      "name": "desktop no framework overlay",
+      "passed": true
+    },
+    {
+      "name": "desktop page HTTP 200",
+      "passed": true,
+      "detail": "/cs/cart"
+    },
+    {
+      "name": "desktop correct real cart line",
+      "passed": true
+    },
+    {
+      "name": "desktop Czech cart title",
+      "passed": true
+    },
+    {
+      "name": "desktop cart responsive width",
+      "passed": true
+    },
+    {
+      "name": "desktop own test cart cleaned",
+      "passed": true
+    },
+    {
+      "name": "desktop page HTTP 200",
+      "passed": true,
+      "detail": "/"
+    },
+    {
+      "name": "mobile page HTTP 200",
+      "passed": true,
+      "detail": "/cs/"
+    },
+    {
+      "name": "mobile homepage title",
+      "passed": true
+    },
+    {
+      "name": "mobile six category cards",
+      "passed": true
+    },
+    {
+      "name": "mobile theme picker absent",
+      "passed": true
+    },
+    {
+      "name": "mobile nonblank",
+      "passed": true
+    },
+    {
+      "name": "mobile page HTTP 200",
+      "passed": true,
+      "detail": "/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html"
+    },
+    {
+      "name": "mobile product identity",
+      "passed": true
+    },
+    {
+      "name": "mobile baseline price",
+      "passed": true
+    },
+    {
+      "name": "mobile product images load",
+      "passed": true
+    },
+    {
+      "name": "mobile native red price update",
+      "passed": true
+    },
+    {
+      "name": "mobile native size price update",
+      "passed": true
+    },
+    {
+      "name": "mobile variant URL retains original product path",
+      "passed": true,
+      "detail": "http://localhost:8083/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html?id_product_attribute=27580#/16-barva-cervena/159-druh-detske/174-velikost_detskych_tricek-164_13_let"
+    },
+    {
+      "name": "mobile selected variant survives reload",
+      "passed": true
+    },
+    {
+      "name": "mobile page HTTP 200",
+      "passed": true,
+      "detail": "/cs/detska-tricka/3454-tricko-punk-is-freedom-rock-shop.html"
+    },
+    {
+      "name": "mobile old flat variant path preserves selection",
+      "passed": true
+    },
+    {
+      "name": "mobile canonical excludes variant query",
+      "passed": true
+    },
+    {
+      "name": "mobile responsive width",
+      "passed": true
+    },
+    {
+      "name": "mobile no framework overlay",
+      "passed": true
+    },
+    {
+      "name": "mobile page HTTP 200",
+      "passed": true,
+      "detail": "/cs/cart"
+    },
+    {
+      "name": "mobile correct real cart line",
+      "passed": true
+    },
+    {
+      "name": "mobile Czech cart title",
+      "passed": true
+    },
+    {
+      "name": "mobile cart responsive width",
+      "passed": true
+    },
+    {
+      "name": "mobile own test cart cleaned",
+      "passed": true
+    },
+    {
+      "name": "mobile page HTTP 200",
+      "passed": true,
+      "detail": "/"
+    },
+    {
+      "name": "JavaScript runtime health",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "native console health",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "native HTTP health",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "externalBlocked": [],
+  "screenshots": [
+    "home-desktop.png",
+    "variant-desktop.png",
+    "cart-desktop.png",
+    "reference-home-desktop.png",
+    "home-mobile.png",
+    "variant-mobile.png",
+    "cart-mobile.png",
+    "reference-home-mobile.png"
+  ],
+  "visualNotes": "Native theme and prototype remain unchanged. Content differs because the native page uses the existing imported catalog. SEO work changed no theme CSS, layout, category cards or registration block.",
+  "finished": "2026-10-19T12:36:06.040Z",
+  "passed": true
+}

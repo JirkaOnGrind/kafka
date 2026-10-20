@@ -1,0 +1,614 @@
+﻿id_product,id_category,path,product_name,active_catalog,reason,source_categories
+273,4,modni-doplnky/placky,Kytra,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+283,4,modni-doplnky/placky,Keep your Country,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+319,4,modni-doplnky/placky,ACAB Cats,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+551,4,modni-doplnky/placky,Dont Trust Anyone,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+555,4,modni-doplnky/placky,NYHC,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+561,4,modni-doplnky/placky,Nature Is Not a Crime,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+564,4,modni-doplnky/placky,CHAOS,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+713,4,modni-doplnky/placky,Rude Boy,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+771,4,modni-doplnky/placky,Danger,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+828,4,modni-doplnky/placky,Pavouk 2,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+1100,4,modni-doplnky/placky,PUN,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+1101,4,modni-doplnky/placky,Ryba,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+1152,4,modni-doplnky/placky,Hardcore 2,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+1650,4,modni-doplnky/placky,Punk Rock not Dead,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+2009,4,modni-doplnky/placky,Placka Oi! Kids,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+2194,4,modni-doplnky/placky,Placka Punk 77,True,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+2596,4,modni-doplnky/placky,Placka Duck You,False,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+2631,4,modni-doplnky/placky,Placka Zločinný režim,False,Explicit badge/pin product type; pin-backed badges remain Placky,[3]
+734,12,merch/vlastni-potisk/placky,Placka 58 mm se špendlíkem,True,Reviewed 58 mm custom button/magnet/mirror/opener variants with quantity price list,[10]
+735,12,merch/vlastni-potisk/placky,Placka 58  mm s magnetem,True,Reviewed 58 mm custom button/magnet/mirror/opener variants with quantity price list,[10]
+736,12,merch/vlastni-potisk/placky,Placka 58 mm zrcátko,True,Reviewed 58 mm custom button/magnet/mirror/opener variants with quantity price list,[10]
+737,12,merch/vlastni-potisk/placky,Otvírák 58 mm s magnetem,True,Reviewed 58 mm custom button/magnet/mirror/opener variants with quantity price list,[10]
+389,112,merch/kapely/plesnivy-fazole,Čepice Plesnivý Fazole,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[32, 33]"
+414,112,merch/kapely/plesnivy-fazole,Kšiltovka  Plesnivý Fazole,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[32, 34]"
+791,112,merch/kapely/plesnivy-fazole,Čepice Plesnivý Fazole logo,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,[33]
+1626,112,merch/kapely/plesnivy-fazole,Peněženka  Plesnivý Fazole,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,[62]
+2095,112,merch/kapely/plesnivy-fazole,Špendlík Plesnivý Fazole,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,[75]
+387,113,merch/kapely/neparkovat-vjezd,Čepice Neparkovat Vjezd,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[32, 33]"
+412,113,merch/kapely/neparkovat-vjezd,Kšiltovka  Neparkovat Vjezd,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[32, 34]"
+2093,113,merch/kapely/neparkovat-vjezd,Špendlík Neparkovat Vjezd,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[3, 75]"
+1285,114,merch/kapely/stamp-out-system,Kšiltovka  Stamp Out System,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[32, 34]"
+1346,114,merch/kapely/stamp-out-system,Nášivka  Stamp Out System 2,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[19, 39]"
+2102,114,merch/kapely/stamp-out-system,Špendlík Stamp Out System,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,[75]
+399,115,merch/kapely/adhd-helmut,Kšiltovka  ADHD Helmut,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,"[32, 34]"
+1144,116,merch/kapely/pruser,Kšiltovka  Průser,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,[34]
+2097,116,merch/kapely/pruser,Špendlík Průser,True,Exact client-band motif in title; reviewed missing merchandise cross-listing,[75]
+373,128,obleceni/cepice,Čepice ACAB Cats,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+374,128,obleceni/cepice,Čepice ACAB,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+375,128,obleceni/cepice,Čepice Slayer,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+376,128,obleceni/cepice,Čepice Anarchy,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+377,128,obleceni/cepice,Čepice Bad Boy,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+378,128,obleceni/cepice,Čepice Beerman,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+379,128,obleceni/cepice,Čepice Fuck Off,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+380,128,obleceni/cepice,Čepice Fuck,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+381,128,obleceni/cepice,Čepice Fanynka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+382,128,obleceni/cepice,Čepice Hardcore,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+383,128,obleceni/cepice,Čepice I Love Beer,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+384,128,obleceni/cepice,Čepice Punks not Dead,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+385,128,obleceni/cepice,Čepice Kočka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+386,128,obleceni/cepice,Čepice Hořící lebka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+387,128,obleceni/cepice,Čepice Neparkovat Vjezd,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+388,128,obleceni/cepice,Čepice No Future,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+389,128,obleceni/cepice,Čepice Plesnivý Fazole,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+390,128,obleceni/cepice,Čepice Punks not Dead,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+391,128,obleceni/cepice,Čepice Punk Forever,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+392,128,obleceni/cepice,Čepice Punk Rock,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+393,128,obleceni/cepice,Čepice Punk Sex Pivo,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+394,128,obleceni/cepice,Čepice STOP Comunism,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+395,128,obleceni/cepice,Čepice STOP Nazi,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+396,128,obleceni/cepice,Čepice Bad Religion,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+397,128,obleceni/cepice,Kšiltovka ACAB Cats,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+398,128,obleceni/cepice,Kšiltovka  ACAB,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+399,128,obleceni/cepice,Kšiltovka  ADHD Helmut,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+400,128,obleceni/cepice,Kšiltovka  Anarchy,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+401,128,obleceni/cepice,Kšiltovka  Bad Boy,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+402,128,obleceni/cepice,Kšiltovka Beerman,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+403,128,obleceni/cepice,Kšiltovka  Fuck Off,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+404,128,obleceni/cepice,Kšiltovka Fuck,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+405,128,obleceni/cepice,Kšiltovka  Fanynka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+406,128,obleceni/cepice,Kšiltovka  Hardcore,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+407,128,obleceni/cepice,Kšiltovka  I Love Beer,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+408,128,obleceni/cepice,Kšiltovka  I Love Punk,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+409,128,obleceni/cepice,Kšiltovka  Kočka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+410,128,obleceni/cepice,Kšiltovka  Hořící lebka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+411,128,obleceni/cepice,Kšiltovka  Musicians Against Racism,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34, 81]"
+412,128,obleceni/cepice,Kšiltovka  Neparkovat Vjezd,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+413,128,obleceni/cepice,Kšiltovka  No Future,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+414,128,obleceni/cepice,Kšiltovka  Plesnivý Fazole,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+415,128,obleceni/cepice,Kšiltovka  Punks not Dead,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+416,128,obleceni/cepice,Kšiltovka  Punk Forever,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+417,128,obleceni/cepice,Kšiltovka  Punk Rock,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+418,128,obleceni/cepice,Kšiltovka  Punk Sex Pivo,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+419,128,obleceni/cepice,Kšiltovka  STOP Comunism,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+420,128,obleceni/cepice,Kšiltovka  STOP Nazi,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34, 70]"
+421,128,obleceni/cepice,Kšiltovka  STOP Religion,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+422,128,obleceni/cepice,Čepice MIsfits,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+423,128,obleceni/cepice,Čepice Ozzy,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+434,128,obleceni/cepice,Čepice Blink 182,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+435,128,obleceni/cepice,Čepice Cure,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+436,128,obleceni/cepice,Čepice Judas Priest,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+437,128,obleceni/cepice,Čepice Foo Fighters,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+438,128,obleceni/cepice,Čepice Fuck,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+439,128,obleceni/cepice,Čepice Guns N Roses,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+440,128,obleceni/cepice,Čepice Korn,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+441,128,obleceni/cepice,Čepice Korn 2,True,Historical winter-cap/baseball-cap category or explicit hat title,"[33, 70]"
+442,128,obleceni/cepice,Čepice Marilyn Manson,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+443,128,obleceni/cepice,Čepice Marilyn Manson 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+444,128,obleceni/cepice,Čepice Minystry,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+445,128,obleceni/cepice,Čepice My CHemical Romance,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+447,128,obleceni/cepice,Čepice OFF Lebka 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+448,128,obleceni/cepice,Čepice Radiohead,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+449,128,obleceni/cepice,Čepice Ramones,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+450,128,obleceni/cepice,Čepice Rock N Roll,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+451,128,obleceni/cepice,Čepice Scorpions,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+452,128,obleceni/cepice,Čepice Sex Pistols,True,Historical winter-cap/baseball-cap category or explicit hat title,"[33, 70, 81]"
+453,128,obleceni/cepice,Čepice Sex Pistols 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+454,128,obleceni/cepice,Čepice Slipknot,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+455,128,obleceni/cepice,Čepice Trouble Maker,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+527,128,obleceni/cepice,Čepice Metallica,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+528,128,obleceni/cepice,Čepice Punk Králík,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+530,128,obleceni/cepice,Čepice Punkrats,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+535,128,obleceni/cepice,Čepice Iron Maiden,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+547,128,obleceni/cepice,Čepice Oi!,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+548,128,obleceni/cepice,Čepice Certified INSANE,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+549,128,obleceni/cepice,Čepice Canabis,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+558,128,obleceni/cepice,Kšiltovka  NYHC,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+559,128,obleceni/cepice,Čepice NYHC,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+568,128,obleceni/cepice,Kšiltovka  CHAOS,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+569,128,obleceni/cepice,Čepice CHAOS,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+574,128,obleceni/cepice,Čepice Suicidal Tendencies,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+575,128,obleceni/cepice,Kšiltovka  SKA,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+596,128,obleceni/cepice,Čepice I Love SKA,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+597,128,obleceni/cepice,Kšiltovka  I Love SKA,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+599,128,obleceni/cepice,Čepice Skinhead,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+601,128,obleceni/cepice,Kšiltovka  Skinhead,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+617,128,obleceni/cepice,Čepice CHAOS 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+618,128,obleceni/cepice,Kšiltovka  CHAOS 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+625,128,obleceni/cepice,Čepice Punker 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+626,128,obleceni/cepice,Kšiltovka  Punker 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+705,128,obleceni/cepice,Kšiltovka  Metal Head,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+706,128,obleceni/cepice,Kšiltovka  Rude Girl,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+707,128,obleceni/cepice,Kšiltovka  Rude Boy,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+708,128,obleceni/cepice,Čepice Cannibal Corpse,False,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+709,128,obleceni/cepice,Čepice AC DC,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+710,128,obleceni/cepice,Čepice 666,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+717,128,obleceni/cepice,Kšiltovka  I Wanna Be Your Dog,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+725,128,obleceni/cepice,Kšiltovka  Punk & Skins United,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+738,128,obleceni/cepice,Čepice Pica,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+739,128,obleceni/cepice,Kšiltovka  Pica,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+742,128,obleceni/cepice,Kšiltovka  Všechno je,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+750,128,obleceni/cepice,Čepice Bad Girl,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+751,128,obleceni/cepice,Kšiltovka  Punk Rock 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+757,128,obleceni/cepice,Čepice Hvězda,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+758,128,obleceni/cepice,Kšiltovka  Hvězda,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+765,128,obleceni/cepice,Čepice I Hate People,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+766,128,obleceni/cepice,Kšiltovka  I Hate People,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+772,128,obleceni/cepice,Čepice Danger,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+773,128,obleceni/cepice,Kšiltovka  Danger,True,Historical winter-cap/baseball-cap category or explicit hat title,"[34, 70]"
+779,128,obleceni/cepice,Kšiltovka  ACAB 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+783,128,obleceni/cepice,Čepice Toxic,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+784,128,obleceni/cepice,Kšiltovka  Toxic,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+791,128,obleceni/cepice,Čepice Plesnivý Fazole logo,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+798,128,obleceni/cepice,Čepice Růžová lebka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+799,128,obleceni/cepice,Kšiltovka  Růžová lebka,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+836,128,obleceni/cepice,Kšiltovka  I Love 69,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+837,128,obleceni/cepice,Čepice I Love 69,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+860,128,obleceni/cepice,Kšiltovka  Top Loser,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+866,128,obleceni/cepice,Kšiltovka  England,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1095,128,obleceni/cepice,Čepice PND 4,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1096,128,obleceni/cepice,Kšiltovka  PND 4,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1127,128,obleceni/cepice,Čepice Lebka B,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1128,128,obleceni/cepice,Kšiltovka  Lebka B,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1144,128,obleceni/cepice,Kšiltovka  Průser,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1154,128,obleceni/cepice,Kšiltovka  Hardcore 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1161,128,obleceni/cepice,Čepice Thrash Zone,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1162,128,obleceni/cepice,Kšiltovka  Thrash Zone,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1169,128,obleceni/cepice,Čepice Face,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+1170,128,obleceni/cepice,Kšiltovka  Face,True,Historical winter-cap/baseball-cap category or explicit hat title,"[34, 70]"
+1191,128,obleceni/cepice,Čepice Straight Edge,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+1192,128,obleceni/cepice,Kšiltovka  Straight Edge,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1219,128,obleceni/cepice,Čepice FCK CPS,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1220,128,obleceni/cepice,Kšiltovka  FCK CPS,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1225,128,obleceni/cepice,Čepice FCK NZS,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1226,128,obleceni/cepice,Kšiltovka  FCK NZS,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1232,128,obleceni/cepice,Čepice FCK ALL,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+1233,128,obleceni/cepice,Kšiltovka  FCK ALL,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1285,128,obleceni/cepice,Kšiltovka  Stamp Out System,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1327,128,obleceni/cepice,Kšiltovka  Anarchy & Equality,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1352,128,obleceni/cepice,Kšiltovka  Punkrock All Star,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1360,128,obleceni/cepice,Kšiltovka   Hvězda 2,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1381,128,obleceni/cepice,Kšiltovka  No Gods No Masters,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1390,128,obleceni/cepice,Kšiltovka  Fuck Politics,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1391,128,obleceni/cepice,Kšiltovka  I Hate Politics,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1401,128,obleceni/cepice,Kšiltovka  Punks not Dead 3,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1410,128,obleceni/cepice,Kšiltovka  Pentagram,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1497,128,obleceni/cepice,Čepice Motörhead,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1498,128,obleceni/cepice,Kšiltovka  Humans are Idiots,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1549,128,obleceni/cepice,Čepice Anti War,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+1550,128,obleceni/cepice,Kšiltovka  Anti War,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1564,128,obleceni/cepice,Kšiltovka  Rock Cat,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1632,128,obleceni/cepice,Kšiltovka  Sinner,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1639,128,obleceni/cepice,Kšiltovka  Punk lebka,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+1652,128,obleceni/cepice,Kšiltovka  Punk Rock not Dead,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1680,128,obleceni/cepice,Kšiltovka  Dead Kennedys,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2064,128,obleceni/cepice,Kšiltovka  Punkrock,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+2082,128,obleceni/cepice,Kšiltovka  Love Music Hate Racism,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+2162,128,obleceni/cepice,Čepice Iron Front,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+2163,128,obleceni/cepice,Kšiltovka Iron Front,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+2185,128,obleceni/cepice,Čepice Anti Nazi,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 33]"
+2186,128,obleceni/cepice,Kšiltovka Anti Nazi,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2198,128,obleceni/cepice,Kšiltovka  Punk 77,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+2251,128,obleceni/cepice,Kšiltovka  Animal Liberation,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2342,128,obleceni/cepice,Kšiltovka Grind Core,True,Historical winter-cap/baseball-cap category or explicit hat title,"[32, 34]"
+2372,128,obleceni/cepice,Kšiltovka  Rock & Roll,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2556,128,obleceni/cepice,Čepice Rock Against Fascism,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+2557,128,obleceni/cepice,Kšiltovka  Rock Against Fascism,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2729,128,obleceni/cepice,Kšiltovka  Ploužák,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2794,128,obleceni/cepice,Čepice Stop Rasismu,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+2795,128,obleceni/cepice,Kšiltovka Stop Rasismu,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2822,128,obleceni/cepice,Kšiltovka  Anti social,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2846,128,obleceni/cepice,Čepice OPND2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+2847,128,obleceni/cepice,Kšiltovka OPND2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+2999,128,obleceni/cepice,Čepice Pentagram 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+3000,128,obleceni/cepice,Kšiltovka  Pentagram 2,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+3096,128,obleceni/cepice,Čepice Oi!,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+3097,128,obleceni/cepice,Kšiltovka Oi!,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+3135,128,obleceni/cepice,Čepice Sometimes,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+3136,128,obleceni/cepice,Kšiltovka Sometimes,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+3182,128,obleceni/cepice,Čepice Old School Hardcore,True,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+3183,128,obleceni/cepice,Kšiltovka Old School Hardcore,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+3294,128,obleceni/cepice,Čepice SKA Kostra,False,Historical winter-cap/baseball-cap category or explicit hat title,[33]
+3295,128,obleceni/cepice,Kšiltovka SKA Kostra,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+3342,128,obleceni/cepice,Čepice Bekovka,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+3393,128,obleceni/cepice,Kšiltovka Indiánská Rezervace,True,Historical winter-cap/baseball-cap category or explicit hat title,"[34, 125]"
+3438,128,obleceni/cepice,Kšiltovka Gegen Nazis,True,Historical winter-cap/baseball-cap category or explicit hat title,[34]
+1870,129,obleceni/kravaty,Kravata Lebky,True,Reviewed collar/tie split by explicit product type in title,"[81, 93]"
+1871,129,obleceni/kravaty,Kravata SKA,True,Reviewed collar/tie split by explicit product type in title,"[90, 93]"
+2615,129,obleceni/kravaty,Kravata Noty,True,Reviewed collar/tie split by explicit product type in title,[93]
+2616,129,obleceni/kravaty,Kravata pruhy bílé,True,Reviewed collar/tie split by explicit product type in title,"[90, 93]"
+2617,129,obleceni/kravaty,Kravata pruhy červené,True,Reviewed collar/tie split by explicit product type in title,[93]
+2618,129,obleceni/kravaty,Kravata Pavouk,True,Reviewed collar/tie split by explicit product type in title,[93]
+2712,129,obleceni/kravaty,Kravata Rolling Stones,True,Reviewed collar/tie split by explicit product type in title,[93]
+2958,129,obleceni/kravaty,Kravata Slayer,True,Reviewed collar/tie split by explicit product type in title,[93]
+2496,130,modni-doplnky/hroty,Hroty 7x10 mm,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,[102]
+2497,130,modni-doplnky/hroty,Hroty 7x14 mm,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,[102]
+2498,130,modni-doplnky/hroty,Hroty 7x20 mm,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,[102]
+2669,130,modni-doplnky/hroty,Hroty 8 x 12 mm,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,[102]
+2759,130,modni-doplnky/hroty,Hrot Kočičí Dráp 7 x 20 mm,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,"[88, 102]"
+2580,131,modni-doplnky/pyramidy,Pyramidy stříbrné,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,[102]
+2630,131,modni-doplnky/pyramidy,Pyramidy zlaté,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,[102]
+3348,132,modni-doplnky/cvoky,CVOKY,True,Reviewed loose spike/pyramid/stud split; decorated finished accessories excluded,"[2, 88, 102]"
+424,133,stylove-doplnky/obojky,Obojek Jednoduchý proužek,True,Reviewed collar/tie split by explicit product type in title,[93]
+425,133,stylove-doplnky/obojky,Obojek Jednořadé ostny,True,Reviewed collar/tie split by explicit product type in title,[93]
+426,133,stylove-doplnky/obojky,Obojek se zámkem ve tvaru srdce,True,Reviewed collar/tie split by explicit product type in title,"[90, 93]"
+427,133,stylove-doplnky/obojky,Obojek Ostny kombinace,True,Reviewed collar/tie split by explicit product type in title,"[90, 93]"
+870,133,stylove-doplnky/obojky,Obojek Kočka,True,Reviewed collar/tie split by explicit product type in title,[93]
+1418,133,stylove-doplnky/obojky,Obojek Srdce,True,Reviewed collar/tie split by explicit product type in title,"[81, 93]"
+1419,133,stylove-doplnky/obojky,Obojek černé srdce,True,Reviewed collar/tie split by explicit product type in title,[93]
+1435,133,stylove-doplnky/obojky,Obojek  Pentagram,True,Reviewed collar/tie split by explicit product type in title,[93]
+1583,133,stylove-doplnky/obojky,Obojek  Pyramidy,True,Reviewed collar/tie split by explicit product type in title,[93]
+1615,133,stylove-doplnky/obojky,Obojek  Dvouřadé ostny,True,Reviewed collar/tie split by explicit product type in title,[93]
+1842,133,stylove-doplnky/obojky,Obojek Pentagram 2,True,Reviewed collar/tie split by explicit product type in title,"[90, 93]"
+2269,133,stylove-doplnky/obojky,Obojek Dlouhé Ostny,True,Reviewed collar/tie split by explicit product type in title,[93]
+2352,133,stylove-doplnky/obojky,Obojek Kříž,True,Reviewed collar/tie split by explicit product type in title,[93]
+2813,133,stylove-doplnky/obojky,Obojek Kruh,True,Reviewed collar/tie split by explicit product type in title,[93]
+342,134,stylove-doplnky/knihy,Kniha  PRAHA ZKOUŘENÁ  - Jindřich Krása,True,"Book title or explicit book description, including reviewed Neklan publications","[81, 98]"
+1071,134,stylove-doplnky/knihy,Kniha  Jak udělat revoluci: Zápisky z trestanecké kolonie-Naděžda Tolokonnikovová,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1072,134,stylove-doplnky/knihy,Kniha  Revolvers-Oldřich Janeba,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1073,134,stylove-doplnky/knihy,"Kniha  44 známek punku-Vítek Formánek, Eva Csölleová",True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1428,134,stylove-doplnky/knihy,Kniha  AC/DC – Kompletní příběh,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1429,134,stylove-doplnky/knihy,Kniha  Metallica – kompletní příběh,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1430,134,stylove-doplnky/knihy,Kniha  Nirvana – Kompletní příběh,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1431,134,stylove-doplnky/knihy,Kniha  Iron Maiden – Kompletní příběh,True,"Book title or explicit book description, including reviewed Neklan publications","[81, 98]"
+1432,134,stylove-doplnky/knihy,Kniha  Visací zámek,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+1433,134,stylove-doplnky/knihy,Kniha  Punk & hardcore,True,"Book title or explicit book description, including reviewed Neklan publications","[90, 98]"
+1434,134,stylove-doplnky/knihy,Kniha  Malá historie punku - návrat ke kořenům,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+2495,134,stylove-doplnky/knihy,"Kniha-Punkem to začalo a punkem to končí-Vítek Formánek, Eva Csölleová",True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+2499,134,stylove-doplnky/knihy,Kniha-Poison Heart: Přežil jsem Ramones-Dee Dee Ramone,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+2912,134,stylove-doplnky/knihy,Kniha Příběh zmrda,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+2913,134,stylove-doplnky/knihy,Kniha Příběh zmrda 2 (Držkou na zem),True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3300,134,stylove-doplnky/knihy,Petr NEKLAN Benke : Koťátka a Poníci,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3301,134,stylove-doplnky/knihy,Petr NEKLAN Benke : Menstruační krev,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3302,134,stylove-doplnky/knihy,Petr NEKLAN Benke : Rýmovačův rok,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3303,134,stylove-doplnky/knihy,Petr NEKLAN Benke : Poloha ležícího střelce,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3304,134,stylove-doplnky/knihy,Petr NEKLAN Benke : Trampusákova pomsta,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3305,134,stylove-doplnky/knihy,"Petr NEKLAN Benke : Malé pivo, malý rum",True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+3306,134,stylove-doplnky/knihy,Petr NEKLAN Benke : Kytice,True,"Book title or explicit book description, including reviewed Neklan publications",[98]
+2392,135,stylove-doplnky/fanziny,The Punkavec 1 číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2462,135,stylove-doplnky/fanziny,The Punkavec 2 číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2463,135,stylove-doplnky/fanziny,"The Punkavec set čísla 1,2",True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2523,135,stylove-doplnky/fanziny,The Punkavec 3 číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets","[70, 98]"
+2524,135,stylove-doplnky/fanziny,"The Punkavec set čísla 1,2,3",True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2644,135,stylove-doplnky/fanziny,The Punkavec 4. číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2645,135,stylove-doplnky/fanziny,"The Punkavec set čísla 1,2,3,4",True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2724,135,stylove-doplnky/fanziny,The Punkavec 5 číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2725,135,stylove-doplnky/fanziny,"The Punkavec set čísla 1,2,3,4,5",True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2933,135,stylove-doplnky/fanziny,The Punkave 6 číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+2934,135,stylove-doplnky/fanziny,"The Punkavec set čísla 1,2,3,4,5,6",True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+3145,135,stylove-doplnky/fanziny,The Punkavec 7. číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+3297,135,stylove-doplnky/fanziny,The Punkavec 8.číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+3379,135,stylove-doplnky/fanziny,The Punkave 9 číslo,True,"Product description explicitly identifies a fanzine, including Punkavec sets",[98]
+1506,136,stylove-doplnky/tasky,Plátěná taška ACAB Cats,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1507,136,stylove-doplnky/tasky,Plátěná taška  ACAB,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1508,136,stylove-doplnky/tasky,Plátěná taška  Anarchy,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59, 81]"
+1509,136,stylove-doplnky/tasky,Plátěná taška  Beerman,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1510,136,stylove-doplnky/tasky,Plátěná taška  Kočka,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59, 70]"
+1511,136,stylove-doplnky/tasky,Plátěná taška  Color Punk,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1512,136,stylove-doplnky/tasky,Plátěná taška  Punk Rock 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1514,136,stylove-doplnky/tasky,Plátěná taška  FCK ALL,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1515,136,stylove-doplnky/tasky,Plátěná taška  Fuck Politics,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1516,136,stylove-doplnky/tasky,Plátěná taška  Fuck,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1517,136,stylove-doplnky/tasky,Plátěná taška  Hardcore,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1518,136,stylove-doplnky/tasky,Plátěná taška  Humans are Idiots,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1519,136,stylove-doplnky/tasky,Plátěná taška  Plátěná taška  CHAOS,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1520,136,stylove-doplnky/tasky,Plátěná taška  I Love Beer,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1521,136,stylove-doplnky/tasky,Plátěná taška  I Love Metal,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1522,136,stylove-doplnky/tasky,Plátěná taška  I Love SKA,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1523,136,stylove-doplnky/tasky,Plátěná taška  I Hate Politics,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1524,136,stylove-doplnky/tasky,Plátěná taška  Lebka číro,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59, 70]"
+1525,136,stylove-doplnky/tasky,Plátěná taška  Růžová lebka,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1526,136,stylove-doplnky/tasky,Plátěná taška  Musicians Against Racism,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1527,136,stylove-doplnky/tasky,Plátěná taška  No Gods No Masters,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1528,136,stylove-doplnky/tasky,Plátěná taška  Pentagram,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1529,136,stylove-doplnky/tasky,Plátěná taška  Punks not Dead 3,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1530,136,stylove-doplnky/tasky,Plátěná taška  Punkrock All Star,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59, 70]"
+1531,136,stylove-doplnky/tasky,Plátěná taška  Punk Sex Pivo,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1532,136,stylove-doplnky/tasky,Plátěná taška  We Will Rock You,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1542,136,stylove-doplnky/tasky,Plátěná taška  Polibek smrti,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1543,136,stylove-doplnky/tasky,Plátěná taška  Anti War,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1571,136,stylove-doplnky/tasky,Plátěná taška  Rock Cat,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1579,136,stylove-doplnky/tasky,Plátěná taška  Hard Rock,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1584,136,stylove-doplnky/tasky,Kabelka Witch,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+1590,136,stylove-doplnky/tasky,Plátěná taška  Punkrock pes,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1628,136,stylove-doplnky/tasky,Plátěná taška  Sinner,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1649,136,stylove-doplnky/tasky,Plátěná taška  Punk Rock not Dead,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+1723,136,stylove-doplnky/tasky,PND 4,True,Historical bag/backpack/belt-pouch category or explicit bag description,[58]
+1925,136,stylove-doplnky/tasky,Plátěná taška Old Punks Never Die,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+1953,136,stylove-doplnky/tasky,Plátěná taška  Metal Head,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+1972,136,stylove-doplnky/tasky,Plátěná taška  Freedom a Anarchy,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2015,136,stylove-doplnky/tasky,Plátěná taška  Oi! Kids,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2050,136,stylove-doplnky/tasky,Plátěná taška  Punkrock,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2083,136,stylove-doplnky/tasky,Plátěná taška  Love Music Hate Racism,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2117,136,stylove-doplnky/tasky,Plátěná taška  ACAB Kostky,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2195,136,stylove-doplnky/tasky,Plátěná taška  Punk 77,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2216,136,stylove-doplnky/tasky,Plátěná taška  Remember,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2238,136,stylove-doplnky/tasky,Plátěná taška  Punks & Skins,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2250,136,stylove-doplnky/tasky,Plátěná taška  Animal Liberation,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2307,136,stylove-doplnky/tasky,Vak ACAB,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2308,136,stylove-doplnky/tasky,Vak A.L.F.,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2309,136,stylove-doplnky/tasky,Vak Anarchy,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2310,136,stylove-doplnky/tasky,Vak Animal Liberation,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2311,136,stylove-doplnky/tasky,Vak Lebka Číro,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2312,136,stylove-doplnky/tasky,Vak Hardcore,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2313,136,stylove-doplnky/tasky,Vak Hard Rock,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2314,136,stylove-doplnky/tasky,Vak I Love SKA,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2315,136,stylove-doplnky/tasky,Vak Kočka,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2316,136,stylove-doplnky/tasky,Vak Love Music Hate Racism,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2317,136,stylove-doplnky/tasky,Vak Metal Head,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2318,136,stylove-doplnky/tasky,Vak No Future,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2319,136,stylove-doplnky/tasky,Vak Oi Its Streetpunk,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2320,136,stylove-doplnky/tasky,Vak Oi!,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2321,136,stylove-doplnky/tasky,Vak Old Punks Never Die,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2322,136,stylove-doplnky/tasky,Vak Punk Sex Pivo,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2323,136,stylove-doplnky/tasky,Vak Punk Rock All Star,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2324,136,stylove-doplnky/tasky,Vak Punkrock Is Not Dead,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2325,136,stylove-doplnky/tasky,Vak Punk Rock,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60, 81]"
+2326,136,stylove-doplnky/tasky,Vak Punks & Skins,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2327,136,stylove-doplnky/tasky,Vak Punks Not Dead 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60, 70, 81]"
+2328,136,stylove-doplnky/tasky,Vak Punks Not Dead 3,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2329,136,stylove-doplnky/tasky,Vak Skinhead,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2330,136,stylove-doplnky/tasky,Vak NYHC,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2331,136,stylove-doplnky/tasky,Plátěná taška  NYHC,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2343,136,stylove-doplnky/tasky,Vak Grind Core,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2345,136,stylove-doplnky/tasky,Plátěná taška  Grind Core,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2373,136,stylove-doplnky/tasky,Plátěná taška  Rock & Roll,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2374,136,stylove-doplnky/tasky,Vak Rock & Roll,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2397,136,stylove-doplnky/tasky,Plátěná taška  Music,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 59]"
+2398,136,stylove-doplnky/tasky,Vak Music,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2410,136,stylove-doplnky/tasky,Kapsa na opasek K1,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 61]"
+2424,136,stylove-doplnky/tasky,Kapsa na opasek Punks not Dead 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 61, 70]"
+2425,136,stylove-doplnky/tasky,Kapsa na opasek Punks not Dead 3,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2426,136,stylove-doplnky/tasky,Kapsa na opasek Fuck,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2430,136,stylove-doplnky/tasky,Kapsa na opasek K2,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 61]"
+2439,136,stylove-doplnky/tasky,Kapsa na opasek Fuck Your System,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2440,136,stylove-doplnky/tasky,Kapsa na opasek Metal Head,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 61]"
+2455,136,stylove-doplnky/tasky,Plátěná taška  Punks not Dead 6,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2456,136,stylove-doplnky/tasky,Vak Punks Not Dead 6,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2460,136,stylove-doplnky/tasky,Kapsa na opasek Punk lebka,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 61]"
+2461,136,stylove-doplnky/tasky,Kapsa na opasek Rock & Roll,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2468,136,stylove-doplnky/tasky,Kapsa na opasek Oi!,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 61, 81]"
+2493,136,stylove-doplnky/tasky,Kapsa na opasek K2 Punks Not Dead,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2494,136,stylove-doplnky/tasky,Kapsa na opasek K2 ACAB,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2529,136,stylove-doplnky/tasky,Plátěná taška Punk & Oi!,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2530,136,stylove-doplnky/tasky,Vak Punk & Oi!,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2539,136,stylove-doplnky/tasky,Kapsa na opasek Punk Forever,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2540,136,stylove-doplnky/tasky,Kapsa na opasek Stop Nazi,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2562,136,stylove-doplnky/tasky,Plátěná taška  Rock Against Fascism,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2563,136,stylove-doplnky/tasky,Vak Rock Against Fascism,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2599,136,stylove-doplnky/tasky,Plátěná taška  Duck You,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2600,136,stylove-doplnky/tasky,Vak Duck You,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2601,136,stylove-doplnky/tasky,Kapsa na opasek Duck You,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2628,136,stylove-doplnky/tasky,Kapsa na opasek Skinhead,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2636,136,stylove-doplnky/tasky,Kapsa na opasek Grind Core,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2657,136,stylove-doplnky/tasky,Plátěná taška  Food Not Bombs,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2658,136,stylove-doplnky/tasky,Vak Food Not Bombs,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2726,136,stylove-doplnky/tasky,Plátěná taška  Ploužák,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2727,136,stylove-doplnky/tasky,Vak Ploužák,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2736,136,stylove-doplnky/tasky,Kapsa na opasek Kočka,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2777,136,stylove-doplnky/tasky,Taška Death Metal,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2778,136,stylove-doplnky/tasky,Vak Death Metal,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+2779,136,stylove-doplnky/tasky,Kapsa na opasek Death Metal,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2796,136,stylove-doplnky/tasky,Kapsa na opasek Stop Rasismu,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2797,136,stylove-doplnky/tasky,Vak Stop Rasismu,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2798,136,stylove-doplnky/tasky,Plátěná taška  Stop Rasismu,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2833,136,stylove-doplnky/tasky,Plátěná taška  Anti social,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2834,136,stylove-doplnky/tasky,Vak Anti social,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2841,136,stylove-doplnky/tasky,Plátěná taška  Old Punks Never Die 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2842,136,stylove-doplnky/tasky,Vak Old Punk Never Die 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2845,136,stylove-doplnky/tasky,Kapsa na opasek OPND2,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2919,136,stylove-doplnky/tasky,Kapsa na opasek Anarchy CHaos,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+2923,136,stylove-doplnky/tasky,Plátěná taška  Anarchy CHaos,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2924,136,stylove-doplnky/tasky,Vak Anarchy CHaos,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2952,136,stylove-doplnky/tasky,Plátěná taška  No Borders,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2953,136,stylove-doplnky/tasky,Vak No Borders,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2968,136,stylove-doplnky/tasky,Plátěná taška  Kytarista,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2969,136,stylove-doplnky/tasky,Vak Kytarista,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+2997,136,stylove-doplnky/tasky,Plátěná taška  Pentagram 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+2998,136,stylove-doplnky/tasky,Vak Pentagram 2,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3011,136,stylove-doplnky/tasky,Plátěná taška  PND7,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3012,136,stylove-doplnky/tasky,Vak PND7,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3027,136,stylove-doplnky/tasky,Plátěná taška  Peace is Dead,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3028,136,stylove-doplnky/tasky,Vak Peace is Dead,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3098,136,stylove-doplnky/tasky,Vak Oi!,True,Historical bag/backpack/belt-pouch category or explicit bag description,"[58, 60]"
+3099,136,stylove-doplnky/tasky,Plátěná taška  Oi!,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3125,136,stylove-doplnky/tasky,Plátěná taška  Apocalypsa,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3126,136,stylove-doplnky/tasky,Vak Apocalypsa,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3137,136,stylove-doplnky/tasky,Plátěná taška  Sometimes,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3138,136,stylove-doplnky/tasky,Vak Sometimes,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3161,136,stylove-doplnky/tasky,Plátěná taška  Old School Hardcore,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3162,136,stylove-doplnky/tasky,Vak Old School Hardcore,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3224,136,stylove-doplnky/tasky,Kapsa na opasek Anarchy 4,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+3225,136,stylove-doplnky/tasky,Plátěná taška  Anarchy 4,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3226,136,stylove-doplnky/tasky,Vak Anarchy 4,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3247,136,stylove-doplnky/tasky,Kapsa na opasek Pentagram 666,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+3250,136,stylove-doplnky/tasky,Plátěná taška  Pentagram 666,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3251,136,stylove-doplnky/tasky,Vak Pentagram 666,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3281,136,stylove-doplnky/tasky,Plátěná taška  SKA Kostra,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3282,136,stylove-doplnky/tasky,Vak SKA Kostra,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3325,136,stylove-doplnky/tasky,Plátěná taška  No Green Deal,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3326,136,stylove-doplnky/tasky,Vak No Green Deal,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3372,136,stylove-doplnky/tasky,Plátěná taška  FCK GRN,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3373,136,stylove-doplnky/tasky,VaK FCK GRN,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3431,136,stylove-doplnky/tasky,Plátěná taška  Gegen Nazis,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3432,136,stylove-doplnky/tasky,Vak Gegen Nazis,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+3435,136,stylove-doplnky/tasky,Kapsa na opasek Fuck The System,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+3436,136,stylove-doplnky/tasky,Kapsa na opasek Punk Sex Pivo,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+3437,136,stylove-doplnky/tasky,Kapsa na opasek Skull,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+3448,136,stylove-doplnky/tasky,Kapsa na opasek Gegen Nazis,True,Historical bag/backpack/belt-pouch category or explicit bag description,[61]
+3468,136,stylove-doplnky/tasky,Plátěná taška  Punk Is Freedom,True,Historical bag/backpack/belt-pouch category or explicit bag description,[59]
+3469,136,stylove-doplnky/tasky,Vak Punk Is Freedom,True,Historical bag/backpack/belt-pouch category or explicit bag description,[60]
+287,3,legacy/plackyspendlikypiny,Placka ACAB,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+292,3,legacy/plackyspendlikypiny,Placka Plesnivý Fazole,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+293,3,legacy/plackyspendlikypiny,Placka Neparkovat Vjezd,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+294,3,legacy/plackyspendlikypiny,Placka ANL,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+302,3,legacy/plackyspendlikypiny,Placka ACAB 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+324,3,legacy/plackyspendlikypiny,Placka Bad Boy,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+356,3,legacy/plackyspendlikypiny,Placka Noise not WAR,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+361,3,legacy/plackyspendlikypiny,Placka Peace,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+362,3,legacy/plackyspendlikypiny,Placka Perkele,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+371,3,legacy/plackyspendlikypiny,Placka Why So Serious,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+580,3,legacy/plackyspendlikypiny,Placka Hardcore,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+581,3,legacy/plackyspendlikypiny,Placka Hardcore 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+582,3,legacy/plackyspendlikypiny,Placka Punkerka,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+588,3,legacy/plackyspendlikypiny,Placka Punk Forever,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+589,3,legacy/plackyspendlikypiny,Placka Pica,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+624,3,legacy/plackyspendlikypiny,Placka Punker 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+731,3,legacy/plackyspendlikypiny,Placka Punk & Skins United pálky,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+781,3,legacy/plackyspendlikypiny,Placka Toxic,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1052,3,legacy/plackyspendlikypiny,Placka Fuck Your System,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1190,3,legacy/plackyspendlikypiny,Placka Straight Edge,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1198,3,legacy/plackyspendlikypiny,Placka Black Metal,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1218,3,legacy/plackyspendlikypiny,Placka FCK CPS,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1224,3,legacy/plackyspendlikypiny,Placka FCK NZS,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1231,3,legacy/plackyspendlikypiny,Placka FCK ALL,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1286,3,legacy/plackyspendlikypiny,Placka Stamp Out System,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1325,3,legacy/plackyspendlikypiny,Placka Anarchy & Equality,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1386,3,legacy/plackyspendlikypiny,Placka Fuck Politics,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1387,3,legacy/plackyspendlikypiny,Placka I Hate Politics,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1407,3,legacy/plackyspendlikypiny,Placka Punks not Dead 3,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1779,3,legacy/plackyspendlikypiny,Placka No WAR,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+1952,3,legacy/plackyspendlikypiny,Placka Metal Head,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2065,3,legacy/plackyspendlikypiny,Placka Oppressed,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2066,3,legacy/plackyspendlikypiny,Placka Blitz,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2067,3,legacy/plackyspendlikypiny,Placka Punker,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2068,3,legacy/plackyspendlikypiny,Placka Sex Pistols 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2069,3,legacy/plackyspendlikypiny,Placka Dead Kennedys 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2070,3,legacy/plackyspendlikypiny,Placka Love Music Hate Racism,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2094,3,legacy/plackyspendlikypiny,Špendlík Old Punks Never Die,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2095,3,legacy/plackyspendlikypiny,Špendlík Plesnivý Fazole,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2096,3,legacy/plackyspendlikypiny,Špendlík Punks Not Dead,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2097,3,legacy/plackyspendlikypiny,Špendlík Průser,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2098,3,legacy/plackyspendlikypiny,Špendlík Punk Forever,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2099,3,legacy/plackyspendlikypiny,Špendlík Punk Lebka,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2100,3,legacy/plackyspendlikypiny,Špendlík Punk Rock,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2101,3,legacy/plackyspendlikypiny,Špendlík Punk Sex Pivo,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2102,3,legacy/plackyspendlikypiny,Špendlík Stamp Out System,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2159,3,legacy/plackyspendlikypiny,Placka Iron Front,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2214,3,legacy/plackyspendlikypiny,Placka Remember,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2441,3,legacy/plackyspendlikypiny,Placka Bishop Green,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2442,3,legacy/plackyspendlikypiny,Placka Motorhead,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2443,3,legacy/plackyspendlikypiny,Placka Punks not Dead 6,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2526,3,legacy/plackyspendlikypiny,Placka Punk & Oi!,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2542,3,legacy/plackyspendlikypiny,Placka Fuck The System,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2553,3,legacy/plackyspendlikypiny,Placka Rock Against Fascism,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2610,3,legacy/plackyspendlikypiny,Placka Duck You,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2611,3,legacy/plackyspendlikypiny,Špendlík Pink Lebka,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2612,3,legacy/plackyspendlikypiny,Špendlík Little Punk,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2613,3,legacy/plackyspendlikypiny,Špendlík FTS,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2632,3,legacy/plackyspendlikypiny,Placka Zločinný režim,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2661,3,legacy/plackyspendlikypiny,Placka Food Not Bombs,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2704,3,legacy/plackyspendlikypiny,Špendlík Anti Nazi,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2720,3,legacy/plackyspendlikypiny,Placka Ploužák,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2740,3,legacy/plackyspendlikypiny,Placka Sepultura,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2741,3,legacy/plackyspendlikypiny,Placka GBH,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2742,3,legacy/plackyspendlikypiny,Špendlík 1312,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2743,3,legacy/plackyspendlikypiny,Placka 1312,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2769,3,legacy/plackyspendlikypiny,Placka Death Metal,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2790,3,legacy/plackyspendlikypiny,Stop Rasismu,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2791,3,legacy/plackyspendlikypiny,Špendlík Stop Rasismu,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2818,3,legacy/plackyspendlikypiny,Placka Anti social,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2819,3,legacy/plackyspendlikypiny,Špendlík Anti social,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2830,3,legacy/plackyspendlikypiny,Špendlík Oi!,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2837,3,legacy/plackyspendlikypiny,Placka Old Punks Never Die 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2840,3,legacy/plackyspendlikypiny,Špendlík Old Punks Never Die 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2870,3,legacy/plackyspendlikypiny,Placka ADHD Helmut,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2902,3,legacy/plackyspendlikypiny,Placka Anarchy CHaos,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2945,3,legacy/plackyspendlikypiny,Placka No Borders,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2959,3,legacy/plackyspendlikypiny,Placka 4 Skins,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2960,3,legacy/plackyspendlikypiny,Placka Marilyn,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+2986,3,legacy/plackyspendlikypiny,Placka Punkavec,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3008,3,legacy/plackyspendlikypiny,Placka PND 7,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3023,3,legacy/plackyspendlikypiny,Špendlík PND 7,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3031,3,legacy/plackyspendlikypiny,Placcka Peace is Dead,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3047,3,legacy/plackyspendlikypiny,Placka Punk Rat,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3063,3,legacy/plackyspendlikypiny,Placka ACAB 3,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3065,3,legacy/plackyspendlikypiny,Placka Dead Boys,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3066,3,legacy/plackyspendlikypiny,Placka Oi! 3,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3070,3,legacy/plackyspendlikypiny,Špendlík Oi!,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3085,3,legacy/plackyspendlikypiny,Placka UK Subs,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3086,3,legacy/plackyspendlikypiny,Placka Oxymoron,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3087,3,legacy/plackyspendlikypiny,Placka Varukers,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3088,3,legacy/plackyspendlikypiny,Placka UK Subs 2,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3089,3,legacy/plackyspendlikypiny,Placka Bad Brains,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3109,3,legacy/plackyspendlikypiny,Placka Skull,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3110,3,legacy/plackyspendlikypiny,Placka Kafka Monster,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3115,3,legacy/plackyspendlikypiny,Placka Apocalypsa,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3132,3,legacy/plackyspendlikypiny,Placka Sometimes,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3156,3,legacy/plackyspendlikypiny,Placka Old School Hardcore,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3160,3,legacy/plackyspendlikypiny,Špendlík Old School Hardcore,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3189,3,legacy/plackyspendlikypiny,Pin Punks Not Dead,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3190,3,legacy/plackyspendlikypiny,Placka Ryby,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3192,3,legacy/plackyspendlikypiny,Pin Resist,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3193,3,legacy/plackyspendlikypiny,Pin Fuck Off,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3194,3,legacy/plackyspendlikypiny,Pin Misfits,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3195,3,legacy/plackyspendlikypiny,Pin Green Day,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3196,3,legacy/plackyspendlikypiny,Pin Skinhead,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3197,3,legacy/plackyspendlikypiny,Pin Nirvana,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3198,3,legacy/plackyspendlikypiny,Pin Clash,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3199,3,legacy/plackyspendlikypiny,Pin Vlajky,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3200,3,legacy/plackyspendlikypiny,Pin Iron Maiden,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3201,3,legacy/plackyspendlikypiny,Pin Korn,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3202,3,legacy/plackyspendlikypiny,Pin Sum 41,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3203,3,legacy/plackyspendlikypiny,Pin Fuck You,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3204,3,legacy/plackyspendlikypiny,Pin Pavučina,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3205,3,legacy/plackyspendlikypiny,Pin Rock And Roll,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3206,3,legacy/plackyspendlikypiny,Pin Paroháč,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3210,3,legacy/plackyspendlikypiny,Špendlík Anarchy 4,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3211,3,legacy/plackyspendlikypiny,Placka Anarchy 4,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3212,3,legacy/plackyspendlikypiny,Pin Hvězda,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3213,3,legacy/plackyspendlikypiny,Pin Slayer,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3214,3,legacy/plackyspendlikypiny,Pin ACDC,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3215,3,legacy/plackyspendlikypiny,Pin AAA,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3216,3,legacy/plackyspendlikypiny,Pin Black Flag,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3217,3,legacy/plackyspendlikypiny,Pin Anarchy,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3218,3,legacy/plackyspendlikypiny,Pin SOAD,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3219,3,legacy/plackyspendlikypiny,Pin Rise Against,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3220,3,legacy/plackyspendlikypiny,Pin PIL,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3221,3,legacy/plackyspendlikypiny,Pin Bad Religion,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3245,3,legacy/plackyspendlikypiny,Placka Pentagram 666,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3278,3,legacy/plackyspendlikypiny,Placka SKA Kostra,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3327,3,legacy/plackyspendlikypiny,Placka čtverec No Green Deal,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3339,3,legacy/plackyspendlikypiny,Pin AFA,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3340,3,legacy/plackyspendlikypiny,Placka Green Day,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3341,3,legacy/plackyspendlikypiny,Placka Korn,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3355,3,legacy/plackyspendlikypiny,Pin Rancid,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3356,3,legacy/plackyspendlikypiny,Pin Cat,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3357,3,legacy/plackyspendlikypiny,Pin Blink  182,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3364,3,legacy/plackyspendlikypiny,Pin Cure,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3365,3,legacy/plackyspendlikypiny,Pin Black Sabbath,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3374,3,legacy/plackyspendlikypiny,Placka Stop Animal Testing,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3383,3,legacy/plackyspendlikypiny,Pin Deep Purple,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3384,3,legacy/plackyspendlikypiny,Pin Manowar,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3385,3,legacy/plackyspendlikypiny,Pin Lemmy,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3388,3,legacy/plackyspendlikypiny,Placka Indiánská Rezervace,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3389,3,legacy/plackyspendlikypiny,Špendlík Indiánská Rezervace,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3427,3,legacy/plackyspendlikypiny,Placka Gegen Nazis,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3449,3,legacy/plackyspendlikypiny,Placka Punk Is Freedom,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3470,3,legacy/plackyspendlikypiny,Placka Stop The Violence,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3493,3,legacy/plackyspendlikypiny,Pin Rolling Stones,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[3, 4, 75, 124]"
+3425,32,legacy/cepice-satky,Šátek HC Skull,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[32, 33, 34, 126]"
+3426,32,legacy/cepice-satky,Šátek Skull,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[32, 33, 34, 126]"
+1585,58,legacy/taskypenezenky,Peněženka Lebky,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+1586,58,legacy/taskypenezenky,Peněženka  My CHemical Romance,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+1626,58,legacy/taskypenezenky,Peněženka  Plesnivý Fazole,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+1627,58,legacy/taskypenezenky,Peněženka  Punk lebka,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+1973,58,legacy/taskypenezenky,Peněženka Freedom a Anarchy,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+2062,58,legacy/taskypenezenky,Peněženka Punkrock,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+2344,58,legacy/taskypenezenky,Peněženka Grind Core,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+2518,58,legacy/taskypenezenky,Peněženka FD,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+2520,58,legacy/taskypenezenky,Peněženka FS,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+2548,58,legacy/taskypenezenky,Peněženka PE Old Punks Never Die,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+3310,58,legacy/taskypenezenky,Peněženka SKA,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
+3337,58,legacy/taskypenezenky,Peněženka Skeleton,True,Preserve full original mixed-category landing contents after child reparenting; exact historical memberships,"[58, 59, 60, 61, 62]"
